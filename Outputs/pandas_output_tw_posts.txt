@@ -1,0 +1,2901 @@
+
+--- Overall Summary ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount    viewCount  bookmarkCount
+count           27304.00    27304.00   27304.00    27304.00     27304.00       27304.00
+null_count          0.00        0.00       0.00        0.00         0.00           0.00
+mean             1322.06     1063.79    6913.69      128.08    507084.73         136.21
+std              3405.00     3174.98   21590.31     1131.53   3212173.99         712.58
+min                 0.00        0.00       0.00        0.00         5.00           0.00
+25%                84.00       43.00     393.00        5.00     27852.75           4.00
+50%               333.00      131.00    1406.00       17.00     70942.00          21.00
+75%              1071.00      501.25    5010.00       69.00    303663.00          76.00
+max            144615.00   121270.00  915221.00   123320.00 333502775.00       42693.00
+
+id - Unique: 27304, Top: 222a3046e0000ae632522ce79df362d67028311da9cfeb2aba4e9d495123e0ed (1)
+Top 5 values:
+222a3046e0000ae632522ce79df362d67028311da9cfeb2aba4e9d495123e0ed - 1
+cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d - 1
+0e3db0c35a290c6df3b737d15882846c108cc80a9b7e5ca64a0129d4e3cd3ad7 - 1
+256905919085d2946d5d187abc6cbe81a8abe3384793b362fa6aa4144bf42776 - 1
+a461b32b31e72b222df7fdda0a8e68b0092e31deda33a8652eb443459546a4c4 - 1
+
+url - Unique: 27304, Top: 9f6da3a01742bd3f2f82fb57392670c9a3c9b849821e3d9579abc9e696a6d119 (1)
+Top 5 values:
+9f6da3a01742bd3f2f82fb57392670c9a3c9b849821e3d9579abc9e696a6d119 - 1
+f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937 - 1
+a1962f54943732a0dc006c33b4b6f5764c7085a1282a59439b891ee0eb59a0dc - 1
+4ddbbdb7f4d8ef62fccf3ed20c993bb665b8620fedb089e81b43c0c7bc0c613e - 1
+c7e729c427e714baf06d88a2856a1be07d4ff52e1e633412ce15b0160e8f6c38 - 1
+
+source - Unique: 14, Top: Twitter Web App (14930)
+Top 5 values:
+Twitter Web App - 14930
+Twitter for iPhone - 8494
+Sprout Social - 2933
+Twitter Media Studio - 499
+Twitter for iPad - 266
+
+createdAt - Unique: 27014, Top: 2023-10-06 04:55:21 (4)
+Top 5 values:
+2023-10-06 04:55:21 - 4
+2024-08-30 03:04:08 - 4
+2024-05-28 17:19:24 - 4
+2023-12-04 02:49:29 - 3
+2023-12-04 12:12:48 - 3
+
+lang - Unique: 12, Top: en (27281)
+Top 5 values:
+en - 27281
+fr - 6
+tl - 4
+es - 3
+da - 3
+
+quoteId - Unique: 3159, Top: 1.711730672279122e+18 (5)
+Top 5 values:
+1.711730672279122e+18 - 5
+1.7659161677373445e+18 - 5
+1.7731398481085975e+18 - 4
+1.7449521376064474e+18 - 3
+1.740184746733556e+18 - 3
+
+inReplyToId - Unique: 3309, Top: 1.7444996006715807e+18 (6)
+Top 5 values:
+1.7444996006715807e+18 - 6
+1.7289763100040315e+18 - 3
+1.7617956312223255e+18 - 3
+1.789104982999876e+18 - 3
+1.73721953501755e+18 - 2
+
+month_year - Unique: 15, Top: 2024-10 (3586)
+Top 5 values:
+2024-10 - 3586
+2024-09 - 2856
+2024-08 - 2647
+2023-09 - 2336
+2023-11 - 2334
+
+illuminating_scored_message - Unique: 27136, Top: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd (21)
+Top 5 values:
+36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd - 21
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 - 18
+e85b31153cfcc753f8657eb033c8e8fb03f6da4c384da1d4e563eef696f6e7a0 - 10
+c3adbeed65888d91e375c51dc9cc936d137e35fc360ebed1763b5826903046f9 - 7
+de3c2805b2cea354c20c7fe117fc9c1885c9aea23ca9d1623d93d7c56df7a9bb - 4
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 967, 0s = 26337
+advocacy_msg_type_illuminating: 1s = 14675, 0s = 12629
+issue_msg_type_illuminating: 1s = 13217, 0s = 14087
+attack_msg_type_illuminating: 1s = 8008, 0s = 19296
+image_msg_type_illuminating: 1s = 5895, 0s = 21409
+cta_msg_type_illuminating: 1s = 2855, 0s = 24449
+engagement_cta_subtype_illuminating: 1s = 1742, 0s = 25562
+fundraising_cta_subtype_illuminating: 1s = 205, 0s = 27099
+voting_cta_subtype_illuminating: 1s = 437, 0s = 26867
+covid_topic_illuminating: 1s = 198, 0s = 27106
+economy_topic_illuminating: 1s = 4171, 0s = 23133
+education_topic_illuminating: 1s = 480, 0s = 26824
+environment_topic_illuminating: 1s = 743, 0s = 26561
+foreign_policy_topic_illuminating: 1s = 1100, 0s = 26204
+governance_topic_illuminating: 1s = 598, 0s = 26706
+health_topic_illuminating: 1s = 1449, 0s = 25855
+immigration_topic_illuminating: 1s = 1700, 0s = 25604
+lgbtq_issues_topic_illuminating: 1s = 80, 0s = 27224
+military_topic_illuminating: 1s = 286, 0s = 27018
+race_and_ethnicity_topic_illuminating: 1s = 401, 0s = 26903
+safety_topic_illuminating: 1s = 979, 0s = 26325
+social_and_cultural_topic_illuminating: 1s = 1353, 0s = 25951
+technology_and_privacy_topic_illuminating: 1s = 53, 0s = 27251
+womens_issue_topic_illuminating: 1s = 607, 0s = 26697
+incivility_illuminating: 1s = 4649, 0s = 22655
+scam_illuminating: 1s = 322, 0s = 26982
+freefair_illuminating: 1s = 39, 0s = 27265
+fraud_illuminating: 1s = 75, 0s = 27229
+isRetweet: 1s = 0, 0s = 27304
+isQuote: 1s = 3240, 0s = 24064
+isConversationControlled: 1s = 8, 0s = 27296
+
+--- Group: source = Canva, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               69.00      324.00     490.00       40.00   41173.00          16.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                69.00      324.00     490.00       40.00   41173.00          16.00
+25%                69.00      324.00     490.00       40.00   41173.00          16.00
+50%                69.00      324.00     490.00       40.00   41173.00          16.00
+75%                69.00      324.00     490.00       40.00   41173.00          16.00
+max                69.00      324.00     490.00       40.00   41173.00          16.00
+
+id - Unique: 1, Top: 5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b (1)
+Top 5 values:
+5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b - 1
+
+url - Unique: 1, Top: 050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd (1)
+Top 5 values:
+050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd - 1
+
+source - Unique: 1, Top: Canva (1)
+Top 5 values:
+Canva - 1
+
+createdAt - Unique: 1, Top: 2024-02-29 21:26:10 (1)
+Top 5 values:
+2024-02-29 21:26:10 - 1
+
+lang - Unique: 1, Top: en (1)
+Top 5 values:
+en - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-02 (1)
+Top 5 values:
+2024-02 - 1
+
+illuminating_scored_message - Unique: 1, Top: 89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59 (1)
+Top 5 values:
+89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 1, 0s = 0
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 1, 0s = 0
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Hootsuite Inc., lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count              47.00       47.00      47.00       47.00      47.00          47.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              129.98       37.19     380.83        7.53   29066.62           8.45
+std               137.67       30.11     404.72        8.62   13547.32          10.58
+min                47.00        8.00     120.00        0.00   13542.00           1.00
+25%                63.00       18.50     173.00        2.00   19447.00           2.00
+50%                86.00       28.00     241.00        5.00   24063.00           5.00
+75%               146.50       43.00     443.50        9.50   33948.50          10.00
+max               780.00      168.00    2195.00       44.00   68518.00          56.00
+
+id - Unique: 47, Top: 5354908dccb40525b2d42c46902a86f5a9f39e4c8961af02b2372cab0d0e497f (1)
+Top 5 values:
+5354908dccb40525b2d42c46902a86f5a9f39e4c8961af02b2372cab0d0e497f - 1
+cb3f86cac845c8a6bed566177043dc305647687b73a38953cf3de1257bcf81b3 - 1
+10423e69321c4401d801389d1f1c976b53ae8600c21d9f2c0a6a5882c3e6fa0e - 1
+acd3d603009f99e1184bd60ab1aa06fec718c9f92ee4b387b4dd261a39aff72e - 1
+49fc7f9284c06acc82561a32b7a2db227b8774aa51a0e24f9e05640a3528ad55 - 1
+
+url - Unique: 47, Top: f428cd263ba408fab8558e9b9d186a2810d1bf0e9ffd1373b9dc3a6937a5db8e (1)
+Top 5 values:
+f428cd263ba408fab8558e9b9d186a2810d1bf0e9ffd1373b9dc3a6937a5db8e - 1
+4b6281796d753f04005f535c455569bdc4f9b2c583c0e4c684859dbf033c19ba - 1
+91c43fb405efeb82a3d82cfbb2909938d22077d394d6e6aa61705316a30c52b2 - 1
+f79d63dd54e54d281f35bf413c758ee1a6df58fe45af4c348b982c7b88b3879b - 1
+46fdf9d5b7be2eb60194d058550f1577e39d9f6b2753103cc43fc1f9173e9a77 - 1
+
+source - Unique: 1, Top: Hootsuite Inc. (47)
+Top 5 values:
+Hootsuite Inc. - 47
+
+createdAt - Unique: 47, Top: 2024-02-27 16:02:48 (1)
+Top 5 values:
+2024-02-27 16:02:48 - 1
+2024-02-24 14:49:06 - 1
+2024-02-24 13:29:33 - 1
+2024-02-24 00:26:32 - 1
+2024-02-23 18:48:31 - 1
+
+lang - Unique: 1, Top: en (47)
+Top 5 values:
+en - 47
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 8, Top: 2024-03 (11)
+Top 5 values:
+2024-03 - 11
+2024-02 - 8
+2024-04 - 8
+2024-07 - 6
+2024-05 - 5
+
+illuminating_scored_message - Unique: 47, Top: a25f3ec57aff02964e8c82c60c021b784484bd49b4255da63631b1c9125da450 (1)
+Top 5 values:
+a25f3ec57aff02964e8c82c60c021b784484bd49b4255da63631b1c9125da450 - 1
+b0af59c7c5a62ba06cee49e917bda7b9a1c6043ea100b98097c766b50f9b9673 - 1
+b52310b26645c81904cdf89f6cab7d230f5ec2a3b41d8dd35f3a7a549e3dc78e - 1
+3b28e00de5b0ac563d057b4e4fb8917eef49e9277cfabbbc2406231875f95eb6 - 1
+71069879253813d9c550ffdcc1e3c7149f2a904142dd7137c0500957d2c1b288 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 1, 0s = 46
+advocacy_msg_type_illuminating: 1s = 19, 0s = 28
+issue_msg_type_illuminating: 1s = 14, 0s = 33
+attack_msg_type_illuminating: 1s = 1, 0s = 46
+image_msg_type_illuminating: 1s = 1, 0s = 46
+cta_msg_type_illuminating: 1s = 34, 0s = 13
+engagement_cta_subtype_illuminating: 1s = 24, 0s = 23
+fundraising_cta_subtype_illuminating: 1s = 3, 0s = 44
+voting_cta_subtype_illuminating: 1s = 0, 0s = 47
+covid_topic_illuminating: 1s = 0, 0s = 47
+economy_topic_illuminating: 1s = 0, 0s = 47
+education_topic_illuminating: 1s = 1, 0s = 46
+environment_topic_illuminating: 1s = 0, 0s = 47
+foreign_policy_topic_illuminating: 1s = 1, 0s = 46
+governance_topic_illuminating: 1s = 0, 0s = 47
+health_topic_illuminating: 1s = 3, 0s = 44
+immigration_topic_illuminating: 1s = 1, 0s = 46
+lgbtq_issues_topic_illuminating: 1s = 1, 0s = 46
+military_topic_illuminating: 1s = 0, 0s = 47
+race_and_ethnicity_topic_illuminating: 1s = 2, 0s = 45
+safety_topic_illuminating: 1s = 1, 0s = 46
+social_and_cultural_topic_illuminating: 1s = 5, 0s = 42
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 47
+womens_issue_topic_illuminating: 1s = 1, 0s = 46
+incivility_illuminating: 1s = 0, 0s = 47
+scam_illuminating: 1s = 1, 0s = 46
+freefair_illuminating: 1s = 0, 0s = 47
+fraud_illuminating: 1s = 1, 0s = 46
+isRetweet: 1s = 0, 0s = 47
+isQuote: 1s = 0, 0s = 47
+isConversationControlled: 1s = 0, 0s = 47
+
+--- Group: source = Later Media, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               93.00       18.00     280.00       10.00   12847.00           5.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                93.00       18.00     280.00       10.00   12847.00           5.00
+25%                93.00       18.00     280.00       10.00   12847.00           5.00
+50%                93.00       18.00     280.00       10.00   12847.00           5.00
+75%                93.00       18.00     280.00       10.00   12847.00           5.00
+max                93.00       18.00     280.00       10.00   12847.00           5.00
+
+id - Unique: 1, Top: 2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb (1)
+Top 5 values:
+2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb - 1
+
+url - Unique: 1, Top: 5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577 (1)
+Top 5 values:
+5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577 - 1
+
+source - Unique: 1, Top: Later Media (1)
+Top 5 values:
+Later Media - 1
+
+createdAt - Unique: 1, Top: 2024-02-01 11:10:49 (1)
+Top 5 values:
+2024-02-01 11:10:49 - 1
+
+lang - Unique: 1, Top: en (1)
+Top 5 values:
+en - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-02 (1)
+Top 5 values:
+2024-02 - 1
+
+illuminating_scored_message - Unique: 1, Top: 0aca51b1885c946a27ef08b05108fb1c76c83f18541cfbd20941061922eb3c9c (1)
+Top 5 values:
+0aca51b1885c946a27ef08b05108fb1c76c83f18541cfbd20941061922eb3c9c - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 1, 0s = 0
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Loomly, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count              10.00       10.00      10.00       10.00      10.00          10.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               25.40       23.10     160.30        1.40   17030.00           0.40
+std                72.09       58.15     404.63        4.09   26880.93           0.52
+min                 0.00        0.00       0.00        0.00     154.00           0.00
+25%                 0.00        0.25       1.00        0.00     194.50           0.00
+50%                 0.00        4.50       7.00        0.00    6493.00           0.00
+75%                 4.75       10.25      88.00        0.00   17405.25           1.00
+max               230.00      188.00    1301.00       13.00   85529.00           1.00
+
+id - Unique: 10, Top: fcc78e04b62606e658c998fdfca2ee143fd1ffebae40ed0c9e8aa548833e767a (1)
+Top 5 values:
+fcc78e04b62606e658c998fdfca2ee143fd1ffebae40ed0c9e8aa548833e767a - 1
+7491a303091660e5ec2b18ac6e041ed468fac3e0e7c7ff1bef2a78d79c2752e0 - 1
+5fb1769b92fe0a2a47fba670909af4749f5bfb1edbbe067b7293f64493786383 - 1
+4aa612de6b8ba6ad032adc7a5131490c297d07b3bd17bd9e161c287b148f5705 - 1
+f020afcedfbbad2c5f3513c77c22037e6b56bfaf2d00ed893bde77da10daf9f8 - 1
+
+url - Unique: 10, Top: 5ef1e7325221e8af82ffd4d3522e2df996acd4038690a3f5fc9a664cae11561d (1)
+Top 5 values:
+5ef1e7325221e8af82ffd4d3522e2df996acd4038690a3f5fc9a664cae11561d - 1
+807508cc5de1d22e5d784449365747d5c3ec3e3fd38cb028479c49a280258549 - 1
+29c176dc7538f1045d51b64568e30e95a0e8cc29488c20d6c13de31e523e3d4e - 1
+b95bf3b61a784fe337839442a0b11afc28c015608a1ee2b43f03b8b9dba3a613 - 1
+61081ef1a8844833b5d21d08e0dcedcc4b7ddde0bd70a820d8729ac49138c68f - 1
+
+source - Unique: 1, Top: Loomly (10)
+Top 5 values:
+Loomly - 10
+
+createdAt - Unique: 10, Top: 2023-09-25 12:03:43 (1)
+Top 5 values:
+2023-09-25 12:03:43 - 1
+2023-09-13 13:29:57 - 1
+2024-01-20 22:41:46 - 1
+2024-01-17 05:47:29 - 1
+2024-01-13 01:05:00 - 1
+
+lang - Unique: 1, Top: en (10)
+Top 5 values:
+en - 10
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-01 (8)
+Top 5 values:
+2024-01 - 8
+2023-09 - 2
+
+illuminating_scored_message - Unique: 10, Top: 1bf5489168b7d42f20bf47772caa31390703ea80dea00d0963de14052d1f9acc (1)
+Top 5 values:
+1bf5489168b7d42f20bf47772caa31390703ea80dea00d0963de14052d1f9acc - 1
+8b220a0c3a2af41c8ef32af6872361db722023f5826ed3e5d9d8f66dff05fc83 - 1
+21c8661451627fd2f47abf9284d8a31decd794fe213b0722be397235e4f28db6 - 1
+7862c325d59ea35d36a5c0b26716fcc7f4349fbb71aacf3112ac0235d4042656 - 1
+271675e0bab341ddf57b310fc7e9fafc46572aa7c7dc04297be7b1ad794b83fe - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 10
+advocacy_msg_type_illuminating: 1s = 8, 0s = 2
+issue_msg_type_illuminating: 1s = 3, 0s = 7
+attack_msg_type_illuminating: 1s = 1, 0s = 9
+image_msg_type_illuminating: 1s = 2, 0s = 8
+cta_msg_type_illuminating: 1s = 3, 0s = 7
+engagement_cta_subtype_illuminating: 1s = 2, 0s = 8
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 10
+voting_cta_subtype_illuminating: 1s = 0, 0s = 10
+covid_topic_illuminating: 1s = 0, 0s = 10
+economy_topic_illuminating: 1s = 1, 0s = 9
+education_topic_illuminating: 1s = 0, 0s = 10
+environment_topic_illuminating: 1s = 0, 0s = 10
+foreign_policy_topic_illuminating: 1s = 0, 0s = 10
+governance_topic_illuminating: 1s = 0, 0s = 10
+health_topic_illuminating: 1s = 1, 0s = 9
+immigration_topic_illuminating: 1s = 0, 0s = 10
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 10
+military_topic_illuminating: 1s = 0, 0s = 10
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 10
+safety_topic_illuminating: 1s = 1, 0s = 9
+social_and_cultural_topic_illuminating: 1s = 1, 0s = 9
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 10
+womens_issue_topic_illuminating: 1s = 0, 0s = 10
+incivility_illuminating: 1s = 1, 0s = 9
+scam_illuminating: 1s = 0, 0s = 10
+freefair_illuminating: 1s = 0, 0s = 10
+fraud_illuminating: 1s = 0, 0s = 10
+isRetweet: 1s = 0, 0s = 10
+isQuote: 1s = 0, 0s = 10
+isConversationControlled: 1s = 0, 0s = 10
+
+--- Group: source = Periscope, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount   viewCount  bookmarkCount
+count             103.00      103.00     103.00      103.00      103.00         103.00
+null_count          0.00        0.00       0.00        0.00        0.00           0.00
+mean              596.73      402.06    2483.36       78.51   303090.44         185.62
+std              2949.74     1525.12   12738.93      484.50  1494268.64        1434.40
+min                23.00        3.00      96.00        0.00     9518.00           0.00
+25%                57.50       74.00     306.00        8.00    33877.00           6.50
+50%               214.00      153.00     823.00       15.00    81275.00          16.00
+75%               337.00      277.50    1288.50       28.00   132391.50          32.00
+max             29648.00    14559.00  127603.00     4891.00 14689732.00       14567.00
+
+id - Unique: 103, Top: 7a956e1a453deab79f74c9b37dbbb6b06bd28703692813664f16616515381ead (1)
+Top 5 values:
+7a956e1a453deab79f74c9b37dbbb6b06bd28703692813664f16616515381ead - 1
+6ef495362431e6ab835f777f8ad73f0a6e01312a556bec0ef7f00863beeec0d6 - 1
+0ecb13fe41259a82a6b0b4effeebe647e055667a594b7e7902cecbb3dcc77406 - 1
+5119642e2adf26625570b3108ba13da48ab4897b94c7ab98bcd83d5b2e8bc5bb - 1
+d9567462032cb9a88db1928590eb00e97babd7a1b9444674ac65b2fdf40ad85e - 1
+
+url - Unique: 103, Top: c4ecc3e5887aca76327a927c4cdf7203715461ed671effb30a61777134e98571 (1)
+Top 5 values:
+c4ecc3e5887aca76327a927c4cdf7203715461ed671effb30a61777134e98571 - 1
+bb7f1910d1f06fd4cecb0e96033d973f490af798282505b782a98489d573e42a - 1
+1f1181bbfa146e4b979a5cf29848b6dbe7295eada7ac4a89427d800955780678 - 1
+87f7b873886fb769ae1ccbafb70cab482f53274f396333aecd35c42897febbf7 - 1
+7e7c9f95541700cd22a8d7e4fa9a5fe36742b42d25fccb7df15d3ba13c28d2b8 - 1
+
+source - Unique: 1, Top: Periscope (103)
+Top 5 values:
+Periscope - 103
+
+createdAt - Unique: 103, Top: 2023-09-30 02:59:28 (1)
+Top 5 values:
+2023-09-30 02:59:28 - 1
+2023-09-29 20:12:47 - 1
+2023-09-20 14:52:09 - 1
+2023-09-16 20:03:33 - 1
+2023-10-24 22:47:25 - 1
+
+lang - Unique: 1, Top: en (103)
+Top 5 values:
+en - 103
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 14, Top: 2023-12 (23)
+Top 5 values:
+2023-12 - 23
+2024-01 - 18
+2023-10 - 12
+2023-11 - 11
+2024-08 - 7
+
+illuminating_scored_message - Unique: 103, Top: 8802a0ed591ab28aaae38436b1ce398fef2bb47fbd596100f1fc1e686db57dc9 (1)
+Top 5 values:
+8802a0ed591ab28aaae38436b1ce398fef2bb47fbd596100f1fc1e686db57dc9 - 1
+3ad3a3ceb8c78248b29b68a5d5d4ac75076a01ad9f8a5da606f6f8b34bb70b35 - 1
+85b7433db29bb5965f2a192d84a3921f89c0380e3538e3df4e7c7bd1066b9576 - 1
+288cfe29a60aa0f59ba83f08aab287344994867de32237de26d7222d7e2cbb0b - 1
+f3c07d22a39e6087490d3b9231fa37294a6c3e9b95b64d2e9c6981c49042879f - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 103
+advocacy_msg_type_illuminating: 1s = 5, 0s = 98
+issue_msg_type_illuminating: 1s = 3, 0s = 100
+attack_msg_type_illuminating: 1s = 2, 0s = 101
+image_msg_type_illuminating: 1s = 0, 0s = 103
+cta_msg_type_illuminating: 1s = 20, 0s = 83
+engagement_cta_subtype_illuminating: 1s = 20, 0s = 83
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 103
+voting_cta_subtype_illuminating: 1s = 0, 0s = 103
+covid_topic_illuminating: 1s = 0, 0s = 103
+economy_topic_illuminating: 1s = 0, 0s = 103
+education_topic_illuminating: 1s = 0, 0s = 103
+environment_topic_illuminating: 1s = 0, 0s = 103
+foreign_policy_topic_illuminating: 1s = 0, 0s = 103
+governance_topic_illuminating: 1s = 1, 0s = 102
+health_topic_illuminating: 1s = 0, 0s = 103
+immigration_topic_illuminating: 1s = 0, 0s = 103
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 103
+military_topic_illuminating: 1s = 0, 0s = 103
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 103
+safety_topic_illuminating: 1s = 0, 0s = 103
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 103
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 103
+womens_issue_topic_illuminating: 1s = 0, 0s = 103
+incivility_illuminating: 1s = 1, 0s = 102
+scam_illuminating: 1s = 0, 0s = 103
+freefair_illuminating: 1s = 0, 0s = 103
+fraud_illuminating: 1s = 0, 0s = 103
+isRetweet: 1s = 0, 0s = 103
+isQuote: 1s = 0, 0s = 103
+isConversationControlled: 1s = 0, 0s = 103
+
+--- Group: source = Sprout Social, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount   viewCount  bookmarkCount
+count            2933.00     2933.00    2933.00     2933.00     2933.00        2933.00
+null_count          0.00        0.00       0.00        0.00        0.00           0.00
+mean             3524.79     5186.27   18173.41      426.12  1501097.31         230.80
+std              4584.68     5804.89   28810.23      855.02  3432962.00         581.85
+min                13.00       12.00      60.00        0.00     2647.00           0.00
+25%               719.00     1382.00    3708.00       75.00   286290.00          24.00
+50%              2198.00     3361.00    9480.00      195.00   659392.00          74.00
+75%              4671.00     6920.00   21318.00      454.00  1467341.00         204.00
+max             80331.00    60598.00  423537.00    17200.00 76522204.00       13271.00
+
+id - Unique: 2933, Top: 40aabe6d8af3bd431d05d0f800e0300f207671e15d0d0e22cd8eca6b8467db31 (1)
+Top 5 values:
+40aabe6d8af3bd431d05d0f800e0300f207671e15d0d0e22cd8eca6b8467db31 - 1
+562f42161d274553cded804ba8f9c8480e5f9208d9134dd38f3da184eafc5b79 - 1
+f6b5ade1f13b73966d808c728323ec492ebc0d67dba1fa5c034c0d6d6ebc22c3 - 1
+5037c4757ac4d6709f2c0cdbbc81d12902de82374c129dc4033968c2b65f26e8 - 1
+5cbeccfdbf9653b581bea4bc08b2995c2257a70319a1a2d2e3af9f58040c40db - 1
+
+url - Unique: 2933, Top: 10f9d33c49ec9da1eeff3242fcf5a9e9c04008d5729c33f486a50571e69b7f7a (1)
+Top 5 values:
+10f9d33c49ec9da1eeff3242fcf5a9e9c04008d5729c33f486a50571e69b7f7a - 1
+ca71b42b22b2a7a8d4d3513013fecf6e5f94bf6453927b29b28bdd12a3bd6689 - 1
+1847d8e6d0723f7d53c54bc17fb35b3868b24e88f4faeacfd511e3c7d513cebe - 1
+8023e306445dc4cbc3ea7cc5752dfc2c584a18c7576ed2d4ab6a0ebd931ddaf1 - 1
+832752d0cc76679970b0f29f1b10a9688442b75b24b29d0efe8eeefb7972d167 - 1
+
+source - Unique: 1, Top: Sprout Social (2933)
+Top 5 values:
+Sprout Social - 2933
+
+createdAt - Unique: 2933, Top: 2024-11-01 00:10:06 (1)
+Top 5 values:
+2024-11-01 00:10:06 - 1
+2023-09-30 15:35:26 - 1
+2023-09-30 00:45:05 - 1
+2023-09-29 22:20:00 - 1
+2023-09-29 01:40:00 - 1
+
+lang - Unique: 1, Top: en (2933)
+Top 5 values:
+en - 2933
+
+quoteId - Unique: 29, Top: 1.6965043017266386e+18 (1)
+Top 5 values:
+1.6965043017266386e+18 - 1
+1.7220554284340145e+18 - 1
+1.739579349739721e+18 - 1
+1.7401994943801185e+18 - 1
+1.7509658619999524e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 15, Top: 2024-10 (316)
+Top 5 values:
+2024-10 - 316
+2024-01 - 313
+2024-02 - 308
+2023-09 - 269
+2024-03 - 220
+
+illuminating_scored_message - Unique: 2930, Top: 20c5d02c38b92565a4b4ad02b14fdd99f3c970f01401b0dc82facef06a72a449 (2)
+Top 5 values:
+20c5d02c38b92565a4b4ad02b14fdd99f3c970f01401b0dc82facef06a72a449 - 2
+06122628efb1fb681067b24f67fdf1ea47c88726cd7bcba1b9b1d983fc2c24de - 2
+cf14adc6100946c861e8480495e17c3b4c4d7cec48709709c323cd733bcf1a1b - 2
+812b3f9197d1b7c014b809bf97c54d6316b3c1b954a86efa5bce1640aea76872 - 1
+8ae974bbd79c511fc75416202844b4a8ea6331149d1c55b7d0dee33aa5df3096 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 89, 0s = 2844
+advocacy_msg_type_illuminating: 1s = 1892, 0s = 1041
+issue_msg_type_illuminating: 1s = 1608, 0s = 1325
+attack_msg_type_illuminating: 1s = 730, 0s = 2203
+image_msg_type_illuminating: 1s = 453, 0s = 2480
+cta_msg_type_illuminating: 1s = 304, 0s = 2629
+engagement_cta_subtype_illuminating: 1s = 135, 0s = 2798
+fundraising_cta_subtype_illuminating: 1s = 19, 0s = 2914
+voting_cta_subtype_illuminating: 1s = 136, 0s = 2797
+covid_topic_illuminating: 1s = 10, 0s = 2923
+economy_topic_illuminating: 1s = 653, 0s = 2280
+education_topic_illuminating: 1s = 81, 0s = 2852
+environment_topic_illuminating: 1s = 53, 0s = 2880
+foreign_policy_topic_illuminating: 1s = 93, 0s = 2840
+governance_topic_illuminating: 1s = 68, 0s = 2865
+health_topic_illuminating: 1s = 471, 0s = 2462
+immigration_topic_illuminating: 1s = 69, 0s = 2864
+lgbtq_issues_topic_illuminating: 1s = 14, 0s = 2919
+military_topic_illuminating: 1s = 28, 0s = 2905
+race_and_ethnicity_topic_illuminating: 1s = 44, 0s = 2889
+safety_topic_illuminating: 1s = 122, 0s = 2811
+social_and_cultural_topic_illuminating: 1s = 453, 0s = 2480
+technology_and_privacy_topic_illuminating: 1s = 9, 0s = 2924
+womens_issue_topic_illuminating: 1s = 301, 0s = 2632
+incivility_illuminating: 1s = 359, 0s = 2574
+scam_illuminating: 1s = 4, 0s = 2929
+freefair_illuminating: 1s = 7, 0s = 2926
+fraud_illuminating: 1s = 2, 0s = 2931
+isRetweet: 1s = 0, 0s = 2933
+isQuote: 1s = 29, 0s = 2904
+isConversationControlled: 1s = 0, 0s = 2933
+
+--- Group: source = TweetDeck Web App, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               7.00        7.00       7.00        7.00       7.00           7.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean             1911.14      659.29   10360.43      155.57  624732.43         491.43
+std              2627.97      838.41   10342.09      147.92  616922.33         807.00
+min               190.00       42.00     872.00       18.00   56799.00          21.00
+25%               464.50      166.50    2051.00       29.00   95604.00          54.50
+50%               675.00      301.00   12008.00      105.00  424611.00          77.00
+75%              1992.50      745.00   12596.50      277.50 1106553.50         528.00
+max              7599.00     2449.00   30348.00      353.00 1487402.00        2177.00
+
+id - Unique: 7, Top: c0ac5af5e9fd681f8f8b985bd3321d92298c977fa245cb1ca7ad89ffa3b13873 (1)
+Top 5 values:
+c0ac5af5e9fd681f8f8b985bd3321d92298c977fa245cb1ca7ad89ffa3b13873 - 1
+d34681a16820f3a28111a3dcadf913b2f0d24884228fe5a0dac3cfd4ef2d0879 - 1
+0d9af55cbb771cb29d17cf2e743233cea75deeae3c89d1473d5493056892e1f9 - 1
+c6cc135d3894f8c30cd3f4cf82a35d9c4127ecf34f966c81456d5339f7400d8f - 1
+0ff7b4afbd3b71db990acf060980f2fe82f777e2a62f13e56ef97d25cbe39d6c - 1
+
+url - Unique: 7, Top: a536877270542f4557a15ddd42fa4bba6373597ce754c785b7d88b9cc70f4e9f (1)
+Top 5 values:
+a536877270542f4557a15ddd42fa4bba6373597ce754c785b7d88b9cc70f4e9f - 1
+cfe96e73d0235b9bffcb7cf3c53a06056b82d33d0f1e78c429f94164047ccda9 - 1
+e83dfd450a504d9f2c33e7f512f648bad16280f27a8761c9465aa460342000d4 - 1
+45fe0e6afb45d53147ab06959bb8b002375b55aae8fb830d85b1b1e579a488db - 1
+39ddfe01fa9ed54436b8541352b5375bdb40efcd13924470412d37e7ac3f9cc5 - 1
+
+source - Unique: 1, Top: TweetDeck Web App (7)
+Top 5 values:
+TweetDeck Web App - 7
+
+createdAt - Unique: 7, Top: 2023-11-26 17:37:32 (1)
+Top 5 values:
+2023-11-26 17:37:32 - 1
+2023-12-14 00:37:00 - 1
+2023-12-06 18:17:00 - 1
+2024-06-28 02:56:28 - 1
+2024-06-28 02:55:55 - 1
+
+lang - Unique: 1, Top: en (7)
+Top 5 values:
+en - 7
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 3, Top: 2024-06 (4)
+Top 5 values:
+2024-06 - 4
+2023-12 - 2
+2023-11 - 1
+
+illuminating_scored_message - Unique: 7, Top: aae669864ed9e196ee4e16ed11da9e477163f09caf055078c899da9133bccf2b (1)
+Top 5 values:
+aae669864ed9e196ee4e16ed11da9e477163f09caf055078c899da9133bccf2b - 1
+ed4d281afe6603872bf5f34ec6ae8e6f74ff64b15a5301f5b6b9949ea87dd740 - 1
+72c87bc89aad0e53ade9da1e14172d28b77b1e5e9b1e08b1191e01d71dd6d9e6 - 1
+fbc7eb6399d6c73f019f7fd7d58102bff1dd40dc415e137f0867b55cf9bfeacf - 1
+56391970a21989851a95f989d3cf3059ad049249deb69f459ce190a02355b7bb - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 7
+advocacy_msg_type_illuminating: 1s = 3, 0s = 4
+issue_msg_type_illuminating: 1s = 2, 0s = 5
+attack_msg_type_illuminating: 1s = 2, 0s = 5
+image_msg_type_illuminating: 1s = 3, 0s = 4
+cta_msg_type_illuminating: 1s = 0, 0s = 7
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 7
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 7
+voting_cta_subtype_illuminating: 1s = 0, 0s = 7
+covid_topic_illuminating: 1s = 0, 0s = 7
+economy_topic_illuminating: 1s = 0, 0s = 7
+education_topic_illuminating: 1s = 0, 0s = 7
+environment_topic_illuminating: 1s = 0, 0s = 7
+foreign_policy_topic_illuminating: 1s = 0, 0s = 7
+governance_topic_illuminating: 1s = 1, 0s = 6
+health_topic_illuminating: 1s = 0, 0s = 7
+immigration_topic_illuminating: 1s = 0, 0s = 7
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 7
+military_topic_illuminating: 1s = 0, 0s = 7
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 7
+safety_topic_illuminating: 1s = 0, 0s = 7
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 7
+technology_and_privacy_topic_illuminating: 1s = 1, 0s = 6
+womens_issue_topic_illuminating: 1s = 0, 0s = 7
+incivility_illuminating: 1s = 2, 0s = 5
+scam_illuminating: 1s = 0, 0s = 7
+freefair_illuminating: 1s = 0, 0s = 7
+fraud_illuminating: 1s = 0, 0s = 7
+isRetweet: 1s = 0, 0s = 7
+isQuote: 1s = 0, 0s = 7
+isConversationControlled: 1s = 0, 0s = 7
+
+--- Group: source = Twitter Media Studio, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount   viewCount  bookmarkCount
+count             498.00      498.00     498.00      498.00      498.00         498.00
+null_count          0.00        0.00       0.00        0.00        0.00           0.00
+mean             1589.32     1164.61    7412.50      143.26   473441.60         243.22
+std              3157.78     2001.36   13979.06      515.80  1245147.64        1077.67
+min                 8.00        2.00      52.00        0.00     8313.00           0.00
+25%               124.25       98.00     656.50       12.25    36090.50          10.00
+50%               485.00      342.00    2445.00       38.00   183871.00          38.00
+75%              1963.00     1572.50    8600.25      103.75   431670.50         115.50
+max             32636.00    18819.00  119065.00     6695.00 18876894.00       13269.00
+
+id - Unique: 498, Top: cb43023a6d71caae9cf924f0e375f105c49970ebc19f72602140abdb2faa1363 (1)
+Top 5 values:
+cb43023a6d71caae9cf924f0e375f105c49970ebc19f72602140abdb2faa1363 - 1
+6f8d99ca99c0f06201ab73488b4ce5fd8d52f5f2dbfee0754fdea870a056ab73 - 1
+7d4a80bfc7a58a36de8201f566e5e58ce3ee7dbf8014d9ffc0cb9162fee188c4 - 1
+4d49c1b02447d0946b40cfcbe54987ed8d15b417e0bef83fdce15da554c83c7c - 1
+0746ea4b3b2d6872da477b45dde2e49b88f8b6cd2b2ba2a024c4f2e5b27c02c3 - 1
+
+url - Unique: 498, Top: f1c9956059c171be5f7471a0273860b8f5131d0e0bfbb94d8e70e61d3f326311 (1)
+Top 5 values:
+f1c9956059c171be5f7471a0273860b8f5131d0e0bfbb94d8e70e61d3f326311 - 1
+909513089d3a218ec722f8e16dabd711ba7c74bb350cf61b45764e26618234cb - 1
+378f0c0c3479d6d160acd6fdaf4638f6ca91bb8b473eb94539e34be42a73d2e8 - 1
+a6f301a7f9089991fe531e224efbb3c30b64960700ce7e84cec95783396b031c - 1
+67264c97b0c92f301a19fb0a61bbf4a8cdc78093ef03f8e952dfa3eb5e33d754 - 1
+
+source - Unique: 1, Top: Twitter Media Studio (498)
+Top 5 values:
+Twitter Media Studio - 498
+
+createdAt - Unique: 497, Top: 2024-08-06 21:26:08 (2)
+Top 5 values:
+2024-08-06 21:26:08 - 2
+2024-11-04 20:46:04 - 1
+2024-10-12 18:33:14 - 1
+2024-10-11 15:00:39 - 1
+2024-10-11 14:17:54 - 1
+
+lang - Unique: 1, Top: en (498)
+Top 5 values:
+en - 498
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 15, Top: 2023-09 (66)
+Top 5 values:
+2023-09 - 66
+2024-08 - 63
+2024-10 - 58
+2024-09 - 42
+2024-07 - 40
+
+illuminating_scored_message - Unique: 498, Top: 6497ad47bedb6399886e74312e03041c6d74582ddff95af3e2d5a7c5295c4682 (1)
+Top 5 values:
+6497ad47bedb6399886e74312e03041c6d74582ddff95af3e2d5a7c5295c4682 - 1
+fda5f40b2324a0b0b9844adb23edd6866656df8f9c352357d005878dc8a51920 - 1
+0f1556b07aecea23e20b151f9a2777a0a05628f62b39f9405e011facf9f1cfc2 - 1
+13eb9bba8353ab641f3f0efa39f3fe6d2e5abfb1b65cfdb8e7b5adaca255e866 - 1
+98c5b543cfd2e862787e19c10da11adf3ff771c0a7acf37d9294d1743cca1939 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 12, 0s = 486
+advocacy_msg_type_illuminating: 1s = 297, 0s = 201
+issue_msg_type_illuminating: 1s = 217, 0s = 281
+attack_msg_type_illuminating: 1s = 85, 0s = 413
+image_msg_type_illuminating: 1s = 83, 0s = 415
+cta_msg_type_illuminating: 1s = 135, 0s = 363
+engagement_cta_subtype_illuminating: 1s = 121, 0s = 377
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 498
+voting_cta_subtype_illuminating: 1s = 7, 0s = 491
+covid_topic_illuminating: 1s = 2, 0s = 496
+economy_topic_illuminating: 1s = 58, 0s = 440
+education_topic_illuminating: 1s = 8, 0s = 490
+environment_topic_illuminating: 1s = 9, 0s = 489
+foreign_policy_topic_illuminating: 1s = 18, 0s = 480
+governance_topic_illuminating: 1s = 5, 0s = 493
+health_topic_illuminating: 1s = 33, 0s = 465
+immigration_topic_illuminating: 1s = 12, 0s = 486
+lgbtq_issues_topic_illuminating: 1s = 1, 0s = 497
+military_topic_illuminating: 1s = 4, 0s = 494
+race_and_ethnicity_topic_illuminating: 1s = 3, 0s = 495
+safety_topic_illuminating: 1s = 11, 0s = 487
+social_and_cultural_topic_illuminating: 1s = 30, 0s = 468
+technology_and_privacy_topic_illuminating: 1s = 2, 0s = 496
+womens_issue_topic_illuminating: 1s = 24, 0s = 474
+incivility_illuminating: 1s = 46, 0s = 452
+scam_illuminating: 1s = 0, 0s = 498
+freefair_illuminating: 1s = 3, 0s = 495
+fraud_illuminating: 1s = 1, 0s = 497
+isRetweet: 1s = 0, 0s = 498
+isQuote: 1s = 0, 0s = 498
+isConversationControlled: 1s = 0, 0s = 498
+
+--- Group: source = Twitter Media Studio, lang = fr ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               41.00        7.00     123.00        9.00   15289.00           5.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                41.00        7.00     123.00        9.00   15289.00           5.00
+25%                41.00        7.00     123.00        9.00   15289.00           5.00
+50%                41.00        7.00     123.00        9.00   15289.00           5.00
+75%                41.00        7.00     123.00        9.00   15289.00           5.00
+max                41.00        7.00     123.00        9.00   15289.00           5.00
+
+id - Unique: 1, Top: a9aeb35099a50a167b4c2adc6d6a22ba4e12d8c516de2ba9a9cf3a4c45f6e956 (1)
+Top 5 values:
+a9aeb35099a50a167b4c2adc6d6a22ba4e12d8c516de2ba9a9cf3a4c45f6e956 - 1
+
+url - Unique: 1, Top: 7998b6f0826084aa5d3c04d3123a6e38fd9025a3c49f37e791b8cadeeb4a449c (1)
+Top 5 values:
+7998b6f0826084aa5d3c04d3123a6e38fd9025a3c49f37e791b8cadeeb4a449c - 1
+
+source - Unique: 1, Top: Twitter Media Studio (1)
+Top 5 values:
+Twitter Media Studio - 1
+
+createdAt - Unique: 1, Top: 2024-01-22 03:31:14 (1)
+Top 5 values:
+2024-01-22 03:31:14 - 1
+
+lang - Unique: 1, Top: fr (1)
+Top 5 values:
+fr - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-01 (1)
+Top 5 values:
+2024-01 - 1
+
+illuminating_scored_message - Unique: 1, Top: ba848169f6055c06426b1b4f659a525a3795c829aadc98ff59ba59615648d827 (1)
+Top 5 values:
+ba848169f6055c06426b1b4f659a525a3795c829aadc98ff59ba59615648d827 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter Web App, lang = da ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              232.00      128.00     893.00       17.00   52350.00          16.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min               232.00      128.00     893.00       17.00   52350.00          16.00
+25%               232.00      128.00     893.00       17.00   52350.00          16.00
+50%               232.00      128.00     893.00       17.00   52350.00          16.00
+75%               232.00      128.00     893.00       17.00   52350.00          16.00
+max               232.00      128.00     893.00       17.00   52350.00          16.00
+
+id - Unique: 1, Top: 0fe4a2080c489d44e90b00f17df878a45b378cca1b3b4e446099b4d464b3fd2c (1)
+Top 5 values:
+0fe4a2080c489d44e90b00f17df878a45b378cca1b3b4e446099b4d464b3fd2c - 1
+
+url - Unique: 1, Top: 804a92480d55f2f4f1cb9d93e5fcbdfe870f1bc86c96d7395644c10223bcd78d (1)
+Top 5 values:
+804a92480d55f2f4f1cb9d93e5fcbdfe870f1bc86c96d7395644c10223bcd78d - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-07-09 21:44:17 (1)
+Top 5 values:
+2024-07-09 21:44:17 - 1
+
+lang - Unique: 1, Top: da (1)
+Top 5 values:
+da - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-07 (1)
+Top 5 values:
+2024-07 - 1
+
+illuminating_scored_message - Unique: 1, Top: 9fa42cd13b525adc726a08cac048eaeb87f0c21ce89ad6babc456ef439a4c890 (1)
+Top 5 values:
+9fa42cd13b525adc726a08cac048eaeb87f0c21ce89ad6babc456ef439a4c890 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter Web App, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount    viewCount  bookmarkCount
+count           14920.00    14920.00   14920.00    14920.00     14920.00       14920.00
+null_count          0.00        0.00       0.00        0.00         0.00           0.00
+mean             1316.79      719.32    6664.08      120.08    474079.83         154.32
+std              3571.87     2689.95   22470.10     1465.06   3967470.89         843.68
+min                 0.00        0.00       0.00        0.00         5.00           0.00
+25%               188.00       60.00     694.00        7.00     34472.25          10.00
+50%               418.00      133.00    1661.00       19.00     71644.00          28.00
+75%              1021.00      363.00    4504.50       59.00    236430.50          86.00
+max            144615.00   121270.00  915221.00   123320.00 333502775.00       42693.00
+
+id - Unique: 14920, Top: 222a3046e0000ae632522ce79df362d67028311da9cfeb2aba4e9d495123e0ed (1)
+Top 5 values:
+222a3046e0000ae632522ce79df362d67028311da9cfeb2aba4e9d495123e0ed - 1
+ca2795ec79d62adc1fff06c4d3bc9da0bbc899e32c9b218798ac62a0ceae19dc - 1
+70a9bca512f85ff9b0cc194d068ecd282c1bd3257b86642886d7a0cd0c2eff41 - 1
+c8a7dcf2f1f0f0fa3493bf5d38015653192253d3d959ee11921dc9d7e945fc9f - 1
+511186b67c8fd01fdc9ce20f7f2f061e778e9f258d6de1e438349f68ea9adc20 - 1
+
+url - Unique: 14920, Top: 9f6da3a01742bd3f2f82fb57392670c9a3c9b849821e3d9579abc9e696a6d119 (1)
+Top 5 values:
+9f6da3a01742bd3f2f82fb57392670c9a3c9b849821e3d9579abc9e696a6d119 - 1
+c589bd751d7e1d275901b184087716d3155a582b16430810211e1344d3ad2785 - 1
+bb824bd8567fba9f0a8431b577dd6ff1a1bb0e54332b527b8c76c819d5888a7a - 1
+a48a24f015efac5c3e9bb36eb33b7e4db3f2792862c4f52a73d5d40573f7925f - 1
+215a310534047ce2440c99a0da25a03d45385b0db698a85cc516d408d9fc4831 - 1
+
+source - Unique: 1, Top: Twitter Web App (14920)
+Top 5 values:
+Twitter Web App - 14920
+
+createdAt - Unique: 14711, Top: 2023-10-06 04:55:21 (4)
+Top 5 values:
+2023-10-06 04:55:21 - 4
+2024-05-28 17:19:24 - 4
+2024-08-30 03:04:08 - 4
+2023-12-18 22:34:44 - 3
+2023-09-08 16:19:04 - 3
+
+lang - Unique: 1, Top: en (14920)
+Top 5 values:
+en - 14920
+
+quoteId - Unique: 1345, Top: 1.7659161677373445e+18 (4)
+Top 5 values:
+1.7659161677373445e+18 - 4
+1.7731398481085975e+18 - 4
+1.823431602682168e+18 - 3
+1.8310108612485857e+18 - 3
+1.847793585137361e+18 - 3
+
+inReplyToId - Unique: 1465, Top: 1.7444996006715807e+18 (6)
+Top 5 values:
+1.7444996006715807e+18 - 6
+1.7289763100040315e+18 - 3
+1.7617956312223255e+18 - 3
+1.7657847438056164e+18 - 2
+1.766243908336673e+18 - 2
+
+month_year - Unique: 15, Top: 2024-10 (2928)
+Top 5 values:
+2024-10 - 2928
+2024-09 - 2332
+2024-08 - 2003
+2023-09 - 897
+2024-06 - 800
+
+illuminating_scored_message - Unique: 14849, Top: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd (20)
+Top 5 values:
+36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd - 20
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 - 7
+c3adbeed65888d91e375c51dc9cc936d137e35fc360ebed1763b5826903046f9 - 6
+e85b31153cfcc753f8657eb033c8e8fb03f6da4c384da1d4e563eef696f6e7a0 - 3
+c8af3f35f81f100bc7b478c8aaa119173e5ccb94c1b542840a6b967a8f08d6b5 - 3
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 525, 0s = 14395
+advocacy_msg_type_illuminating: 1s = 8219, 0s = 6701
+issue_msg_type_illuminating: 1s = 7776, 0s = 7144
+attack_msg_type_illuminating: 1s = 5268, 0s = 9652
+image_msg_type_illuminating: 1s = 3827, 0s = 11093
+cta_msg_type_illuminating: 1s = 1445, 0s = 13475
+engagement_cta_subtype_illuminating: 1s = 791, 0s = 14129
+fundraising_cta_subtype_illuminating: 1s = 133, 0s = 14787
+voting_cta_subtype_illuminating: 1s = 205, 0s = 14715
+covid_topic_illuminating: 1s = 131, 0s = 14789
+economy_topic_illuminating: 1s = 2591, 0s = 12329
+education_topic_illuminating: 1s = 232, 0s = 14688
+environment_topic_illuminating: 1s = 456, 0s = 14464
+foreign_policy_topic_illuminating: 1s = 541, 0s = 14379
+governance_topic_illuminating: 1s = 321, 0s = 14599
+health_topic_illuminating: 1s = 639, 0s = 14281
+immigration_topic_illuminating: 1s = 1271, 0s = 13649
+lgbtq_issues_topic_illuminating: 1s = 39, 0s = 14881
+military_topic_illuminating: 1s = 184, 0s = 14736
+race_and_ethnicity_topic_illuminating: 1s = 207, 0s = 14713
+safety_topic_illuminating: 1s = 643, 0s = 14277
+social_and_cultural_topic_illuminating: 1s = 589, 0s = 14331
+technology_and_privacy_topic_illuminating: 1s = 25, 0s = 14895
+womens_issue_topic_illuminating: 1s = 215, 0s = 14705
+incivility_illuminating: 1s = 3067, 0s = 11853
+scam_illuminating: 1s = 234, 0s = 14686
+freefair_illuminating: 1s = 21, 0s = 14899
+fraud_illuminating: 1s = 42, 0s = 14878
+isRetweet: 1s = 0, 0s = 14920
+isQuote: 1s = 1368, 0s = 13552
+isConversationControlled: 1s = 0, 0s = 14920
+
+--- Group: source = Twitter Web App, lang = es ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               12.00        8.00      53.00        2.00    5966.00           1.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                12.00        8.00      53.00        2.00    5966.00           1.00
+25%                12.00        8.00      53.00        2.00    5966.00           1.00
+50%                12.00        8.00      53.00        2.00    5966.00           1.00
+75%                12.00        8.00      53.00        2.00    5966.00           1.00
+max                12.00        8.00      53.00        2.00    5966.00           1.00
+
+id - Unique: 1, Top: 865066d68ef03f2874220b320dee91a7fdeb0d4caba0b1191c9cb80ffabb1487 (1)
+Top 5 values:
+865066d68ef03f2874220b320dee91a7fdeb0d4caba0b1191c9cb80ffabb1487 - 1
+
+url - Unique: 1, Top: 5c6fcfc86be330603b45a9977bebbe785c744e9c190fb5dbab5430055ef9932b (1)
+Top 5 values:
+5c6fcfc86be330603b45a9977bebbe785c744e9c190fb5dbab5430055ef9932b - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-03-14 16:37:19 (1)
+Top 5 values:
+2024-03-14 16:37:19 - 1
+
+lang - Unique: 1, Top: es (1)
+Top 5 values:
+es - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-03 (1)
+Top 5 values:
+2024-03 - 1
+
+illuminating_scored_message - Unique: 1, Top: c6068cff48ce2b470c0e90a4b616e22e295d6227b923ab472a69df1e3b41150f (1)
+Top 5 values:
+c6068cff48ce2b470c0e90a4b616e22e295d6227b923ab472a69df1e3b41150f - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter Web App, lang = et ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               14.00        3.00      47.00        1.00    3355.00           0.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                14.00        3.00      47.00        1.00    3355.00           0.00
+25%                14.00        3.00      47.00        1.00    3355.00           0.00
+50%                14.00        3.00      47.00        1.00    3355.00           0.00
+75%                14.00        3.00      47.00        1.00    3355.00           0.00
+max                14.00        3.00      47.00        1.00    3355.00           0.00
+
+id - Unique: 1, Top: c280c5a50aa77937bc8599e0cd48d39b5ae2786da5b980c6679711b73fd1a259 (1)
+Top 5 values:
+c280c5a50aa77937bc8599e0cd48d39b5ae2786da5b980c6679711b73fd1a259 - 1
+
+url - Unique: 1, Top: e6f3196ac07a88d9bddf70b3323df5ce84b1896332ef45a737d632cc23d96acd (1)
+Top 5 values:
+e6f3196ac07a88d9bddf70b3323df5ce84b1896332ef45a737d632cc23d96acd - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2023-09-08 16:19:07 (1)
+Top 5 values:
+2023-09-08 16:19:07 - 1
+
+lang - Unique: 1, Top: et (1)
+Top 5 values:
+et - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7001819821377495e+18 (1)
+Top 5 values:
+1.7001819821377495e+18 - 1
+
+month_year - Unique: 1, Top: 2023-09 (1)
+Top 5 values:
+2023-09 - 1
+
+illuminating_scored_message - Unique: 1, Top: 66033f6f69446f8b327f3764b837ed57e572e537959719ad7088ce282d9c6ed3 (1)
+Top 5 values:
+66033f6f69446f8b327f3764b837ed57e572e537959719ad7088ce282d9c6ed3 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter Web App, lang = fr ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               3.00        3.00       3.00        3.00       3.00           3.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              520.67      277.67    1324.67       46.33   67097.33          17.67
+std               533.21      359.95    1212.28       51.98   67832.75          11.93
+min               109.00       42.00     368.00        6.00   17310.00           4.00
+25%               219.50       70.50     643.00       17.00   28467.50          13.50
+50%               330.00       99.00     918.00       28.00   39625.00          23.00
+75%               726.50      395.50    1803.00       66.50   91991.00          24.50
+max              1123.00      692.00    2688.00      105.00  144357.00          26.00
+
+id - Unique: 3, Top: 6035dc348f45f9b4ed1b0daba2255c60a370ec915a279e5df436b434194b29b0 (1)
+Top 5 values:
+6035dc348f45f9b4ed1b0daba2255c60a370ec915a279e5df436b434194b29b0 - 1
+be5aabb51685cd3f045503ddd2b1c0ef2e8d086b7a9a434755d6b9d21cdfeb1d - 1
+899d993811ac2d517a2ed46ecf376172f93d22d435e0a084bf4389586fdfba20 - 1
+
+url - Unique: 3, Top: de86c78ad685d788af2f00b2ed56871722c2e2f7c7e5ed909e44ed53cd2a0099 (1)
+Top 5 values:
+de86c78ad685d788af2f00b2ed56871722c2e2f7c7e5ed909e44ed53cd2a0099 - 1
+efe011eff0056726b8b239922bf57ea9e861f73fd398742b3a7b15dcd135118e - 1
+b6b8dfb9952c472616e06f20deca0bf74a0b991f2dfb45ddad4e18ace611923f - 1
+
+source - Unique: 1, Top: Twitter Web App (3)
+Top 5 values:
+Twitter Web App - 3
+
+createdAt - Unique: 3, Top: 2023-11-06 17:04:45 (1)
+Top 5 values:
+2023-11-06 17:04:45 - 1
+2024-06-22 19:06:46 - 1
+2024-06-22 18:45:38 - 1
+
+lang - Unique: 1, Top: fr (3)
+Top 5 values:
+fr - 3
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-06 (2)
+Top 5 values:
+2024-06 - 2
+2023-11 - 1
+
+illuminating_scored_message - Unique: 3, Top: 09f2b43f4402f36ff22c27bfdbfe59e45c586fd4c197d3de2a7441c438a65a07 (1)
+Top 5 values:
+09f2b43f4402f36ff22c27bfdbfe59e45c586fd4c197d3de2a7441c438a65a07 - 1
+84d1ba08664bb7d0956c9ea51cd0bb4b1fc4acae094263a794bd5bd4342a04c0 - 1
+66074f2bb89223a0f36ae7f4a93b6d667441acfa1c8fb59d373da0e965f488b6 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 3
+advocacy_msg_type_illuminating: 1s = 1, 0s = 2
+issue_msg_type_illuminating: 1s = 1, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 3
+image_msg_type_illuminating: 1s = 0, 0s = 3
+cta_msg_type_illuminating: 1s = 1, 0s = 2
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 3
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 3
+voting_cta_subtype_illuminating: 1s = 1, 0s = 2
+covid_topic_illuminating: 1s = 0, 0s = 3
+economy_topic_illuminating: 1s = 0, 0s = 3
+education_topic_illuminating: 1s = 0, 0s = 3
+environment_topic_illuminating: 1s = 0, 0s = 3
+foreign_policy_topic_illuminating: 1s = 0, 0s = 3
+governance_topic_illuminating: 1s = 0, 0s = 3
+health_topic_illuminating: 1s = 0, 0s = 3
+immigration_topic_illuminating: 1s = 0, 0s = 3
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 3
+military_topic_illuminating: 1s = 0, 0s = 3
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 3
+safety_topic_illuminating: 1s = 0, 0s = 3
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 3
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 3
+womens_issue_topic_illuminating: 1s = 0, 0s = 3
+incivility_illuminating: 1s = 0, 0s = 3
+scam_illuminating: 1s = 0, 0s = 3
+freefair_illuminating: 1s = 0, 0s = 3
+fraud_illuminating: 1s = 0, 0s = 3
+isRetweet: 1s = 0, 0s = 3
+isQuote: 1s = 0, 0s = 3
+isConversationControlled: 1s = 0, 0s = 3
+
+--- Group: source = Twitter Web App, lang = ht ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean             3387.00     1569.00   40516.00      138.00 1600170.00         315.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min              3387.00     1569.00   40516.00      138.00 1600170.00         315.00
+25%              3387.00     1569.00   40516.00      138.00 1600170.00         315.00
+50%              3387.00     1569.00   40516.00      138.00 1600170.00         315.00
+75%              3387.00     1569.00   40516.00      138.00 1600170.00         315.00
+max              3387.00     1569.00   40516.00      138.00 1600170.00         315.00
+
+id - Unique: 1, Top: e33ea5ef0759c6ba9c39c3a3b3fcd9737dd040623ba34cb10a35990f52386619 (1)
+Top 5 values:
+e33ea5ef0759c6ba9c39c3a3b3fcd9737dd040623ba34cb10a35990f52386619 - 1
+
+url - Unique: 1, Top: 8e2d95cb8b8bdcc832be4cedd324e6e2dd2c5be944468f7dad7326d99aa1027f (1)
+Top 5 values:
+8e2d95cb8b8bdcc832be4cedd324e6e2dd2c5be944468f7dad7326d99aa1027f - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-08-21 16:11:28 (1)
+Top 5 values:
+2024-08-21 16:11:28 - 1
+
+lang - Unique: 1, Top: ht (1)
+Top 5 values:
+ht - 1
+
+quoteId - Unique: 1, Top: 1.825967232515548e+18 (1)
+Top 5 values:
+1.825967232515548e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-08 (1)
+Top 5 values:
+2024-08 - 1
+
+illuminating_scored_message - Unique: 1, Top: 90bffe1884b84d5e255f12ff0ecbd70f2edfc877b68d612dc6fb50638b3ac17c (1)
+Top 5 values:
+90bffe1884b84d5e255f12ff0ecbd70f2edfc877b68d612dc6fb50638b3ac17c - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 1, 0s = 0
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter Web App, lang = tl ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               2.00        2.00       2.00        2.00       2.00           2.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean             5218.00     1286.00   45670.50      142.50  858955.00         318.50
+std              7097.94     1766.35   63272.62      198.70 1142800.52         434.87
+min               199.00       37.00     930.00        2.00   50873.00          11.00
+25%              2708.50      661.50   23300.25       72.25  454914.00         164.75
+50%              5218.00     1286.00   45670.50      142.50  858955.00         318.50
+75%              7727.50     1910.50   68040.75      212.75 1262996.00         472.25
+max             10237.00     2535.00   90411.00      283.00 1667037.00         626.00
+
+id - Unique: 2, Top: 0d7084270948eef1309e4548476196da3d739b6f88f8f4d450266ff927c82500 (1)
+Top 5 values:
+0d7084270948eef1309e4548476196da3d739b6f88f8f4d450266ff927c82500 - 1
+45c125d3c00710eef2c8c5421c7624ff4f23eb13a603cadf5bca99bbff306af6 - 1
+
+url - Unique: 2, Top: 7f2c3f37f3fa7ff91b43ae01448d0e3a767125986bc3e080a7affd65f026dd97 (1)
+Top 5 values:
+7f2c3f37f3fa7ff91b43ae01448d0e3a767125986bc3e080a7affd65f026dd97 - 1
+ae7eaffa34d2b87dae27c476df8bdd9f603e2e37af901e6b3d9715ca8e967721 - 1
+
+source - Unique: 1, Top: Twitter Web App (2)
+Top 5 values:
+Twitter Web App - 2
+
+createdAt - Unique: 2, Top: 2024-09-15 18:16:18 (1)
+Top 5 values:
+2024-09-15 18:16:18 - 1
+2024-10-03 18:48:10 - 1
+
+lang - Unique: 1, Top: tl (2)
+Top 5 values:
+tl - 2
+
+quoteId - Unique: 1, Top: 1.8419102494369303e+18 (1)
+Top 5 values:
+1.8419102494369303e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-09 (1)
+Top 5 values:
+2024-09 - 1
+2024-10 - 1
+
+illuminating_scored_message - Unique: 2, Top: 5014fa12d0961321d34c2b2ab1bcf7546ce21478c9da0a3f577f1d299fe4b8d3 (1)
+Top 5 values:
+5014fa12d0961321d34c2b2ab1bcf7546ce21478c9da0a3f577f1d299fe4b8d3 - 1
+aabbc0a817c0e1d0f85223f42795cc38e59db665d37e98c9ea38334297020800 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 2
+advocacy_msg_type_illuminating: 1s = 0, 0s = 2
+issue_msg_type_illuminating: 1s = 0, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 2
+image_msg_type_illuminating: 1s = 0, 0s = 2
+cta_msg_type_illuminating: 1s = 0, 0s = 2
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 2
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 2
+voting_cta_subtype_illuminating: 1s = 0, 0s = 2
+covid_topic_illuminating: 1s = 0, 0s = 2
+economy_topic_illuminating: 1s = 0, 0s = 2
+education_topic_illuminating: 1s = 0, 0s = 2
+environment_topic_illuminating: 1s = 0, 0s = 2
+foreign_policy_topic_illuminating: 1s = 0, 0s = 2
+governance_topic_illuminating: 1s = 0, 0s = 2
+health_topic_illuminating: 1s = 0, 0s = 2
+immigration_topic_illuminating: 1s = 0, 0s = 2
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 2
+military_topic_illuminating: 1s = 0, 0s = 2
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 2
+safety_topic_illuminating: 1s = 0, 0s = 2
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 2
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 2
+womens_issue_topic_illuminating: 1s = 0, 0s = 2
+incivility_illuminating: 1s = 0, 0s = 2
+scam_illuminating: 1s = 0, 0s = 2
+freefair_illuminating: 1s = 0, 0s = 2
+fraud_illuminating: 1s = 0, 0s = 2
+isRetweet: 1s = 0, 0s = 2
+isQuote: 1s = 1, 0s = 1
+isConversationControlled: 1s = 0, 0s = 2
+
+--- Group: source = Twitter Web App, lang = tr ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean             2303.00      387.00   14433.00      171.00  434191.00         364.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min              2303.00      387.00   14433.00      171.00  434191.00         364.00
+25%              2303.00      387.00   14433.00      171.00  434191.00         364.00
+50%              2303.00      387.00   14433.00      171.00  434191.00         364.00
+75%              2303.00      387.00   14433.00      171.00  434191.00         364.00
+max              2303.00      387.00   14433.00      171.00  434191.00         364.00
+
+id - Unique: 1, Top: 4c73ce5b35fd2dc42affa36185483ca1889a0acf8ae34db58536869a26eeeae3 (1)
+Top 5 values:
+4c73ce5b35fd2dc42affa36185483ca1889a0acf8ae34db58536869a26eeeae3 - 1
+
+url - Unique: 1, Top: 0775d424310b72ba56f0239e1dbc1dbddb0492c5da249866b1cdcc786d15c680 (1)
+Top 5 values:
+0775d424310b72ba56f0239e1dbc1dbddb0492c5da249866b1cdcc786d15c680 - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-10-05 19:31:50 (1)
+Top 5 values:
+2024-10-05 19:31:50 - 1
+
+lang - Unique: 1, Top: tr (1)
+Top 5 values:
+tr - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-10 (1)
+Top 5 values:
+2024-10 - 1
+
+illuminating_scored_message - Unique: 1, Top: 78eb6bec5b02289b06dd791a07b4a4ff1acb78f7a82616f6e460fe0b7c93d844 (1)
+Top 5 values:
+78eb6bec5b02289b06dd791a07b4a4ff1acb78f7a82616f6e460fe0b7c93d844 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter Web Client, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               98.00       26.00     340.00        6.00   19547.00           6.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                98.00       26.00     340.00        6.00   19547.00           6.00
+25%                98.00       26.00     340.00        6.00   19547.00           6.00
+50%                98.00       26.00     340.00        6.00   19547.00           6.00
+75%                98.00       26.00     340.00        6.00   19547.00           6.00
+max                98.00       26.00     340.00        6.00   19547.00           6.00
+
+id - Unique: 1, Top: e7f7a30f08b7e1f4aae3d31e20543ad57584fe3034a117d42bbd3f578f7ec850 (1)
+Top 5 values:
+e7f7a30f08b7e1f4aae3d31e20543ad57584fe3034a117d42bbd3f578f7ec850 - 1
+
+url - Unique: 1, Top: cc3131317571ee071cc7e0354ca3524e083bd730d883f6d87a4667294eac510f (1)
+Top 5 values:
+cc3131317571ee071cc7e0354ca3524e083bd730d883f6d87a4667294eac510f - 1
+
+source - Unique: 1, Top: Twitter Web Client (1)
+Top 5 values:
+Twitter Web Client - 1
+
+createdAt - Unique: 1, Top: 2024-10-19 18:02:00 (1)
+Top 5 values:
+2024-10-19 18:02:00 - 1
+
+lang - Unique: 1, Top: en (1)
+Top 5 values:
+en - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-10 (1)
+Top 5 values:
+2024-10 - 1
+
+illuminating_scored_message - Unique: 1, Top: d7f5a917232e8544e8a98c4a572af516fdbb3cd527dbcb8da7560759ae191029 (1)
+Top 5 values:
+d7f5a917232e8544e8a98c4a572af516fdbb3cd527dbcb8da7560759ae191029 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 1, 0s = 0
+issue_msg_type_illuminating: 1s = 1, 0s = 0
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 1, 0s = 0
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 1, 0s = 0
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 1, 0s = 0
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 1, 0s = 0
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter for Advertisers, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               7.00        7.00       7.00        7.00       7.00           7.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               97.00      138.71     755.57       11.43   50335.00           3.29
+std                96.47       84.56     820.35       12.45   52027.09           3.73
+min                14.00       31.00      97.00        0.00   11639.00           0.00
+25%                37.50       81.00     306.00        4.00   14899.00           1.00
+50%                59.00      143.00     579.00        8.00   21476.00           2.00
+75%               121.00      182.00     742.00       14.50   68861.50           4.50
+max               289.00      271.00    2517.00       35.00  151709.00          10.00
+
+id - Unique: 7, Top: 887084e542079a41a9f66a617168b467bfd258ca923eba96887306c9ab061bb0 (1)
+Top 5 values:
+887084e542079a41a9f66a617168b467bfd258ca923eba96887306c9ab061bb0 - 1
+93c1fc2313914a29e9dda34aaa1ebcb4337cc3cccf3977a6e61c37b1af85df12 - 1
+3941319460eae35e92edbff7a6eb207b9ae0005b5636122ef61c037624d19cf2 - 1
+bca013842e260446c663d765c87d0f340c1e8b5ddca8c5cb25b980d6e0874b8d - 1
+52b712a0ed407cc4e5604d72f2ce018120896d29292a46dff28807e3af589c5f - 1
+
+url - Unique: 7, Top: 984f05b27019dc82bd0199fd7471d1a8d87366d716caae862eabb051b85a2a0b (1)
+Top 5 values:
+984f05b27019dc82bd0199fd7471d1a8d87366d716caae862eabb051b85a2a0b - 1
+0dd3691c87fa14734e12af668b9ef5213ebf2dac4ef6f4bb5a60d4c9cd8b93da - 1
+70e960a26a490466d5c1dd8dbabf74f30704d3cf9b380d721fca88b9d65ed219 - 1
+7fe0f1ea8085bc05cc769dfd0a4eced3f3aeac40c44e8accc5fc60deb76a554b - 1
+9865dd8b18d3dfa93162f9c0a83e76cdc2feb20ed419765d84051d85e4a701c2 - 1
+
+source - Unique: 1, Top: Twitter for Advertisers (7)
+Top 5 values:
+Twitter for Advertisers - 7
+
+createdAt - Unique: 7, Top: 2023-09-21 14:52:44 (1)
+Top 5 values:
+2023-09-21 14:52:44 - 1
+2023-09-13 01:13:16 - 1
+2023-09-01 01:46:36 - 1
+2023-10-31 17:35:04 - 1
+2023-10-27 02:09:20 - 1
+
+lang - Unique: 1, Top: en (7)
+Top 5 values:
+en - 7
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 3, Top: 2023-09 (3)
+Top 5 values:
+2023-09 - 3
+2023-10 - 3
+2023-11 - 1
+
+illuminating_scored_message - Unique: 7, Top: 7d6a053a2f4ecedc0097d3d11df1aecbaadce5673e226e307fcc2e36cf2febf6 (1)
+Top 5 values:
+7d6a053a2f4ecedc0097d3d11df1aecbaadce5673e226e307fcc2e36cf2febf6 - 1
+cdfc673bdd0908328e08140c296a8f11be15cb7893f632da1d4f2c3c39bec2fd - 1
+a946416498fe27577506ca7a3bc7d2380ff36fc5b50c31bf27503c237f22527f - 1
+b44cf9b6c50cc45d316b28efba5bab7507ad1e696a5de781c4063c11774968a4 - 1
+bffb5e504e898f85101c8e7269cc6fe704519fccd17c923b0be4d1154248605e - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 7
+advocacy_msg_type_illuminating: 1s = 5, 0s = 2
+issue_msg_type_illuminating: 1s = 5, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 7
+image_msg_type_illuminating: 1s = 0, 0s = 7
+cta_msg_type_illuminating: 1s = 1, 0s = 6
+engagement_cta_subtype_illuminating: 1s = 1, 0s = 6
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 7
+voting_cta_subtype_illuminating: 1s = 0, 0s = 7
+covid_topic_illuminating: 1s = 0, 0s = 7
+economy_topic_illuminating: 1s = 0, 0s = 7
+education_topic_illuminating: 1s = 1, 0s = 6
+environment_topic_illuminating: 1s = 0, 0s = 7
+foreign_policy_topic_illuminating: 1s = 1, 0s = 6
+governance_topic_illuminating: 1s = 0, 0s = 7
+health_topic_illuminating: 1s = 0, 0s = 7
+immigration_topic_illuminating: 1s = 1, 0s = 6
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 7
+military_topic_illuminating: 1s = 0, 0s = 7
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 7
+safety_topic_illuminating: 1s = 1, 0s = 6
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 7
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 7
+womens_issue_topic_illuminating: 1s = 0, 0s = 7
+incivility_illuminating: 1s = 2, 0s = 5
+scam_illuminating: 1s = 0, 0s = 7
+freefair_illuminating: 1s = 0, 0s = 7
+fraud_illuminating: 1s = 0, 0s = 7
+isRetweet: 1s = 0, 0s = 7
+isQuote: 1s = 0, 0s = 7
+isConversationControlled: 1s = 0, 0s = 7
+
+--- Group: source = Twitter for Android, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               5.00        5.00       5.00        5.00       5.00           5.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               10.60        8.40      63.80        0.40   19899.40           1.00
+std                 5.90        6.11      37.44        0.55    9744.06           0.00
+min                 6.00        4.00      33.00        0.00   13161.00           1.00
+25%                 6.00        4.00      34.00        0.00   13488.00           1.00
+50%                 7.00        5.00      45.00        0.00   14241.00           1.00
+75%                16.00       11.00      92.00        1.00   22808.00           1.00
+max                18.00       18.00     115.00        1.00   35799.00           1.00
+
+id - Unique: 5, Top: 2451883a465f0f53ce16b73162e3f691dd7d1ba33d1713ef8394e1e845c82545 (1)
+Top 5 values:
+2451883a465f0f53ce16b73162e3f691dd7d1ba33d1713ef8394e1e845c82545 - 1
+3e0f2ad6730722b9f3880ead619a9aecc6ff3a15fa737ca8d2afa3f4d925e59a - 1
+529315f32d4fd8f295659678b4ffd79ef552506be90a6d43a7b170bbec14e464 - 1
+db62cda3dae85253c5b147a4707a3a77c01018046479d8829a68fef837101e91 - 1
+2fcd7a560d863004d98e3431b51c2ac31554fcb7b00de16f48cab9aab61eed27 - 1
+
+url - Unique: 5, Top: 248fe90f6f61edf65212bc6ec96f3712d59743a99d00fc2d0e470742cc0bc717 (1)
+Top 5 values:
+248fe90f6f61edf65212bc6ec96f3712d59743a99d00fc2d0e470742cc0bc717 - 1
+bb2c6760a9b38a72da3fba002f7dd7426f82d0953266209b249273ed829ff2b6 - 1
+978f1cc075cdc88c849cfea836285f98d23a6eabaa422f52f286d3d18c81ffc8 - 1
+a5d2b71be34bd0e8a9df9b8cf12f9840362b9407653113b8dd8a65f099c54709 - 1
+3b380b232e96dab5fb69cb92f4335b99b548436a59d9f019a0427e9d65551331 - 1
+
+source - Unique: 1, Top: Twitter for Android (5)
+Top 5 values:
+Twitter for Android - 5
+
+createdAt - Unique: 5, Top: 2023-09-23 16:02:32 (1)
+Top 5 values:
+2023-09-23 16:02:32 - 1
+2023-09-21 23:06:23 - 1
+2023-09-21 19:51:45 - 1
+2023-09-16 23:53:59 - 1
+2023-09-08 12:58:17 - 1
+
+lang - Unique: 1, Top: en (5)
+Top 5 values:
+en - 5
+
+quoteId - Unique: 1, Top: 1.7049022661745093e+18 (1)
+Top 5 values:
+1.7049022661745093e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2023-09 (5)
+Top 5 values:
+2023-09 - 5
+
+illuminating_scored_message - Unique: 5, Top: fe36a0f2b05c9f55cc6c1646405b19dfa65cf068e6be8342ab280b07db01ff75 (1)
+Top 5 values:
+fe36a0f2b05c9f55cc6c1646405b19dfa65cf068e6be8342ab280b07db01ff75 - 1
+c626c61ad5bc49bd407b29b9faee0767ebb340d67802d0012d3accd7d1901f90 - 1
+27bcf8160efd1c6c87ac78c0a50216d14dc22cad5383b57bf325ad09a41acfa2 - 1
+b4676a565ff7b26e77a39ccab74d78699d0d60ee11ca09cfa1095f779fde0ce3 - 1
+4eb6eeeb0bd336489dd0339c01fe1f5481942891ebbcd656b340e2c3194cabb9 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 5
+advocacy_msg_type_illuminating: 1s = 0, 0s = 5
+issue_msg_type_illuminating: 1s = 0, 0s = 5
+attack_msg_type_illuminating: 1s = 0, 0s = 5
+image_msg_type_illuminating: 1s = 0, 0s = 5
+cta_msg_type_illuminating: 1s = 1, 0s = 4
+engagement_cta_subtype_illuminating: 1s = 1, 0s = 4
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 5
+voting_cta_subtype_illuminating: 1s = 0, 0s = 5
+covid_topic_illuminating: 1s = 0, 0s = 5
+economy_topic_illuminating: 1s = 0, 0s = 5
+education_topic_illuminating: 1s = 0, 0s = 5
+environment_topic_illuminating: 1s = 0, 0s = 5
+foreign_policy_topic_illuminating: 1s = 0, 0s = 5
+governance_topic_illuminating: 1s = 0, 0s = 5
+health_topic_illuminating: 1s = 0, 0s = 5
+immigration_topic_illuminating: 1s = 0, 0s = 5
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 5
+military_topic_illuminating: 1s = 0, 0s = 5
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 5
+safety_topic_illuminating: 1s = 0, 0s = 5
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 5
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 5
+womens_issue_topic_illuminating: 1s = 0, 0s = 5
+incivility_illuminating: 1s = 0, 0s = 5
+scam_illuminating: 1s = 0, 0s = 5
+freefair_illuminating: 1s = 0, 0s = 5
+fraud_illuminating: 1s = 0, 0s = 5
+isRetweet: 1s = 0, 0s = 5
+isQuote: 1s = 1, 0s = 4
+isConversationControlled: 1s = 0, 0s = 5
+
+--- Group: source = Twitter for iPad, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count             266.00      266.00     266.00      266.00     266.00         266.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               65.38       21.30     222.70        8.26   21353.53           5.23
+std                67.97       33.99     282.27       14.11   38020.97          17.44
+min                 0.00        0.00       0.00        0.00      36.00           0.00
+25%                13.25        3.00      40.25        1.00    8313.75           0.00
+50%                59.50       13.00     192.50        5.00   15378.50           2.00
+75%                92.75       26.00     284.50       10.00   22420.00           6.00
+max               723.00      352.00    3067.00      156.00  538373.00         268.00
+
+id - Unique: 266, Top: c90afd4e2ea534bab755dd68e4f604729da76dfb598489fad62a2d2dda532370 (1)
+Top 5 values:
+c90afd4e2ea534bab755dd68e4f604729da76dfb598489fad62a2d2dda532370 - 1
+bc6524b3c0afd91ca6de12fdff8cd73eb9e91546f27daf2f18107bda6bcd56c0 - 1
+fbd904282ef6807f20026441f43dd87e478d38b4aef6f94cd1d7f63dddc1e8e9 - 1
+7307317aba5996d6b27647cd406f2ffaa84d3be5717f3a59e8005c4efd45faed - 1
+4a84a40c326bc0623a3bb0f74f64e07b85058d256ef61a795b9f7907a82797d7 - 1
+
+url - Unique: 266, Top: 102c9287c9c3e065c46070144047d081ac1454dc5b1fd754a8309031f06104e9 (1)
+Top 5 values:
+102c9287c9c3e065c46070144047d081ac1454dc5b1fd754a8309031f06104e9 - 1
+6a56c67fc8bc0f2d9e805193a5d64d62f1001cf6cff84636c3c10b8c7f927478 - 1
+2f67509700a94026d6195f481ce20c4f1639da87302f70b854a759e9dcba7ba7 - 1
+9f3bf1e8148898996554317d476f51d4e753c6588f24eada61f094e5181cb24c - 1
+c7037eeef091697c1ea9b1ba0dfce38409acf08da542d6def735827052fa9e33 - 1
+
+source - Unique: 1, Top: Twitter for iPad (266)
+Top 5 values:
+Twitter for iPad - 266
+
+createdAt - Unique: 263, Top: 2023-11-22 22:56:26 (2)
+Top 5 values:
+2023-11-22 22:56:26 - 2
+2023-12-29 18:30:06 - 2
+2023-12-13 23:15:44 - 2
+2023-09-20 20:57:05 - 1
+2024-08-06 23:03:19 - 1
+
+lang - Unique: 1, Top: en (266)
+Top 5 values:
+en - 266
+
+quoteId - Unique: 11, Top: 1.7618457994478472e+18 (1)
+Top 5 values:
+1.7618457994478472e+18 - 1
+1.7596201519791596e+18 - 1
+1.7592528177038298e+18 - 1
+1.755294694257415e+18 - 1
+1.7541897392115425e+18 - 1
+
+inReplyToId - Unique: 65, Top: 1.707499736545084e+18 (1)
+Top 5 values:
+1.707499736545084e+18 - 1
+1.7064671214153075e+18 - 1
+1.7046005867782682e+18 - 1
+1.704249566822904e+18 - 1
+1.7038710038252096e+18 - 1
+
+month_year - Unique: 8, Top: 2024-01 (47)
+Top 5 values:
+2024-01 - 47
+2023-12 - 45
+2024-02 - 44
+2023-10 - 38
+2023-11 - 37
+
+illuminating_scored_message - Unique: 266, Top: c56f8981dc83125637e6546f363f736159ff9f581adcc3bd60892094e43f3d74 (1)
+Top 5 values:
+c56f8981dc83125637e6546f363f736159ff9f581adcc3bd60892094e43f3d74 - 1
+df4e5a3da888840f059e759fb77d16c608c34bfb76b35197dc60da45afba010a - 1
+9a516168f3dfa37624c43d98665fcd7993315e295d77194488e2581a566ed0a0 - 1
+459aca604fa335df684e7c9e32e33e57fb40f1daf27924a03925e2aa92a757a7 - 1
+31b3e4a4d688da75901ca1774e8b817562ac9e4e7d8d9e25276e86a81183e0c4 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 4, 0s = 262
+advocacy_msg_type_illuminating: 1s = 141, 0s = 125
+issue_msg_type_illuminating: 1s = 102, 0s = 164
+attack_msg_type_illuminating: 1s = 9, 0s = 257
+image_msg_type_illuminating: 1s = 16, 0s = 250
+cta_msg_type_illuminating: 1s = 40, 0s = 226
+engagement_cta_subtype_illuminating: 1s = 25, 0s = 241
+fundraising_cta_subtype_illuminating: 1s = 1, 0s = 265
+voting_cta_subtype_illuminating: 1s = 11, 0s = 255
+covid_topic_illuminating: 1s = 0, 0s = 266
+economy_topic_illuminating: 1s = 38, 0s = 228
+education_topic_illuminating: 1s = 7, 0s = 259
+environment_topic_illuminating: 1s = 11, 0s = 255
+foreign_policy_topic_illuminating: 1s = 2, 0s = 264
+governance_topic_illuminating: 1s = 2, 0s = 264
+health_topic_illuminating: 1s = 14, 0s = 252
+immigration_topic_illuminating: 1s = 7, 0s = 259
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 266
+military_topic_illuminating: 1s = 3, 0s = 263
+race_and_ethnicity_topic_illuminating: 1s = 3, 0s = 263
+safety_topic_illuminating: 1s = 2, 0s = 264
+social_and_cultural_topic_illuminating: 1s = 8, 0s = 258
+technology_and_privacy_topic_illuminating: 1s = 1, 0s = 265
+womens_issue_topic_illuminating: 1s = 1, 0s = 265
+incivility_illuminating: 1s = 12, 0s = 254
+scam_illuminating: 1s = 0, 0s = 266
+freefair_illuminating: 1s = 0, 0s = 266
+fraud_illuminating: 1s = 0, 0s = 266
+isRetweet: 1s = 0, 0s = 266
+isQuote: 1s = 11, 0s = 255
+isConversationControlled: 1s = 1, 0s = 265
+
+--- Group: source = Twitter for iPhone, lang = da ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               2.00        2.00       2.00        2.00       2.00           2.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              150.50       46.00     449.00        4.00   24119.50           8.50
+std                28.99       33.94     185.26        1.41    3988.79           6.36
+min               130.00       22.00     318.00        3.00   21299.00           4.00
+25%               140.25       34.00     383.50        3.50   22709.25           6.25
+50%               150.50       46.00     449.00        4.00   24119.50           8.50
+75%               160.75       58.00     514.50        4.50   25529.75          10.75
+max               171.00       70.00     580.00        5.00   26940.00          13.00
+
+id - Unique: 2, Top: 9c600419b5a2990878fdaa0bcf6f556268ab913559a136836d080373e7389b97 (1)
+Top 5 values:
+9c600419b5a2990878fdaa0bcf6f556268ab913559a136836d080373e7389b97 - 1
+7fe42f7cd644db949a7ef532980cb4f2f782adbbd1610e7e70ac7d4fef0d92a4 - 1
+
+url - Unique: 2, Top: d24b2c0c3b047bc5814aa718d04422e3e054d8f1d363e354fd2059d0cdb0a84c (1)
+Top 5 values:
+d24b2c0c3b047bc5814aa718d04422e3e054d8f1d363e354fd2059d0cdb0a84c - 1
+4f9bbabad31ec4cc66b845c766fac76436f3c92d98ed8b7bab47e12fac95b793 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2024-07-11 00:51:23 (1)
+Top 5 values:
+2024-07-11 00:51:23 - 1
+2024-10-02 01:20:51 - 1
+
+lang - Unique: 1, Top: da (2)
+Top 5 values:
+da - 2
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-07 (1)
+Top 5 values:
+2024-07 - 1
+2024-10 - 1
+
+illuminating_scored_message - Unique: 2, Top: 35cd2949c68f27d68d3a0e8b9bfae83a5cd4cf879dbcfc9ffeca54afadca18f2 (1)
+Top 5 values:
+35cd2949c68f27d68d3a0e8b9bfae83a5cd4cf879dbcfc9ffeca54afadca18f2 - 1
+69b97b55b3bfe1969234301ae58af8d2c83170055536f85fb2d6d1c0a10b1ed1 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 2
+advocacy_msg_type_illuminating: 1s = 0, 0s = 2
+issue_msg_type_illuminating: 1s = 0, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 2
+image_msg_type_illuminating: 1s = 0, 0s = 2
+cta_msg_type_illuminating: 1s = 0, 0s = 2
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 2
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 2
+voting_cta_subtype_illuminating: 1s = 0, 0s = 2
+covid_topic_illuminating: 1s = 0, 0s = 2
+economy_topic_illuminating: 1s = 0, 0s = 2
+education_topic_illuminating: 1s = 0, 0s = 2
+environment_topic_illuminating: 1s = 0, 0s = 2
+foreign_policy_topic_illuminating: 1s = 0, 0s = 2
+governance_topic_illuminating: 1s = 0, 0s = 2
+health_topic_illuminating: 1s = 0, 0s = 2
+immigration_topic_illuminating: 1s = 0, 0s = 2
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 2
+military_topic_illuminating: 1s = 0, 0s = 2
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 2
+safety_topic_illuminating: 1s = 0, 0s = 2
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 2
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 2
+womens_issue_topic_illuminating: 1s = 0, 0s = 2
+incivility_illuminating: 1s = 0, 0s = 2
+scam_illuminating: 1s = 0, 0s = 2
+freefair_illuminating: 1s = 0, 0s = 2
+fraud_illuminating: 1s = 0, 0s = 2
+isRetweet: 1s = 0, 0s = 2
+isQuote: 1s = 0, 0s = 2
+isConversationControlled: 1s = 0, 0s = 2
+
+--- Group: source = Twitter for iPhone, lang = en ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount   viewCount  bookmarkCount
+count            8482.00     8482.00    8482.00     8482.00     8482.00        8482.00
+null_count          0.00        0.00       0.00        0.00        0.00           0.00
+mean              613.23      290.06    3745.80       43.82   245837.43          69.87
+std              2157.37     1036.65   15967.56      190.82   955147.50         403.24
+min                 0.00        0.00       0.00        0.00        9.00           0.00
+25%                16.00       11.00      97.00        1.00    11731.75           1.00
+50%                82.00       57.00     413.00        6.00    35627.50           5.00
+75%               383.00      203.00    2030.75       26.00   141449.25          28.00
+max             67113.00    30215.00  588065.00     6552.00 31294362.00       22901.00
+
+id - Unique: 8482, Top: 3aaf0b6e50bf7a0bee2eecef6578c41e89cdf1e303944426333a28dbee1c9f3b (1)
+Top 5 values:
+3aaf0b6e50bf7a0bee2eecef6578c41e89cdf1e303944426333a28dbee1c9f3b - 1
+cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d - 1
+79a708154ddc413aa58968a3d9bb127754efe3ac146d33234fc563cefd1123ad - 1
+a15dcf9bc32cc2fa0e72ecf8f32a61112a4db3e6d703bea77d4f71966c469655 - 1
+b695f27f655938883bdc1c28b4149b29af7ace05cf3b416e7eac9f2654e91e49 - 1
+
+url - Unique: 8482, Top: b9620932f75dc6bc99760c86f7f38c7a659b4fd8bb79be226cff2cbe2885141e (1)
+Top 5 values:
+b9620932f75dc6bc99760c86f7f38c7a659b4fd8bb79be226cff2cbe2885141e - 1
+f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937 - 1
+ce7da53982fc651b8555ac90a1151780cb848afb730356567909828ddfc8422c - 1
+0184613b40fd8240ed0b0fc22ff4056eac2a28b72415657aa0b077d41d0f16a0 - 1
+2cb67e9926f2906e7d37d5f7431c9e0e33aa415e6a24343515ac06bd192ea881 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (8482)
+Top 5 values:
+Twitter for iPhone - 8482
+
+createdAt - Unique: 8419, Top: 2023-12-04 02:49:29 (3)
+Top 5 values:
+2023-12-04 02:49:29 - 3
+2023-09-25 15:22:49 - 3
+2023-11-26 13:03:19 - 3
+2023-12-04 12:12:48 - 3
+2024-02-10 23:49:40 - 3
+
+lang - Unique: 1, Top: en (8482)
+Top 5 values:
+en - 8482
+
+quoteId - Unique: 1812, Top: 1.711730672279122e+18 (4)
+Top 5 values:
+1.711730672279122e+18 - 4
+1.7148274152418675e+18 - 3
+1.7352284527672366e+18 - 3
+1.7449521376064474e+18 - 3
+1.725157020779557e+18 - 2
+
+inReplyToId - Unique: 1780, Top: 1.789104982999876e+18 (3)
+Top 5 values:
+1.789104982999876e+18 - 3
+1.7094760008142152e+18 - 2
+1.7151548441581732e+18 - 2
+1.7274981532750769e+18 - 2
+1.728234009728332e+18 - 2
+
+month_year - Unique: 15, Top: 2023-11 (1346)
+Top 5 values:
+2023-11 - 1346
+2023-10 - 1279
+2023-09 - 1053
+2023-12 - 871
+2024-01 - 772
+
+illuminating_scored_message - Unique: 8431, Top: 1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 (11)
+Top 5 values:
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 - 11
+e85b31153cfcc753f8657eb033c8e8fb03f6da4c384da1d4e563eef696f6e7a0 - 7
+ddfd87f0087bd4acd65151010df79daf45b06fdb3063409fb6f997acc6d7b36f - 4
+de3c2805b2cea354c20c7fe117fc9c1885c9aea23ca9d1623d93d7c56df7a9bb - 3
+790da7ca64b087dfeff82c67943c2d6dfbec7bb176e8bd3de0904b7cd077435b - 3
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 336, 0s = 8146
+advocacy_msg_type_illuminating: 1s = 4081, 0s = 4401
+issue_msg_type_illuminating: 1s = 3485, 0s = 4997
+attack_msg_type_illuminating: 1s = 1909, 0s = 6573
+image_msg_type_illuminating: 1s = 1510, 0s = 6972
+cta_msg_type_illuminating: 1s = 871, 0s = 7611
+engagement_cta_subtype_illuminating: 1s = 622, 0s = 7860
+fundraising_cta_subtype_illuminating: 1s = 49, 0s = 8433
+voting_cta_subtype_illuminating: 1s = 77, 0s = 8405
+covid_topic_illuminating: 1s = 55, 0s = 8427
+economy_topic_illuminating: 1s = 829, 0s = 7653
+education_topic_illuminating: 1s = 150, 0s = 8332
+environment_topic_illuminating: 1s = 214, 0s = 8268
+foreign_policy_topic_illuminating: 1s = 444, 0s = 8038
+governance_topic_illuminating: 1s = 200, 0s = 8282
+health_topic_illuminating: 1s = 287, 0s = 8195
+immigration_topic_illuminating: 1s = 339, 0s = 8143
+lgbtq_issues_topic_illuminating: 1s = 25, 0s = 8457
+military_topic_illuminating: 1s = 66, 0s = 8416
+race_and_ethnicity_topic_illuminating: 1s = 142, 0s = 8340
+safety_topic_illuminating: 1s = 198, 0s = 8284
+social_and_cultural_topic_illuminating: 1s = 266, 0s = 8216
+technology_and_privacy_topic_illuminating: 1s = 15, 0s = 8467
+womens_issue_topic_illuminating: 1s = 65, 0s = 8417
+incivility_illuminating: 1s = 1159, 0s = 7323
+scam_illuminating: 1s = 83, 0s = 8399
+freefair_illuminating: 1s = 8, 0s = 8474
+fraud_illuminating: 1s = 29, 0s = 8453
+isRetweet: 1s = 0, 0s = 8482
+isQuote: 1s = 1826, 0s = 6656
+isConversationControlled: 1s = 7, 0s = 8475
+
+--- Group: source = Twitter for iPhone, lang = es ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               2.00        2.00       2.00        2.00       2.00           2.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              137.00      138.50    2792.00       12.50  364873.00          15.50
+std               142.84      178.90    3826.86       14.85  489626.19          21.92
+min                36.00       12.00      86.00        2.00   18655.00           0.00
+25%                86.50       75.25    1439.00        7.25  191764.00           7.75
+50%               137.00      138.50    2792.00       12.50  364873.00          15.50
+75%               187.50      201.75    4145.00       17.75  537982.00          23.25
+max               238.00      265.00    5498.00       23.00  711091.00          31.00
+
+id - Unique: 2, Top: 2bd66e18f2a61329d617e8253c012b02f435f5443ecce80fdd475129958a2d75 (1)
+Top 5 values:
+2bd66e18f2a61329d617e8253c012b02f435f5443ecce80fdd475129958a2d75 - 1
+2f5e3336f6afd6a6036d44ef790764ec55324b59b6efb1a23b13e5559c34bb87 - 1
+
+url - Unique: 2, Top: 18a6bef501a50f476ed775eb6f50214c924ed044a5e14d6378c861ae822e6fa9 (1)
+Top 5 values:
+18a6bef501a50f476ed775eb6f50214c924ed044a5e14d6378c861ae822e6fa9 - 1
+bbb908ad925961c5058165c9459487a1d12fa6eb5c7dde7fa56489190a5affc4 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2023-09-12 11:05:26 (1)
+Top 5 values:
+2023-09-12 11:05:26 - 1
+2024-04-11 09:35:40 - 1
+
+lang - Unique: 1, Top: es (2)
+Top 5 values:
+es - 2
+
+quoteId - Unique: 1, Top: 1.701094459344073e+18 (1)
+Top 5 values:
+1.701094459344073e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 2, Top: 2023-09 (1)
+Top 5 values:
+2023-09 - 1
+2024-04 - 1
+
+illuminating_scored_message - Unique: 2, Top: 750704955ff2020fbe587a20d12ba202ce40be71d036acb17c4e138b51906716 (1)
+Top 5 values:
+750704955ff2020fbe587a20d12ba202ce40be71d036acb17c4e138b51906716 - 1
+0772205a81ba3c4d413fd281d9594c0db75980242ae1c6f13825a14937d23141 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 2
+advocacy_msg_type_illuminating: 1s = 0, 0s = 2
+issue_msg_type_illuminating: 1s = 0, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 2
+image_msg_type_illuminating: 1s = 0, 0s = 2
+cta_msg_type_illuminating: 1s = 0, 0s = 2
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 2
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 2
+voting_cta_subtype_illuminating: 1s = 0, 0s = 2
+covid_topic_illuminating: 1s = 0, 0s = 2
+economy_topic_illuminating: 1s = 0, 0s = 2
+education_topic_illuminating: 1s = 0, 0s = 2
+environment_topic_illuminating: 1s = 0, 0s = 2
+foreign_policy_topic_illuminating: 1s = 0, 0s = 2
+governance_topic_illuminating: 1s = 0, 0s = 2
+health_topic_illuminating: 1s = 0, 0s = 2
+immigration_topic_illuminating: 1s = 0, 0s = 2
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 2
+military_topic_illuminating: 1s = 0, 0s = 2
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 2
+safety_topic_illuminating: 1s = 0, 0s = 2
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 2
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 2
+womens_issue_topic_illuminating: 1s = 0, 0s = 2
+incivility_illuminating: 1s = 0, 0s = 2
+scam_illuminating: 1s = 0, 0s = 2
+freefair_illuminating: 1s = 0, 0s = 2
+fraud_illuminating: 1s = 0, 0s = 2
+isRetweet: 1s = 0, 0s = 2
+isQuote: 1s = 1, 0s = 1
+isConversationControlled: 1s = 0, 0s = 2
+
+--- Group: source = Twitter for iPhone, lang = fr ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               2.00        2.00       2.00        2.00       2.00           2.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               70.50       19.50     261.50        2.50   17360.50           4.50
+std                45.96       12.02      89.80        0.71    9963.84           6.36
+min                38.00       11.00     198.00        2.00   10315.00           0.00
+25%                54.25       15.25     229.75        2.25   13837.75           2.25
+50%                70.50       19.50     261.50        2.50   17360.50           4.50
+75%                86.75       23.75     293.25        2.75   20883.25           6.75
+max               103.00       28.00     325.00        3.00   24406.00           9.00
+
+id - Unique: 2, Top: 5791fc38ea222ae71f7449a343490d6331cd9e202af1b71f7ee8748b2c3ba219 (1)
+Top 5 values:
+5791fc38ea222ae71f7449a343490d6331cd9e202af1b71f7ee8748b2c3ba219 - 1
+b2e7dd3c0267703c2cc0c4c59b3f7b7b087badaf025e884931e018fc6ee990b0 - 1
+
+url - Unique: 2, Top: 908e663b4b71227b7f59d35410d20de4736941d7f65d98140d61631ff57f60c6 (1)
+Top 5 values:
+908e663b4b71227b7f59d35410d20de4736941d7f65d98140d61631ff57f60c6 - 1
+b7ce5233e0afa4156911e168b94f68a22242aca53e6d52c4c08e1ab6b03d70f9 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2023-10-21 16:22:59 (1)
+Top 5 values:
+2023-10-21 16:22:59 - 1
+2024-07-05 16:47:07 - 1
+
+lang - Unique: 1, Top: fr (2)
+Top 5 values:
+fr - 2
+
+quoteId - Unique: 1, Top: 1.8084747523291305e+18 (1)
+Top 5 values:
+1.8084747523291305e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 2, Top: 2023-10 (1)
+Top 5 values:
+2023-10 - 1
+2024-07 - 1
+
+illuminating_scored_message - Unique: 2, Top: a38707c907931246dfa92852d6e85f428cc9e48097c63a87568b90e23c21ca61 (1)
+Top 5 values:
+a38707c907931246dfa92852d6e85f428cc9e48097c63a87568b90e23c21ca61 - 1
+4681cb5c3ee85ef709822fcb7168be03836e84ec4ff83b9606d12ee45bd2a9ed - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 2
+advocacy_msg_type_illuminating: 1s = 0, 0s = 2
+issue_msg_type_illuminating: 1s = 0, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 2
+image_msg_type_illuminating: 1s = 0, 0s = 2
+cta_msg_type_illuminating: 1s = 0, 0s = 2
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 2
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 2
+voting_cta_subtype_illuminating: 1s = 0, 0s = 2
+covid_topic_illuminating: 1s = 0, 0s = 2
+economy_topic_illuminating: 1s = 0, 0s = 2
+education_topic_illuminating: 1s = 0, 0s = 2
+environment_topic_illuminating: 1s = 0, 0s = 2
+foreign_policy_topic_illuminating: 1s = 0, 0s = 2
+governance_topic_illuminating: 1s = 0, 0s = 2
+health_topic_illuminating: 1s = 0, 0s = 2
+immigration_topic_illuminating: 1s = 0, 0s = 2
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 2
+military_topic_illuminating: 1s = 0, 0s = 2
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 2
+safety_topic_illuminating: 1s = 0, 0s = 2
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 2
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 2
+womens_issue_topic_illuminating: 1s = 0, 0s = 2
+incivility_illuminating: 1s = 0, 0s = 2
+scam_illuminating: 1s = 0, 0s = 2
+freefair_illuminating: 1s = 0, 0s = 2
+fraud_illuminating: 1s = 0, 0s = 2
+isRetweet: 1s = 0, 0s = 2
+isQuote: 1s = 1, 0s = 1
+isConversationControlled: 1s = 0, 0s = 2
+
+--- Group: source = Twitter for iPhone, lang = in ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean                0.00        0.00       2.00        0.00     109.00           0.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                 0.00        0.00       2.00        0.00     109.00           0.00
+25%                 0.00        0.00       2.00        0.00     109.00           0.00
+50%                 0.00        0.00       2.00        0.00     109.00           0.00
+75%                 0.00        0.00       2.00        0.00     109.00           0.00
+max                 0.00        0.00       2.00        0.00     109.00           0.00
+
+id - Unique: 1, Top: d1293b4530ecffc8bf7e43df92568c1af3dbe272ab257fbddea6b75075f1e14b (1)
+Top 5 values:
+d1293b4530ecffc8bf7e43df92568c1af3dbe272ab257fbddea6b75075f1e14b - 1
+
+url - Unique: 1, Top: 69bd900473e50a788ec03151963305ef07368f8f2474d8e41bcc51fe2c5b14af (1)
+Top 5 values:
+69bd900473e50a788ec03151963305ef07368f8f2474d8e41bcc51fe2c5b14af - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2023-11-19 02:16:46 (1)
+Top 5 values:
+2023-11-19 02:16:46 - 1
+
+lang - Unique: 1, Top: in (1)
+Top 5 values:
+in - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7259993634055662e+18 (1)
+Top 5 values:
+1.7259993634055662e+18 - 1
+
+month_year - Unique: 1, Top: 2023-11 (1)
+Top 5 values:
+2023-11 - 1
+
+illuminating_scored_message - Unique: 1, Top: 3065cd0c9eb80ef67b3bcac5d295565a1d0fcb1b254d3969bf9dfa0bef64f3f2 (1)
+Top 5 values:
+3065cd0c9eb80ef67b3bcac5d295565a1d0fcb1b254d3969bf9dfa0bef64f3f2 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter for iPhone, lang = nl ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean               51.00       18.00     178.00        3.00   29081.00           5.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min                51.00       18.00     178.00        3.00   29081.00           5.00
+25%                51.00       18.00     178.00        3.00   29081.00           5.00
+50%                51.00       18.00     178.00        3.00   29081.00           5.00
+75%                51.00       18.00     178.00        3.00   29081.00           5.00
+max                51.00       18.00     178.00        3.00   29081.00           5.00
+
+id - Unique: 1, Top: e7ee788966e913ff509598b949db724b71117c57e4cdde0f255deb40d05a33d9 (1)
+Top 5 values:
+e7ee788966e913ff509598b949db724b71117c57e4cdde0f255deb40d05a33d9 - 1
+
+url - Unique: 1, Top: 55eff6e632709b4987dc21b11193a80d31a6d32a943cb9b2aaf4359744a1018f (1)
+Top 5 values:
+55eff6e632709b4987dc21b11193a80d31a6d32a943cb9b2aaf4359744a1018f - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2024-02-20 05:13:53 (1)
+Top 5 values:
+2024-02-20 05:13:53 - 1
+
+lang - Unique: 1, Top: nl (1)
+Top 5 values:
+nl - 1
+
+quoteId - Unique: 1, Top: 1.7597725037638246e+18 (1)
+Top 5 values:
+1.7597725037638246e+18 - 1
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-02 (1)
+Top 5 values:
+2024-02 - 1
+
+illuminating_scored_message - Unique: 1, Top: fbd65144a10318b22f4c3ba1d9fdee6201aba206ed03132e809d996a69ac598a (1)
+Top 5 values:
+fbd65144a10318b22f4c3ba1d9fdee6201aba206ed03132e809d996a69ac598a - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 1, 0s = 0
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 1, 0s = 0
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter for iPhone, lang = pl ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              178.00       98.00     507.00       26.00   69531.00          19.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min               178.00       98.00     507.00       26.00   69531.00          19.00
+25%               178.00       98.00     507.00       26.00   69531.00          19.00
+50%               178.00       98.00     507.00       26.00   69531.00          19.00
+75%               178.00       98.00     507.00       26.00   69531.00          19.00
+max               178.00       98.00     507.00       26.00   69531.00          19.00
+
+id - Unique: 1, Top: 2d40a0d0849000e3fa2b8604756eaaf9c82e0b750e66dfd65c55484a0f9f96c3 (1)
+Top 5 values:
+2d40a0d0849000e3fa2b8604756eaaf9c82e0b750e66dfd65c55484a0f9f96c3 - 1
+
+url - Unique: 1, Top: 00c710cc70266c0c1c531838194f9a038991e3b99cfeffb7d01fef60ddb2daf1 (1)
+Top 5 values:
+00c710cc70266c0c1c531838194f9a038991e3b99cfeffb7d01fef60ddb2daf1 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2023-10-05 19:58:24 (1)
+Top 5 values:
+2023-10-05 19:58:24 - 1
+
+lang - Unique: 1, Top: pl (1)
+Top 5 values:
+pl - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7099446835003558e+18 (1)
+Top 5 values:
+1.7099446835003558e+18 - 1
+
+month_year - Unique: 1, Top: 2023-10 (1)
+Top 5 values:
+2023-10 - 1
+
+illuminating_scored_message - Unique: 1, Top: b6f77ec881b57234e44a9393b0e411d9fd71be61c667898980a678cec2422e44 (1)
+Top 5 values:
+b6f77ec881b57234e44a9393b0e411d9fd71be61c667898980a678cec2422e44 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter for iPhone, lang = pt ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               1.00        1.00       1.00        1.00       1.00           1.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              522.00      606.00    2537.00       84.00  153972.00          90.00
+std                  NaN         NaN        NaN         NaN        NaN            NaN
+min               522.00      606.00    2537.00       84.00  153972.00          90.00
+25%               522.00      606.00    2537.00       84.00  153972.00          90.00
+50%               522.00      606.00    2537.00       84.00  153972.00          90.00
+75%               522.00      606.00    2537.00       84.00  153972.00          90.00
+max               522.00      606.00    2537.00       84.00  153972.00          90.00
+
+id - Unique: 1, Top: 29c0989b225060e0e28854be554ff7848ebe0412b5f37866e99195e86e030cd5 (1)
+Top 5 values:
+29c0989b225060e0e28854be554ff7848ebe0412b5f37866e99195e86e030cd5 - 1
+
+url - Unique: 1, Top: 4c4b26669fa25a08a22bb8d2d8818b4b250a09fdb13b76ed97d992e0cf9ed8a1 (1)
+Top 5 values:
+4c4b26669fa25a08a22bb8d2d8818b4b250a09fdb13b76ed97d992e0cf9ed8a1 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2024-09-18 02:07:52 (1)
+Top 5 values:
+2024-09-18 02:07:52 - 1
+
+lang - Unique: 1, Top: pt (1)
+Top 5 values:
+pt - 1
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: None (0)
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-09 (1)
+Top 5 values:
+2024-09 - 1
+
+illuminating_scored_message - Unique: 1, Top: 44c649d6d7943ca60b0d6c4e6ad4c981b99646ce3f0457c9f1e7316753ed02d6 (1)
+Top 5 values:
+44c649d6d7943ca60b0d6c4e6ad4c981b99646ce3f0457c9f1e7316753ed02d6 - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 1
+advocacy_msg_type_illuminating: 1s = 0, 0s = 1
+issue_msg_type_illuminating: 1s = 0, 0s = 1
+attack_msg_type_illuminating: 1s = 0, 0s = 1
+image_msg_type_illuminating: 1s = 0, 0s = 1
+cta_msg_type_illuminating: 1s = 0, 0s = 1
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 1
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 1
+voting_cta_subtype_illuminating: 1s = 0, 0s = 1
+covid_topic_illuminating: 1s = 0, 0s = 1
+economy_topic_illuminating: 1s = 0, 0s = 1
+education_topic_illuminating: 1s = 0, 0s = 1
+environment_topic_illuminating: 1s = 0, 0s = 1
+foreign_policy_topic_illuminating: 1s = 0, 0s = 1
+governance_topic_illuminating: 1s = 0, 0s = 1
+health_topic_illuminating: 1s = 0, 0s = 1
+immigration_topic_illuminating: 1s = 0, 0s = 1
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 1
+military_topic_illuminating: 1s = 0, 0s = 1
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 1
+safety_topic_illuminating: 1s = 0, 0s = 1
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 1
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 1
+womens_issue_topic_illuminating: 1s = 0, 0s = 1
+incivility_illuminating: 1s = 0, 0s = 1
+scam_illuminating: 1s = 0, 0s = 1
+freefair_illuminating: 1s = 0, 0s = 1
+fraud_illuminating: 1s = 0, 0s = 1
+isRetweet: 1s = 0, 0s = 1
+isQuote: 1s = 0, 0s = 1
+isConversationControlled: 1s = 0, 0s = 1
+
+--- Group: source = Twitter for iPhone, lang = tl ---
+
+ Numeric Summary:
+
+            retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount
+count               2.00        2.00       2.00        2.00       2.00           2.00
+null_count          0.00        0.00       0.00        0.00       0.00           0.00
+mean              380.00       43.00    1062.00       10.50   27939.50          21.50
+std               535.99       56.57    1460.88       14.85   31343.92          30.41
+min                 1.00        3.00      29.00        0.00    5776.00           0.00
+25%               190.50       23.00     545.50        5.25   16857.75          10.75
+50%               380.00       43.00    1062.00       10.50   27939.50          21.50
+75%               569.50       63.00    1578.50       15.75   39021.25          32.25
+max               759.00       83.00    2095.00       21.00   50103.00          43.00
+
+id - Unique: 2, Top: d6576fe3e96bc124486946e8121dde79b9519538af444cb7c65c12b09cdda84c (1)
+Top 5 values:
+d6576fe3e96bc124486946e8121dde79b9519538af444cb7c65c12b09cdda84c - 1
+d0f09c429acacc1b5e338f1ceca0f1721c0488ca6040ef624dc5496b2ba56046 - 1
+
+url - Unique: 2, Top: c0e9f2ff9a4e53dba0e7dd2c9e5a436fa60efe1f084bcc3cfa2b41d53444f08d (1)
+Top 5 values:
+c0e9f2ff9a4e53dba0e7dd2c9e5a436fa60efe1f084bcc3cfa2b41d53444f08d - 1
+c9e8036a65d5ced9f1096f4b89af9490f514dfc6320f238c75189680356c8e1c - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2023-09-21 21:38:14 (1)
+Top 5 values:
+2023-09-21 21:38:14 - 1
+2024-10-17 12:43:32 - 1
+
+lang - Unique: 1, Top: tl (2)
+Top 5 values:
+tl - 2
+
+quoteId - Unique: 0, Top: None (0)
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7049270444279854e+18 (1)
+Top 5 values:
+1.7049270444279854e+18 - 1
+
+month_year - Unique: 2, Top: 2023-09 (1)
+Top 5 values:
+2023-09 - 1
+2024-10 - 1
+
+illuminating_scored_message - Unique: 2, Top: cbdc0087374f92a2322bace41e9fb7d6f17aa87f504ff21b0f6cb7d93066136b (1)
+Top 5 values:
+cbdc0087374f92a2322bace41e9fb7d6f17aa87f504ff21b0f6cb7d93066136b - 1
+cdc0ed59f6f727728f0de6da92aad239045535543b3270ed45a8ce522c56dc4b - 1
+
+Binary Flag Summary:
+
+election_integrity_Truth_illuminating: 1s = 0, 0s = 2
+advocacy_msg_type_illuminating: 1s = 0, 0s = 2
+issue_msg_type_illuminating: 1s = 0, 0s = 2
+attack_msg_type_illuminating: 1s = 0, 0s = 2
+image_msg_type_illuminating: 1s = 0, 0s = 2
+cta_msg_type_illuminating: 1s = 0, 0s = 2
+engagement_cta_subtype_illuminating: 1s = 0, 0s = 2
+fundraising_cta_subtype_illuminating: 1s = 0, 0s = 2
+voting_cta_subtype_illuminating: 1s = 0, 0s = 2
+covid_topic_illuminating: 1s = 0, 0s = 2
+economy_topic_illuminating: 1s = 0, 0s = 2
+education_topic_illuminating: 1s = 0, 0s = 2
+environment_topic_illuminating: 1s = 0, 0s = 2
+foreign_policy_topic_illuminating: 1s = 0, 0s = 2
+governance_topic_illuminating: 1s = 0, 0s = 2
+health_topic_illuminating: 1s = 0, 0s = 2
+immigration_topic_illuminating: 1s = 0, 0s = 2
+lgbtq_issues_topic_illuminating: 1s = 0, 0s = 2
+military_topic_illuminating: 1s = 0, 0s = 2
+race_and_ethnicity_topic_illuminating: 1s = 0, 0s = 2
+safety_topic_illuminating: 1s = 0, 0s = 2
+social_and_cultural_topic_illuminating: 1s = 0, 0s = 2
+technology_and_privacy_topic_illuminating: 1s = 0, 0s = 2
+womens_issue_topic_illuminating: 1s = 0, 0s = 2
+incivility_illuminating: 1s = 0, 0s = 2
+scam_illuminating: 1s = 0, 0s = 2
+freefair_illuminating: 1s = 0, 0s = 2
+fraud_illuminating: 1s = 0, 0s = 2
+isRetweet: 1s = 0, 0s = 2
+isQuote: 1s = 0, 0s = 2
+isConversationControlled: 1s = 0, 0s = 2
+
+Total Execution Time: 0.75 seconds

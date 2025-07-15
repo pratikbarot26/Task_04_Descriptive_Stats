@@ -1,0 +1,2073 @@
+
+--- Overall Summary ---
+retweetCount: {'count': 27304, 'unique_values': 5197, 'min': 0.0, 'max': 144615.0, 'mean': 1322.06, 'std_dev': 3404.94}
+replyCount: {'count': 27304, 'unique_values': 4517, 'min': 0.0, 'max': 121270.0, 'mean': 1063.79, 'std_dev': 3174.92}
+likeCount: {'count': 27304, 'unique_values': 10202, 'min': 0.0, 'max': 915221.0, 'mean': 6913.69, 'std_dev': 21589.91}
+quoteCount: {'count': 27304, 'unique_values': 1346, 'min': 0.0, 'max': 123320.0, 'mean': 128.08, 'std_dev': 1131.51}
+viewCount: {'count': 27304, 'unique_values': 25369, 'min': 5.0, 'max': 333502775.0, 'mean': 507084.73, 'std_dev': 3212115.16}
+bookmarkCount: {'count': 27304, 'unique_values': 1440, 'min': 0.0, 'max': 42693.0, 'mean': 136.21, 'std_dev': 712.57}
+illuminating_scored_message: {'count': 27304, 'unique_values': 27136}
+id: {'count': 27304, 'unique_values': 27304, 'most_common_value': 'cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d', 'most_common_count': 1}
+url: {'count': 27304, 'unique_values': 27304, 'most_common_value': 'f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937', 'most_common_count': 1}
+source: {'count': 27304, 'unique_values': 14, 'most_common_value': 'Twitter Web App', 'most_common_count': 14930}
+createdAt: {'count': 27304, 'unique_values': 27014, 'most_common_value': '2023-10-06 04:55:21', 'most_common_count': 4}
+lang: {'count': 27304, 'unique_values': 12, 'most_common_value': 'en', 'most_common_count': 27281}
+quoteId: {'count': 3287, 'unique_values': 3159, 'most_common_value': '1.711730672279122e+18', 'most_common_count': 5}
+inReplyToId: {'count': 3345, 'unique_values': 3309, 'most_common_value': '1.7444996006715807e+18', 'most_common_count': 6}
+month_year: {'count': 27304, 'unique_values': 15, 'most_common_value': '2024-10', 'most_common_count': 3586}
+election_integrity_Truth_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 26034, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 27304, 'unique_values': 2, '1s': 39, '0s': 27265}
+fraud_illuminating: {'count': 27304, 'unique_values': 2, '1s': 75, '0s': 27229}
+isRetweet: {'count': 27304, 'unique_values': 1, '1s': 0, '0s': 27304}
+isQuote: {'count': 27304, 'unique_values': 2, '1s': 3240, '0s': 24064}
+isConversationControlled: {'count': 27304, 'unique_values': 2, '1s': 8, '0s': 27296}
+
+--- Group: source = Twitter for iPhone ---
+retweetCount: {'count': 8494, 'unique_values': 1799, 'min': 0.0, 'max': 67113.0, 'mean': 612.62, 'std_dev': 2155.8}
+replyCount: {'count': 8494, 'unique_values': 1214, 'min': 0.0, 'max': 30215.0, 'mean': 289.79, 'std_dev': 1035.9}
+likeCount: {'count': 8494, 'unique_values': 3445, 'min': 0.0, 'max': 588065.0, 'mean': 3741.96, 'std_dev': 15955.77}
+quoteCount: {'count': 8494, 'unique_values': 459, 'min': 0.0, 'max': 6552.0, 'mean': 43.78, 'std_dev': 190.68}
+viewCount: {'count': 8494, 'unique_values': 7948, 'min': 9.0, 'max': 31294362.0, 'mean': 245622.12, 'std_dev': 954460.3}
+bookmarkCount: {'count': 8494, 'unique_values': 585, 'min': 0.0, 'max': 22901.0, 'mean': 69.8, 'std_dev': 402.93}
+illuminating_scored_message: {'count': 8494, 'unique_values': 8443}
+id: {'count': 8494, 'unique_values': 8494, 'most_common_value': 'cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d', 'most_common_count': 1}
+url: {'count': 8494, 'unique_values': 8494, 'most_common_value': 'f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937', 'most_common_count': 1}
+source: {'count': 8494, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 8494}
+createdAt: {'count': 8494, 'unique_values': 8431, 'most_common_value': '2023-09-25 15:22:49', 'most_common_count': 3}
+lang: {'count': 8494, 'unique_values': 9, 'most_common_value': 'en', 'most_common_count': 8482}
+quoteId: {'count': 1856, 'unique_values': 1815, 'most_common_value': '1.711730672279122e+18', 'most_common_count': 4}
+inReplyToId: {'count': 1798, 'unique_values': 1783, 'most_common_value': '1.789104982999876e+18', 'most_common_count': 3}
+month_year: {'count': 8494, 'unique_values': 15, 'most_common_value': '2023-11', 'most_common_count': 1347}
+election_integrity_Truth_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 8168, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 8494, 'unique_values': 2, '1s': 8, '0s': 8486}
+fraud_illuminating: {'count': 8494, 'unique_values': 2, '1s': 29, '0s': 8465}
+isRetweet: {'count': 8494, 'unique_values': 1, '1s': 0, '0s': 8494}
+isQuote: {'count': 8494, 'unique_values': 2, '1s': 1829, '0s': 6665}
+isConversationControlled: {'count': 8494, 'unique_values': 2, '1s': 7, '0s': 8487}
+
+--- Group: source = Twitter Web App ---
+retweetCount: {'count': 14930, 'unique_values': 3587, 'min': 0.0, 'max': 144615.0, 'mean': 1317.11, 'std_dev': 3571.43}
+replyCount: {'count': 14930, 'unique_values': 2458, 'min': 0.0, 'max': 121270.0, 'mean': 719.2, 'std_dev': 2689.05}
+likeCount: {'count': 14930, 'unique_values': 6935, 'min': 0.0, 'max': 915221.0, 'mean': 6669.75, 'std_dev': 22474.43}
+quoteCount: {'count': 14930, 'unique_values': 915, 'min': 0.0, 'max': 123320.0, 'mean': 120.05, 'std_dev': 1464.52}
+viewCount: {'count': 14930, 'unique_values': 14395, 'min': 5.0, 'max': 333502775.0, 'mean': 474031.23, 'std_dev': 3966042.81}
+bookmarkCount: {'count': 14930, 'unique_values': 1150, 'min': 0.0, 'max': 42693.0, 'mean': 154.31, 'std_dev': 843.39}
+illuminating_scored_message: {'count': 14930, 'unique_values': 14859}
+id: {'count': 14930, 'unique_values': 14930, 'most_common_value': 'ca2795ec79d62adc1fff06c4d3bc9da0bbc899e32c9b218798ac62a0ceae19dc', 'most_common_count': 1}
+url: {'count': 14930, 'unique_values': 14930, 'most_common_value': 'c589bd751d7e1d275901b184087716d3155a582b16430810211e1344d3ad2785', 'most_common_count': 1}
+source: {'count': 14930, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 14930}
+createdAt: {'count': 14930, 'unique_values': 14720, 'most_common_value': '2023-10-06 04:55:21', 'most_common_count': 4}
+lang: {'count': 14930, 'unique_values': 8, 'most_common_value': 'en', 'most_common_count': 14920}
+quoteId: {'count': 1390, 'unique_values': 1347, 'most_common_value': '1.7731398481085975e+18', 'most_common_count': 4}
+inReplyToId: {'count': 1482, 'unique_values': 1466, 'most_common_value': '1.7444996006715807e+18', 'most_common_count': 6}
+month_year: {'count': 14930, 'unique_values': 15, 'most_common_value': '2024-10', 'most_common_count': 2930}
+election_integrity_Truth_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 14199, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 14930, 'unique_values': 2, '1s': 21, '0s': 14909}
+fraud_illuminating: {'count': 14930, 'unique_values': 2, '1s': 42, '0s': 14888}
+isRetweet: {'count': 14930, 'unique_values': 1, '1s': 0, '0s': 14930}
+isQuote: {'count': 14930, 'unique_values': 2, '1s': 1370, '0s': 13560}
+isConversationControlled: {'count': 14930, 'unique_values': 1, '1s': 0, '0s': 14930}
+
+--- Group: source = Sprout Social ---
+retweetCount: {'count': 2933, 'unique_values': 2311, 'min': 13.0, 'max': 80331.0, 'mean': 3524.79, 'std_dev': 4583.9}
+replyCount: {'count': 2933, 'unique_values': 2562, 'min': 12.0, 'max': 60598.0, 'mean': 5186.27, 'std_dev': 5803.9}
+likeCount: {'count': 2933, 'unique_values': 2802, 'min': 60.0, 'max': 423537.0, 'mean': 18173.41, 'std_dev': 28805.32}
+quoteCount: {'count': 2933, 'unique_values': 981, 'min': 0.0, 'max': 17200.0, 'mean': 426.12, 'std_dev': 854.88}
+viewCount: {'count': 2933, 'unique_values': 2931, 'min': 2647.0, 'max': 76522204.0, 'mean': 1501097.31, 'std_dev': 3432376.72}
+bookmarkCount: {'count': 2933, 'unique_values': 690, 'min': 0.0, 'max': 13271.0, 'mean': 230.8, 'std_dev': 581.75}
+illuminating_scored_message: {'count': 2933, 'unique_values': 2930}
+id: {'count': 2933, 'unique_values': 2933, 'most_common_value': '562f42161d274553cded804ba8f9c8480e5f9208d9134dd38f3da184eafc5b79', 'most_common_count': 1}
+url: {'count': 2933, 'unique_values': 2933, 'most_common_value': 'ca71b42b22b2a7a8d4d3513013fecf6e5f94bf6453927b29b28bdd12a3bd6689', 'most_common_count': 1}
+source: {'count': 2933, 'unique_values': 1, 'most_common_value': 'Sprout Social', 'most_common_count': 2933}
+createdAt: {'count': 2933, 'unique_values': 2933, 'most_common_value': '2023-09-30 15:35:26', 'most_common_count': 1}
+lang: {'count': 2933, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 2933}
+quoteId: {'count': 29, 'unique_values': 29, 'most_common_value': '1.6965043017266386e+18', 'most_common_count': 1}
+month_year: {'count': 2933, 'unique_values': 15, 'most_common_value': '2024-10', 'most_common_count': 316}
+election_integrity_Truth_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2933, 'unique_values': 2, '1s': 7, '0s': 2926}
+fraud_illuminating: {'count': 2933, 'unique_values': 2, '1s': 2, '0s': 2931}
+isRetweet: {'count': 2933, 'unique_values': 1, '1s': 0, '0s': 2933}
+isQuote: {'count': 2933, 'unique_values': 2, '1s': 29, '0s': 2904}
+isConversationControlled: {'count': 2933, 'unique_values': 1, '1s': 0, '0s': 2933}
+
+--- Group: source = Twitter Media Studio ---
+retweetCount: {'count': 499, 'unique_values': 425, 'min': 8.0, 'max': 32636.0, 'mean': 1586.21, 'std_dev': 3152.2}
+replyCount: {'count': 499, 'unique_values': 402, 'min': 2.0, 'max': 18819.0, 'mean': 1162.29, 'std_dev': 1998.02}
+likeCount: {'count': 499, 'unique_values': 473, 'min': 52.0, 'max': 119065.0, 'mean': 7397.89, 'std_dev': 13954.83}
+quoteCount: {'count': 499, 'unique_values': 196, 'min': 0.0, 'max': 6695.0, 'mean': 142.99, 'std_dev': 514.8}
+viewCount: {'count': 499, 'unique_values': 499, 'min': 8313.0, 'max': 18876894.0, 'mean': 472523.46, 'std_dev': 1242818.76}
+bookmarkCount: {'count': 499, 'unique_values': 210, 'min': 0.0, 'max': 13269.0, 'mean': 242.74, 'std_dev': 1075.56}
+illuminating_scored_message: {'count': 499, 'unique_values': 499}
+id: {'count': 499, 'unique_values': 499, 'most_common_value': '6f8d99ca99c0f06201ab73488b4ce5fd8d52f5f2dbfee0754fdea870a056ab73', 'most_common_count': 1}
+url: {'count': 499, 'unique_values': 499, 'most_common_value': '909513089d3a218ec722f8e16dabd711ba7c74bb350cf61b45764e26618234cb', 'most_common_count': 1}
+source: {'count': 499, 'unique_values': 1, 'most_common_value': 'Twitter Media Studio', 'most_common_count': 499}
+createdAt: {'count': 499, 'unique_values': 498, 'most_common_value': '2024-08-06 21:26:08', 'most_common_count': 2}
+lang: {'count': 499, 'unique_values': 2, 'most_common_value': 'en', 'most_common_count': 498}
+month_year: {'count': 499, 'unique_values': 15, 'most_common_value': '2023-09', 'most_common_count': 66}
+election_integrity_Truth_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 459, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 459, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 459, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 499, 'unique_values': 2, '1s': 3, '0s': 496}
+fraud_illuminating: {'count': 499, 'unique_values': 2, '1s': 1, '0s': 498}
+isRetweet: {'count': 499, 'unique_values': 1, '1s': 0, '0s': 499}
+isQuote: {'count': 499, 'unique_values': 1, '1s': 0, '0s': 499}
+isConversationControlled: {'count': 499, 'unique_values': 1, '1s': 0, '0s': 499}
+
+--- Group: source = Periscope ---
+retweetCount: {'count': 103, 'unique_values': 90, 'min': 23.0, 'max': 29648.0, 'mean': 596.73, 'std_dev': 2935.38}
+replyCount: {'count': 103, 'unique_values': 90, 'min': 3.0, 'max': 14559.0, 'mean': 402.06, 'std_dev': 1517.7}
+likeCount: {'count': 103, 'unique_values': 102, 'min': 96.0, 'max': 127603.0, 'mean': 2483.36, 'std_dev': 12676.94}
+quoteCount: {'count': 103, 'unique_values': 48, 'min': 0.0, 'max': 4891.0, 'mean': 78.51, 'std_dev': 482.14}
+viewCount: {'count': 103, 'unique_values': 103, 'min': 9518.0, 'max': 14689732.0, 'mean': 303090.44, 'std_dev': 1486997.21}
+bookmarkCount: {'count': 103, 'unique_values': 50, 'min': 0.0, 'max': 14567.0, 'mean': 185.62, 'std_dev': 1427.42}
+illuminating_scored_message: {'count': 103, 'unique_values': 103}
+id: {'count': 103, 'unique_values': 103, 'most_common_value': '7a956e1a453deab79f74c9b37dbbb6b06bd28703692813664f16616515381ead', 'most_common_count': 1}
+url: {'count': 103, 'unique_values': 103, 'most_common_value': 'c4ecc3e5887aca76327a927c4cdf7203715461ed671effb30a61777134e98571', 'most_common_count': 1}
+source: {'count': 103, 'unique_values': 1, 'most_common_value': 'Periscope', 'most_common_count': 103}
+createdAt: {'count': 103, 'unique_values': 103, 'most_common_value': '2023-09-30 02:59:28', 'most_common_count': 1}
+lang: {'count': 103, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 103}
+month_year: {'count': 103, 'unique_values': 14, 'most_common_value': '2023-12', 'most_common_count': 23}
+election_integrity_Truth_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+fraud_illuminating: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+isRetweet: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+isQuote: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+isConversationControlled: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+
+--- Group: source = Twitter for Advertisers ---
+retweetCount: {'count': 7, 'unique_values': 7, 'min': 14.0, 'max': 289.0, 'mean': 97.0, 'std_dev': 89.32}
+replyCount: {'count': 7, 'unique_values': 7, 'min': 31.0, 'max': 271.0, 'mean': 138.71, 'std_dev': 78.28}
+likeCount: {'count': 7, 'unique_values': 7, 'min': 97.0, 'max': 2517.0, 'mean': 755.57, 'std_dev': 759.49}
+quoteCount: {'count': 7, 'unique_values': 6, 'min': 0.0, 'max': 35.0, 'mean': 11.43, 'std_dev': 11.52}
+viewCount: {'count': 7, 'unique_values': 7, 'min': 11639.0, 'max': 151709.0, 'mean': 50335.0, 'std_dev': 48167.73}
+bookmarkCount: {'count': 7, 'unique_values': 5, 'min': 0.0, 'max': 10.0, 'mean': 3.29, 'std_dev': 3.45}
+illuminating_scored_message: {'count': 7, 'unique_values': 7}
+id: {'count': 7, 'unique_values': 7, 'most_common_value': '887084e542079a41a9f66a617168b467bfd258ca923eba96887306c9ab061bb0', 'most_common_count': 1}
+url: {'count': 7, 'unique_values': 7, 'most_common_value': '984f05b27019dc82bd0199fd7471d1a8d87366d716caae862eabb051b85a2a0b', 'most_common_count': 1}
+source: {'count': 7, 'unique_values': 1, 'most_common_value': 'Twitter for Advertisers', 'most_common_count': 7}
+createdAt: {'count': 7, 'unique_values': 7, 'most_common_value': '2023-09-21 14:52:44', 'most_common_count': 1}
+lang: {'count': 7, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 7}
+month_year: {'count': 7, 'unique_values': 3, 'most_common_value': '2023-09', 'most_common_count': 3}
+election_integrity_Truth_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+fraud_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isRetweet: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isQuote: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isConversationControlled: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+
+--- Group: source = Loomly ---
+retweetCount: {'count': 10, 'unique_values': 5, 'min': 0.0, 'max': 230.0, 'mean': 25.4, 'std_dev': 68.39}
+replyCount: {'count': 10, 'unique_values': 8, 'min': 0.0, 'max': 188.0, 'mean': 23.1, 'std_dev': 55.16}
+likeCount: {'count': 10, 'unique_values': 8, 'min': 0.0, 'max': 1301.0, 'mean': 160.3, 'std_dev': 383.87}
+quoteCount: {'count': 10, 'unique_values': 3, 'min': 0.0, 'max': 13.0, 'mean': 1.4, 'std_dev': 3.88}
+viewCount: {'count': 10, 'unique_values': 10, 'min': 154.0, 'max': 85529.0, 'mean': 17030.0, 'std_dev': 25501.49}
+bookmarkCount: {'count': 10, 'unique_values': 2, 'min': 0.0, 'max': 1.0, 'mean': 0.4, 'std_dev': 0.49}
+illuminating_scored_message: {'count': 10, 'unique_values': 10}
+id: {'count': 10, 'unique_values': 10, 'most_common_value': 'fcc78e04b62606e658c998fdfca2ee143fd1ffebae40ed0c9e8aa548833e767a', 'most_common_count': 1}
+url: {'count': 10, 'unique_values': 10, 'most_common_value': '5ef1e7325221e8af82ffd4d3522e2df996acd4038690a3f5fc9a664cae11561d', 'most_common_count': 1}
+source: {'count': 10, 'unique_values': 1, 'most_common_value': 'Loomly', 'most_common_count': 10}
+createdAt: {'count': 10, 'unique_values': 10, 'most_common_value': '2023-09-25 12:03:43', 'most_common_count': 1}
+lang: {'count': 10, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 10}
+month_year: {'count': 10, 'unique_values': 2, 'most_common_value': '2024-01', 'most_common_count': 8}
+election_integrity_Truth_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+fraud_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+isRetweet: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+isQuote: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+isConversationControlled: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+
+--- Group: source = Twitter for Android ---
+retweetCount: {'count': 5, 'unique_values': 4, 'min': 6.0, 'max': 18.0, 'mean': 10.6, 'std_dev': 5.28}
+replyCount: {'count': 5, 'unique_values': 4, 'min': 4.0, 'max': 18.0, 'mean': 8.4, 'std_dev': 5.46}
+likeCount: {'count': 5, 'unique_values': 5, 'min': 33.0, 'max': 115.0, 'mean': 63.8, 'std_dev': 33.49}
+quoteCount: {'count': 5, 'unique_values': 2, 'min': 0.0, 'max': 1.0, 'mean': 0.4, 'std_dev': 0.49}
+viewCount: {'count': 5, 'unique_values': 5, 'min': 13161.0, 'max': 35799.0, 'mean': 19899.4, 'std_dev': 8715.35}
+bookmarkCount: {'count': 5, 'unique_values': 1, 'min': 1.0, 'max': 1.0, 'mean': 1.0, 'std_dev': 0.0}
+illuminating_scored_message: {'count': 5, 'unique_values': 5}
+id: {'count': 5, 'unique_values': 5, 'most_common_value': '2451883a465f0f53ce16b73162e3f691dd7d1ba33d1713ef8394e1e845c82545', 'most_common_count': 1}
+url: {'count': 5, 'unique_values': 5, 'most_common_value': '248fe90f6f61edf65212bc6ec96f3712d59743a99d00fc2d0e470742cc0bc717', 'most_common_count': 1}
+source: {'count': 5, 'unique_values': 1, 'most_common_value': 'Twitter for Android', 'most_common_count': 5}
+createdAt: {'count': 5, 'unique_values': 5, 'most_common_value': '2023-09-23 16:02:32', 'most_common_count': 1}
+lang: {'count': 5, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 5}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7049022661745093e+18', 'most_common_count': 1}
+month_year: {'count': 5, 'unique_values': 1, 'most_common_value': '2023-09', 'most_common_count': 5}
+election_integrity_Truth_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 5, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 5, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+fraud_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+isRetweet: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+isQuote: {'count': 5, 'unique_values': 2, '1s': 1, '0s': 4}
+isConversationControlled: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+
+--- Group: source = Twitter for iPad ---
+retweetCount: {'count': 266, 'unique_values': 126, 'min': 0.0, 'max': 723.0, 'mean': 65.38, 'std_dev': 67.84}
+replyCount: {'count': 266, 'unique_values': 62, 'min': 0.0, 'max': 352.0, 'mean': 21.3, 'std_dev': 33.93}
+likeCount: {'count': 266, 'unique_values': 185, 'min': 0.0, 'max': 3067.0, 'mean': 222.7, 'std_dev': 281.74}
+quoteCount: {'count': 266, 'unique_values': 37, 'min': 0.0, 'max': 156.0, 'mean': 8.26, 'std_dev': 14.09}
+viewCount: {'count': 266, 'unique_values': 265, 'min': 36.0, 'max': 538373.0, 'mean': 21353.53, 'std_dev': 37949.44}
+bookmarkCount: {'count': 266, 'unique_values': 26, 'min': 0.0, 'max': 268.0, 'mean': 5.23, 'std_dev': 17.41}
+illuminating_scored_message: {'count': 266, 'unique_values': 266}
+id: {'count': 266, 'unique_values': 266, 'most_common_value': 'bc6524b3c0afd91ca6de12fdff8cd73eb9e91546f27daf2f18107bda6bcd56c0', 'most_common_count': 1}
+url: {'count': 266, 'unique_values': 266, 'most_common_value': '6a56c67fc8bc0f2d9e805193a5d64d62f1001cf6cff84636c3c10b8c7f927478', 'most_common_count': 1}
+source: {'count': 266, 'unique_values': 1, 'most_common_value': 'Twitter for iPad', 'most_common_count': 266}
+createdAt: {'count': 266, 'unique_values': 263, 'most_common_value': '2023-11-22 22:56:26', 'most_common_count': 2}
+lang: {'count': 266, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 266}
+quoteId: {'count': 11, 'unique_values': 11, 'most_common_value': '1.7618457994478472e+18', 'most_common_count': 1}
+inReplyToId: {'count': 65, 'unique_values': 65, 'most_common_value': '1.707499736545084e+18', 'most_common_count': 1}
+month_year: {'count': 266, 'unique_values': 8, 'most_common_value': '2024-01', 'most_common_count': 47}
+election_integrity_Truth_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 266}
+fraud_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 266}
+isRetweet: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 266}
+isQuote: {'count': 266, 'unique_values': 2, '1s': 11, '0s': 255}
+isConversationControlled: {'count': 266, 'unique_values': 2, '1s': 1, '0s': 265}
+
+--- Group: source = TweetDeck Web App ---
+retweetCount: {'count': 7, 'unique_values': 7, 'min': 190.0, 'max': 7599.0, 'mean': 1911.14, 'std_dev': 2433.03}
+replyCount: {'count': 7, 'unique_values': 7, 'min': 42.0, 'max': 2449.0, 'mean': 659.29, 'std_dev': 776.22}
+likeCount: {'count': 7, 'unique_values': 7, 'min': 872.0, 'max': 30348.0, 'mean': 10360.43, 'std_dev': 9574.91}
+quoteCount: {'count': 7, 'unique_values': 7, 'min': 18.0, 'max': 353.0, 'mean': 155.57, 'std_dev': 136.95}
+viewCount: {'count': 7, 'unique_values': 7, 'min': 56799.0, 'max': 1487402.0, 'mean': 624732.43, 'std_dev': 571159.09}
+bookmarkCount: {'count': 7, 'unique_values': 7, 'min': 21.0, 'max': 2177.0, 'mean': 491.43, 'std_dev': 747.14}
+illuminating_scored_message: {'count': 7, 'unique_values': 7}
+id: {'count': 7, 'unique_values': 7, 'most_common_value': 'c0ac5af5e9fd681f8f8b985bd3321d92298c977fa245cb1ca7ad89ffa3b13873', 'most_common_count': 1}
+url: {'count': 7, 'unique_values': 7, 'most_common_value': 'a536877270542f4557a15ddd42fa4bba6373597ce754c785b7d88b9cc70f4e9f', 'most_common_count': 1}
+source: {'count': 7, 'unique_values': 1, 'most_common_value': 'TweetDeck Web App', 'most_common_count': 7}
+createdAt: {'count': 7, 'unique_values': 7, 'most_common_value': '2023-11-26 17:37:32', 'most_common_count': 1}
+lang: {'count': 7, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 7}
+month_year: {'count': 7, 'unique_values': 3, 'most_common_value': '2024-06', 'most_common_count': 4}
+election_integrity_Truth_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+fraud_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isRetweet: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isQuote: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isConversationControlled: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+
+--- Group: source = Hootsuite Inc. ---
+retweetCount: {'count': 47, 'unique_values': 36, 'min': 47.0, 'max': 780.0, 'mean': 129.98, 'std_dev': 136.2}
+replyCount: {'count': 47, 'unique_values': 36, 'min': 8.0, 'max': 168.0, 'mean': 37.19, 'std_dev': 29.79}
+likeCount: {'count': 47, 'unique_values': 47, 'min': 120.0, 'max': 2195.0, 'mean': 380.83, 'std_dev': 400.39}
+quoteCount: {'count': 47, 'unique_values': 20, 'min': 0.0, 'max': 44.0, 'mean': 7.53, 'std_dev': 8.53}
+viewCount: {'count': 47, 'unique_values': 47, 'min': 13542.0, 'max': 68518.0, 'mean': 29066.62, 'std_dev': 13402.43}
+bookmarkCount: {'count': 47, 'unique_values': 16, 'min': 1.0, 'max': 56.0, 'mean': 8.45, 'std_dev': 10.46}
+illuminating_scored_message: {'count': 47, 'unique_values': 47}
+id: {'count': 47, 'unique_values': 47, 'most_common_value': '5354908dccb40525b2d42c46902a86f5a9f39e4c8961af02b2372cab0d0e497f', 'most_common_count': 1}
+url: {'count': 47, 'unique_values': 47, 'most_common_value': 'f428cd263ba408fab8558e9b9d186a2810d1bf0e9ffd1373b9dc3a6937a5db8e', 'most_common_count': 1}
+source: {'count': 47, 'unique_values': 1, 'most_common_value': 'Hootsuite Inc.', 'most_common_count': 47}
+createdAt: {'count': 47, 'unique_values': 47, 'most_common_value': '2024-02-27 16:02:48', 'most_common_count': 1}
+lang: {'count': 47, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 47}
+month_year: {'count': 47, 'unique_values': 8, 'most_common_value': '2024-03', 'most_common_count': 11}
+election_integrity_Truth_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+fraud_illuminating: {'count': 47, 'unique_values': 2, '1s': 1, '0s': 46}
+isRetweet: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+isQuote: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+isConversationControlled: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+
+--- Group: source = Canva ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 69.0, 'max': 69.0, 'mean': 69.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 324.0, 'max': 324.0, 'mean': 324.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 490.0, 'max': 490.0, 'mean': 490.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 40.0, 'max': 40.0, 'mean': 40.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 41173.0, 'max': 41173.0, 'mean': 41173.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 16.0, 'max': 16.0, 'mean': 16.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Canva', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02-29 21:26:10', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Later Media ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 93.0, 'max': 93.0, 'mean': 93.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 18.0, 'max': 18.0, 'mean': 18.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 280.0, 'max': 280.0, 'mean': 280.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 10.0, 'max': 10.0, 'mean': 10.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 12847.0, 'max': 12847.0, 'mean': 12847.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 5.0, 'max': 5.0, 'mean': 5.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Later Media', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02-01 11:10:49', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Web Client ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 98.0, 'max': 98.0, 'mean': 98.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 26.0, 'max': 26.0, 'mean': 26.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 340.0, 'max': 340.0, 'mean': 340.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 6.0, 'max': 6.0, 'mean': 6.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 19547.0, 'max': 19547.0, 'mean': 19547.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 6.0, 'max': 6.0, 'mean': 6.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'e7f7a30f08b7e1f4aae3d31e20543ad57584fe3034a117d42bbd3f578f7ec850', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': 'cc3131317571ee071cc7e0354ca3524e083bd730d883f6d87a4667294eac510f', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web Client', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-10-19 18:02:00', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-10', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter for iPhone, lang = en ---
+retweetCount: {'count': 8482, 'unique_values': 1798, 'min': 0.0, 'max': 67113.0, 'mean': 613.23, 'std_dev': 2157.25}
+replyCount: {'count': 8482, 'unique_values': 1214, 'min': 0.0, 'max': 30215.0, 'mean': 290.06, 'std_dev': 1036.59}
+likeCount: {'count': 8482, 'unique_values': 3443, 'min': 0.0, 'max': 588065.0, 'mean': 3745.8, 'std_dev': 15966.62}
+quoteCount: {'count': 8482, 'unique_values': 459, 'min': 0.0, 'max': 6552.0, 'mean': 43.82, 'std_dev': 190.81}
+viewCount: {'count': 8482, 'unique_values': 7938, 'min': 9.0, 'max': 31294362.0, 'mean': 245837.43, 'std_dev': 955091.2}
+bookmarkCount: {'count': 8482, 'unique_values': 585, 'min': 0.0, 'max': 22901.0, 'mean': 69.87, 'std_dev': 403.21}
+illuminating_scored_message: {'count': 8482, 'unique_values': 8431}
+id: {'count': 8482, 'unique_values': 8482, 'most_common_value': 'cc46051622b8a9c1b883a3bbf12c640b12ac1cbdc7f48a773b6cc2a65f03aa2d', 'most_common_count': 1}
+url: {'count': 8482, 'unique_values': 8482, 'most_common_value': 'f70a206472e9deaf6e313297c1efb891729ced346a0aeb34e16935d78f74b937', 'most_common_count': 1}
+source: {'count': 8482, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 8482}
+createdAt: {'count': 8482, 'unique_values': 8419, 'most_common_value': '2023-09-25 15:22:49', 'most_common_count': 3}
+lang: {'count': 8482, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 8482}
+quoteId: {'count': 1853, 'unique_values': 1812, 'most_common_value': '1.711730672279122e+18', 'most_common_count': 4}
+inReplyToId: {'count': 1795, 'unique_values': 1780, 'most_common_value': '1.789104982999876e+18', 'most_common_count': 3}
+month_year: {'count': 8482, 'unique_values': 15, 'most_common_value': '2023-11', 'most_common_count': 1346}
+election_integrity_Truth_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 8158, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 8482, 'unique_values': 2, '1s': 8, '0s': 8474}
+fraud_illuminating: {'count': 8482, 'unique_values': 2, '1s': 29, '0s': 8453}
+isRetweet: {'count': 8482, 'unique_values': 1, '1s': 0, '0s': 8482}
+isQuote: {'count': 8482, 'unique_values': 2, '1s': 1826, '0s': 6656}
+isConversationControlled: {'count': 8482, 'unique_values': 2, '1s': 7, '0s': 8475}
+
+--- Group: source = Twitter Web App, lang = en ---
+retweetCount: {'count': 14920, 'unique_values': 3584, 'min': 0.0, 'max': 144615.0, 'mean': 1316.79, 'std_dev': 3571.75}
+replyCount: {'count': 14920, 'unique_values': 2457, 'min': 0.0, 'max': 121270.0, 'mean': 719.32, 'std_dev': 2689.86}
+likeCount: {'count': 14920, 'unique_values': 6932, 'min': 0.0, 'max': 915221.0, 'mean': 6664.08, 'std_dev': 22469.34}
+quoteCount: {'count': 14920, 'unique_values': 915, 'min': 0.0, 'max': 123320.0, 'mean': 120.08, 'std_dev': 1465.01}
+viewCount: {'count': 14920, 'unique_values': 14385, 'min': 5.0, 'max': 333502775.0, 'mean': 474079.83, 'std_dev': 3967337.93}
+bookmarkCount: {'count': 14920, 'unique_values': 1150, 'min': 0.0, 'max': 42693.0, 'mean': 154.32, 'std_dev': 843.65}
+illuminating_scored_message: {'count': 14920, 'unique_values': 14849}
+id: {'count': 14920, 'unique_values': 14920, 'most_common_value': 'ca2795ec79d62adc1fff06c4d3bc9da0bbc899e32c9b218798ac62a0ceae19dc', 'most_common_count': 1}
+url: {'count': 14920, 'unique_values': 14920, 'most_common_value': 'c589bd751d7e1d275901b184087716d3155a582b16430810211e1344d3ad2785', 'most_common_count': 1}
+source: {'count': 14920, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 14920}
+createdAt: {'count': 14920, 'unique_values': 14711, 'most_common_value': '2023-10-06 04:55:21', 'most_common_count': 4}
+lang: {'count': 14920, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 14920}
+quoteId: {'count': 1388, 'unique_values': 1345, 'most_common_value': '1.7731398481085975e+18', 'most_common_count': 4}
+inReplyToId: {'count': 1481, 'unique_values': 1465, 'most_common_value': '1.7444996006715807e+18', 'most_common_count': 6}
+month_year: {'count': 14920, 'unique_values': 15, 'most_common_value': '2024-10', 'most_common_count': 2928}
+election_integrity_Truth_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 14190, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 14920, 'unique_values': 2, '1s': 21, '0s': 14899}
+fraud_illuminating: {'count': 14920, 'unique_values': 2, '1s': 42, '0s': 14878}
+isRetweet: {'count': 14920, 'unique_values': 1, '1s': 0, '0s': 14920}
+isQuote: {'count': 14920, 'unique_values': 2, '1s': 1368, '0s': 13552}
+isConversationControlled: {'count': 14920, 'unique_values': 1, '1s': 0, '0s': 14920}
+
+--- Group: source = Sprout Social, lang = en ---
+retweetCount: {'count': 2933, 'unique_values': 2311, 'min': 13.0, 'max': 80331.0, 'mean': 3524.79, 'std_dev': 4583.9}
+replyCount: {'count': 2933, 'unique_values': 2562, 'min': 12.0, 'max': 60598.0, 'mean': 5186.27, 'std_dev': 5803.9}
+likeCount: {'count': 2933, 'unique_values': 2802, 'min': 60.0, 'max': 423537.0, 'mean': 18173.41, 'std_dev': 28805.32}
+quoteCount: {'count': 2933, 'unique_values': 981, 'min': 0.0, 'max': 17200.0, 'mean': 426.12, 'std_dev': 854.88}
+viewCount: {'count': 2933, 'unique_values': 2931, 'min': 2647.0, 'max': 76522204.0, 'mean': 1501097.31, 'std_dev': 3432376.72}
+bookmarkCount: {'count': 2933, 'unique_values': 690, 'min': 0.0, 'max': 13271.0, 'mean': 230.8, 'std_dev': 581.75}
+illuminating_scored_message: {'count': 2933, 'unique_values': 2930}
+id: {'count': 2933, 'unique_values': 2933, 'most_common_value': '562f42161d274553cded804ba8f9c8480e5f9208d9134dd38f3da184eafc5b79', 'most_common_count': 1}
+url: {'count': 2933, 'unique_values': 2933, 'most_common_value': 'ca71b42b22b2a7a8d4d3513013fecf6e5f94bf6453927b29b28bdd12a3bd6689', 'most_common_count': 1}
+source: {'count': 2933, 'unique_values': 1, 'most_common_value': 'Sprout Social', 'most_common_count': 2933}
+createdAt: {'count': 2933, 'unique_values': 2933, 'most_common_value': '2023-09-30 15:35:26', 'most_common_count': 1}
+lang: {'count': 2933, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 2933}
+quoteId: {'count': 29, 'unique_values': 29, 'most_common_value': '1.6965043017266386e+18', 'most_common_count': 1}
+month_year: {'count': 2933, 'unique_values': 15, 'most_common_value': '2024-10', 'most_common_count': 316}
+election_integrity_Truth_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 2769, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2933, 'unique_values': 2, '1s': 7, '0s': 2926}
+fraud_illuminating: {'count': 2933, 'unique_values': 2, '1s': 2, '0s': 2931}
+isRetweet: {'count': 2933, 'unique_values': 1, '1s': 0, '0s': 2933}
+isQuote: {'count': 2933, 'unique_values': 2, '1s': 29, '0s': 2904}
+isConversationControlled: {'count': 2933, 'unique_values': 1, '1s': 0, '0s': 2933}
+
+--- Group: source = Twitter Media Studio, lang = en ---
+retweetCount: {'count': 498, 'unique_values': 425, 'min': 8.0, 'max': 32636.0, 'mean': 1589.32, 'std_dev': 3154.6}
+replyCount: {'count': 498, 'unique_values': 402, 'min': 2.0, 'max': 18819.0, 'mean': 1164.61, 'std_dev': 1999.35}
+likeCount: {'count': 498, 'unique_values': 472, 'min': 52.0, 'max': 119065.0, 'mean': 7412.5, 'std_dev': 13965.02}
+quoteCount: {'count': 498, 'unique_values': 196, 'min': 0.0, 'max': 6695.0, 'mean': 143.26, 'std_dev': 515.28}
+viewCount: {'count': 498, 'unique_values': 498, 'min': 8313.0, 'max': 18876894.0, 'mean': 473441.6, 'std_dev': 1243896.87}
+bookmarkCount: {'count': 498, 'unique_values': 210, 'min': 0.0, 'max': 13269.0, 'mean': 243.22, 'std_dev': 1076.58}
+illuminating_scored_message: {'count': 498, 'unique_values': 498}
+id: {'count': 498, 'unique_values': 498, 'most_common_value': '6f8d99ca99c0f06201ab73488b4ce5fd8d52f5f2dbfee0754fdea870a056ab73', 'most_common_count': 1}
+url: {'count': 498, 'unique_values': 498, 'most_common_value': '909513089d3a218ec722f8e16dabd711ba7c74bb350cf61b45764e26618234cb', 'most_common_count': 1}
+source: {'count': 498, 'unique_values': 1, 'most_common_value': 'Twitter Media Studio', 'most_common_count': 498}
+createdAt: {'count': 498, 'unique_values': 497, 'most_common_value': '2024-08-06 21:26:08', 'most_common_count': 2}
+lang: {'count': 498, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 498}
+month_year: {'count': 498, 'unique_values': 15, 'most_common_value': '2023-09', 'most_common_count': 66}
+election_integrity_Truth_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 458, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 458, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 458, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 498, 'unique_values': 2, '1s': 3, '0s': 495}
+fraud_illuminating: {'count': 498, 'unique_values': 2, '1s': 1, '0s': 497}
+isRetweet: {'count': 498, 'unique_values': 1, '1s': 0, '0s': 498}
+isQuote: {'count': 498, 'unique_values': 1, '1s': 0, '0s': 498}
+isConversationControlled: {'count': 498, 'unique_values': 1, '1s': 0, '0s': 498}
+
+--- Group: source = Twitter for iPhone, lang = tl ---
+retweetCount: {'count': 2, 'unique_values': 2, 'min': 1.0, 'max': 759.0, 'mean': 380.0, 'std_dev': 379.0}
+replyCount: {'count': 2, 'unique_values': 2, 'min': 3.0, 'max': 83.0, 'mean': 43.0, 'std_dev': 40.0}
+likeCount: {'count': 2, 'unique_values': 2, 'min': 29.0, 'max': 2095.0, 'mean': 1062.0, 'std_dev': 1033.0}
+quoteCount: {'count': 2, 'unique_values': 2, 'min': 0.0, 'max': 21.0, 'mean': 10.5, 'std_dev': 10.5}
+viewCount: {'count': 2, 'unique_values': 2, 'min': 5776.0, 'max': 50103.0, 'mean': 27939.5, 'std_dev': 22163.5}
+bookmarkCount: {'count': 2, 'unique_values': 2, 'min': 0.0, 'max': 43.0, 'mean': 21.5, 'std_dev': 21.5}
+illuminating_scored_message: {'count': 2, 'unique_values': 2}
+id: {'count': 2, 'unique_values': 2, 'most_common_value': 'd6576fe3e96bc124486946e8121dde79b9519538af444cb7c65c12b09cdda84c', 'most_common_count': 1}
+url: {'count': 2, 'unique_values': 2, 'most_common_value': 'c0e9f2ff9a4e53dba0e7dd2c9e5a436fa60efe1f084bcc3cfa2b41d53444f08d', 'most_common_count': 1}
+source: {'count': 2, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 2}
+createdAt: {'count': 2, 'unique_values': 2, 'most_common_value': '2023-09-21 21:38:14', 'most_common_count': 1}
+lang: {'count': 2, 'unique_values': 1, 'most_common_value': 'tl', 'most_common_count': 2}
+inReplyToId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7049270444279854e+18', 'most_common_count': 1}
+month_year: {'count': 2, 'unique_values': 2, 'most_common_value': '2023-09', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+fraud_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isRetweet: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isQuote: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isConversationControlled: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+
+--- Group: source = Periscope, lang = en ---
+retweetCount: {'count': 103, 'unique_values': 90, 'min': 23.0, 'max': 29648.0, 'mean': 596.73, 'std_dev': 2935.38}
+replyCount: {'count': 103, 'unique_values': 90, 'min': 3.0, 'max': 14559.0, 'mean': 402.06, 'std_dev': 1517.7}
+likeCount: {'count': 103, 'unique_values': 102, 'min': 96.0, 'max': 127603.0, 'mean': 2483.36, 'std_dev': 12676.94}
+quoteCount: {'count': 103, 'unique_values': 48, 'min': 0.0, 'max': 4891.0, 'mean': 78.51, 'std_dev': 482.14}
+viewCount: {'count': 103, 'unique_values': 103, 'min': 9518.0, 'max': 14689732.0, 'mean': 303090.44, 'std_dev': 1486997.21}
+bookmarkCount: {'count': 103, 'unique_values': 50, 'min': 0.0, 'max': 14567.0, 'mean': 185.62, 'std_dev': 1427.42}
+illuminating_scored_message: {'count': 103, 'unique_values': 103}
+id: {'count': 103, 'unique_values': 103, 'most_common_value': '7a956e1a453deab79f74c9b37dbbb6b06bd28703692813664f16616515381ead', 'most_common_count': 1}
+url: {'count': 103, 'unique_values': 103, 'most_common_value': 'c4ecc3e5887aca76327a927c4cdf7203715461ed671effb30a61777134e98571', 'most_common_count': 1}
+source: {'count': 103, 'unique_values': 1, 'most_common_value': 'Periscope', 'most_common_count': 103}
+createdAt: {'count': 103, 'unique_values': 103, 'most_common_value': '2023-09-30 02:59:28', 'most_common_count': 1}
+lang: {'count': 103, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 103}
+month_year: {'count': 103, 'unique_values': 14, 'most_common_value': '2023-12', 'most_common_count': 23}
+election_integrity_Truth_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 100, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 100, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+fraud_illuminating: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+isRetweet: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+isQuote: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+isConversationControlled: {'count': 103, 'unique_values': 1, '1s': 0, '0s': 103}
+
+--- Group: source = Twitter Web App, lang = et ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 14.0, 'max': 14.0, 'mean': 14.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 3.0, 'max': 3.0, 'mean': 3.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 47.0, 'max': 47.0, 'mean': 47.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 1.0, 'max': 1.0, 'mean': 1.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 3355.0, 'max': 3355.0, 'mean': 3355.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 0.0, 'max': 0.0, 'mean': 0.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'c280c5a50aa77937bc8599e0cd48d39b5ae2786da5b980c6679711b73fd1a259', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': 'e6f3196ac07a88d9bddf70b3323df5ce84b1896332ef45a737d632cc23d96acd', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2023-09-08 16:19:07', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'et', 'most_common_count': 1}
+inReplyToId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7001819821377495e+18', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2023-09', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter for Advertisers, lang = en ---
+retweetCount: {'count': 7, 'unique_values': 7, 'min': 14.0, 'max': 289.0, 'mean': 97.0, 'std_dev': 89.32}
+replyCount: {'count': 7, 'unique_values': 7, 'min': 31.0, 'max': 271.0, 'mean': 138.71, 'std_dev': 78.28}
+likeCount: {'count': 7, 'unique_values': 7, 'min': 97.0, 'max': 2517.0, 'mean': 755.57, 'std_dev': 759.49}
+quoteCount: {'count': 7, 'unique_values': 6, 'min': 0.0, 'max': 35.0, 'mean': 11.43, 'std_dev': 11.52}
+viewCount: {'count': 7, 'unique_values': 7, 'min': 11639.0, 'max': 151709.0, 'mean': 50335.0, 'std_dev': 48167.73}
+bookmarkCount: {'count': 7, 'unique_values': 5, 'min': 0.0, 'max': 10.0, 'mean': 3.29, 'std_dev': 3.45}
+illuminating_scored_message: {'count': 7, 'unique_values': 7}
+id: {'count': 7, 'unique_values': 7, 'most_common_value': '887084e542079a41a9f66a617168b467bfd258ca923eba96887306c9ab061bb0', 'most_common_count': 1}
+url: {'count': 7, 'unique_values': 7, 'most_common_value': '984f05b27019dc82bd0199fd7471d1a8d87366d716caae862eabb051b85a2a0b', 'most_common_count': 1}
+source: {'count': 7, 'unique_values': 1, 'most_common_value': 'Twitter for Advertisers', 'most_common_count': 7}
+createdAt: {'count': 7, 'unique_values': 7, 'most_common_value': '2023-09-21 14:52:44', 'most_common_count': 1}
+lang: {'count': 7, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 7}
+month_year: {'count': 7, 'unique_values': 3, 'most_common_value': '2023-09', 'most_common_count': 3}
+election_integrity_Truth_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+fraud_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isRetweet: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isQuote: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isConversationControlled: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+
+--- Group: source = Twitter for iPhone, lang = es ---
+retweetCount: {'count': 2, 'unique_values': 2, 'min': 36.0, 'max': 238.0, 'mean': 137.0, 'std_dev': 101.0}
+replyCount: {'count': 2, 'unique_values': 2, 'min': 12.0, 'max': 265.0, 'mean': 138.5, 'std_dev': 126.5}
+likeCount: {'count': 2, 'unique_values': 2, 'min': 86.0, 'max': 5498.0, 'mean': 2792.0, 'std_dev': 2706.0}
+quoteCount: {'count': 2, 'unique_values': 2, 'min': 2.0, 'max': 23.0, 'mean': 12.5, 'std_dev': 10.5}
+viewCount: {'count': 2, 'unique_values': 2, 'min': 18655.0, 'max': 711091.0, 'mean': 364873.0, 'std_dev': 346218.0}
+bookmarkCount: {'count': 2, 'unique_values': 2, 'min': 0.0, 'max': 31.0, 'mean': 15.5, 'std_dev': 15.5}
+illuminating_scored_message: {'count': 2, 'unique_values': 2}
+id: {'count': 2, 'unique_values': 2, 'most_common_value': '2bd66e18f2a61329d617e8253c012b02f435f5443ecce80fdd475129958a2d75', 'most_common_count': 1}
+url: {'count': 2, 'unique_values': 2, 'most_common_value': '18a6bef501a50f476ed775eb6f50214c924ed044a5e14d6378c861ae822e6fa9', 'most_common_count': 1}
+source: {'count': 2, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 2}
+createdAt: {'count': 2, 'unique_values': 2, 'most_common_value': '2023-09-12 11:05:26', 'most_common_count': 1}
+lang: {'count': 2, 'unique_values': 1, 'most_common_value': 'es', 'most_common_count': 2}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.701094459344073e+18', 'most_common_count': 1}
+month_year: {'count': 2, 'unique_values': 2, 'most_common_value': '2023-09', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+fraud_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isRetweet: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isQuote: {'count': 2, 'unique_values': 2, '1s': 1, '0s': 1}
+isConversationControlled: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+
+--- Group: source = Loomly, lang = en ---
+retweetCount: {'count': 10, 'unique_values': 5, 'min': 0.0, 'max': 230.0, 'mean': 25.4, 'std_dev': 68.39}
+replyCount: {'count': 10, 'unique_values': 8, 'min': 0.0, 'max': 188.0, 'mean': 23.1, 'std_dev': 55.16}
+likeCount: {'count': 10, 'unique_values': 8, 'min': 0.0, 'max': 1301.0, 'mean': 160.3, 'std_dev': 383.87}
+quoteCount: {'count': 10, 'unique_values': 3, 'min': 0.0, 'max': 13.0, 'mean': 1.4, 'std_dev': 3.88}
+viewCount: {'count': 10, 'unique_values': 10, 'min': 154.0, 'max': 85529.0, 'mean': 17030.0, 'std_dev': 25501.49}
+bookmarkCount: {'count': 10, 'unique_values': 2, 'min': 0.0, 'max': 1.0, 'mean': 0.4, 'std_dev': 0.49}
+illuminating_scored_message: {'count': 10, 'unique_values': 10}
+id: {'count': 10, 'unique_values': 10, 'most_common_value': 'fcc78e04b62606e658c998fdfca2ee143fd1ffebae40ed0c9e8aa548833e767a', 'most_common_count': 1}
+url: {'count': 10, 'unique_values': 10, 'most_common_value': '5ef1e7325221e8af82ffd4d3522e2df996acd4038690a3f5fc9a664cae11561d', 'most_common_count': 1}
+source: {'count': 10, 'unique_values': 1, 'most_common_value': 'Loomly', 'most_common_count': 10}
+createdAt: {'count': 10, 'unique_values': 10, 'most_common_value': '2023-09-25 12:03:43', 'most_common_count': 1}
+lang: {'count': 10, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 10}
+month_year: {'count': 10, 'unique_values': 2, 'most_common_value': '2024-01', 'most_common_count': 8}
+election_integrity_Truth_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 10, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+fraud_illuminating: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+isRetweet: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+isQuote: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+isConversationControlled: {'count': 10, 'unique_values': 1, '1s': 0, '0s': 10}
+
+--- Group: source = Twitter for Android, lang = en ---
+retweetCount: {'count': 5, 'unique_values': 4, 'min': 6.0, 'max': 18.0, 'mean': 10.6, 'std_dev': 5.28}
+replyCount: {'count': 5, 'unique_values': 4, 'min': 4.0, 'max': 18.0, 'mean': 8.4, 'std_dev': 5.46}
+likeCount: {'count': 5, 'unique_values': 5, 'min': 33.0, 'max': 115.0, 'mean': 63.8, 'std_dev': 33.49}
+quoteCount: {'count': 5, 'unique_values': 2, 'min': 0.0, 'max': 1.0, 'mean': 0.4, 'std_dev': 0.49}
+viewCount: {'count': 5, 'unique_values': 5, 'min': 13161.0, 'max': 35799.0, 'mean': 19899.4, 'std_dev': 8715.35}
+bookmarkCount: {'count': 5, 'unique_values': 1, 'min': 1.0, 'max': 1.0, 'mean': 1.0, 'std_dev': 0.0}
+illuminating_scored_message: {'count': 5, 'unique_values': 5}
+id: {'count': 5, 'unique_values': 5, 'most_common_value': '2451883a465f0f53ce16b73162e3f691dd7d1ba33d1713ef8394e1e845c82545', 'most_common_count': 1}
+url: {'count': 5, 'unique_values': 5, 'most_common_value': '248fe90f6f61edf65212bc6ec96f3712d59743a99d00fc2d0e470742cc0bc717', 'most_common_count': 1}
+source: {'count': 5, 'unique_values': 1, 'most_common_value': 'Twitter for Android', 'most_common_count': 5}
+createdAt: {'count': 5, 'unique_values': 5, 'most_common_value': '2023-09-23 16:02:32', 'most_common_count': 1}
+lang: {'count': 5, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 5}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7049022661745093e+18', 'most_common_count': 1}
+month_year: {'count': 5, 'unique_values': 1, 'most_common_value': '2023-09', 'most_common_count': 5}
+election_integrity_Truth_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 5, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 5, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+fraud_illuminating: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+isRetweet: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+isQuote: {'count': 5, 'unique_values': 2, '1s': 1, '0s': 4}
+isConversationControlled: {'count': 5, 'unique_values': 1, '1s': 0, '0s': 5}
+
+--- Group: source = Twitter for iPad, lang = en ---
+retweetCount: {'count': 266, 'unique_values': 126, 'min': 0.0, 'max': 723.0, 'mean': 65.38, 'std_dev': 67.84}
+replyCount: {'count': 266, 'unique_values': 62, 'min': 0.0, 'max': 352.0, 'mean': 21.3, 'std_dev': 33.93}
+likeCount: {'count': 266, 'unique_values': 185, 'min': 0.0, 'max': 3067.0, 'mean': 222.7, 'std_dev': 281.74}
+quoteCount: {'count': 266, 'unique_values': 37, 'min': 0.0, 'max': 156.0, 'mean': 8.26, 'std_dev': 14.09}
+viewCount: {'count': 266, 'unique_values': 265, 'min': 36.0, 'max': 538373.0, 'mean': 21353.53, 'std_dev': 37949.44}
+bookmarkCount: {'count': 266, 'unique_values': 26, 'min': 0.0, 'max': 268.0, 'mean': 5.23, 'std_dev': 17.41}
+illuminating_scored_message: {'count': 266, 'unique_values': 266}
+id: {'count': 266, 'unique_values': 266, 'most_common_value': 'bc6524b3c0afd91ca6de12fdff8cd73eb9e91546f27daf2f18107bda6bcd56c0', 'most_common_count': 1}
+url: {'count': 266, 'unique_values': 266, 'most_common_value': '6a56c67fc8bc0f2d9e805193a5d64d62f1001cf6cff84636c3c10b8c7f927478', 'most_common_count': 1}
+source: {'count': 266, 'unique_values': 1, 'most_common_value': 'Twitter for iPad', 'most_common_count': 266}
+createdAt: {'count': 266, 'unique_values': 263, 'most_common_value': '2023-11-22 22:56:26', 'most_common_count': 2}
+lang: {'count': 266, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 266}
+quoteId: {'count': 11, 'unique_values': 11, 'most_common_value': '1.7618457994478472e+18', 'most_common_count': 1}
+inReplyToId: {'count': 65, 'unique_values': 65, 'most_common_value': '1.707499736545084e+18', 'most_common_count': 1}
+month_year: {'count': 266, 'unique_values': 8, 'most_common_value': '2024-01', 'most_common_count': 47}
+election_integrity_Truth_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 266, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 266}
+fraud_illuminating: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 266}
+isRetweet: {'count': 266, 'unique_values': 1, '1s': 0, '0s': 266}
+isQuote: {'count': 266, 'unique_values': 2, '1s': 11, '0s': 255}
+isConversationControlled: {'count': 266, 'unique_values': 2, '1s': 1, '0s': 265}
+
+--- Group: source = Twitter for iPhone, lang = pl ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 178.0, 'max': 178.0, 'mean': 178.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 98.0, 'max': 98.0, 'mean': 98.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 507.0, 'max': 507.0, 'mean': 507.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 26.0, 'max': 26.0, 'mean': 26.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 69531.0, 'max': 69531.0, 'mean': 69531.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 19.0, 'max': 19.0, 'mean': 19.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '2d40a0d0849000e3fa2b8604756eaaf9c82e0b750e66dfd65c55484a0f9f96c3', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '00c710cc70266c0c1c531838194f9a038991e3b99cfeffb7d01fef60ddb2daf1', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2023-10-05 19:58:24', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'pl', 'most_common_count': 1}
+inReplyToId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7099446835003558e+18', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2023-10', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter for iPhone, lang = fr ---
+retweetCount: {'count': 2, 'unique_values': 2, 'min': 38.0, 'max': 103.0, 'mean': 70.5, 'std_dev': 32.5}
+replyCount: {'count': 2, 'unique_values': 2, 'min': 11.0, 'max': 28.0, 'mean': 19.5, 'std_dev': 8.5}
+likeCount: {'count': 2, 'unique_values': 2, 'min': 198.0, 'max': 325.0, 'mean': 261.5, 'std_dev': 63.5}
+quoteCount: {'count': 2, 'unique_values': 2, 'min': 2.0, 'max': 3.0, 'mean': 2.5, 'std_dev': 0.5}
+viewCount: {'count': 2, 'unique_values': 2, 'min': 10315.0, 'max': 24406.0, 'mean': 17360.5, 'std_dev': 7045.5}
+bookmarkCount: {'count': 2, 'unique_values': 2, 'min': 0.0, 'max': 9.0, 'mean': 4.5, 'std_dev': 4.5}
+illuminating_scored_message: {'count': 2, 'unique_values': 2}
+id: {'count': 2, 'unique_values': 2, 'most_common_value': '5791fc38ea222ae71f7449a343490d6331cd9e202af1b71f7ee8748b2c3ba219', 'most_common_count': 1}
+url: {'count': 2, 'unique_values': 2, 'most_common_value': '908e663b4b71227b7f59d35410d20de4736941d7f65d98140d61631ff57f60c6', 'most_common_count': 1}
+source: {'count': 2, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 2}
+createdAt: {'count': 2, 'unique_values': 2, 'most_common_value': '2023-10-21 16:22:59', 'most_common_count': 1}
+lang: {'count': 2, 'unique_values': 1, 'most_common_value': 'fr', 'most_common_count': 2}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.8084747523291305e+18', 'most_common_count': 1}
+month_year: {'count': 2, 'unique_values': 2, 'most_common_value': '2023-10', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+fraud_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isRetweet: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isQuote: {'count': 2, 'unique_values': 2, '1s': 1, '0s': 1}
+isConversationControlled: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+
+--- Group: source = TweetDeck Web App, lang = en ---
+retweetCount: {'count': 7, 'unique_values': 7, 'min': 190.0, 'max': 7599.0, 'mean': 1911.14, 'std_dev': 2433.03}
+replyCount: {'count': 7, 'unique_values': 7, 'min': 42.0, 'max': 2449.0, 'mean': 659.29, 'std_dev': 776.22}
+likeCount: {'count': 7, 'unique_values': 7, 'min': 872.0, 'max': 30348.0, 'mean': 10360.43, 'std_dev': 9574.91}
+quoteCount: {'count': 7, 'unique_values': 7, 'min': 18.0, 'max': 353.0, 'mean': 155.57, 'std_dev': 136.95}
+viewCount: {'count': 7, 'unique_values': 7, 'min': 56799.0, 'max': 1487402.0, 'mean': 624732.43, 'std_dev': 571159.09}
+bookmarkCount: {'count': 7, 'unique_values': 7, 'min': 21.0, 'max': 2177.0, 'mean': 491.43, 'std_dev': 747.14}
+illuminating_scored_message: {'count': 7, 'unique_values': 7}
+id: {'count': 7, 'unique_values': 7, 'most_common_value': 'c0ac5af5e9fd681f8f8b985bd3321d92298c977fa245cb1ca7ad89ffa3b13873', 'most_common_count': 1}
+url: {'count': 7, 'unique_values': 7, 'most_common_value': 'a536877270542f4557a15ddd42fa4bba6373597ce754c785b7d88b9cc70f4e9f', 'most_common_count': 1}
+source: {'count': 7, 'unique_values': 1, 'most_common_value': 'TweetDeck Web App', 'most_common_count': 7}
+createdAt: {'count': 7, 'unique_values': 7, 'most_common_value': '2023-11-26 17:37:32', 'most_common_count': 1}
+lang: {'count': 7, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 7}
+month_year: {'count': 7, 'unique_values': 3, 'most_common_value': '2024-06', 'most_common_count': 4}
+election_integrity_Truth_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 7, 'unique_values': 2, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+fraud_illuminating: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isRetweet: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isQuote: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+isConversationControlled: {'count': 7, 'unique_values': 1, '1s': 0, '0s': 7}
+
+--- Group: source = Twitter Web App, lang = fr ---
+retweetCount: {'count': 3, 'unique_values': 3, 'min': 109.0, 'max': 1123.0, 'mean': 520.67, 'std_dev': 435.37}
+replyCount: {'count': 3, 'unique_values': 3, 'min': 42.0, 'max': 692.0, 'mean': 277.67, 'std_dev': 293.9}
+likeCount: {'count': 3, 'unique_values': 3, 'min': 368.0, 'max': 2688.0, 'mean': 1324.67, 'std_dev': 989.83}
+quoteCount: {'count': 3, 'unique_values': 3, 'min': 6.0, 'max': 105.0, 'mean': 46.33, 'std_dev': 42.44}
+viewCount: {'count': 3, 'unique_values': 3, 'min': 17310.0, 'max': 144357.0, 'mean': 67097.33, 'std_dev': 55385.21}
+bookmarkCount: {'count': 3, 'unique_values': 3, 'min': 4.0, 'max': 26.0, 'mean': 17.67, 'std_dev': 9.74}
+illuminating_scored_message: {'count': 3, 'unique_values': 3}
+id: {'count': 3, 'unique_values': 3, 'most_common_value': '6035dc348f45f9b4ed1b0daba2255c60a370ec915a279e5df436b434194b29b0', 'most_common_count': 1}
+url: {'count': 3, 'unique_values': 3, 'most_common_value': 'de86c78ad685d788af2f00b2ed56871722c2e2f7c7e5ed909e44ed53cd2a0099', 'most_common_count': 1}
+source: {'count': 3, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 3}
+createdAt: {'count': 3, 'unique_values': 3, 'most_common_value': '2023-11-06 17:04:45', 'most_common_count': 1}
+lang: {'count': 3, 'unique_values': 1, 'most_common_value': 'fr', 'most_common_count': 3}
+month_year: {'count': 3, 'unique_values': 2, 'most_common_value': '2024-06', 'most_common_count': 2}
+election_integrity_Truth_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 3, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 3, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 3, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 3, 'unique_values': 2, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 3}
+fraud_illuminating: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 3}
+isRetweet: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 3}
+isQuote: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 3}
+isConversationControlled: {'count': 3, 'unique_values': 1, '1s': 0, '0s': 3}
+
+--- Group: source = Twitter for iPhone, lang = in ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 0.0, 'max': 0.0, 'mean': 0.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 0.0, 'max': 0.0, 'mean': 0.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 2.0, 'max': 2.0, 'mean': 2.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 0.0, 'max': 0.0, 'mean': 0.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 109.0, 'max': 109.0, 'mean': 109.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 0.0, 'max': 0.0, 'mean': 0.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'd1293b4530ecffc8bf7e43df92568c1af3dbe272ab257fbddea6b75075f1e14b', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '69bd900473e50a788ec03151963305ef07368f8f2474d8e41bcc51fe2c5b14af', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2023-11-19 02:16:46', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'in', 'most_common_count': 1}
+inReplyToId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7259993634055662e+18', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2023-11', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Media Studio, lang = fr ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 41.0, 'max': 41.0, 'mean': 41.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 7.0, 'max': 7.0, 'mean': 7.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 123.0, 'max': 123.0, 'mean': 123.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 9.0, 'max': 9.0, 'mean': 9.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 15289.0, 'max': 15289.0, 'mean': 15289.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 5.0, 'max': 5.0, 'mean': 5.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'a9aeb35099a50a167b4c2adc6d6a22ba4e12d8c516de2ba9a9cf3a4c45f6e956', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '7998b6f0826084aa5d3c04d3123a6e38fd9025a3c49f37e791b8cadeeb4a449c', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Media Studio', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-01-22 03:31:14', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'fr', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-01', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Hootsuite Inc., lang = en ---
+retweetCount: {'count': 47, 'unique_values': 36, 'min': 47.0, 'max': 780.0, 'mean': 129.98, 'std_dev': 136.2}
+replyCount: {'count': 47, 'unique_values': 36, 'min': 8.0, 'max': 168.0, 'mean': 37.19, 'std_dev': 29.79}
+likeCount: {'count': 47, 'unique_values': 47, 'min': 120.0, 'max': 2195.0, 'mean': 380.83, 'std_dev': 400.39}
+quoteCount: {'count': 47, 'unique_values': 20, 'min': 0.0, 'max': 44.0, 'mean': 7.53, 'std_dev': 8.53}
+viewCount: {'count': 47, 'unique_values': 47, 'min': 13542.0, 'max': 68518.0, 'mean': 29066.62, 'std_dev': 13402.43}
+bookmarkCount: {'count': 47, 'unique_values': 16, 'min': 1.0, 'max': 56.0, 'mean': 8.45, 'std_dev': 10.46}
+illuminating_scored_message: {'count': 47, 'unique_values': 47}
+id: {'count': 47, 'unique_values': 47, 'most_common_value': '5354908dccb40525b2d42c46902a86f5a9f39e4c8961af02b2372cab0d0e497f', 'most_common_count': 1}
+url: {'count': 47, 'unique_values': 47, 'most_common_value': 'f428cd263ba408fab8558e9b9d186a2810d1bf0e9ffd1373b9dc3a6937a5db8e', 'most_common_count': 1}
+source: {'count': 47, 'unique_values': 1, 'most_common_value': 'Hootsuite Inc.', 'most_common_count': 47}
+createdAt: {'count': 47, 'unique_values': 47, 'most_common_value': '2024-02-27 16:02:48', 'most_common_count': 1}
+lang: {'count': 47, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 47}
+month_year: {'count': 47, 'unique_values': 8, 'most_common_value': '2024-03', 'most_common_count': 11}
+election_integrity_Truth_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 41, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 41, 'unique_values': 2, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+fraud_illuminating: {'count': 47, 'unique_values': 2, '1s': 1, '0s': 46}
+isRetweet: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+isQuote: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+isConversationControlled: {'count': 47, 'unique_values': 1, '1s': 0, '0s': 47}
+
+--- Group: source = Canva, lang = en ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 69.0, 'max': 69.0, 'mean': 69.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 324.0, 'max': 324.0, 'mean': 324.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 490.0, 'max': 490.0, 'mean': 490.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 40.0, 'max': 40.0, 'mean': 40.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 41173.0, 'max': 41173.0, 'mean': 41173.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 16.0, 'max': 16.0, 'mean': 16.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Canva', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02-29 21:26:10', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter for iPhone, lang = nl ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 51.0, 'max': 51.0, 'mean': 51.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 18.0, 'max': 18.0, 'mean': 18.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 178.0, 'max': 178.0, 'mean': 178.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 3.0, 'max': 3.0, 'mean': 3.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 29081.0, 'max': 29081.0, 'mean': 29081.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 5.0, 'max': 5.0, 'mean': 5.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'e7ee788966e913ff509598b949db724b71117c57e4cdde0f255deb40d05a33d9', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '55eff6e632709b4987dc21b11193a80d31a6d32a943cb9b2aaf4359744a1018f', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02-20 05:13:53', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'nl', 'most_common_count': 1}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.7597725037638246e+18', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 1, '0s': 0}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Later Media, lang = en ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 93.0, 'max': 93.0, 'mean': 93.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 18.0, 'max': 18.0, 'mean': 18.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 280.0, 'max': 280.0, 'mean': 280.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 10.0, 'max': 10.0, 'mean': 10.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 12847.0, 'max': 12847.0, 'mean': 12847.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 5.0, 'max': 5.0, 'mean': 5.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Later Media', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02-01 11:10:49', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-02', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Web App, lang = es ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 12.0, 'max': 12.0, 'mean': 12.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 8.0, 'max': 8.0, 'mean': 8.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 53.0, 'max': 53.0, 'mean': 53.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 2.0, 'max': 2.0, 'mean': 2.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 5966.0, 'max': 5966.0, 'mean': 5966.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 1.0, 'max': 1.0, 'mean': 1.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '865066d68ef03f2874220b320dee91a7fdeb0d4caba0b1191c9cb80ffabb1487', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '5c6fcfc86be330603b45a9977bebbe785c744e9c190fb5dbab5430055ef9932b', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-03-14 16:37:19', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'es', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-03', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter for iPhone, lang = da ---
+retweetCount: {'count': 2, 'unique_values': 2, 'min': 130.0, 'max': 171.0, 'mean': 150.5, 'std_dev': 20.5}
+replyCount: {'count': 2, 'unique_values': 2, 'min': 22.0, 'max': 70.0, 'mean': 46.0, 'std_dev': 24.0}
+likeCount: {'count': 2, 'unique_values': 2, 'min': 318.0, 'max': 580.0, 'mean': 449.0, 'std_dev': 131.0}
+quoteCount: {'count': 2, 'unique_values': 2, 'min': 3.0, 'max': 5.0, 'mean': 4.0, 'std_dev': 1.0}
+viewCount: {'count': 2, 'unique_values': 2, 'min': 21299.0, 'max': 26940.0, 'mean': 24119.5, 'std_dev': 2820.5}
+bookmarkCount: {'count': 2, 'unique_values': 2, 'min': 4.0, 'max': 13.0, 'mean': 8.5, 'std_dev': 4.5}
+illuminating_scored_message: {'count': 2, 'unique_values': 2}
+id: {'count': 2, 'unique_values': 2, 'most_common_value': '9c600419b5a2990878fdaa0bcf6f556268ab913559a136836d080373e7389b97', 'most_common_count': 1}
+url: {'count': 2, 'unique_values': 2, 'most_common_value': 'd24b2c0c3b047bc5814aa718d04422e3e054d8f1d363e354fd2059d0cdb0a84c', 'most_common_count': 1}
+source: {'count': 2, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 2}
+createdAt: {'count': 2, 'unique_values': 2, 'most_common_value': '2024-07-11 00:51:23', 'most_common_count': 1}
+lang: {'count': 2, 'unique_values': 1, 'most_common_value': 'da', 'most_common_count': 2}
+month_year: {'count': 2, 'unique_values': 2, 'most_common_value': '2024-07', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+fraud_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isRetweet: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isQuote: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isConversationControlled: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+
+--- Group: source = Twitter Web App, lang = da ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 232.0, 'max': 232.0, 'mean': 232.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 128.0, 'max': 128.0, 'mean': 128.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 893.0, 'max': 893.0, 'mean': 893.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 17.0, 'max': 17.0, 'mean': 17.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 52350.0, 'max': 52350.0, 'mean': 52350.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 16.0, 'max': 16.0, 'mean': 16.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '0fe4a2080c489d44e90b00f17df878a45b378cca1b3b4e446099b4d464b3fd2c', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '804a92480d55f2f4f1cb9d93e5fcbdfe870f1bc86c96d7395644c10223bcd78d', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-07-09 21:44:17', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'da', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-07', 'most_common_count': 1}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Web App, lang = ht ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 3387.0, 'max': 3387.0, 'mean': 3387.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 1569.0, 'max': 1569.0, 'mean': 1569.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 40516.0, 'max': 40516.0, 'mean': 40516.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 138.0, 'max': 138.0, 'mean': 138.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 1600170.0, 'max': 1600170.0, 'mean': 1600170.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 315.0, 'max': 315.0, 'mean': 315.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'e33ea5ef0759c6ba9c39c3a3b3fcd9737dd040623ba34cb10a35990f52386619', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '8e2d95cb8b8bdcc832be4cedd324e6e2dd2c5be944468f7dad7326d99aa1027f', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-08-21 16:11:28', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'ht', 'most_common_count': 1}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.825967232515548e+18', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-08', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 1, '0s': 0}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Web App, lang = tl ---
+retweetCount: {'count': 2, 'unique_values': 2, 'min': 199.0, 'max': 10237.0, 'mean': 5218.0, 'std_dev': 5019.0}
+replyCount: {'count': 2, 'unique_values': 2, 'min': 37.0, 'max': 2535.0, 'mean': 1286.0, 'std_dev': 1249.0}
+likeCount: {'count': 2, 'unique_values': 2, 'min': 930.0, 'max': 90411.0, 'mean': 45670.5, 'std_dev': 44740.5}
+quoteCount: {'count': 2, 'unique_values': 2, 'min': 2.0, 'max': 283.0, 'mean': 142.5, 'std_dev': 140.5}
+viewCount: {'count': 2, 'unique_values': 2, 'min': 50873.0, 'max': 1667037.0, 'mean': 858955.0, 'std_dev': 808082.0}
+bookmarkCount: {'count': 2, 'unique_values': 2, 'min': 11.0, 'max': 626.0, 'mean': 318.5, 'std_dev': 307.5}
+illuminating_scored_message: {'count': 2, 'unique_values': 2}
+id: {'count': 2, 'unique_values': 2, 'most_common_value': '0d7084270948eef1309e4548476196da3d739b6f88f8f4d450266ff927c82500', 'most_common_count': 1}
+url: {'count': 2, 'unique_values': 2, 'most_common_value': '7f2c3f37f3fa7ff91b43ae01448d0e3a767125986bc3e080a7affd65f026dd97', 'most_common_count': 1}
+source: {'count': 2, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 2}
+createdAt: {'count': 2, 'unique_values': 2, 'most_common_value': '2024-09-15 18:16:18', 'most_common_count': 1}
+lang: {'count': 2, 'unique_values': 1, 'most_common_value': 'tl', 'most_common_count': 2}
+quoteId: {'count': 1, 'unique_values': 1, 'most_common_value': '1.8419102494369303e+18', 'most_common_count': 1}
+month_year: {'count': 2, 'unique_values': 2, 'most_common_value': '2024-09', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+fraud_illuminating: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isRetweet: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+isQuote: {'count': 2, 'unique_values': 2, '1s': 1, '0s': 1}
+isConversationControlled: {'count': 2, 'unique_values': 1, '1s': 0, '0s': 2}
+
+--- Group: source = Twitter for iPhone, lang = pt ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 522.0, 'max': 522.0, 'mean': 522.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 606.0, 'max': 606.0, 'mean': 606.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 2537.0, 'max': 2537.0, 'mean': 2537.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 84.0, 'max': 84.0, 'mean': 84.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 153972.0, 'max': 153972.0, 'mean': 153972.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 90.0, 'max': 90.0, 'mean': 90.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '29c0989b225060e0e28854be554ff7848ebe0412b5f37866e99195e86e030cd5', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '4c4b26669fa25a08a22bb8d2d8818b4b250a09fdb13b76ed97d992e0cf9ed8a1', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter for iPhone', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-09-18 02:07:52', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'pt', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-09', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Web Client, lang = en ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 98.0, 'max': 98.0, 'mean': 98.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 26.0, 'max': 26.0, 'mean': 26.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 340.0, 'max': 340.0, 'mean': 340.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 6.0, 'max': 6.0, 'mean': 6.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 19547.0, 'max': 19547.0, 'mean': 19547.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 6.0, 'max': 6.0, 'mean': 6.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': 'e7f7a30f08b7e1f4aae3d31e20543ad57584fe3034a117d42bbd3f578f7ec850', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': 'cc3131317571ee071cc7e0354ca3524e083bd730d883f6d87a4667294eac510f', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web Client', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-10-19 18:02:00', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'en', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-10', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+--- Group: source = Twitter Web App, lang = tr ---
+retweetCount: {'count': 1, 'unique_values': 1, 'min': 2303.0, 'max': 2303.0, 'mean': 2303.0, 'std_dev': 0}
+replyCount: {'count': 1, 'unique_values': 1, 'min': 387.0, 'max': 387.0, 'mean': 387.0, 'std_dev': 0}
+likeCount: {'count': 1, 'unique_values': 1, 'min': 14433.0, 'max': 14433.0, 'mean': 14433.0, 'std_dev': 0}
+quoteCount: {'count': 1, 'unique_values': 1, 'min': 171.0, 'max': 171.0, 'mean': 171.0, 'std_dev': 0}
+viewCount: {'count': 1, 'unique_values': 1, 'min': 434191.0, 'max': 434191.0, 'mean': 434191.0, 'std_dev': 0}
+bookmarkCount: {'count': 1, 'unique_values': 1, 'min': 364.0, 'max': 364.0, 'mean': 364.0, 'std_dev': 0}
+illuminating_scored_message: {'count': 1, 'unique_values': 1}
+id: {'count': 1, 'unique_values': 1, 'most_common_value': '4c73ce5b35fd2dc42affa36185483ca1889a0acf8ae34db58536869a26eeeae3', 'most_common_count': 1}
+url: {'count': 1, 'unique_values': 1, 'most_common_value': '0775d424310b72ba56f0239e1dbc1dbddb0492c5da249866b1cdcc786d15c680', 'most_common_count': 1}
+source: {'count': 1, 'unique_values': 1, 'most_common_value': 'Twitter Web App', 'most_common_count': 1}
+createdAt: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-10-05 19:31:50', 'most_common_count': 1}
+lang: {'count': 1, 'unique_values': 1, 'most_common_value': 'tr', 'most_common_count': 1}
+month_year: {'count': 1, 'unique_values': 1, 'most_common_value': '2024-10', 'most_common_count': 1}
+election_integrity_Truth_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+advocacy_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+issue_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+attack_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+image_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+cta_msg_type_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+engagement_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+fundraising_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+voting_cta_subtype_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+covid_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+economy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+education_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+environment_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+foreign_policy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+governance_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+health_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+immigration_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+lgbtq_issues_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+military_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+race_and_ethnicity_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+safety_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+social_and_cultural_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+technology_and_privacy_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+womens_issue_topic_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+incivility_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+scam_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 0}
+freefair_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+fraud_illuminating: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isRetweet: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isQuote: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+isConversationControlled: {'count': 1, 'unique_values': 1, '1s': 0, '0s': 1}
+
+Total Execution Time: 1.26 seconds

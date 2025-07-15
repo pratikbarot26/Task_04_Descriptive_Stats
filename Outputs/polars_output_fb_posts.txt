@@ -1,0 +1,3787 @@
+
+--- Overall Dataset Summary ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes         Comments       Wow        Haha        Sad         Angry      
+ ---         ---                 ---           ---             ---        ---         ---         ---        
+ str         f64                 f64           f64             f64        f64         f64         f64        
+
+ count       19009.0             19009.0       19009.0        19009.0    19009.0     19009.0     19009.0    
+ null_count  0.0                 0.0           0.0            0.0        0.0         0.0         0.0        
+ mean        4190.439634         2377.695407   901.583197     5.868326   105.719712  10.172182   20.0555    
+ std         19003.080332        11253.469669  3681.980096    52.946979  942.034248  418.325007  156.020089 
+ min         0.0                 0.0           0.0            0.0        0.0         0.0         0.0        
+ 25%         65.0                31.0          8.0            0.0        0.0         0.0         0.0        
+ 50%         283.0               139.0         48.0           1.0        2.0         0.0         1.0        
+ 75%         1511.0              738.0         354.0          3.0        29.0        2.0         9.0        
+ max         696853.0            351979.0      93872.0        4345.0     99276.0     56111.0     11814.0    
+
+
+Facebook_Id - Unique: 21, Top: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 (9013)
+Top 5 values:
+32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 - 9013
+bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b - 1431
+ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25 - 1231
+7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b - 1158
+a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e - 1074
+
+post_id - Unique: 19009, Top: 593ba1750a633873330e5e20b134dd1c20265ee3761e157d924942f1be00ed2b (1)
+Top 5 values:
+0001e4a1dbadf84f0f43719972b60597cc79f1908bf60125779280f2a0054781 - 1
+000634520f1f020a7d878a472c495e2a424ac06bf31b15d6825aac4048cef1cf - 1
+000965ed8ad23d5a11bfb08ff1b4a48aa5f5faf48bec788c598dbe609da097b8 - 1
+000a7e1cb02147e106c41f341e42823ca25d585c36d9f8675a99973e3ac93017 - 1
+0010ea66f8b686476bcbaa744d28a70799c3ead93deea262f0a2c0d5bbecf6fd - 1
+
+Page Category - Unique: 6, Top: PERSON (9453)
+Top 5 values:
+PERSON - 9453
+ACTOR - 3304
+POLITICIAN - 2595
+POLITICAL_CANDIDATE - 1161
+ENTREPRENEUR - 23
+
+Page Admin Top Country - Unique: 1, Top: US (16280)
+Top 5 values:
+US - 16280
+
+Post Created - Unique: 18951, Top: 20241030T19:39:42.000Z (2)
+Top 5 values:
+20231114 11:11:44 EST - 2
+20231122 19:20:24 EST - 2
+20231222 11:22:14 EST - 2
+20240106 18:47:00 EST - 2
+20240130 12:28:10 EST - 2
+
+Post Created Date - Unique: 425, Top: 20241031 (103)
+Top 5 values:
+20241031 - 103
+20240110 - 102
+20240115 - 96
+20240106 - 95
+20241030 - 94
+
+Post Created Time - Unique: 16102, Top: 19:42:00 (7)
+Top 5 values:
+17:30:01 - 7
+19:42:00 - 7
+12:00:16 - 6
+15:40:00 - 6
+19:30:01 - 6
+
+Type - Unique: 9, Top: Link (7404)
+Top 5 values:
+Link - 7404
+Photo - 3820
+Native Video - 2931
+Status - 1387
+YouTube - 353
+
+Video Share Status - Unique: 3, Top: owned (3100)
+Top 5 values:
+owned - 3100
+share - 99
+crosspost - 72
+
+Is Video Owner? - Unique: 2, Top: Yes (3181)
+Top 5 values:
+Yes - 3181
+No - 83
+
+Video Length - Unique: 774, Top: 00:00:30 (83)
+Top 5 values:
+00:00:30 - 83
+00:01:00 - 50
+00:00:59 - 37
+00:00:37 - 33
+00:00:45 - 32
+
+--- Group: Facebook_Id = 7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes         Comments        Wow         Haha         Sad          Angry      
+ ---         ---                 ---           ---              ---         ---          ---          ---        
+ str         f64                 f64           f64              f64         f64          f64          f64        
+
+ count       616.0               616.0         616.0           616.0       616.0        616.0        616.0      
+ null_count  0.0                 0.0           0.0             0.0         0.0          0.0          0.0        
+ mean        67984.821429        39394.847403  13920.444805    54.681818   887.204545   149.082792   144.047078 
+ std         73603.658558        43534.67744   13625.247972    209.209358  4571.862194  2280.094738  682.675423 
+ min         949.0               492.0         204.0           0.0         0.0          0.0          0.0        
+ 25%         24846.0             13303.0       4594.0          0.0         0.0          0.0          0.0        
+ 50%         46810.0             23742.0       9450.0          16.0        400.0        6.0          34.0       
+ 75%         79618.0             49947.0       19351.0         47.0        712.0        25.0         97.0       
+ max         696853.0            351979.0      93872.0         4345.0      99276.0      56111.0      11814.0    
+
+
+Facebook_Id - Unique: 1, Top: 7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a (616)
+Top 5 values:
+7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a - 616
+
+post_id - Unique: 616, Top: 18a1ec8e2c8c3495d01cd7b6dfbb3f8a7dd14600432bc1633a7395ad0448db2f (1)
+Top 5 values:
+003fa4e17d531cd91633fd1c046eb2e89459ae8ef4cff03ba3ee906995ad89ba - 1
+0086cbff59d24aaab1b8212f7be07306375e52601e6f846b51f31e23c23c3efb - 1
+00a32fef2e76ae484c71b2ee20cb1f892488f00197fcb56f63892afc70fe38aa - 1
+00c4470ab2efbfd98ebd33a34972de1485d5001c85e43e4162c11a5b6e4cc186 - 1
+01cce4d9b351d354c25f6703df460b4994140bd12b53214b466fdb352b3f16f2 - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (358)
+Top 5 values:
+POLITICAL_CANDIDATE - 358
+
+Page Admin Top Country - Unique: 1, Top: US (358)
+Top 5 values:
+US - 358
+
+Post Created - Unique: 597, Top: 20241030T02:16:54.000Z (2)
+Top 5 values:
+20241030T01:41:19.000Z - 2
+20241030T02:16:54.000Z - 2
+20241030T03:00:47.000Z - 2
+20241030T19:35:30.000Z - 2
+20241030T19:39:42.000Z - 2
+
+Post Created Date - Unique: 225, Top: 20241031 (26)
+Top 5 values:
+20241031 - 26
+20241030 - 20
+20230901 - 14
+20241021 - 14
+20241105 - 14
+
+Post Created Time - Unique: 595, Top: 01:41:19 (2)
+Top 5 values:
+01:41:19 - 2
+01:59:42 - 2
+02:16:54 - 2
+02:31:45 - 2
+03:00:47 - 2
+
+Type - Unique: 7, Top: Photo (176)
+Top 5 values:
+Photo - 176
+Native Video - 72
+Live Video Complete - 62
+Link - 28
+Status - 17
+
+Video Share Status - Unique: 3, Top: crosspost (63)
+Top 5 values:
+crosspost - 63
+owned - 56
+share - 17
+
+Is Video Owner? - Unique: 2, Top: Yes (119)
+Top 5 values:
+Yes - 119
+No - 17
+
+Video Length - Unique: 126, Top: 00:00:22 (3)
+Top 5 values:
+00:00:22 - 3
+00:00:30 - 2
+00:01:16 - 2
+00:01:29 - 2
+00:01:30 - 2
+
+--- Group: Facebook_Id = 834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments     Wow       Haha      Sad   Angry    
+ ---         ---                 ---         ---           ---       ---       ---   ---      
+ str         f64                 f64         f64           f64       f64       f64   f64      
+
+ count       23.0                23.0        23.0         23.0      23.0      23.0  23.0     
+ null_count  0.0                 0.0         0.0          0.0       0.0       0.0   0.0      
+ mean        139.304348          100.608696  17.173913    0.391304  2.130435  0.0   0.173913 
+ std         182.522087          125.942533  31.434856    0.940944  5.979544  0.0   0.650327 
+ min         3.0                 2.0         0.0          0.0       0.0       0.0   0.0      
+ 25%         32.0                20.0        5.0          0.0       0.0       0.0   0.0      
+ 50%         76.0                56.0        8.0          0.0       0.0       0.0   0.0      
+ 75%         194.0               157.0       16.0         0.0       1.0       0.0   0.0      
+ max         666.0               500.0       153.0        4.0       28.0      0.0   3.0      
+
+
+Facebook_Id - Unique: 1, Top: 834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452 (23)
+Top 5 values:
+834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452 - 23
+
+post_id - Unique: 23, Top: 8492beba5c5650a196fb2a926c3c379b1aee7d5937bcd1f4387ae441da3ea8ed (1)
+Top 5 values:
+073cebd013ec809d91d431c34215a25f99fddcd4c0a6c817d5d0ff71d8fafb90 - 1
+1391aa8da568a3c8b1b37179379dda0256b0d7440b2cab75b0a6d47957ba45b4 - 1
+409dba4c9cd7e05480e48e4b02f35fc657ff3d3d6c362199f39a8fe8b2507935 - 1
+42a5956334ab6d418f8d5057b36a52055ba589a782a01c24689438320a0bfed5 - 1
+4b379842fa06740e20b7e0e7cc3c655320ea878a65d64043a7f1be9a1c23d6d8 - 1
+
+Page Category - Unique: 1, Top: ENTREPRENEUR (23)
+Top 5 values:
+ENTREPRENEUR - 23
+
+Page Admin Top Country - Unique: 1, Top: US (23)
+Top 5 values:
+US - 23
+
+Post Created - Unique: 23, Top: 20240405 16:19:24 EDT (1)
+Top 5 values:
+20230906 18:51:40 EDT - 1
+20230906 20:07:38 EDT - 1
+20230907 06:03:21 EDT - 1
+20231222 09:48:29 EST - 1
+20240119 15:58:30 EST - 1
+
+Post Created Date - Unique: 19, Top: 20240208 (2)
+Top 5 values:
+20230906 - 2
+20240126 - 2
+20240208 - 2
+20240214 - 2
+20230907 - 1
+
+Post Created Time - Unique: 23, Top: 11:00:51 (1)
+Top 5 values:
+06:03:21 - 1
+07:23:54 - 1
+07:40:01 - 1
+09:48:29 - 1
+11:00:51 - 1
+
+Type - Unique: 5, Top: Photo (8)
+Top 5 values:
+Link - 8
+Photo - 8
+Native Video - 3
+YouTube - 3
+Status - 1
+
+Video Share Status - Unique: 1, Top: owned (3)
+Top 5 values:
+owned - 3
+
+Is Video Owner? - Unique: 1, Top: Yes (3)
+Top 5 values:
+Yes - 3
+
+Video Length - Unique: 3, Top: 00:01:20 (1)
+Top 5 values:
+00:00:21 - 1
+00:00:30 - 1
+00:01:20 - 1
+
+--- Group: Facebook_Id = be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha       Sad       Angry     
+ ---         ---                 ---         ---            ---       ---        ---       ---       
+ str         f64                 f64         f64            f64       f64        f64       f64       
+
+ count       136.0               136.0       136.0         136.0     136.0      136.0     136.0     
+ null_count  0.0                 0.0         0.0           0.0       0.0        0.0       0.0       
+ mean        782.882353          193.595588  434.463235    1.235294  91.088235  2.095588  11.397059 
+ std         692.098484          145.809179  434.151824    2.303734  91.0402    6.109954  17.16382  
+ min         140.0               33.0        34.0          0.0       6.0        0.0       0.0       
+ 25%         349.0               100.0       168.0         0.0       43.0       0.0       3.0       
+ 50%         589.0               146.0       332.0         0.0       64.0       0.0       6.0       
+ 75%         947.0               225.0       574.0         2.0       101.0      2.0       12.0      
+ max         5275.0              839.0       3597.0        15.0      669.0      36.0      118.0     
+
+
+Facebook_Id - Unique: 1, Top: be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb (136)
+Top 5 values:
+be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb - 136
+
+post_id - Unique: 136, Top: 0cb9f5a7f5e787296ae75069d3c2db6c0a76eb41484e1560d903e84e71d73289 (1)
+Top 5 values:
+057ecf6d88ade0d2bc8df0145ea4453dd42f0567cdf1df580a8551849aeda62c - 1
+088ad3e0a28730775b49e87e2f6a5b62b5182c92a5f3b0bd85747ebf36d9d61b - 1
+093a29ad7b6c56781bc63cc25da5eade5b9c77fca636c4b950d98451045370cd - 1
+0a3af14c1580cf2ea14db3ec1cf4938a7663fdffd89de23a62ae21c4725f974b - 1
+0ac2612f1f7f19e7e6d8e805617182d2c1d2465cbc948292b16abfcf6305b807 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (136)
+Top 5 values:
+POLITICIAN - 136
+
+Page Admin Top Country - Unique: 1, Top: US (136)
+Top 5 values:
+US - 136
+
+Post Created - Unique: 136, Top: 20231220 18:49:16 EST (1)
+Top 5 values:
+20230901 10:05:22 EDT - 1
+20230905 10:56:15 EDT - 1
+20230905 22:03:01 EDT - 1
+20230907 11:51:19 EDT - 1
+20230908 10:42:40 EDT - 1
+
+Post Created Date - Unique: 75, Top: 20231004 (5)
+Top 5 values:
+20231004 - 5
+20230929 - 4
+20231103 - 4
+20230914 - 3
+20230919 - 3
+
+Post Created Time - Unique: 136, Top: 18:41:46 (1)
+Top 5 values:
+08:30:43 - 1
+09:01:44 - 1
+09:16:48 - 1
+09:20:56 - 1
+09:30:46 - 1
+
+Type - Unique: 7, Top: Native Video (71)
+Top 5 values:
+Native Video - 71
+Photo - 32
+Live Video Complete - 22
+Status - 6
+Link - 2
+
+Video Share Status - Unique: 1, Top: owned (93)
+Top 5 values:
+owned - 93
+
+Is Video Owner? - Unique: 1, Top: Yes (93)
+Top 5 values:
+Yes - 93
+
+Video Length - Unique: 73, Top: 00:00:20 (4)
+Top 5 values:
+00:00:20 - 4
+00:00:29 - 3
+00:00:30 - 3
+00:01:49 - 3
+00:00:23 - 2
+
+--- Group: Facebook_Id = b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha       Sad       Angry     
+ ---         ---                 ---         ---            ---       ---        ---       ---       
+ str         f64                 f64         f64            f64       f64        f64       f64       
+
+ count       310.0               310.0       310.0         310.0     310.0      310.0     310.0     
+ null_count  0.0                 0.0         0.0           0.0       0.0        0.0       0.0       
+ mean        433.706452          157.96129   188.441935    0.629032  35.53871   1.009677  6.977419  
+ std         642.075695          345.182375  255.545134    1.574821  58.517639  3.985804  16.682922 
+ min         79.0                22.0        12.0          0.0       0.0        0.0       0.0       
+ 25%         170.0               52.0        57.0          0.0       15.0       0.0       2.0       
+ 50%         271.0               87.0        115.0         0.0       28.0       0.0       4.0       
+ 75%         439.0               149.0       203.0         1.0       44.0       1.0       7.0       
+ max         6974.0              4486.0      1896.0        20.0      892.0      46.0      234.0     
+
+
+Facebook_Id - Unique: 1, Top: b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50 (310)
+Top 5 values:
+b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50 - 310
+
+post_id - Unique: 310, Top: a84d2716095ff249a7ce73b611de34579fb717f7533533313c625cf0dd4d8295 (1)
+Top 5 values:
+0069af43ec3a5f4b7ec41b8b59758e34be5b1f5285d61458f74793c91d547ee0 - 1
+015b955640b92cfeaf8a909729a24323b4bbb51900b27948ed70badc746d0490 - 1
+022062016a39f2c44dd21ad3841e611073cac996026a5f6e6a836639f78cd819 - 1
+053e0cd4f1e5cc1ae227f6c43104316ad87422b00c87aec72e996673eeff5e1e - 1
+0574fae2c85a169505f49f5e51cfe8609a320c4f311d4aa04febf78c6a595d5f - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (288)
+Top 5 values:
+POLITICIAN - 288
+
+Page Admin Top Country - Unique: 1, Top: US (288)
+Top 5 values:
+US - 288
+
+Post Created - Unique: 309, Top: 20241030T18:40:30.000Z (2)
+Top 5 values:
+20241030T18:40:30.000Z - 2
+20230901 09:22:16 EDT - 1
+20230901 09:22:53 EDT - 1
+20230901 09:23:13 EDT - 1
+20230901 09:23:58 EDT - 1
+
+Post Created Date - Unique: 112, Top: 20230906 (13)
+Top 5 values:
+20230906 - 13
+20231013 - 13
+20230905 - 11
+20230926 - 11
+20230927 - 11
+
+Post Created Time - Unique: 306, Top: 22:05:13 (2)
+Top 5 values:
+09:36:52 - 2
+16:58:57 - 2
+18:40:30 - 2
+22:05:13 - 2
+00:27:17 - 1
+
+Type - Unique: 6, Top: Native Video (122)
+Top 5 values:
+Native Video - 122
+Photo - 97
+Link - 55
+Status - 10
+YouTube - 3
+
+Video Share Status - Unique: 1, Top: owned (122)
+Top 5 values:
+owned - 122
+
+Is Video Owner? - Unique: 1, Top: Yes (122)
+Top 5 values:
+Yes - 122
+
+Video Length - Unique: 83, Top: 00:01:02 (5)
+Top 5 values:
+00:01:02 - 5
+00:00:55 - 4
+00:00:56 - 4
+00:01:18 - 4
+00:00:59 - 3
+
+--- Group: Facebook_Id = 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow        Haha        Sad        Angry     
+ ---         ---                 ---          ---            ---        ---         ---        ---       
+ str         f64                 f64          f64            f64        f64         f64        f64       
+
+ count       9013.0              9013.0       9013.0        9013.0     9013.0      9013.0     9013.0    
+ null_count  0.0                 0.0          0.0           0.0        0.0         0.0        0.0       
+ mean        314.726284          172.39676    39.676024     2.937424   36.421502   3.012205   10.630867 
+ std         2686.736748         1440.594713  265.424393    12.670894  435.965232  38.114058  42.376911 
+ min         0.0                 0.0          0.0           0.0        0.0         0.0        0.0       
+ 25%         32.0                14.0         3.0           0.0        0.0         0.0        0.0       
+ 50%         73.0                34.0         10.0          1.0        1.0         0.0        0.0       
+ 75%         188.0               99.0         32.0          2.0        6.0         1.0        8.0       
+ max         159935.0            83391.0      18094.0       608.0      32351.0     2905.0     2244.0    
+
+
+Facebook_Id - Unique: 1, Top: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 (9013)
+Top 5 values:
+32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 - 9013
+
+post_id - Unique: 9013, Top: 20ed5fbc5d1e9ce989b03b0acfd242da67cee2e1671ba37806e687867e5b3de2 (1)
+Top 5 values:
+0001e4a1dbadf84f0f43719972b60597cc79f1908bf60125779280f2a0054781 - 1
+000a7e1cb02147e106c41f341e42823ca25d585c36d9f8675a99973e3ac93017 - 1
+0014178b33e560d01962d564257c0b64f76f11b3d8e0eac65761ff4b7f1c100b - 1
+00142241fd44069a74a07476d35db1c6ea82ae7bfee8e8de29ae999e4b195022 - 1
+0016450cf98180400ea4a169ba7b1a4b211c6551ada02b210b450304b34d882d - 1
+
+Page Category - Unique: 2, Top: PERSON (4999)
+Top 5 values:
+PERSON - 4999
+ACTOR - 3304
+
+Page Admin Top Country - Unique: 1, Top: US (8303)
+Top 5 values:
+US - 8303
+
+Post Created - Unique: 9012, Top: 20231122 19:20:24 EST (2)
+Top 5 values:
+20231122 19:20:24 EST - 2
+20230901 09:02:44 EDT - 1
+20230901 09:04:36 EDT - 1
+20230901 09:19:22 EDT - 1
+20230901 10:05:16 EDT - 1
+
+Post Created Date - Unique: 377, Top: 20240711 (65)
+Top 5 values:
+20240711 - 65
+20240514 - 62
+20240213 - 57
+20240221 - 56
+20240212 - 53
+
+Post Created Time - Unique: 8343, Top: 11:30:18 (4)
+Top 5 values:
+10:27:36 - 4
+11:02:03 - 4
+11:30:18 - 4
+05:45:05 - 3
+06:19:47 - 3
+
+Type - Unique: 7, Top: Link (6705)
+Top 5 values:
+Link - 6705
+Photo - 812
+Status - 318
+YouTube - 282
+Native Video - 133
+
+Video Share Status - Unique: 2, Top: owned (109)
+Top 5 values:
+owned - 109
+share - 25
+
+Is Video Owner? - Unique: 2, Top: Yes (119)
+Top 5 values:
+Yes - 119
+No - 14
+
+Video Length - Unique: 102, Top: 00:00:16 (4)
+Top 5 values:
+00:00:16 - 4
+00:00:41 - 3
+00:00:45 - 3
+00:00:47 - 3
+00:01:00 - 3
+
+--- Group: Facebook_Id = 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha       Sad       Angry    
+ ---         ---                 ---        ---           ---       ---        ---       ---      
+ str         f64                 f64        f64           f64       f64        f64       f64      
+
+ count       210.0               210.0      210.0        210.0     210.0      210.0     210.0    
+ null_count  0.0                 0.0        0.0          0.0       0.0        0.0       0.0      
+ mean        105.733333          59.047619  26.342857    0.219048  7.166667   0.62381   0.92381  
+ std         127.77247           78.745229  42.857353    0.553042  14.572237  3.014543  2.121637 
+ min         11.0                5.0        0.0          0.0       0.0        0.0       0.0      
+ 25%         41.0                21.0       7.0          0.0       2.0        0.0       0.0      
+ 50%         66.0                37.0       14.0         0.0       4.0        0.0       0.0      
+ 75%         110.0               59.0       27.0         0.0       7.0        0.0       1.0      
+ max         920.0               551.0      425.0        4.0       134.0      40.0      14.0     
+
+
+Facebook_Id - Unique: 1, Top: 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b (210)
+Top 5 values:
+058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b - 210
+
+post_id - Unique: 210, Top: 24a595418faf3ff493dedac52431900045105e196c447e844a4864a3c77c600d (1)
+Top 5 values:
+00cb679a6af4c4551755ae374d496227b8f1fd1d39aec772ef21f4ba0a8f2275 - 1
+01244b0adf3dbc10065344e8ee3a0edeac919c4fe74916fa3b78e72d38ffe02e - 1
+042c4760c4cc3463680d2c4cc0a27f39a2c0db5133c046bf0d946fc44d6bfedd - 1
+04d0c70faaf7cf12d1a1dcabef60fa6128ebd5269e635ad8571e8fec6a05b9c3 - 1
+0675632827f17d885828bb576c511d7b619cd21ba7e8b800606ce3e02557ebc7 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (210)
+Top 5 values:
+POLITICIAN - 210
+
+Page Admin Top Country - Unique: 1, Top: US (210)
+Top 5 values:
+US - 210
+
+Post Created - Unique: 210, Top: 20230918 16:00:02 EDT (1)
+Top 5 values:
+20230901 10:01:33 EDT - 1
+20230902 14:01:44 EDT - 1
+20230902 17:00:00 EDT - 1
+20230903 12:59:42 EDT - 1
+20230903 19:00:01 EDT - 1
+
+Post Created Date - Unique: 123, Top: 20230928 (5)
+Top 5 values:
+20230928 - 5
+20230918 - 4
+20230919 - 4
+20231003 - 4
+20231120 - 4
+
+Post Created Time - Unique: 206, Top: 17:00:01 (3)
+Top 5 values:
+17:00:01 - 3
+12:34:19 - 2
+17:33:09 - 2
+07:39:45 - 1
+08:52:13 - 1
+
+Type - Unique: 4, Top: Photo (91)
+Top 5 values:
+Photo - 91
+Native Video - 67
+Link - 37
+Status - 15
+
+Video Share Status - Unique: 2, Top: owned (66)
+Top 5 values:
+owned - 66
+share - 1
+
+Is Video Owner? - Unique: 2, Top: Yes (66)
+Top 5 values:
+Yes - 66
+No - 1
+
+Video Length - Unique: 47, Top: 00:00:45 (4)
+Top 5 values:
+00:00:45 - 4
+00:00:30 - 3
+00:00:53 - 3
+00:01:05 - 3
+00:01:11 - 3
+
+--- Group: Facebook_Id = ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes         Comments       Wow       Haha        Sad        Angry     
+ ---         ---                 ---           ---             ---       ---         ---        ---       
+ str         f64                 f64           f64             f64       f64         f64        f64       
+
+ count       1231.0              1231.0        1231.0         1231.0    1231.0      1231.0     1231.0    
+ null_count  0.0                 0.0           0.0            0.0       0.0         0.0        0.0       
+ mean        8226.284322         5042.922827   1842.974817    3.671812  130.397238  7.575142   22.311129 
+ std         14046.601923        10170.526942  2743.848397    5.92373   219.767521  28.449425  70.535316 
+ min         96.0                52.0          0.0            0.0       0.0         0.0        0.0       
+ 25%         1694.0              762.0         436.0          0.0       0.0         0.0        0.0       
+ 50%         2862.0              1427.0        729.0          2.0       89.0        1.0        6.0       
+ 75%         8210.0              5081.0        2081.0         4.0       133.0       3.0        13.0      
+ max         152355.0            121951.0      28113.0        56.0      2551.0      416.0      1113.0    
+
+
+Facebook_Id - Unique: 1, Top: ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25 (1231)
+Top 5 values:
+ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25 - 1231
+
+post_id - Unique: 1231, Top: 5eae4b1fa2596c3501386a8cf99d2674e8138360a35b43416bb89808bf2682ef (1)
+Top 5 values:
+00b4e35aad5335c72c7f3aecdf4d1c40d246736e79742f86a36ca833a6ebd27a - 1
+00b56fb7aee02779063d3b624f1ca9e4314dadb903b45be5ae4af71b188c709f - 1
+00ce7472a717a7cd986bd7525d02ad98337fcef23226d3ad7c9d0271c6868004 - 1
+00d05ecb2b1e62f073771bf616cc3604dee7fd6ba14bad2d178c53a48565fa54 - 1
+00d5d236d53cc350dfbcceaa9c3a80fdf8f8dd4df57ae5abfd9e80990cbc540c - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (867)
+Top 5 values:
+POLITICIAN - 867
+
+Page Admin Top Country - Unique: 1, Top: US (867)
+Top 5 values:
+US - 867
+
+Post Created - Unique: 1231, Top: 20241103T01:30:02.000Z (1)
+Top 5 values:
+20230901 11:46:03 EDT - 1
+20230901 15:56:23 EDT - 1
+20230901 18:01:00 EDT - 1
+20230902 11:27:00 EDT - 1
+20230902 14:59:00 EDT - 1
+
+Post Created Date - Unique: 340, Top: 20241030 (41)
+Top 5 values:
+20241030 - 41
+20241031 - 33
+20241104 - 31
+20241105 - 31
+20241029 - 26
+
+Post Created Time - Unique: 1134, Top: 10:15:02 (5)
+Top 5 values:
+10:15:02 - 5
+15:40:00 - 4
+20:04:00 - 4
+11:01:09 - 3
+15:30:02 - 3
+
+Type - Unique: 6, Top: Photo (401)
+Top 5 values:
+Photo - 401
+Native Video - 209
+Status - 167
+Live Video Scheduled - 32
+Live Video Complete - 30
+
+Video Share Status - Unique: 3, Top: owned (234)
+Top 5 values:
+owned - 234
+share - 3
+crosspost - 2
+
+Is Video Owner? - Unique: 2, Top: Yes (236)
+Top 5 values:
+Yes - 236
+No - 3
+
+Video Length - Unique: 106, Top: 00:00:30 (12)
+Top 5 values:
+00:00:30 - 12
+00:00:44 - 8
+00:00:09 - 7
+00:01:00 - 7
+00:00:24 - 6
+
+--- Group: Facebook_Id = b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow       Haha        Sad        Angry     
+ ---         ---                 ---          ---            ---       ---         ---        ---       
+ str         f64                 f64          f64            f64       f64         f64        f64       
+
+ count       336.0               336.0        336.0         336.0     336.0       336.0      336.0     
+ null_count  0.0                 0.0          0.0           0.0       0.0         0.0        0.0       
+ mean        1552.752976         578.839286   616.642857    4.324405  106.821429  3.72619    17.627976 
+ std         2216.833768         1165.091896  673.37695     8.573761  125.987648  12.473591  53.063142 
+ min         409.0               125.0        106.0         0.0       0.0         0.0        0.0       
+ 25%         817.0               255.0        336.0         1.0       66.0        0.0        3.0       
+ 50%         1112.0              347.0        468.0         2.0       85.0        1.0        5.0       
+ 75%         1503.0              534.0        672.0         4.0       110.0       3.0        8.0       
+ max         25105.0             13851.0      6953.0        74.0      1575.0      196.0      580.0     
+
+
+Facebook_Id - Unique: 1, Top: b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe (336)
+Top 5 values:
+b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe - 336
+
+post_id - Unique: 336, Top: 9a18116dd92ca722185f8d9ea3b19280fbb45d0cc0d5b3ea7572775200589539 (1)
+Top 5 values:
+0042bc6337fd3f1e7a22d78198d4cbe0d284a4f6d98cc5241e2d8c897c278bf1 - 1
+0067e4413a3b142b4d5efd1e817b09c8ba9c0e5e2a1058f65f4535b45baed127 - 1
+03047fbe337f40c99617728f562cf77ddc25333f076cd7fe3a088fd795ce142f - 1
+0337e91baddf84ecd36931b827b82c8fdce1d0a6595eeffc5fb5519e9f8bbcbf - 1
+04622e2f8315549e22d4154d88aa3f0642643e1d8f1ba861fb982fea24016350 - 1
+
+Page Category - Unique: 1, Top: PERSON (335)
+Top 5 values:
+PERSON - 335
+
+Page Admin Top Country - Unique: 1, Top: US (335)
+Top 5 values:
+US - 335
+
+Post Created - Unique: 336, Top: 20231119 13:17:10 EST (1)
+Top 5 values:
+20230906 12:24:53 EDT - 1
+20230906 17:21:41 EDT - 1
+20230907 12:48:21 EDT - 1
+20230907 13:38:13 EDT - 1
+20230907 19:12:35 EDT - 1
+
+Post Created Date - Unique: 117, Top: 20231201 (10)
+Top 5 values:
+20231201 - 10
+20240110 - 9
+20231019 - 7
+20231013 - 6
+20231216 - 6
+
+Post Created Time - Unique: 332, Top: 12:00:10 (2)
+Top 5 values:
+12:00:10 - 2
+12:00:16 - 2
+16:00:27 - 2
+19:12:35 - 2
+07:05:28 - 1
+
+Type - Unique: 5, Top: Native Video (221)
+Top 5 values:
+Native Video - 221
+Photo - 53
+Live Video Complete - 33
+Link - 18
+Status - 10
+
+Video Share Status - Unique: 1, Top: owned (254)
+Top 5 values:
+owned - 254
+
+Is Video Owner? - Unique: 1, Top: Yes (254)
+Top 5 values:
+Yes - 254
+
+Video Length - Unique: 156, Top: 00:01:15 (7)
+Top 5 values:
+00:01:15 - 7
+00:00:30 - 5
+00:01:05 - 5
+00:01:42 - 5
+00:00:43 - 4
+
+--- Group: Facebook_Id = ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha      Sad       Angry    
+ ---         ---                 ---        ---           ---       ---       ---       ---      
+ str         f64                 f64        f64           f64       f64       f64       f64      
+
+ count       241.0               241.0      241.0        241.0     241.0     241.0     241.0    
+ null_count  0.0                 0.0        0.0          0.0       0.0       0.0       0.0      
+ mean        68.755187           32.950207  20.676349    0.087137  2.06639   0.215768  0.406639 
+ std         60.247218           19.720273  37.200401    0.323845  3.391741  0.928215  1.151357 
+ min         7.0                 6.0        0.0          0.0       0.0       0.0       0.0      
+ 25%         36.0                20.0       4.0          0.0       0.0       0.0       0.0      
+ 50%         49.0                29.0       10.0         0.0       1.0       0.0       0.0      
+ 75%         82.0                40.0       23.0         0.0       3.0       0.0       0.0      
+ max         513.0               170.0      395.0        2.0       42.0      8.0       14.0     
+
+
+Facebook_Id - Unique: 1, Top: ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d (241)
+Top 5 values:
+ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d - 241
+
+post_id - Unique: 241, Top: d753255cc912f6ea4c9ca7e2cbf510502a1a98a2ba245c4b99670bdbcea5e24a (1)
+Top 5 values:
+008dfb8b47a3cd6639259d01bba286e5d5e15de6132f70f84bc8073b39e3df6a - 1
+00bf4d0e1ebea030c1fb623ce91e6eabc024abc6287a19544704545c365a77b5 - 1
+00c39bfb712a22dc5814498f90230200e890ba9de8b05d09c67c2fa5246c8bfc - 1
+024814bca1ac466426e714ee34619865b2edde1fa0a56764c8cc1cdae29000f5 - 1
+02687ed1cd7bfe59f60e3f3ad289a878cbde393f232e6be78970047d3c1d1b3f - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (241)
+Top 5 values:
+POLITICAL_CANDIDATE - 241
+
+Post Created - Unique: 241, Top: 20240102 15:08:44 EST (1)
+Top 5 values:
+20231026 21:20:19 EDT - 1
+20231026 22:40:02 EDT - 1
+20231027 11:23:09 EDT - 1
+20231027 11:38:35 EDT - 1
+20231027 16:11:41 EDT - 1
+
+Post Created Date - Unique: 93, Top: 20240120 (7)
+Top 5 values:
+20240120 - 7
+20240102 - 6
+20240202 - 6
+20240209 - 6
+20231029 - 5
+
+Post Created Time - Unique: 240, Top: 18:00:15 (2)
+Top 5 values:
+18:00:15 - 2
+00:12:17 - 1
+02:13:17 - 1
+06:54:04 - 1
+07:01:09 - 1
+
+Type - Unique: 7, Top: Photo (105)
+Top 5 values:
+Photo - 105
+Native Video - 82
+Link - 24
+Live Video Scheduled - 10
+Status - 9
+
+Video Share Status - Unique: 1, Top: owned (90)
+Top 5 values:
+owned - 90
+
+Is Video Owner? - Unique: 1, Top: Yes (90)
+Top 5 values:
+Yes - 90
+
+Video Length - Unique: 64, Top: 00:00:05 (5)
+Top 5 values:
+00:00:05 - 5
+00:00:08 - 4
+00:00:12 - 3
+00:00:28 - 3
+00:01:12 - 3
+
+--- Group: Facebook_Id = fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha       Sad        Angry    
+ ---         ---                 ---         ---            ---       ---        ---        ---      
+ str         f64                 f64         f64            f64       f64        f64        f64      
+
+ count       460.0               460.0       460.0         460.0     460.0      460.0      460.0    
+ null_count  0.0                 0.0         0.0           0.0       0.0        0.0        0.0      
+ mean        474.345652          234.032609  75.752174     0.641304  3.478261   2.963043   1.46087  
+ std         1171.521847         646.42431   142.667199    2.041943  12.401664  28.584255  4.414843 
+ min         32.0                17.0        1.0           0.0       0.0        0.0        0.0      
+ 25%         164.0               81.0        19.0          0.0       0.0        0.0        0.0      
+ 50%         276.0               130.0       39.0          0.0       1.0        0.0        0.0      
+ 75%         444.0               213.0       80.0          1.0       3.0        1.0        1.0      
+ max         17656.0             9670.0      1909.0        24.0      178.0      593.0      43.0     
+
+
+Facebook_Id - Unique: 1, Top: fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1 (460)
+Top 5 values:
+fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1 - 460
+
+post_id - Unique: 460, Top: b218efbfb7a73952e3ae3e79f87900dbe31b0bd9989f2c426a5005cfcb5e1e29 (1)
+Top 5 values:
+0023815a619bdff30ce43ccd1bee88fa86a1075b073567cae5beaefe5a247779 - 1
+014fc6dafea28d9292f2384aedcf9dd7a75e6207fe1058011842ee404f38e9ee - 1
+015a8590b8409436c393cff294b10ad478b4ef4df03f241049039f1c313b9239 - 1
+017adc32ae2ac3fadf571ae7eae69a04e5d37f99d59ca4e8a965f58910ba1890 - 1
+01b7c669e45a6faeca3ccceadcf2e51c2c1ca8a7f21a1a3f8c2ab7da7ca98a3e - 1
+
+Page Category - Unique: 1, Top: PERSON (375)
+Top 5 values:
+PERSON - 375
+
+Page Admin Top Country - Unique: 1, Top: US (375)
+Top 5 values:
+US - 375
+
+Post Created - Unique: 452, Top: 20241030T15:21:40.000Z (2)
+Top 5 values:
+20240930T01:19:24.000Z - 2
+20240930T18:10:22.000Z - 2
+20241030T15:21:40.000Z - 2
+20241030T15:44:53.000Z - 2
+20241030T18:02:12.000Z - 2
+
+Post Created Date - Unique: 271, Top: 20240416 (7)
+Top 5 values:
+20240416 - 7
+20241030 - 7
+20241031 - 6
+20240115 - 4
+20240216 - 4
+
+Post Created Time - Unique: 446, Top: 16:05:19 (3)
+Top 5 values:
+16:05:19 - 3
+01:19:24 - 2
+12:23:17 - 2
+13:36:21 - 2
+14:03:26 - 2
+
+Type - Unique: 7, Top: Photo (137)
+Top 5 values:
+Photo - 137
+Native Video - 135
+YouTube - 45
+Status - 28
+Link - 18
+
+Video Share Status - Unique: 2, Top: owned (132)
+Top 5 values:
+owned - 132
+share - 13
+
+Is Video Owner? - Unique: 2, Top: Yes (134)
+Top 5 values:
+Yes - 134
+No - 11
+
+Video Length - Unique: 119, Top: 00:01:28 (5)
+Top 5 values:
+00:01:28 - 5
+00:00:44 - 4
+00:00:30 - 3
+00:00:28 - 2
+00:00:29 - 2
+
+--- Group: Facebook_Id = 459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha      Sad       Angry    
+ ---         ---                 ---        ---           ---       ---       ---       ---      
+ str         f64                 f64        f64           f64       f64       f64       f64      
+
+ count       22.0                22.0       22.0         22.0      22.0      22.0      22.0     
+ null_count  0.0                 0.0        0.0          0.0       0.0       0.0       0.0      
+ mean        88.318182           43.909091  24.636364    0.090909  4.545455  1.909091  0.5      
+ std         77.523199           23.182319  39.890977    0.294245  4.758224  7.150818  0.859125 
+ min         24.0                11.0       1.0          0.0       1.0       0.0       0.0      
+ 25%         58.0                34.0       7.0          0.0       2.0       0.0       0.0      
+ 50%         71.0                42.0       15.0         0.0       3.0       0.0       0.0      
+ 75%         97.0                53.0       28.0         0.0       5.0       0.0       1.0      
+ max         412.0               103.0      194.0        1.0       23.0      33.0      3.0      
+
+
+Facebook_Id - Unique: 1, Top: 459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190 (22)
+Top 5 values:
+459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190 - 22
+
+post_id - Unique: 22, Top: d8e4a2d89a755b4d17151e00916ac0830ab6b20bb2ab82668ed625c0480c2097 (1)
+Top 5 values:
+0fd1458b2e5236efeb32fa14c67175fef1a72bcd0958154f1f0895f4847b9c8c - 1
+15f640e502af782eaa8420a03a3a13f5a39be0c2f3d27b77e86f9cbdb448ffb5 - 1
+1b51196d49bbd4cc0674771a8c335c97256b8fb8471f4d208a496fdb4cd76b5a - 1
+38723ba8a020e46ad8b733acda1515d128fe44fa47ce03d7a9e3c149bafabe84 - 1
+44910138be674864c48c1842878bf9b93abd6163341dbee6e21980e3946be5ba - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (22)
+Top 5 values:
+POLITICIAN - 22
+
+Page Admin Top Country - Unique: 1, Top: US (22)
+Top 5 values:
+US - 22
+
+Post Created - Unique: 22, Top: 20230913 07:00:21 EDT (1)
+Top 5 values:
+20230901 19:27:26 EDT - 1
+20230902 19:44:32 EDT - 1
+20230904 12:19:17 EDT - 1
+20230905 20:11:06 EDT - 1
+20230908 20:38:21 EDT - 1
+
+Post Created Date - Unique: 17, Top: 20230911 (3)
+Top 5 values:
+20230911 - 3
+20230910 - 2
+20230921 - 2
+20230924 - 2
+20230901 - 1
+
+Post Created Time - Unique: 22, Top: 18:48:28 (1)
+Top 5 values:
+07:00:21 - 1
+10:37:30 - 1
+11:52:49 - 1
+12:18:13 - 1
+12:19:17 - 1
+
+Type - Unique: 3, Top: Photo (18)
+Top 5 values:
+Photo - 18
+Link - 2
+Native Video - 2
+
+Video Share Status - Unique: 1, Top: owned (2)
+Top 5 values:
+owned - 2
+
+Is Video Owner? - Unique: 1, Top: Yes (2)
+Top 5 values:
+Yes - 2
+
+Video Length - Unique: 2, Top: 00:00:30 (1)
+Top 5 values:
+00:00:30 - 1
+00:01:19 - 1
+
+--- Group: Facebook_Id = 7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow       Haha        Sad         Angry     
+ ---         ---                 ---          ---            ---       ---         ---         ---       
+ str         f64                 f64          f64            f64       f64         f64         f64       
+
+ count       1158.0              1158.0       1158.0        1158.0    1158.0      1158.0      1158.0    
+ null_count  0.0                 0.0          0.0           0.0       0.0         0.0         0.0       
+ mean        1751.443869         797.74266    608.751295    2.181347  90.689983   9.265112    11.57772  
+ std         2231.665863         1304.550787  802.37018     5.74117   150.825461  148.430648  52.823776 
+ min         87.0                59.0         4.0           0.0       0.0         0.0         0.0       
+ 25%         689.0               320.0        190.0         0.0       17.0        0.0         2.0       
+ 50%         1204.0              489.0        411.0         1.0       41.0        1.0         5.0       
+ 75%         1981.0              804.0        753.0         2.0       117.0       2.0         9.0       
+ max         33971.0             29326.0      10573.0       110.0     2677.0      4922.0      1562.0    
+
+
+Facebook_Id - Unique: 1, Top: 7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b (1158)
+Top 5 values:
+7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b - 1158
+
+post_id - Unique: 1158, Top: 358961c9441a86e8c5d6ca11b490ab0fae290f9f248bb33cefb8f83f2b5588ae (1)
+Top 5 values:
+00136a8081d9e67c5fd1eb75c7b291fe635ed01139b3e0d1aa64e1a5e78f1e52 - 1
+0016f63a8b47997d3a983cfd71a523da13aba97541e063622b87edee6c6422e2 - 1
+00bcaf73ba99ecfd99fb1b7f622a4d1e746c6a01ac1a409487d5ab13744ddc2e - 1
+0158d64847e69d23f467bb94222955e544d1c342a94f6f1b51b9b99eede638a6 - 1
+01b0650a2bd710fda7ef6e1268bb9b6f6cd1445d331ddd35d209e94be4455469 - 1
+
+Page Category - Unique: 1, Top: PERSON (1068)
+Top 5 values:
+PERSON - 1068
+
+Page Admin Top Country - Unique: 1, Top: US (1068)
+Top 5 values:
+US - 1068
+
+Post Created - Unique: 1155, Top: 20241031T19:03:38.000Z (2)
+Top 5 values:
+20240930T13:47:21.000Z - 2
+20241031T01:30:20.000Z - 2
+20241031T19:03:38.000Z - 2
+20230901 11:28:37 EDT - 1
+20230901 15:40:16 EDT - 1
+
+Post Created Date - Unique: 295, Top: 20230922 (36)
+Top 5 values:
+20230922 - 36
+20231028 - 23
+20240123 - 20
+20240209 - 16
+20240121 - 15
+
+Post Created Time - Unique: 1138, Top: 12:47:41 (2)
+Top 5 values:
+01:30:20 - 2
+09:54:27 - 2
+10:41:45 - 2
+11:17:10 - 2
+12:47:41 - 2
+
+Type - Unique: 6, Top: Photo (436)
+Top 5 values:
+Photo - 436
+Native Video - 345
+Status - 167
+Link - 115
+Video - 4
+
+Video Share Status - Unique: 2, Top: owned (344)
+Top 5 values:
+owned - 344
+share - 2
+
+Is Video Owner? - Unique: 2, Top: Yes (344)
+Top 5 values:
+Yes - 344
+No - 2
+
+Video Length - Unique: 127, Top: 00:00:30 (14)
+Top 5 values:
+00:00:30 - 14
+00:00:33 - 9
+00:00:37 - 8
+00:00:25 - 7
+00:00:35 - 6
+
+--- Group: Facebook_Id = fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha     Sad        Angry     
+ ---         ---                 ---         ---            ---       ---      ---        ---       
+ str         f64                 f64         f64            f64       f64      f64        f64       
+
+ count       757.0               757.0       757.0         757.0     757.0    757.0      757.0     
+ null_count  0.0                 0.0         0.0           0.0       0.0      0.0        0.0       
+ mean        680.48745           314.240423  181.900925    1.571995  3.27609  3.273448   4.336856  
+ std         733.269908          330.504501  266.452696    6.516902  7.39953  18.546895  21.107908 
+ min         14.0                11.0        0.0           0.0       0.0      0.0        0.0       
+ 25%         233.0               107.0       36.0          0.0       0.0      0.0        0.0       
+ 50%         463.0               207.0       89.0          0.0       1.0      0.0        0.0       
+ 75%         871.0               406.0       223.0         1.0       4.0      1.0        1.0       
+ max         8079.0              3402.0      2610.0        82.0      77.0     369.0      434.0     
+
+
+Facebook_Id - Unique: 1, Top: fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d (757)
+Top 5 values:
+fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d - 757
+
+post_id - Unique: 757, Top: 8abd81289b72a942e14aec75b839db741665b9c7cfaeaf61df9c39f1b3fe94e2 (1)
+Top 5 values:
+0046655769320fecab2e13f8929f3cfcfc740576a5cad8392d6d1d1edebbfe75 - 1
+0125cec38b31fc5497470daf4aad6794b11743b56de309f84717d194ae3938f2 - 1
+0128c78b0723c150c283c6ce04fa9e1d895f0e52a6918ae958f85b8eb650a3cb - 1
+014fc6767c97ffa8fbf51e731359f2002ade8c789f8fe3321e3a2eaba2bbac36 - 1
+018883778180a28c3bb0047a2fedaaea365ece2b48061b99072bf0a2f5ca8c63 - 1
+
+Page Category - Unique: 1, Top: PERSON (507)
+Top 5 values:
+PERSON - 507
+
+Page Admin Top Country - Unique: 1, Top: US (507)
+Top 5 values:
+US - 507
+
+Post Created - Unique: 754, Top: 20240930T22:59:25.000Z (2)
+Top 5 values:
+20240930T22:59:25.000Z - 2
+20240930T23:32:00.000Z - 2
+20241031T01:01:41.000Z - 2
+20231021 17:34:20 EDT - 1
+20231109 11:25:39 EST - 1
+
+Post Created Date - Unique: 266, Top: 20240220 (18)
+Top 5 values:
+20240220 - 18
+20241014 - 9
+20240930 - 8
+20241026 - 8
+20240426 - 7
+
+Post Created Time - Unique: 745, Top: 23:56:34 (2)
+Top 5 values:
+01:01:41 - 2
+11:19:19 - 2
+11:25:39 - 2
+15:19:16 - 2
+16:00:14 - 2
+
+Type - Unique: 7, Top: Photo (295)
+Top 5 values:
+Photo - 295
+Link - 75
+Native Video - 61
+Live Video Scheduled - 54
+Live Video Complete - 15
+
+Video Share Status - Unique: 3, Top: owned (67)
+Top 5 values:
+owned - 67
+share - 8
+crosspost - 1
+
+Is Video Owner? - Unique: 2, Top: Yes (71)
+Top 5 values:
+Yes - 71
+No - 5
+
+Video Length - Unique: 66, Top: 00:00:59 (5)
+Top 5 values:
+00:00:59 - 5
+00:00:08 - 2
+00:00:39 - 2
+00:00:45 - 2
+00:00:55 - 2
+
+--- Group: Facebook_Id = fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments       Wow         Haha       Sad         Angry     
+ ---         ---                 ---          ---             ---         ---        ---         ---       
+ str         f64                 f64          f64             f64         f64        f64         f64       
+
+ count       643.0               643.0        643.0          643.0       643.0      643.0       643.0     
+ null_count  0.0                 0.0          0.0            0.0         0.0        0.0         0.0       
+ mean        5275.292379         3246.541213  647.874028     20.410575   19.950233  13.437014   16.085537 
+ std         9449.746053         6773.261592  1070.188388    148.725183  88.280162  107.117356  96.758494 
+ min         102.0               80.0         7.0            0.0         0.0        0.0         0.0       
+ 25%         1536.0              794.0        206.0          1.0         5.0        0.0         0.0       
+ 50%         2458.0              1320.0       352.0          4.0         9.0        1.0         2.0       
+ 75%         4596.0              2678.0       571.0          9.0         16.0       4.0         4.0       
+ max         105142.0            72898.0      10688.0        3337.0      1725.0     2440.0      1589.0    
+
+
+Facebook_Id - Unique: 1, Top: fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948 (643)
+Top 5 values:
+fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948 - 643
+
+post_id - Unique: 643, Top: 708ad34ca41fe3bb37c534923a08740f8bb84519cbe0397b46779b4b061e3fe1 (1)
+Top 5 values:
+000634520f1f020a7d878a472c495e2a424ac06bf31b15d6825aac4048cef1cf - 1
+006fa62ab11556eff0f2ca71566fa38d30e20d29ff17a31f52b75a701054dcd6 - 1
+00ec48384b0d2ee3b4079a36ff23dc4b2712fa6110b5f5c37bd8a10aa766b430 - 1
+010436c61bb5afb98e35403f0a2316c256adaaf89f243d8bbc1c01588354f48a - 1
+033c532f4d99fb8e98d804eb7a17960a2bbebe4f09da944542d61d487e8450a9 - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (547)
+Top 5 values:
+POLITICAL_CANDIDATE - 547
+
+Page Admin Top Country - Unique: 1, Top: US (547)
+Top 5 values:
+US - 547
+
+Post Created - Unique: 643, Top: 20240310 15:49:00 EDT (1)
+Top 5 values:
+20230901 17:02:35 EDT - 1
+20230902 13:12:03 EDT - 1
+20230902 20:27:50 EDT - 1
+20230902 23:31:16 EDT - 1
+20230903 09:43:07 EDT - 1
+
+Post Created Date - Unique: 295, Top: 20240627 (10)
+Top 5 values:
+20240627 - 10
+20240823 - 7
+20240825 - 6
+20231023 - 5
+20240130 - 5
+
+Post Created Time - Unique: 641, Top: 16:42:31 (2)
+Top 5 values:
+16:42:31 - 2
+18:20:20 - 2
+00:02:13 - 1
+00:04:39 - 1
+00:15:48 - 1
+
+Type - Unique: 7, Top: Native Video (318)
+Top 5 values:
+Native Video - 318
+Photo - 109
+Link - 84
+Status - 15
+Live Video Complete - 10
+
+Video Share Status - Unique: 1, Top: owned (328)
+Top 5 values:
+owned - 328
+
+Is Video Owner? - Unique: 1, Top: Yes (328)
+Top 5 values:
+Yes - 328
+
+Video Length - Unique: 198, Top: 00:01:43 (8)
+Top 5 values:
+00:01:43 - 8
+00:01:34 - 7
+00:01:41 - 7
+00:01:57 - 5
+00:02:00 - 5
+
+--- Group: Facebook_Id = 4bd0a74df1b4df50157a304ace4291c947560a05da059ea6c8935cc11de7014d ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow   Haha  Sad   Angry 
+ ---         ---                 ---          ---            ---   ---   ---   ---   
+ str         f64                 f64          f64            f64   f64   f64   f64   
+
+ count       98.0                98.0         98.0          98.0  98.0  98.0  98.0  
+ null_count  0.0                 0.0          0.0           0.0   0.0   0.0   0.0   
+ mean        3139.163265         2323.897959  731.755102    0.0   0.0   0.0   0.0   
+ std         2668.160163         2026.747832  664.075236    0.0   0.0   0.0   0.0   
+ min         314.0               165.0        104.0         0.0   0.0   0.0   0.0   
+ 25%         1253.0              850.0        297.0         0.0   0.0   0.0   0.0   
+ 50%         2241.0              1639.0       492.0         0.0   0.0   0.0   0.0   
+ 75%         4624.0              3352.0       879.0         0.0   0.0   0.0   0.0   
+ max         14083.0             10825.0      3874.0        0.0   0.0   0.0   0.0   
+
+
+Facebook_Id - Unique: 1, Top: 4bd0a74df1b4df50157a304ace4291c947560a05da059ea6c8935cc11de7014d (98)
+Top 5 values:
+4bd0a74df1b4df50157a304ace4291c947560a05da059ea6c8935cc11de7014d - 98
+
+post_id - Unique: 98, Top: f7fa3cb3a53c32395fbd385857151dcc4d48ba4475752eed050535b92d6905e5 (1)
+Top 5 values:
+009f6c59580ba906eb61691c1e4f6ebe313eac73776e3f4ffe143435007882d5 - 1
+0174ebc3afbc31a445ca9df9611292e87b9c352dbdc9dfaedd27e4464ba56996 - 1
+038478c48bbc7be9e746e99cc77a277899a2faf5b0de47cfbc60798f687f9fef - 1
+079096f761dabd18c0be24a24f37479a520009f5c127364576c5c3432b299da1 - 1
+0bcca0a9e22c8cbf0d370ab9375c8ed7ae18983d10223fc93d517f0fa5ec308b - 1
+
+Post Created - Unique: 94, Top: 20241031T01:03:33.000Z (2)
+Top 5 values:
+20241030T22:01:54.000Z - 2
+20241031T01:03:33.000Z - 2
+20241031T15:10:44.000Z - 2
+20241031T18:49:57.000Z - 2
+20240802T16:40:38.000Z - 1
+
+Post Created Date - Unique: 62, Top: 20241031 (6)
+Top 5 values:
+20241031 - 6
+20241010 - 4
+20240829 - 3
+20241002 - 3
+20241011 - 3
+
+Post Created Time - Unique: 94, Top: 15:10:44 (2)
+Top 5 values:
+01:03:33 - 2
+15:10:44 - 2
+18:49:57 - 2
+22:01:54 - 2
+00:16:02 - 1
+
+--- Group: Facebook_Id = a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha      Sad       Angry    
+ ---         ---                 ---        ---           ---       ---       ---       ---      
+ str         f64                 f64        f64           f64       f64       f64       f64      
+
+ count       29.0                29.0       29.0         29.0      29.0      29.0      29.0     
+ null_count  0.0                 0.0        0.0          0.0       0.0       0.0       0.0      
+ mean        115.517241          50.448276  46.793103    0.241379  8.137931  0.551724  0.482759 
+ std         96.22133            24.32457   69.628288    0.435494  7.288563  2.229449  0.633623 
+ min         29.0                12.0       5.0          0.0       1.0       0.0       0.0      
+ 25%         62.0                33.0       11.0         0.0       3.0       0.0       0.0      
+ 50%         81.0                41.0       21.0         0.0       6.0       0.0       0.0      
+ 75%         123.0               66.0       46.0         0.0       10.0      0.0       1.0      
+ max         454.0               104.0      329.0        1.0       36.0      12.0      2.0      
+
+
+Facebook_Id - Unique: 1, Top: a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 (29)
+Top 5 values:
+a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 - 29
+
+post_id - Unique: 29, Top: 09f22e0eebb701d92c262f5033525afcc119bbf42ef309ead90fad6c67a481a0 (1)
+Top 5 values:
+09f22e0eebb701d92c262f5033525afcc119bbf42ef309ead90fad6c67a481a0 - 1
+190431216f9911cb006810614eef8b60f6cd0d403bc8bd1d2cd80d9da4a95f3a - 1
+1dcb5e00cd1c8d7ee141922f50f29e59e96328231b6937870e87029c97b26377 - 1
+2201ece0ef3be9f934ddb30c5f966ac9376fda443500aa0b707cf45559000530 - 1
+2770708b14ba5ba6633e083f9c67e96a325ee3bfd66e5207435864cf6a8480c9 - 1
+
+Page Category - Unique: 1, Top: PERSON (29)
+Top 5 values:
+PERSON - 29
+
+Page Admin Top Country - Unique: 1, Top: US (29)
+Top 5 values:
+US - 29
+
+Post Created - Unique: 29, Top: 20240104 18:31:26 EST (1)
+Top 5 values:
+20230904 19:31:16 EDT - 1
+20230906 20:00:56 EDT - 1
+20230906 20:01:39 EDT - 1
+20230921 09:48:09 EDT - 1
+20231007 13:52:11 EDT - 1
+
+Post Created Date - Unique: 21, Top: 20240111 (3)
+Top 5 values:
+20240111 - 3
+20240112 - 3
+20230906 - 2
+20240104 - 2
+20240105 - 2
+
+Post Created Time - Unique: 29, Top: 15:05:26 (1)
+Top 5 values:
+00:20:29 - 1
+09:48:09 - 1
+12:15:06 - 1
+12:23:01 - 1
+13:00:06 - 1
+
+Type - Unique: 5, Top: Photo (18)
+Top 5 values:
+Photo - 18
+Link - 5
+Status - 4
+Live Video Complete - 1
+YouTube - 1
+
+Video Share Status - Unique: 1, Top: owned (1)
+Top 5 values:
+owned - 1
+
+Is Video Owner? - Unique: 1, Top: Yes (1)
+Top 5 values:
+Yes - 1
+
+Video Length - Unique: 1, Top: 00:40:39 (1)
+Top 5 values:
+00:40:39 - 1
+
+--- Group: Facebook_Id = d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments       Wow        Haha         Sad         Angry      
+ ---         ---                 ---          ---             ---        ---          ---         ---        
+ str         f64                 f64          f64             f64        f64          f64         f64        
+
+ count       929.0               929.0        929.0          929.0      929.0        929.0       929.0      
+ null_count  0.0                 0.0          0.0            0.0        0.0          0.0         0.0        
+ mean        11850.772874        5086.691066  3711.956943    20.249731  798.386437   29.851453   124.669537 
+ std         15679.190243        7142.532439  2880.326694    93.275963  1171.222197  265.880648  354.467467 
+ min         961.0               377.0        0.0            0.0        0.0          0.0         0.0        
+ 25%         6357.0              2190.0       2227.0         5.0        399.0        2.0         29.0       
+ 50%         8757.0              3250.0       3068.0         9.0        580.0        6.0         51.0       
+ 75%         13056.0             5268.0       4388.0         18.0       869.0        15.0        90.0       
+ max         283887.0            97979.0      51060.0        2390.0     22518.0      7393.0      6929.0     
+
+
+Facebook_Id - Unique: 1, Top: d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309 (929)
+Top 5 values:
+d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309 - 929
+
+post_id - Unique: 929, Top: 0f2d0daa392d62c9e2e611ccb17de948e0c01b0b3b1c64970fb10d215136747f (1)
+Top 5 values:
+004a6fbc544ab67614505e33f50abaf50307b22f7b0ec39143de1d19e5d7a3d7 - 1
+007fced65e5b745c51c095db62413af80cad6208e95cb6bfe09834132de39354 - 1
+00be22662e5cd1ff9f7e5007f76cdfef7b3fd4ea071c425071b2a4947665ef08 - 1
+011c46f4aeacf4e5d04a8f62b10a36239968e834e844be1c64d6118d01969177 - 1
+0147b2b04323daed7ff6507b63846fe656296f0c14eaa499b7b9514bdbcbccd0 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (847)
+Top 5 values:
+POLITICIAN - 847
+
+Page Admin Top Country - Unique: 1, Top: US (847)
+Top 5 values:
+US - 847
+
+Post Created - Unique: 928, Top: 20241030T01:31:08.000Z (2)
+Top 5 values:
+20241030T01:31:08.000Z - 2
+20230901 14:25:01 EDT - 1
+20230901 18:23:00 EDT - 1
+20230901 20:19:59 EDT - 1
+20230902 10:30:02 EDT - 1
+
+Post Created Date - Unique: 311, Top: 20240627 (16)
+Top 5 values:
+20240627 - 16
+20240628 - 12
+20240624 - 11
+20240712 - 11
+20240705 - 10
+
+Post Created Time - Unique: 839, Top: 19:30:02 (4)
+Top 5 values:
+19:05:01 - 4
+19:30:01 - 4
+19:30:02 - 4
+10:30:04 - 3
+12:30:01 - 3
+
+Type - Unique: 6, Top: Photo (367)
+Top 5 values:
+Photo - 367
+Native Video - 244
+Status - 171
+Link - 29
+Live Video Complete - 19
+
+Video Share Status - Unique: 3, Top: owned (248)
+Top 5 values:
+owned - 248
+share - 11
+crosspost - 4
+
+Is Video Owner? - Unique: 2, Top: Yes (252)
+Top 5 values:
+Yes - 252
+No - 11
+
+Video Length - Unique: 93, Top: 00:00:30 (20)
+Top 5 values:
+00:00:30 - 20
+00:01:00 - 10
+00:00:17 - 9
+00:00:09 - 8
+00:00:29 - 8
+
+--- Group: Facebook_Id = 278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments    Wow       Haha       Sad       Angry    
+ ---         ---                 ---        ---          ---       ---        ---       ---      
+ str         f64                 f64        f64          f64       f64        f64       f64      
+
+ count       23.0                23.0       23.0        23.0      23.0       23.0      23.0     
+ null_count  0.0                 0.0        0.0         0.0       0.0        0.0       0.0      
+ mean        15.086957           6.26087    3.826087    0.26087   2.565217   0.130435  0.869565 
+ std         41.145985           16.057333  9.679651    1.053884  10.166013  0.625543  3.957781 
+ min         0.0                 0.0        0.0         0.0       0.0        0.0       0.0      
+ 25%         1.0                 1.0        0.0         0.0       0.0        0.0       0.0      
+ 50%         4.0                 2.0        0.0         0.0       0.0        0.0       0.0      
+ 75%         9.0                 4.0        2.0         0.0       0.0        0.0       0.0      
+ max         198.0               78.0       43.0        5.0       48.0       3.0       19.0     
+
+
+Facebook_Id - Unique: 1, Top: 278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f (23)
+Top 5 values:
+278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f - 23
+
+post_id - Unique: 23, Top: eb95d4e297c8addae91d7a185d4909bdf7f90b714d31786bade75bcb987c07b6 (1)
+Top 5 values:
+070fc657ba76af27eaac6733ff348b63d48ec464b83147381c37c3b75d93d88d - 1
+16ff97fd394025c7f109f764c5bb13218d23a94d064d7d319aa13f0b554dffb0 - 1
+2acef5706d3810646b1a0d9b2f4467bca390fe3c380134585da8c699aaa364fb - 1
+2ed717bab13a9880b2ed1d9da93cf4b6dd16d7d4b3f5c29135b0450e1f8cc266 - 1
+4eb53be95aedc5bd3a7b5897980c79fd9c79ed17a964161a9f4f11c73ee9be64 - 1
+
+Page Category - Unique: 2, Top: POLITICAL_CANDIDATE (15)
+Top 5 values:
+POLITICAL_CANDIDATE - 15
+YOUTH_ORGANIZATION - 1
+
+Post Created - Unique: 23, Top: 20240624 08:52:45 EDT (1)
+Top 5 values:
+20240315 10:52:37 EDT - 1
+20240318 11:21:53 EDT - 1
+20240318 12:04:26 EDT - 1
+20240322 13:45:17 EDT - 1
+20240326 09:11:12 EDT - 1
+
+Post Created Date - Unique: 17, Top: 20240425 (2)
+Top 5 values:
+20240318 - 2
+20240329 - 2
+20240425 - 2
+20240426 - 2
+20240620 - 2
+
+Post Created Time - Unique: 23, Top: 12:33:40 (1)
+Top 5 values:
+08:52:45 - 1
+08:52:55 - 1
+09:11:12 - 1
+10:12:34 - 1
+10:14:29 - 1
+
+Type - Unique: 4, Top: Photo (9)
+Top 5 values:
+Photo - 9
+Link - 8
+Native Video - 4
+YouTube - 2
+
+Video Share Status - Unique: 2, Top: share (3)
+Top 5 values:
+share - 3
+owned - 1
+
+Is Video Owner? - Unique: 2, Top: No (3)
+Top 5 values:
+No - 3
+Yes - 1
+
+Video Length - Unique: 4, Top: 00:03:38 (1)
+Top 5 values:
+00:00:38 - 1
+00:00:46 - 1
+00:01:36 - 1
+00:03:38 - 1
+
+--- Group: Facebook_Id = a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow        Haha        Sad        Angry     
+ ---         ---                 ---          ---            ---        ---         ---        ---       
+ str         f64                 f64          f64            f64        f64         f64        f64       
+
+ count       1074.0              1074.0       1074.0        1074.0     1074.0      1074.0     1074.0    
+ null_count  0.0                 0.0          0.0           0.0        0.0         0.0        0.0       
+ mean        3365.203911         2536.637803  374.972067    5.673184   35.951583   3.693669   9.085661  
+ std         8713.559066         7239.404295  592.992585    19.472405  112.946966  21.332154  60.529784 
+ min         144.0               77.0         13.0          0.0        0.0         0.0        0.0       
+ 25%         693.0               410.0        127.0         0.0        6.0         0.0        0.0       
+ 50%         1184.0              773.0        217.0         1.0        14.0        0.0        1.0       
+ 75%         2612.0              1837.0       413.0         4.0        26.0        1.0        3.0       
+ max         196265.0            158096.0     13061.0       270.0      1676.0      402.0      1683.0    
+
+
+Facebook_Id - Unique: 1, Top: a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e (1074)
+Top 5 values:
+a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e - 1074
+
+post_id - Unique: 1074, Top: 9c3488fc39dbf7e3386182e0edc77b2d7864db119fa7a0f5c1d2eb935438ed24 (1)
+Top 5 values:
+006c7ee632baeef7d1979b6f3223342a19f3b5929cc02e4053982d2a0f3d3f29 - 1
+00d19e1564fd81ff6a1637e886c6197a76507358ba6d1512e989c6fa7988b302 - 1
+01288c3374d8258633333a75b15dd3ea4cb942caffdc9e6d3674a1d23c067400 - 1
+0134404810715c6739731a267eff48de4ffb5e99a0aac805dbdf112a679870ae - 1
+0174a0ba627bbeb2f1e1a151e73d5981e28da4b2b1937aa9cdd9a3cb54a38617 - 1
+
+Page Category - Unique: 1, Top: PERSON (857)
+Top 5 values:
+PERSON - 857
+
+Page Admin Top Country - Unique: 1, Top: US (857)
+Top 5 values:
+US - 857
+
+Post Created - Unique: 1072, Top: 20241030T20:57:00.000Z (2)
+Top 5 values:
+20241030T20:57:00.000Z - 2
+20241031T22:20:49.000Z - 2
+20230901 09:49:11 EDT - 1
+20230901 13:37:16 EDT - 1
+20230901 15:22:00 EDT - 1
+
+Post Created Date - Unique: 311, Top: 20240110 (22)
+Top 5 values:
+20240110 - 22
+20240111 - 21
+20240113 - 20
+20240115 - 18
+20230927 - 14
+
+Post Created Time - Unique: 1049, Top: 15:02:00 (3)
+Top 5 values:
+12:00:00 - 3
+15:02:00 - 3
+11:58:00 - 2
+13:24:39 - 2
+13:26:57 - 2
+
+Type - Unique: 6, Top: Native Video (378)
+Top 5 values:
+Native Video - 378
+Photo - 195
+Status - 150
+Live Video Complete - 116
+Link - 14
+
+Video Share Status - Unique: 2, Top: owned (486)
+Top 5 values:
+owned - 486
+share - 8
+
+Is Video Owner? - Unique: 2, Top: Yes (485)
+Top 5 values:
+Yes - 485
+No - 7
+
+Video Length - Unique: 317, Top: 00:01:00 (9)
+Top 5 values:
+00:01:00 - 9
+00:00:30 - 8
+00:00:40 - 7
+00:00:34 - 6
+00:00:58 - 6
+
+--- Group: Facebook_Id = 8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719 ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes         Comments       Wow        Haha       Sad        Angry     
+ ---         ---                 ---           ---             ---        ---        ---        ---       
+ str         f64                 f64           f64             f64        f64        f64        f64       
+
+ count       269.0               269.0         269.0          269.0      269.0      269.0      269.0     
+ null_count  0.0                 0.0           0.0            0.0        0.0        0.0        0.0       
+ mean        8224.903346         5441.33829    989.591078     3.32342    31.479554  13.453532  11.840149 
+ std         15528.431193        10861.670285  2310.119255    10.689802  67.979341  82.852834  48.019746 
+ min         198.0               81.0          48.0           0.0        0.0        0.0        0.0       
+ 25%         1499.0              848.0         292.0          0.0        4.0        0.0        0.0       
+ 50%         3153.0              1700.0        493.0          1.0        12.0       1.0        1.0       
+ 75%         8644.0              6424.0        925.0          3.0        27.0       4.0        5.0       
+ max         136388.0            88847.0       27973.0        156.0      762.0      1254.0     539.0     
+
+
+Facebook_Id - Unique: 1, Top: 8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719 (269)
+Top 5 values:
+8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719 - 269
+
+post_id - Unique: 269, Top: b2afd98b78efea17ca8c23af4ffa991d81d7441ca0a648c93291d8b8cb387f11 (1)
+Top 5 values:
+00a87f028b42eab29ed1fdea176f4159a98277659768482ab53a03c325f345c5 - 1
+01266061dd8bb6bb7a9703e955eb2b6d4e9811a60b48e4a8296a00b24712332d - 1
+019a071abd1a937b1f1bcd05f59f7d3f59dcd72b58fd6cc68ff786cd3756e9ec - 1
+03e6a4329955bf5486c4616babb22703009a7211f50714642e8b90dd96ebf243 - 1
+0517873375cb7b9db8c177c06df24c6d0178d5cd613552fa5255ad6584c8c176 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (225)
+Top 5 values:
+POLITICIAN - 225
+
+Page Admin Top Country - Unique: 1, Top: US (225)
+Top 5 values:
+US - 225
+
+Post Created - Unique: 268, Top: 20241031T14:16:14.000Z (2)
+Top 5 values:
+20241031T14:16:14.000Z - 2
+20230901 15:02:31 EDT - 1
+20230902 13:44:42 EDT - 1
+20230903 09:39:38 EDT - 1
+20230904 12:59:09 EDT - 1
+
+Post Created Date - Unique: 229, Top: 20231108 (3)
+Top 5 values:
+20230927 - 3
+20231011 - 3
+20231108 - 3
+20230907 - 2
+20230908 - 2
+
+Post Created Time - Unique: 268, Top: 14:16:14 (2)
+Top 5 values:
+14:16:14 - 2
+00:11:23 - 1
+00:14:59 - 1
+00:27:10 - 1
+01:03:33 - 1
+
+Type - Unique: 5, Top: Status (91)
+Top 5 values:
+Status - 91
+Photo - 73
+Native Video - 41
+Link - 19
+Video - 1
+
+Video Share Status - Unique: 2, Top: owned (37)
+Top 5 values:
+owned - 37
+share - 4
+
+Is Video Owner? - Unique: 2, Top: Yes (33)
+Top 5 values:
+Yes - 33
+No - 6
+
+Video Length - Unique: 36, Top: 00:00:30 (4)
+Top 5 values:
+00:00:30 - 4
+00:00:31 - 2
+00:01:00 - 2
+00:00:03 - 1
+00:00:12 - 1
+
+--- Group: Facebook_Id = bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha      Sad        Angry     
+ ---         ---                 ---         ---            ---       ---       ---        ---       
+ str         f64                 f64         f64            f64       f64       f64        f64       
+
+ count       1431.0              1431.0      1431.0        1431.0    1431.0    1431.0     1431.0    
+ null_count  0.0                 0.0         0.0           0.0       0.0       0.0        0.0       
+ mean        493.865828          262.422781  81.204752     1.419287  1.306778  3.097135   1.9413    
+ std         917.210937          580.746047  190.816935    7.642741  7.937268  17.712259  10.540401 
+ min         6.0                 2.0         0.0           0.0       0.0       0.0        0.0       
+ 25%         123.0               61.0        9.0           0.0       0.0       0.0        0.0       
+ 50%         221.0               100.0       24.0          0.0       0.0       0.0        0.0       
+ 75%         454.0               217.0       71.0          1.0       1.0       1.0        0.0       
+ max         11847.0             7495.0      2937.0        168.0     219.0     520.0      226.0     
+
+
+Facebook_Id - Unique: 1, Top: bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b (1431)
+Top 5 values:
+bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b - 1431
+
+post_id - Unique: 1431, Top: de435310b0786384a86b5784bb548f5b5fd1eb02c97ab533075697da69edbc45 (1)
+Top 5 values:
+000965ed8ad23d5a11bfb08ff1b4a48aa5f5faf48bec788c598dbe609da097b8 - 1
+0010ea66f8b686476bcbaa744d28a70799c3ead93deea262f0a2c0d5bbecf6fd - 1
+005d23ac75b743853ae0a0a191dd935dbff4d91692be561558dbda0c76282cc3 - 1
+009f3f638e68368c033c68fe517990700ef6c59c766155e559ac44e15aa8bfd2 - 1
+00b4a9b12f3ea4704066bca4474eab05e57a2244fdc51522f30fc39883edbf22 - 1
+
+Page Category - Unique: 1, Top: PERSON (1283)
+Top 5 values:
+PERSON - 1283
+
+Page Admin Top Country - Unique: 1, Top: US (1283)
+Top 5 values:
+US - 1283
+
+Post Created - Unique: 1425, Top: 20241031T01:24:50.000Z (2)
+Top 5 values:
+20241030T07:59:40.000Z - 2
+20241030T21:53:50.000Z - 2
+20241031T01:24:50.000Z - 2
+20241031T12:17:11.000Z - 2
+20241031T18:19:27.000Z - 2
+
+Post Created Date - Unique: 359, Top: 20240122 (16)
+Top 5 values:
+20240122 - 16
+20240203 - 16
+20240106 - 15
+20240121 - 14
+20240201 - 14
+
+Post Created Time - Unique: 1415, Top: 19:38:30 (2)
+Top 5 values:
+01:24:50 - 2
+07:59:40 - 2
+09:06:52 - 2
+09:48:11 - 2
+11:45:24 - 2
+
+Type - Unique: 8, Top: Native Video (423)
+Top 5 values:
+Native Video - 423
+Photo - 388
+Status - 204
+Link - 130
+Live Video Scheduled - 118
+
+Video Share Status - Unique: 3, Top: owned (427)
+Top 5 values:
+owned - 427
+share - 4
+crosspost - 2
+
+Is Video Owner? - Unique: 2, Top: Yes (428)
+Top 5 values:
+Yes - 428
+No - 3
+
+Video Length - Unique: 230, Top: 00:00:59 (10)
+Top 5 values:
+00:00:59 - 10
+00:01:33 - 6
+00:00:49 - 5
+00:00:50 - 5
+00:00:57 - 5
+
+--- Group: Facebook_Id = fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha       Sad        Angry    
+ ---         ---                 ---         ---            ---       ---        ---        ---      
+ str         f64                 f64         f64            f64       f64        f64        f64      
+
+ count       375.0               375.0       375.0         375.0     375.0      375.0      375.0    
+ null_count  0.0                 0.0         0.0           0.0       0.0        0.0        0.0      
+ mean        504.666667          241.338667  76.016        0.786667  4.266667   3.634667   1.792    
+ std         1290.622881         711.865727  154.847397    2.236626  13.615552  31.627636  4.829659 
+ min         32.0                17.0        1.0           0.0       0.0        0.0        0.0      
+ 25%         161.0               78.0        18.0          0.0       1.0        0.0        0.0      
+ 50%         287.0               120.0       37.0          0.0       2.0        0.0        0.0      
+ 75%         460.0               211.0       80.0          1.0       4.0        1.0        1.0      
+ max         17656.0             9670.0      1909.0        24.0      178.0      593.0      43.0     
+
+
+Facebook_Id - Unique: 1, Top: fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1 (375)
+Top 5 values:
+fc098d51a4f57bc4bd48a4e1c0615ce3694f896160aca668c525b5b29e41b7d1 - 375
+
+post_id - Unique: 375, Top: 92b0bc610b3cbb56bcd3876c860c951bb794caf7634f7944f8d7d90b4c855e6b (1)
+Top 5 values:
+0023815a619bdff30ce43ccd1bee88fa86a1075b073567cae5beaefe5a247779 - 1
+015a8590b8409436c393cff294b10ad478b4ef4df03f241049039f1c313b9239 - 1
+017adc32ae2ac3fadf571ae7eae69a04e5d37f99d59ca4e8a965f58910ba1890 - 1
+01b7c669e45a6faeca3ccceadcf2e51c2c1ca8a7f21a1a3f8c2ab7da7ca98a3e - 1
+0222f9a7249143e16c055de3071f5696167d824e0f7de6daa3beeffa07c83db4 - 1
+
+Page Category - Unique: 1, Top: PERSON (375)
+Top 5 values:
+PERSON - 375
+
+Page Admin Top Country - Unique: 1, Top: US (375)
+Top 5 values:
+US - 375
+
+Post Created - Unique: 375, Top: 20240510 13:24:36 EDT (1)
+Top 5 values:
+20230906 14:06:31 EDT - 1
+20230909 15:37:58 EDT - 1
+20230909 21:06:48 EDT - 1
+20230910 21:28:53 EDT - 1
+20230915 15:32:43 EDT - 1
+
+Post Created Date - Unique: 221, Top: 20240416 (7)
+Top 5 values:
+20240416 - 7
+20240115 - 4
+20240216 - 4
+20240322 - 4
+20240412 - 4
+
+Post Created Time - Unique: 371, Top: 13:36:21 (2)
+Top 5 values:
+12:23:17 - 2
+13:36:21 - 2
+16:55:32 - 2
+20:04:06 - 2
+00:07:04 - 1
+
+Type - Unique: 7, Top: Photo (137)
+Top 5 values:
+Photo - 137
+Native Video - 135
+YouTube - 45
+Status - 28
+Link - 18
+
+Video Share Status - Unique: 2, Top: owned (132)
+Top 5 values:
+owned - 132
+share - 13
+
+Is Video Owner? - Unique: 2, Top: Yes (134)
+Top 5 values:
+Yes - 134
+No - 11
+
+Video Length - Unique: 119, Top: 00:01:28 (5)
+Top 5 values:
+00:01:28 - 5
+00:00:44 - 4
+00:00:30 - 3
+00:00:28 - 2
+00:00:29 - 2
+
+--- Group: Facebook_Id = 278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f, Page Category = POLITICAL_CANDIDATE ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes     Comments    Wow   Haha  Sad   Angry 
+ ---         ---                 ---       ---          ---   ---   ---   ---   
+ str         f64                 f64       f64          f64   f64   f64   f64   
+
+ count       15.0                15.0      15.0        15.0  15.0  15.0  15.0  
+ null_count  0.0                 0.0       0.0         0.0   0.0   0.0   0.0   
+ mean        3.666667            2.466667  0.6         0.0   0.0   0.0   0.0   
+ std         4.86484             3.97971   1.121224    0.0   0.0   0.0   0.0   
+ min         0.0                 0.0       0.0         0.0   0.0   0.0   0.0   
+ 25%         0.0                 0.0       0.0         0.0   0.0   0.0   0.0   
+ 50%         2.0                 1.0       0.0         0.0   0.0   0.0   0.0   
+ 75%         6.0                 3.0       1.0         0.0   0.0   0.0   0.0   
+ max         16.0                14.0      4.0         0.0   0.0   0.0   0.0   
+
+
+Facebook_Id - Unique: 1, Top: 278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f (15)
+Top 5 values:
+278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f - 15
+
+post_id - Unique: 15, Top: a6b6d8f21a8be2786d50546258789f0e5772bc5c180240232b6158a8ba83b172 (1)
+Top 5 values:
+070fc657ba76af27eaac6733ff348b63d48ec464b83147381c37c3b75d93d88d - 1
+2ed717bab13a9880b2ed1d9da93cf4b6dd16d7d4b3f5c29135b0450e1f8cc266 - 1
+4eb53be95aedc5bd3a7b5897980c79fd9c79ed17a964161a9f4f11c73ee9be64 - 1
+6e897f052367b716be60f490411ba8bb725b9922f69d1cb4bf61946f2dced0f3 - 1
+812e13054fab04ef6d28c65785d28da1a0f2fbee1144f0785c56c853168ce738 - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (15)
+Top 5 values:
+POLITICAL_CANDIDATE - 15
+
+Post Created - Unique: 15, Top: 20240610 12:37:35 EDT (1)
+Top 5 values:
+20240403 14:36:50 EDT - 1
+20240417 10:14:29 EDT - 1
+20240425 20:54:49 EDT - 1
+20240425 21:08:10 EDT - 1
+20240426 11:47:22 EDT - 1
+
+Post Created Date - Unique: 11, Top: 20240624 (2)
+Top 5 values:
+20240425 - 2
+20240426 - 2
+20240620 - 2
+20240624 - 2
+20240403 - 1
+
+Post Created Time - Unique: 15, Top: 10:38:10 (1)
+Top 5 values:
+08:52:45 - 1
+08:52:55 - 1
+10:12:34 - 1
+10:14:29 - 1
+10:38:10 - 1
+
+Type - Unique: 4, Top: Photo (7)
+Top 5 values:
+Photo - 7
+Native Video - 4
+Link - 2
+YouTube - 2
+
+Video Share Status - Unique: 2, Top: share (3)
+Top 5 values:
+share - 3
+owned - 1
+
+Is Video Owner? - Unique: 2, Top: No (3)
+Top 5 values:
+No - 3
+Yes - 1
+
+Video Length - Unique: 4, Top: 00:03:38 (1)
+Top 5 values:
+00:00:38 - 1
+00:00:46 - 1
+00:01:36 - 1
+00:03:38 - 1
+
+--- Group: Facebook_Id = 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064, Page Category = ACTOR ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow        Haha        Sad        Angry     
+ ---         ---                 ---         ---            ---        ---         ---        ---       
+ str         f64                 f64         f64            f64        f64         f64        f64       
+
+ count       3304.0              3304.0      3304.0        3304.0     3304.0      3304.0     3304.0    
+ null_count  0.0                 0.0         0.0           0.0        0.0         0.0        0.0       
+ mean        279.983354          134.094128  40.496973     4.106235   45.599576   3.286925   14.196126 
+ std         828.893131          395.585224  101.092602    14.753251  277.868097  27.755038  46.303946 
+ min         5.0                 2.0         0.0           0.0        0.0         0.0        0.0       
+ 25%         36.0                15.0        3.0           0.0        0.0         0.0        0.0       
+ 50%         75.0                34.0        11.0          1.0        1.0         0.0        1.0       
+ 75%         205.0               93.0        34.0          3.0        9.0         1.0        10.0      
+ max         24012.0             9115.0      1990.0        486.0      7722.0      1291.0     1069.0    
+
+
+Facebook_Id - Unique: 1, Top: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 (3304)
+Top 5 values:
+32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 - 3304
+
+post_id - Unique: 3304, Top: e524fc997eca6a9075547c5438fd3042899eb02cecd67587544988319e2eb331 (1)
+Top 5 values:
+000a7e1cb02147e106c41f341e42823ca25d585c36d9f8675a99973e3ac93017 - 1
+0016450cf98180400ea4a169ba7b1a4b211c6551ada02b210b450304b34d882d - 1
+001bdac2d675ff80e40979548d90171ad908db7b767e1e9d48ee5a1c20e358a6 - 1
+00365aca7171451a5dfc997637cb0460f510a356fe02776a5d8922d245a69461 - 1
+004825ca8cfaf08bc524b79a6ae3b072bdb5c9bb2c082cdb5ca95af29cf5b07b - 1
+
+Page Category - Unique: 1, Top: ACTOR (3304)
+Top 5 values:
+ACTOR - 3304
+
+Page Admin Top Country - Unique: 1, Top: US (3304)
+Top 5 values:
+US - 3304
+
+Post Created - Unique: 3304, Top: 20240413 12:32:50 EDT (1)
+Top 5 values:
+20240401 02:42:16 EDT - 1
+20240401 02:44:22 EDT - 1
+20240401 05:52:26 EDT - 1
+20240401 05:59:20 EDT - 1
+20240401 06:07:45 EDT - 1
+
+Post Created Date - Unique: 119, Top: 20240711 (65)
+Top 5 values:
+20240711 - 65
+20240514 - 62
+20240705 - 53
+20240426 - 45
+20240703 - 45
+
+Post Created Time - Unique: 3219, Top: 10:27:36 (3)
+Top 5 values:
+10:27:36 - 3
+00:49:57 - 2
+01:46:36 - 2
+06:44:14 - 2
+06:47:41 - 2
+
+Type - Unique: 7, Top: Link (2690)
+Top 5 values:
+Link - 2690
+Photo - 259
+Status - 135
+YouTube - 135
+Native Video - 60
+
+Video Share Status - Unique: 2, Top: owned (42)
+Top 5 values:
+owned - 42
+share - 19
+
+Is Video Owner? - Unique: 2, Top: Yes (52)
+Top 5 values:
+Yes - 52
+No - 9
+
+Video Length - Unique: 47, Top: 01:07:56 (3)
+Top 5 values:
+00:59:08 - 3
+01:07:56 - 3
+00:00:41 - 2
+00:01:00 - 2
+00:01:30 - 2
+
+--- Group: Facebook_Id = 278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f, Page Category = YOUTH_ORGANIZATION ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes  Comments    Wow   Haha  Sad   Angry 
+ ---         ---                 ---    ---          ---   ---   ---   ---   
+ str         f64                 f64    f64          f64   f64   f64   f64   
+
+ count       1.0                 1.0    1.0         1.0   1.0   1.0   1.0   
+ null_count  0.0                 0.0    0.0         0.0   0.0   0.0   0.0   
+ mean        5.0                 3.0    2.0         0.0   0.0   0.0   0.0   
+ std         null                null   null        null  null  null  null  
+ min         5.0                 3.0    2.0         0.0   0.0   0.0   0.0   
+ 25%         5.0                 3.0    2.0         0.0   0.0   0.0   0.0   
+ 50%         5.0                 3.0    2.0         0.0   0.0   0.0   0.0   
+ 75%         5.0                 3.0    2.0         0.0   0.0   0.0   0.0   
+ max         5.0                 3.0    2.0         0.0   0.0   0.0   0.0   
+
+
+Facebook_Id - Unique: 1, Top: 278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f (1)
+Top 5 values:
+278df0e37b61bf8a5a6374873b38faddd50fffea73eaeb55c3c6240f79d1ba9f - 1
+
+post_id - Unique: 1, Top: 2acef5706d3810646b1a0d9b2f4467bca390fe3c380134585da8c699aaa364fb (1)
+Top 5 values:
+2acef5706d3810646b1a0d9b2f4467bca390fe3c380134585da8c699aaa364fb - 1
+
+Page Category - Unique: 1, Top: YOUTH_ORGANIZATION (1)
+Top 5 values:
+YOUTH_ORGANIZATION - 1
+
+Post Created - Unique: 1, Top: 20240729 12:33:40 EDT (1)
+Top 5 values:
+20240729 12:33:40 EDT - 1
+
+Post Created Date - Unique: 1, Top: 20240729 (1)
+Top 5 values:
+20240729 - 1
+
+Post Created Time - Unique: 1, Top: 12:33:40 (1)
+Top 5 values:
+12:33:40 - 1
+
+Type - Unique: 1, Top: Photo (1)
+Top 5 values:
+Photo - 1
+
+--- Group: Facebook_Id = ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d, Page Category = POLITICAL_CANDIDATE ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha      Sad       Angry    
+ ---         ---                 ---        ---           ---       ---       ---       ---      
+ str         f64                 f64        f64           f64       f64       f64       f64      
+
+ count       241.0               241.0      241.0        241.0     241.0     241.0     241.0    
+ null_count  0.0                 0.0        0.0          0.0       0.0       0.0       0.0      
+ mean        68.755187           32.950207  20.676349    0.087137  2.06639   0.215768  0.406639 
+ std         60.247218           19.720273  37.200401    0.323845  3.391741  0.928215  1.151357 
+ min         7.0                 6.0        0.0          0.0       0.0       0.0       0.0      
+ 25%         36.0                20.0       4.0          0.0       0.0       0.0       0.0      
+ 50%         49.0                29.0       10.0         0.0       1.0       0.0       0.0      
+ 75%         82.0                40.0       23.0         0.0       3.0       0.0       0.0      
+ max         513.0               170.0      395.0        2.0       42.0      8.0       14.0     
+
+
+Facebook_Id - Unique: 1, Top: ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d (241)
+Top 5 values:
+ee4bad47ee7b6d5da4b19f72dfc6df401cb36563474277cbf66624e2151cc84d - 241
+
+post_id - Unique: 241, Top: 0633f6d54f2b1f4f5c36fbe119cf69a27939951c728daa9151a9da612d1eb366 (1)
+Top 5 values:
+008dfb8b47a3cd6639259d01bba286e5d5e15de6132f70f84bc8073b39e3df6a - 1
+00bf4d0e1ebea030c1fb623ce91e6eabc024abc6287a19544704545c365a77b5 - 1
+00c39bfb712a22dc5814498f90230200e890ba9de8b05d09c67c2fa5246c8bfc - 1
+024814bca1ac466426e714ee34619865b2edde1fa0a56764c8cc1cdae29000f5 - 1
+02687ed1cd7bfe59f60e3f3ad289a878cbde393f232e6be78970047d3c1d1b3f - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (241)
+Top 5 values:
+POLITICAL_CANDIDATE - 241
+
+Post Created - Unique: 241, Top: 20231027 16:11:41 EDT (1)
+Top 5 values:
+20231026 21:20:19 EDT - 1
+20231026 22:40:02 EDT - 1
+20231027 11:23:09 EDT - 1
+20231027 11:38:35 EDT - 1
+20231027 16:11:41 EDT - 1
+
+Post Created Date - Unique: 93, Top: 20240120 (7)
+Top 5 values:
+20240120 - 7
+20240102 - 6
+20240202 - 6
+20240209 - 6
+20231029 - 5
+
+Post Created Time - Unique: 240, Top: 18:00:15 (2)
+Top 5 values:
+18:00:15 - 2
+00:12:17 - 1
+02:13:17 - 1
+06:54:04 - 1
+07:01:09 - 1
+
+Type - Unique: 7, Top: Photo (105)
+Top 5 values:
+Photo - 105
+Native Video - 82
+Link - 24
+Live Video Scheduled - 10
+Status - 9
+
+Video Share Status - Unique: 1, Top: owned (90)
+Top 5 values:
+owned - 90
+
+Is Video Owner? - Unique: 1, Top: Yes (90)
+Top 5 values:
+Yes - 90
+
+Video Length - Unique: 64, Top: 00:00:05 (5)
+Top 5 values:
+00:00:05 - 5
+00:00:08 - 4
+00:00:12 - 3
+00:00:28 - 3
+00:01:12 - 3
+
+--- Group: Facebook_Id = d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments       Wow        Haha         Sad         Angry      
+ ---         ---                 ---          ---             ---        ---          ---         ---        
+ str         f64                 f64          f64             f64        f64          f64         f64        
+
+ count       847.0               847.0        847.0          847.0      847.0        847.0       847.0      
+ null_count  0.0                 0.0          0.0            0.0        0.0          0.0         0.0        
+ mean        11218.302243        4307.396694  3655.099174    22.210153  875.680047   32.74144    136.739079 
+ std         15292.888979        5125.516841  2856.491913    97.468529  1198.731532  278.298003  369.016835 
+ min         961.0               377.0        312.0          0.0        76.0         0.0         8.0        
+ 25%         6295.0              2110.0       2280.0         6.0        443.0        3.0         34.0       
+ 50%         8399.0              3116.0       3037.0         10.0       614.0        6.0         55.0       
+ 75%         12351.0             4573.0       4241.0         19.0       901.0        16.0        98.0       
+ max         283887.0            84071.0      51060.0        2390.0     22518.0      7393.0      6929.0     
+
+
+Facebook_Id - Unique: 1, Top: d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309 (847)
+Top 5 values:
+d6008f090fcb5df7263efe969d3fc268e0ec1f6d75c8ff692b2eeacc9c48b309 - 847
+
+post_id - Unique: 847, Top: 4a3485e403da7e174049fbd24b628de9429602585deabb24deaa9acaca899f53 (1)
+Top 5 values:
+004a6fbc544ab67614505e33f50abaf50307b22f7b0ec39143de1d19e5d7a3d7 - 1
+007fced65e5b745c51c095db62413af80cad6208e95cb6bfe09834132de39354 - 1
+00be22662e5cd1ff9f7e5007f76cdfef7b3fd4ea071c425071b2a4947665ef08 - 1
+011c46f4aeacf4e5d04a8f62b10a36239968e834e844be1c64d6118d01969177 - 1
+0147b2b04323daed7ff6507b63846fe656296f0c14eaa499b7b9514bdbcbccd0 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (847)
+Top 5 values:
+POLITICIAN - 847
+
+Page Admin Top Country - Unique: 1, Top: US (847)
+Top 5 values:
+US - 847
+
+Post Created - Unique: 847, Top: 20240214 10:30:13 EST (1)
+Top 5 values:
+20230901 14:25:01 EDT - 1
+20230901 18:23:00 EDT - 1
+20230901 20:19:59 EDT - 1
+20230902 10:30:02 EDT - 1
+20230902 19:30:01 EDT - 1
+
+Post Created Date - Unique: 270, Top: 20240627 (16)
+Top 5 values:
+20240627 - 16
+20240628 - 12
+20240624 - 11
+20240712 - 11
+20240705 - 10
+
+Post Created Time - Unique: 764, Top: 19:30:02 (4)
+Top 5 values:
+19:05:01 - 4
+19:30:01 - 4
+19:30:02 - 4
+10:30:04 - 3
+12:30:01 - 3
+
+Type - Unique: 6, Top: Photo (367)
+Top 5 values:
+Photo - 367
+Native Video - 244
+Status - 171
+Link - 29
+Live Video Complete - 19
+
+Video Share Status - Unique: 3, Top: owned (248)
+Top 5 values:
+owned - 248
+share - 11
+crosspost - 4
+
+Is Video Owner? - Unique: 2, Top: Yes (252)
+Top 5 values:
+Yes - 252
+No - 11
+
+Video Length - Unique: 93, Top: 00:00:30 (20)
+Top 5 values:
+00:00:30 - 20
+00:01:00 - 10
+00:00:17 - 9
+00:00:09 - 8
+00:00:29 - 8
+
+--- Group: Facebook_Id = 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow        Haha        Sad       Angry     
+ ---         ---                 ---          ---            ---        ---         ---       ---       
+ str         f64                 f64          f64            f64        f64         f64       f64       
+
+ count       4999.0              4999.0       4999.0        4999.0     4999.0      4999.0    4999.0    
+ null_count  0.0                 0.0          0.0           0.0        0.0         0.0       0.0       
+ mean        312.360472          168.737948   35.496299     2.582116   35.528306   3.258452  9.784357  
+ std         3524.371738         1881.055124  344.442897    11.974814  539.852537  45.92243  42.378602 
+ min         5.0                 1.0          0.0           0.0        0.0         0.0       0.0       
+ 25%         27.0                12.0         2.0           0.0        0.0         0.0       0.0       
+ 50%         63.0                27.0         8.0           1.0        1.0         0.0       1.0       
+ 75%         150.0               78.0         27.0          3.0        6.0         1.0       8.0       
+ max         159935.0            83391.0      18094.0       608.0      32351.0     2905.0    2244.0    
+
+
+Facebook_Id - Unique: 1, Top: 32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 (4999)
+Top 5 values:
+32fc18da91029ff09bf74fe9887eace6b5d2145809d583f696e344530508b064 - 4999
+
+post_id - Unique: 4999, Top: 90efcc6afa568ebdbf030778dde28a674667f6fc31dfee30e31c5cf61d33772e (1)
+Top 5 values:
+0001e4a1dbadf84f0f43719972b60597cc79f1908bf60125779280f2a0054781 - 1
+0014178b33e560d01962d564257c0b64f76f11b3d8e0eac65761ff4b7f1c100b - 1
+00142241fd44069a74a07476d35db1c6ea82ae7bfee8e8de29ae999e4b195022 - 1
+00225736b65aed11f6414a657904239bb92fbbdbfcaffa7c21d658b2443a6128 - 1
+002f2e30be3f2883d5675b674b58921cbc69aaf87fcb54f58cbf36ddb9f8db63 - 1
+
+Page Category - Unique: 1, Top: PERSON (4999)
+Top 5 values:
+PERSON - 4999
+
+Page Admin Top Country - Unique: 1, Top: US (4999)
+Top 5 values:
+US - 4999
+
+Post Created - Unique: 4998, Top: 20231122 19:20:24 EST (2)
+Top 5 values:
+20231122 19:20:24 EST - 2
+20230901 09:02:44 EDT - 1
+20230901 09:04:36 EDT - 1
+20230901 09:19:22 EDT - 1
+20230901 10:05:16 EDT - 1
+
+Post Created Date - Unique: 212, Top: 20240213 (57)
+Top 5 values:
+20240213 - 57
+20240221 - 56
+20240212 - 53
+20240312 - 51
+20240102 - 50
+
+Post Created Time - Unique: 4745, Top: 11:30:18 (4)
+Top 5 values:
+11:30:18 - 4
+08:36:51 - 3
+11:02:03 - 3
+11:22:52 - 3
+11:35:04 - 3
+
+Type - Unique: 6, Top: Link (4015)
+Top 5 values:
+Link - 4015
+Photo - 553
+Status - 183
+YouTube - 147
+Native Video - 73
+
+Video Share Status - Unique: 2, Top: owned (67)
+Top 5 values:
+owned - 67
+share - 6
+
+Is Video Owner? - Unique: 2, Top: Yes (67)
+Top 5 values:
+Yes - 67
+No - 5
+
+Video Length - Unique: 62, Top: 00:00:16 (4)
+Top 5 values:
+00:00:16 - 4
+00:00:08 - 2
+00:00:23 - 2
+00:00:29 - 2
+00:00:45 - 2
+
+--- Group: Facebook_Id = 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha       Sad       Angry    
+ ---         ---                 ---        ---           ---       ---        ---       ---      
+ str         f64                 f64        f64           f64       f64        f64       f64      
+
+ count       210.0               210.0      210.0        210.0     210.0      210.0     210.0    
+ null_count  0.0                 0.0        0.0          0.0       0.0        0.0       0.0      
+ mean        105.733333          59.047619  26.342857    0.219048  7.166667   0.62381   0.92381  
+ std         127.77247           78.745229  42.857353    0.553042  14.572237  3.014543  2.121637 
+ min         11.0                5.0        0.0          0.0       0.0        0.0       0.0      
+ 25%         41.0                21.0       7.0          0.0       2.0        0.0       0.0      
+ 50%         66.0                37.0       14.0         0.0       4.0        0.0       0.0      
+ 75%         110.0               59.0       27.0         0.0       7.0        0.0       1.0      
+ max         920.0               551.0      425.0        4.0       134.0      40.0      14.0     
+
+
+Facebook_Id - Unique: 1, Top: 058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b (210)
+Top 5 values:
+058bd86861262fa71733f8515c34b729d9ebcad3d318e2a133a6c572dd80ba0b - 210
+
+post_id - Unique: 210, Top: d2e77236a7215f5244b0bad047336fd56df3efc8a971796a634956efbf01b657 (1)
+Top 5 values:
+00cb679a6af4c4551755ae374d496227b8f1fd1d39aec772ef21f4ba0a8f2275 - 1
+01244b0adf3dbc10065344e8ee3a0edeac919c4fe74916fa3b78e72d38ffe02e - 1
+042c4760c4cc3463680d2c4cc0a27f39a2c0db5133c046bf0d946fc44d6bfedd - 1
+04d0c70faaf7cf12d1a1dcabef60fa6128ebd5269e635ad8571e8fec6a05b9c3 - 1
+0675632827f17d885828bb576c511d7b619cd21ba7e8b800606ce3e02557ebc7 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (210)
+Top 5 values:
+POLITICIAN - 210
+
+Page Admin Top Country - Unique: 1, Top: US (210)
+Top 5 values:
+US - 210
+
+Post Created - Unique: 210, Top: 20230922 12:00:06 EDT (1)
+Top 5 values:
+20230901 10:01:33 EDT - 1
+20230902 14:01:44 EDT - 1
+20230902 17:00:00 EDT - 1
+20230903 12:59:42 EDT - 1
+20230903 19:00:01 EDT - 1
+
+Post Created Date - Unique: 123, Top: 20230928 (5)
+Top 5 values:
+20230928 - 5
+20230918 - 4
+20230919 - 4
+20231003 - 4
+20231120 - 4
+
+Post Created Time - Unique: 206, Top: 17:00:01 (3)
+Top 5 values:
+17:00:01 - 3
+12:34:19 - 2
+17:33:09 - 2
+07:39:45 - 1
+08:52:13 - 1
+
+Type - Unique: 4, Top: Photo (91)
+Top 5 values:
+Photo - 91
+Native Video - 67
+Link - 37
+Status - 15
+
+Video Share Status - Unique: 2, Top: owned (66)
+Top 5 values:
+owned - 66
+share - 1
+
+Is Video Owner? - Unique: 2, Top: Yes (66)
+Top 5 values:
+Yes - 66
+No - 1
+
+Video Length - Unique: 47, Top: 00:00:45 (4)
+Top 5 values:
+00:00:45 - 4
+00:00:30 - 3
+00:00:53 - 3
+00:01:05 - 3
+00:01:11 - 3
+
+--- Group: Facebook_Id = b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha       Sad       Angry     
+ ---         ---                 ---         ---            ---       ---        ---       ---       
+ str         f64                 f64         f64            f64       f64        f64       f64       
+
+ count       288.0               288.0       288.0         288.0     288.0      288.0     288.0     
+ null_count  0.0                 0.0         0.0           0.0       0.0        0.0       0.0       
+ mean        402.590278          141.864583  169.291667    0.677083  38.253472  1.086806  7.510417  
+ std         614.081523          323.981619  236.437847    1.624045  59.854775  4.125568  17.194113 
+ min         79.0                22.0        12.0          0.0       1.0        0.0       0.0       
+ 25%         164.0               51.0        56.0          0.0       18.0       0.0       2.0       
+ 50%         260.0               81.0        111.0         0.0       30.0       0.0       4.0       
+ 75%         396.0               123.0       178.0         1.0       45.0       1.0       7.0       
+ max         6974.0              4486.0      1896.0        20.0      892.0      46.0      234.0     
+
+
+Facebook_Id - Unique: 1, Top: b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50 (288)
+Top 5 values:
+b9d563b713eeb6c6b73092e53d377fddb137463b7d560b8c5be11e7842b26f50 - 288
+
+post_id - Unique: 288, Top: d335ba2fa3dbfe1201f2b79db1233dfe8a6497d71bb644e6c36ab68eea832a65 (1)
+Top 5 values:
+0069af43ec3a5f4b7ec41b8b59758e34be5b1f5285d61458f74793c91d547ee0 - 1
+015b955640b92cfeaf8a909729a24323b4bbb51900b27948ed70badc746d0490 - 1
+022062016a39f2c44dd21ad3841e611073cac996026a5f6e6a836639f78cd819 - 1
+053e0cd4f1e5cc1ae227f6c43104316ad87422b00c87aec72e996673eeff5e1e - 1
+0574fae2c85a169505f49f5e51cfe8609a320c4f311d4aa04febf78c6a595d5f - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (288)
+Top 5 values:
+POLITICIAN - 288
+
+Page Admin Top Country - Unique: 1, Top: US (288)
+Top 5 values:
+US - 288
+
+Post Created - Unique: 288, Top: 20231004 14:05:59 EDT (1)
+Top 5 values:
+20230901 09:22:16 EDT - 1
+20230901 09:22:53 EDT - 1
+20230901 09:23:13 EDT - 1
+20230901 09:23:58 EDT - 1
+20230901 09:27:27 EDT - 1
+
+Post Created Date - Unique: 96, Top: 20230906 (13)
+Top 5 values:
+20230906 - 13
+20231013 - 13
+20230905 - 11
+20230926 - 11
+20230927 - 11
+
+Post Created Time - Unique: 285, Top: 09:36:52 (2)
+Top 5 values:
+09:36:52 - 2
+16:58:57 - 2
+22:05:13 - 2
+07:14:00 - 1
+08:03:01 - 1
+
+Type - Unique: 6, Top: Native Video (122)
+Top 5 values:
+Native Video - 122
+Photo - 97
+Link - 55
+Status - 10
+YouTube - 3
+
+Video Share Status - Unique: 1, Top: owned (122)
+Top 5 values:
+owned - 122
+
+Is Video Owner? - Unique: 1, Top: Yes (122)
+Top 5 values:
+Yes - 122
+
+Video Length - Unique: 83, Top: 00:01:02 (5)
+Top 5 values:
+00:01:02 - 5
+00:00:55 - 4
+00:00:56 - 4
+00:01:18 - 4
+00:00:59 - 3
+
+--- Group: Facebook_Id = fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948, Page Category = POLITICAL_CANDIDATE ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow         Haha       Sad         Angry      
+ ---         ---                 ---          ---            ---         ---        ---         ---        
+ str         f64                 f64          f64            f64         f64        f64         f64        
+
+ count       547.0               547.0        547.0         547.0       547.0      547.0       547.0      
+ null_count  0.0                 0.0          0.0           0.0         0.0        0.0         0.0        
+ mean        3535.616088         1918.305302  436.074954    23.992687   23.451554  15.795247   18.908592  
+ std         5017.043129         2829.993196  589.911553    161.003617  95.296332  115.992414  104.665326 
+ min         102.0               80.0         7.0           0.0         0.0        0.0         0.0        
+ 25%         1445.0              734.0        186.0         3.0         7.0        0.0         1.0        
+ 50%         2208.0              1125.0       308.0         5.0         10.0       1.0         2.0        
+ 75%         3384.0              1831.0       476.0         11.0        18.0       5.0         5.0        
+ max         56795.0             31292.0      9852.0        3337.0      1725.0     2440.0      1589.0     
+
+
+Facebook_Id - Unique: 1, Top: fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948 (547)
+Top 5 values:
+fedbfaab19b5112a6889b862314ca9d3a626b22df7f959db3d9b1c4c54e69948 - 547
+
+post_id - Unique: 547, Top: 4ee1ad022104a28eec07804c1ca09da310bcfa0bf030f34e7acd879d6d10a420 (1)
+Top 5 values:
+006fa62ab11556eff0f2ca71566fa38d30e20d29ff17a31f52b75a701054dcd6 - 1
+010436c61bb5afb98e35403f0a2316c256adaaf89f243d8bbc1c01588354f48a - 1
+033c532f4d99fb8e98d804eb7a17960a2bbebe4f09da944542d61d487e8450a9 - 1
+034455dd300ba308c4ea1a7060cb3651eda27865a56cec72c705da0671be4033 - 1
+0379726cb9cf45f31e67d524e2af29e3cced1e8282938002b06ec1829f59b131 - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (547)
+Top 5 values:
+POLITICAL_CANDIDATE - 547
+
+Page Admin Top Country - Unique: 1, Top: US (547)
+Top 5 values:
+US - 547
+
+Post Created - Unique: 547, Top: 20231029 14:40:26 EDT (1)
+Top 5 values:
+20230901 17:02:35 EDT - 1
+20230902 13:12:03 EDT - 1
+20230902 20:27:50 EDT - 1
+20230902 23:31:16 EDT - 1
+20230903 09:43:07 EDT - 1
+
+Post Created Date - Unique: 264, Top: 20240627 (10)
+Top 5 values:
+20240627 - 10
+20231023 - 5
+20240130 - 5
+20240712 - 5
+20240724 - 5
+
+Post Created Time - Unique: 545, Top: 18:20:20 (2)
+Top 5 values:
+16:42:31 - 2
+18:20:20 - 2
+00:02:13 - 1
+00:15:48 - 1
+00:15:51 - 1
+
+Type - Unique: 7, Top: Native Video (318)
+Top 5 values:
+Native Video - 318
+Photo - 109
+Link - 84
+Status - 15
+Live Video Complete - 10
+
+Video Share Status - Unique: 1, Top: owned (328)
+Top 5 values:
+owned - 328
+
+Is Video Owner? - Unique: 1, Top: Yes (328)
+Top 5 values:
+Yes - 328
+
+Video Length - Unique: 198, Top: 00:01:43 (8)
+Top 5 values:
+00:01:43 - 8
+00:01:34 - 7
+00:01:41 - 7
+00:01:57 - 5
+00:02:00 - 5
+
+--- Group: Facebook_Id = b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow       Haha        Sad        Angry     
+ ---         ---                 ---          ---            ---       ---         ---        ---       
+ str         f64                 f64          f64            f64       f64         f64        f64       
+
+ count       335.0               335.0        335.0         335.0     335.0       335.0      335.0     
+ null_count  0.0                 0.0          0.0           0.0       0.0         0.0        0.0       
+ mean        1545.125373         574.122388   613.985075    4.337313  107.140299  3.737313   17.680597 
+ std         2215.729781         1163.617303  672.616953    8.583315  126.040251  12.490581  53.133738 
+ min         409.0               125.0        106.0         0.0       15.0        0.0        0.0       
+ 25%         817.0               255.0        336.0         1.0       66.0        0.0        3.0       
+ 50%         1108.0              342.0        467.0         2.0       85.0        1.0        5.0       
+ 75%         1503.0              534.0        672.0         4.0       111.0       3.0        8.0       
+ max         25105.0             13851.0      6953.0        74.0      1575.0      196.0      580.0     
+
+
+Facebook_Id - Unique: 1, Top: b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe (335)
+Top 5 values:
+b1daf9f2909abed80b7e02520dfd0bfdc22128e3b92c2aba8cb3b44a6bc42cbe - 335
+
+post_id - Unique: 335, Top: f25eec9c498f81c3a6a51d5ecf292fc952f73431f3ffec435936d20a00c94154 (1)
+Top 5 values:
+0042bc6337fd3f1e7a22d78198d4cbe0d284a4f6d98cc5241e2d8c897c278bf1 - 1
+0067e4413a3b142b4d5efd1e817b09c8ba9c0e5e2a1058f65f4535b45baed127 - 1
+03047fbe337f40c99617728f562cf77ddc25333f076cd7fe3a088fd795ce142f - 1
+0337e91baddf84ecd36931b827b82c8fdce1d0a6595eeffc5fb5519e9f8bbcbf - 1
+04622e2f8315549e22d4154d88aa3f0642643e1d8f1ba861fb982fea24016350 - 1
+
+Page Category - Unique: 1, Top: PERSON (335)
+Top 5 values:
+PERSON - 335
+
+Page Admin Top Country - Unique: 1, Top: US (335)
+Top 5 values:
+US - 335
+
+Post Created - Unique: 335, Top: 20231114 15:48:36 EST (1)
+Top 5 values:
+20230906 12:24:53 EDT - 1
+20230906 17:21:41 EDT - 1
+20230907 12:48:21 EDT - 1
+20230907 13:38:13 EDT - 1
+20230907 19:12:35 EDT - 1
+
+Post Created Date - Unique: 116, Top: 20231201 (10)
+Top 5 values:
+20231201 - 10
+20240110 - 9
+20231019 - 7
+20231013 - 6
+20231216 - 6
+
+Post Created Time - Unique: 331, Top: 12:00:16 (2)
+Top 5 values:
+12:00:10 - 2
+12:00:16 - 2
+16:00:27 - 2
+19:12:35 - 2
+07:05:28 - 1
+
+Type - Unique: 5, Top: Native Video (221)
+Top 5 values:
+Native Video - 221
+Photo - 53
+Live Video Complete - 33
+Link - 18
+Status - 10
+
+Video Share Status - Unique: 1, Top: owned (254)
+Top 5 values:
+owned - 254
+
+Is Video Owner? - Unique: 1, Top: Yes (254)
+Top 5 values:
+Yes - 254
+
+Video Length - Unique: 156, Top: 00:01:15 (7)
+Top 5 values:
+00:01:15 - 7
+00:00:30 - 5
+00:01:05 - 5
+00:01:42 - 5
+00:00:43 - 4
+
+--- Group: Facebook_Id = be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha       Sad       Angry     
+ ---         ---                 ---         ---            ---       ---        ---       ---       
+ str         f64                 f64         f64            f64       f64        f64       f64       
+
+ count       136.0               136.0       136.0         136.0     136.0      136.0     136.0     
+ null_count  0.0                 0.0         0.0           0.0       0.0        0.0       0.0       
+ mean        782.882353          193.595588  434.463235    1.235294  91.088235  2.095588  11.397059 
+ std         692.098484          145.809179  434.151824    2.303734  91.0402    6.109954  17.16382  
+ min         140.0               33.0        34.0          0.0       6.0        0.0       0.0       
+ 25%         349.0               100.0       168.0         0.0       43.0       0.0       3.0       
+ 50%         589.0               146.0       332.0         0.0       64.0       0.0       6.0       
+ 75%         947.0               225.0       574.0         2.0       101.0      2.0       12.0      
+ max         5275.0              839.0       3597.0        15.0      669.0      36.0      118.0     
+
+
+Facebook_Id - Unique: 1, Top: be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb (136)
+Top 5 values:
+be8f65731d2b8c239809bdb13e9abae804fe2d074a9b75e034a81d2ae578e4bb - 136
+
+post_id - Unique: 136, Top: 5da49c280f45dd2e6604e5f519ba73c0abde50d71075730701424bcc42df14d6 (1)
+Top 5 values:
+057ecf6d88ade0d2bc8df0145ea4453dd42f0567cdf1df580a8551849aeda62c - 1
+088ad3e0a28730775b49e87e2f6a5b62b5182c92a5f3b0bd85747ebf36d9d61b - 1
+093a29ad7b6c56781bc63cc25da5eade5b9c77fca636c4b950d98451045370cd - 1
+0a3af14c1580cf2ea14db3ec1cf4938a7663fdffd89de23a62ae21c4725f974b - 1
+0ac2612f1f7f19e7e6d8e805617182d2c1d2465cbc948292b16abfcf6305b807 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (136)
+Top 5 values:
+POLITICIAN - 136
+
+Page Admin Top Country - Unique: 1, Top: US (136)
+Top 5 values:
+US - 136
+
+Post Created - Unique: 136, Top: 20231029 16:24:16 EDT (1)
+Top 5 values:
+20230901 10:05:22 EDT - 1
+20230905 10:56:15 EDT - 1
+20230905 22:03:01 EDT - 1
+20230907 11:51:19 EDT - 1
+20230908 10:42:40 EDT - 1
+
+Post Created Date - Unique: 75, Top: 20231004 (5)
+Top 5 values:
+20231004 - 5
+20230929 - 4
+20231103 - 4
+20230914 - 3
+20230919 - 3
+
+Post Created Time - Unique: 136, Top: 17:06:31 (1)
+Top 5 values:
+08:30:43 - 1
+09:01:44 - 1
+09:16:48 - 1
+09:20:56 - 1
+09:30:46 - 1
+
+Type - Unique: 7, Top: Native Video (71)
+Top 5 values:
+Native Video - 71
+Photo - 32
+Live Video Complete - 22
+Status - 6
+Link - 2
+
+Video Share Status - Unique: 1, Top: owned (93)
+Top 5 values:
+owned - 93
+
+Is Video Owner? - Unique: 1, Top: Yes (93)
+Top 5 values:
+Yes - 93
+
+Video Length - Unique: 73, Top: 00:00:20 (4)
+Top 5 values:
+00:00:20 - 4
+00:00:29 - 3
+00:00:30 - 3
+00:01:49 - 3
+00:00:23 - 2
+
+--- Group: Facebook_Id = a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments      Wow       Haha        Sad        Angry     
+ ---         ---                 ---          ---            ---       ---         ---        ---       
+ str         f64                 f64          f64            f64       f64         f64        f64       
+
+ count       857.0               857.0        857.0         857.0     857.0       857.0      857.0     
+ null_count  0.0                 0.0          0.0           0.0       0.0         0.0        0.0       
+ mean        2656.359393         1845.17853   358.562427    7.109685  45.054842   4.628938   11.386231 
+ std         5740.701439         4586.443624  447.40504     21.56553  124.821295  23.792571  67.575392 
+ min         144.0               77.0         31.0          0.0       2.0         0.0        0.0       
+ 25%         666.0               381.0        129.0         1.0       11.0        0.0        0.0       
+ 50%         1047.0              642.0        209.0         2.0       18.0        0.0        1.0       
+ 75%         2049.0              1235.0       407.0         5.0       31.0        2.0        4.0       
+ max         72356.0             58151.0      4087.0        270.0     1676.0      402.0      1683.0    
+
+
+Facebook_Id - Unique: 1, Top: a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e (857)
+Top 5 values:
+a3fa0d15dd83b910295d0b17f9d341e737eddcb8d9b8081758140584c710406e - 857
+
+post_id - Unique: 857, Top: e36723ca35705a2fecf4c6edf628484eac1babf3fed543d42b5e78e930199618 (1)
+Top 5 values:
+00d19e1564fd81ff6a1637e886c6197a76507358ba6d1512e989c6fa7988b302 - 1
+0174a0ba627bbeb2f1e1a151e73d5981e28da4b2b1937aa9cdd9a3cb54a38617 - 1
+01e0efd5e20ead422c3f76ea8716ba9f8bfa03028a014ecc82494135d0f15758 - 1
+02c78a9dcf6d9d3548266edd4042e00910b97534af6a89b2e07ea0397174b77b - 1
+02d901602897d3b90ac4f299356550ffa48d8e9fb29d465ac04b2387cc2757e8 - 1
+
+Page Category - Unique: 1, Top: PERSON (857)
+Top 5 values:
+PERSON - 857
+
+Page Admin Top Country - Unique: 1, Top: US (857)
+Top 5 values:
+US - 857
+
+Post Created - Unique: 857, Top: 20231027 14:08:42 EDT (1)
+Top 5 values:
+20230901 09:49:11 EDT - 1
+20230901 13:37:16 EDT - 1
+20230901 15:22:00 EDT - 1
+20230902 10:58:20 EDT - 1
+20230902 13:55:28 EDT - 1
+
+Post Created Date - Unique: 238, Top: 20240110 (22)
+Top 5 values:
+20240110 - 22
+20240111 - 21
+20240113 - 20
+20240115 - 18
+20230927 - 14
+
+Post Created Time - Unique: 840, Top: 12:00:00 (3)
+Top 5 values:
+12:00:00 - 3
+11:58:00 - 2
+13:24:39 - 2
+13:26:57 - 2
+13:31:01 - 2
+
+Type - Unique: 6, Top: Native Video (378)
+Top 5 values:
+Native Video - 378
+Photo - 195
+Status - 150
+Live Video Complete - 116
+Link - 14
+
+Video Share Status - Unique: 2, Top: owned (486)
+Top 5 values:
+owned - 486
+share - 8
+
+Is Video Owner? - Unique: 2, Top: Yes (485)
+Top 5 values:
+Yes - 485
+No - 7
+
+Video Length - Unique: 317, Top: 00:01:00 (9)
+Top 5 values:
+00:01:00 - 9
+00:00:30 - 8
+00:00:40 - 7
+00:00:34 - 6
+00:00:58 - 6
+
+--- Group: Facebook_Id = 834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452, Page Category = ENTREPRENEUR ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments     Wow       Haha      Sad   Angry    
+ ---         ---                 ---         ---           ---       ---       ---   ---      
+ str         f64                 f64         f64           f64       f64       f64   f64      
+
+ count       23.0                23.0        23.0         23.0      23.0      23.0  23.0     
+ null_count  0.0                 0.0         0.0          0.0       0.0       0.0   0.0      
+ mean        139.304348          100.608696  17.173913    0.391304  2.130435  0.0   0.173913 
+ std         182.522087          125.942533  31.434856    0.940944  5.979544  0.0   0.650327 
+ min         3.0                 2.0         0.0          0.0       0.0       0.0   0.0      
+ 25%         32.0                20.0        5.0          0.0       0.0       0.0   0.0      
+ 50%         76.0                56.0        8.0          0.0       0.0       0.0   0.0      
+ 75%         194.0               157.0       16.0         0.0       1.0       0.0   0.0      
+ max         666.0               500.0       153.0        4.0       28.0      0.0   3.0      
+
+
+Facebook_Id - Unique: 1, Top: 834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452 (23)
+Top 5 values:
+834f691e4ca1c67a7e33db1638caa579b426082e25427c63cb98679fb36af452 - 23
+
+post_id - Unique: 23, Top: 4b379842fa06740e20b7e0e7cc3c655320ea878a65d64043a7f1be9a1c23d6d8 (1)
+Top 5 values:
+073cebd013ec809d91d431c34215a25f99fddcd4c0a6c817d5d0ff71d8fafb90 - 1
+1391aa8da568a3c8b1b37179379dda0256b0d7440b2cab75b0a6d47957ba45b4 - 1
+409dba4c9cd7e05480e48e4b02f35fc657ff3d3d6c362199f39a8fe8b2507935 - 1
+42a5956334ab6d418f8d5057b36a52055ba589a782a01c24689438320a0bfed5 - 1
+4b379842fa06740e20b7e0e7cc3c655320ea878a65d64043a7f1be9a1c23d6d8 - 1
+
+Page Category - Unique: 1, Top: ENTREPRENEUR (23)
+Top 5 values:
+ENTREPRENEUR - 23
+
+Page Admin Top Country - Unique: 1, Top: US (23)
+Top 5 values:
+US - 23
+
+Post Created - Unique: 23, Top: 20230907 06:03:21 EDT (1)
+Top 5 values:
+20230906 18:51:40 EDT - 1
+20230906 20:07:38 EDT - 1
+20230907 06:03:21 EDT - 1
+20231222 09:48:29 EST - 1
+20240119 15:58:30 EST - 1
+
+Post Created Date - Unique: 19, Top: 20240208 (2)
+Top 5 values:
+20230906 - 2
+20240126 - 2
+20240208 - 2
+20240214 - 2
+20230907 - 1
+
+Post Created Time - Unique: 23, Top: 14:21:29 (1)
+Top 5 values:
+06:03:21 - 1
+07:23:54 - 1
+07:40:01 - 1
+09:48:29 - 1
+11:00:51 - 1
+
+Type - Unique: 5, Top: Photo (8)
+Top 5 values:
+Link - 8
+Photo - 8
+Native Video - 3
+YouTube - 3
+Status - 1
+
+Video Share Status - Unique: 1, Top: owned (3)
+Top 5 values:
+owned - 3
+
+Is Video Owner? - Unique: 1, Top: Yes (3)
+Top 5 values:
+Yes - 3
+
+Video Length - Unique: 3, Top: 00:01:20 (1)
+Top 5 values:
+00:00:21 - 1
+00:00:30 - 1
+00:01:20 - 1
+
+--- Group: Facebook_Id = a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha      Sad       Angry    
+ ---         ---                 ---        ---           ---       ---       ---       ---      
+ str         f64                 f64        f64           f64       f64       f64       f64      
+
+ count       29.0                29.0       29.0         29.0      29.0      29.0      29.0     
+ null_count  0.0                 0.0        0.0          0.0       0.0       0.0       0.0      
+ mean        115.517241          50.448276  46.793103    0.241379  8.137931  0.551724  0.482759 
+ std         96.22133            24.32457   69.628288    0.435494  7.288563  2.229449  0.633623 
+ min         29.0                12.0       5.0          0.0       1.0       0.0       0.0      
+ 25%         62.0                33.0       11.0         0.0       3.0       0.0       0.0      
+ 50%         81.0                41.0       21.0         0.0       6.0       0.0       0.0      
+ 75%         123.0               66.0       46.0         0.0       10.0      0.0       1.0      
+ max         454.0               104.0      329.0        1.0       36.0      12.0      2.0      
+
+
+Facebook_Id - Unique: 1, Top: a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 (29)
+Top 5 values:
+a6cb7db6850459b954f7272e14d770617022639f8847cf25e6859b9453a03813 - 29
+
+post_id - Unique: 29, Top: 4f2ffb0eb6c16f78dae6190d72cfda54244a1a96909834c6646994e409931f7f (1)
+Top 5 values:
+09f22e0eebb701d92c262f5033525afcc119bbf42ef309ead90fad6c67a481a0 - 1
+190431216f9911cb006810614eef8b60f6cd0d403bc8bd1d2cd80d9da4a95f3a - 1
+1dcb5e00cd1c8d7ee141922f50f29e59e96328231b6937870e87029c97b26377 - 1
+2201ece0ef3be9f934ddb30c5f966ac9376fda443500aa0b707cf45559000530 - 1
+2770708b14ba5ba6633e083f9c67e96a325ee3bfd66e5207435864cf6a8480c9 - 1
+
+Page Category - Unique: 1, Top: PERSON (29)
+Top 5 values:
+PERSON - 29
+
+Page Admin Top Country - Unique: 1, Top: US (29)
+Top 5 values:
+US - 29
+
+Post Created - Unique: 29, Top: 20240110 18:58:52 EST (1)
+Top 5 values:
+20230904 19:31:16 EDT - 1
+20230906 20:00:56 EDT - 1
+20230906 20:01:39 EDT - 1
+20230921 09:48:09 EDT - 1
+20231007 13:52:11 EDT - 1
+
+Post Created Date - Unique: 21, Top: 20240112 (3)
+Top 5 values:
+20240111 - 3
+20240112 - 3
+20230906 - 2
+20240104 - 2
+20240105 - 2
+
+Post Created Time - Unique: 29, Top: 12:15:06 (1)
+Top 5 values:
+00:20:29 - 1
+09:48:09 - 1
+12:15:06 - 1
+12:23:01 - 1
+13:00:06 - 1
+
+Type - Unique: 5, Top: Photo (18)
+Top 5 values:
+Photo - 18
+Link - 5
+Status - 4
+Live Video Complete - 1
+YouTube - 1
+
+Video Share Status - Unique: 1, Top: owned (1)
+Top 5 values:
+owned - 1
+
+Is Video Owner? - Unique: 1, Top: Yes (1)
+Top 5 values:
+Yes - 1
+
+Video Length - Unique: 1, Top: 00:40:39 (1)
+Top 5 values:
+00:40:39 - 1
+
+--- Group: Facebook_Id = 7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a, Page Category = POLITICAL_CANDIDATE ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes         Comments        Wow         Haha         Sad          Angry      
+ ---         ---                 ---           ---              ---         ---          ---          ---        
+ str         f64                 f64           f64              f64         f64          f64          f64        
+
+ count       358.0               358.0         358.0           358.0       358.0        358.0        358.0      
+ null_count  0.0                 0.0           0.0             0.0         0.0          0.0          0.0        
+ mean        69970.717877        34023.181564  14629.921788    94.089385   1526.586592  256.522346   247.857542 
+ std         81063.739692        40925.619852  14097.659588    267.733809  5918.50571   2988.031671  881.504176 
+ min         949.0               492.0         204.0           2.0         21.0         0.0          0.0        
+ 25%         25864.0             11737.0       5510.0          22.0        476.0        10.0         45.0       
+ 50%         44555.0             20201.0       10327.0         41.0        647.0        20.0         81.0       
+ 75%         78580.0             40085.0       19282.0         85.0        1031.0       47.0         178.0      
+ max         696853.0            315973.0      93872.0         4345.0      99276.0      56111.0      11814.0    
+
+
+Facebook_Id - Unique: 1, Top: 7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a (358)
+Top 5 values:
+7ec2cb4abf8effe3d91de57944c56b938b4f33059a6e33dfe23b549cf229989a - 358
+
+post_id - Unique: 358, Top: 84e9143b6efb11fee62d1fbb083ab1d42f101453d8727bf0158d328b9d638f5c (1)
+Top 5 values:
+0086cbff59d24aaab1b8212f7be07306375e52601e6f846b51f31e23c23c3efb - 1
+00a32fef2e76ae484c71b2ee20cb1f892488f00197fcb56f63892afc70fe38aa - 1
+00c4470ab2efbfd98ebd33a34972de1485d5001c85e43e4162c11a5b6e4cc186 - 1
+01cce4d9b351d354c25f6703df460b4994140bd12b53214b466fdb352b3f16f2 - 1
+0253f75dffd0a2eef9ed78864d24d36e9c6acfed7044a2c24cdaf0d4a3f6267f - 1
+
+Page Category - Unique: 1, Top: POLITICAL_CANDIDATE (358)
+Top 5 values:
+POLITICAL_CANDIDATE - 358
+
+Page Admin Top Country - Unique: 1, Top: US (358)
+Top 5 values:
+US - 358
+
+Post Created - Unique: 358, Top: 20231029 15:55:18 EDT (1)
+Top 5 values:
+20230901 00:50:59 EDT - 1
+20230901 00:51:42 EDT - 1
+20230901 01:00:41 EDT - 1
+20230901 01:02:42 EDT - 1
+20230901 01:13:29 EDT - 1
+
+Post Created Date - Unique: 181, Top: 20230901 (14)
+Top 5 values:
+20230901 - 14
+20240719 - 10
+20240402 - 8
+20240319 - 7
+20231011 - 6
+
+Post Created Time - Unique: 357, Top: 14:29:37 (2)
+Top 5 values:
+14:29:37 - 2
+00:00:56 - 1
+00:05:35 - 1
+00:06:36 - 1
+00:07:17 - 1
+
+Type - Unique: 7, Top: Photo (176)
+Top 5 values:
+Photo - 176
+Native Video - 72
+Live Video Complete - 62
+Link - 28
+Status - 17
+
+Video Share Status - Unique: 3, Top: crosspost (63)
+Top 5 values:
+crosspost - 63
+owned - 56
+share - 17
+
+Is Video Owner? - Unique: 2, Top: Yes (119)
+Top 5 values:
+Yes - 119
+No - 17
+
+Video Length - Unique: 126, Top: 00:00:22 (3)
+Top 5 values:
+00:00:22 - 3
+00:00:30 - 2
+00:01:16 - 2
+00:01:29 - 2
+00:01:30 - 2
+
+--- Group: Facebook_Id = 8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments       Wow        Haha       Sad        Angry     
+ ---         ---                 ---          ---             ---        ---        ---        ---       
+ str         f64                 f64          f64             f64        f64        f64        f64       
+
+ count       225.0               225.0        225.0          225.0      225.0      225.0      225.0     
+ null_count  0.0                 0.0          0.0            0.0        0.0        0.0        0.0       
+ mean        7835.977778         4841.702222  911.151111     3.973333   37.635556  16.084444  14.155556 
+ std         13945.574749        8589.021663  2001.231084    11.581204  72.775036  90.390754  52.210321 
+ min         198.0               81.0         48.0           0.0        0.0        0.0        0.0       
+ 25%         1536.0              785.0        292.0          1.0        8.0        0.0        1.0       
+ 50%         3170.0              1539.0       498.0          2.0        15.0       1.0        2.0       
+ 75%         8804.0              5890.0       1018.0         3.0        37.0       5.0        6.0       
+ max         136388.0            64279.0      27973.0        156.0      762.0      1254.0     539.0     
+
+
+Facebook_Id - Unique: 1, Top: 8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719 (225)
+Top 5 values:
+8e8dac0ee6f22255b9d9365845a7fb830627cc27d34934c4f097689ec8da6719 - 225
+
+post_id - Unique: 225, Top: ea85af31a60c994822f77440ffcde408779aae1cc1c1f63393122d73e7446b41 (1)
+Top 5 values:
+00a87f028b42eab29ed1fdea176f4159a98277659768482ab53a03c325f345c5 - 1
+019a071abd1a937b1f1bcd05f59f7d3f59dcd72b58fd6cc68ff786cd3756e9ec - 1
+03e6a4329955bf5486c4616babb22703009a7211f50714642e8b90dd96ebf243 - 1
+0517873375cb7b9db8c177c06df24c6d0178d5cd613552fa5255ad6584c8c176 - 1
+052855b8db54c04962fde6d4a6051d804bd16365a6703e38f15073face48135f - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (225)
+Top 5 values:
+POLITICIAN - 225
+
+Page Admin Top Country - Unique: 1, Top: US (225)
+Top 5 values:
+US - 225
+
+Post Created - Unique: 225, Top: 20231028 17:13:57 EDT (1)
+Top 5 values:
+20230901 15:02:31 EDT - 1
+20230902 13:44:42 EDT - 1
+20230903 09:39:38 EDT - 1
+20230904 12:59:09 EDT - 1
+20230906 16:07:45 EDT - 1
+
+Post Created Date - Unique: 191, Top: 20231108 (3)
+Top 5 values:
+20230927 - 3
+20231011 - 3
+20231108 - 3
+20230907 - 2
+20230908 - 2
+
+Post Created Time - Unique: 225, Top: 13:26:49 (1)
+Top 5 values:
+00:11:23 - 1
+00:27:10 - 1
+07:19:25 - 1
+07:30:01 - 1
+07:42:44 - 1
+
+Type - Unique: 5, Top: Status (91)
+Top 5 values:
+Status - 91
+Photo - 73
+Native Video - 41
+Link - 19
+Video - 1
+
+Video Share Status - Unique: 2, Top: owned (37)
+Top 5 values:
+owned - 37
+share - 4
+
+Is Video Owner? - Unique: 2, Top: Yes (33)
+Top 5 values:
+Yes - 33
+No - 6
+
+Video Length - Unique: 36, Top: 00:00:30 (4)
+Top 5 values:
+00:00:30 - 4
+00:00:31 - 2
+00:01:00 - 2
+00:00:03 - 1
+00:00:12 - 1
+
+--- Group: Facebook_Id = bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha      Sad        Angry     
+ ---         ---                 ---         ---            ---       ---       ---        ---       
+ str         f64                 f64         f64            f64       f64       f64        f64       
+
+ count       1283.0              1283.0      1283.0        1283.0    1283.0    1283.0     1283.0    
+ null_count  0.0                 0.0         0.0           0.0       0.0       0.0        0.0       
+ mean        401.329696          186.017147  62.191738     1.583009  1.457521  3.454404   2.165238  
+ std         709.176387          340.242714  140.278047    8.055768  8.36979   18.673692  11.110387 
+ min         6.0                 2.0         0.0           0.0       0.0       0.0        0.0       
+ 25%         122.0               60.0        9.0           0.0       0.0       0.0        0.0       
+ 50%         208.0               95.0        21.0          0.0       0.0       0.0        0.0       
+ 75%         396.0               183.0       57.0          1.0       1.0       1.0        0.0       
+ max         11847.0             5415.0      2937.0        168.0     219.0     520.0      226.0     
+
+
+Facebook_Id - Unique: 1, Top: bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b (1283)
+Top 5 values:
+bfe51c6ac2cab17ba5c85883e76f61398031ed57e4cf62d19fd483548ebb904b - 1283
+
+post_id - Unique: 1283, Top: f6054f4f35edb406d8e8b17dd200abf33768c2f33067255e48e1909e9dd8706c (1)
+Top 5 values:
+000965ed8ad23d5a11bfb08ff1b4a48aa5f5faf48bec788c598dbe609da097b8 - 1
+0010ea66f8b686476bcbaa744d28a70799c3ead93deea262f0a2c0d5bbecf6fd - 1
+005d23ac75b743853ae0a0a191dd935dbff4d91692be561558dbda0c76282cc3 - 1
+00b4a9b12f3ea4704066bca4474eab05e57a2244fdc51522f30fc39883edbf22 - 1
+00b84ef690697d3c97b5a195ca51e491f2b0bc0bd5a5ea2e8c741b36d6c3057f - 1
+
+Page Category - Unique: 1, Top: PERSON (1283)
+Top 5 values:
+PERSON - 1283
+
+Page Admin Top Country - Unique: 1, Top: US (1283)
+Top 5 values:
+US - 1283
+
+Post Created - Unique: 1283, Top: 20240120 12:18:12 EST (1)
+Top 5 values:
+20230901 00:52:35 EDT - 1
+20230901 07:57:59 EDT - 1
+20230901 12:43:41 EDT - 1
+20230901 12:44:30 EDT - 1
+20230901 12:48:29 EDT - 1
+
+Post Created Date - Unique: 298, Top: 20240122 (16)
+Top 5 values:
+20240122 - 16
+20240203 - 16
+20240106 - 15
+20240121 - 14
+20240201 - 14
+
+Post Created Time - Unique: 1273, Top: 15:20:00 (2)
+Top 5 values:
+09:06:52 - 2
+09:48:11 - 2
+11:45:24 - 2
+12:20:21 - 2
+15:20:00 - 2
+
+Type - Unique: 8, Top: Native Video (423)
+Top 5 values:
+Native Video - 423
+Photo - 388
+Status - 204
+Link - 130
+Live Video Scheduled - 118
+
+Video Share Status - Unique: 3, Top: owned (427)
+Top 5 values:
+owned - 427
+share - 4
+crosspost - 2
+
+Is Video Owner? - Unique: 2, Top: Yes (428)
+Top 5 values:
+Yes - 428
+No - 3
+
+Video Length - Unique: 230, Top: 00:00:59 (10)
+Top 5 values:
+00:00:59 - 10
+00:01:33 - 6
+00:00:49 - 5
+00:00:50 - 5
+00:00:57 - 5
+
+--- Group: Facebook_Id = 7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha        Sad         Angry     
+ ---         ---                 ---         ---            ---       ---         ---         ---       
+ str         f64                 f64         f64            f64       f64         f64         f64       
+
+ count       1068.0              1068.0      1068.0        1068.0    1068.0      1068.0      1068.0    
+ null_count  0.0                 0.0         0.0           0.0       0.0         0.0         0.0       
+ mean        1689.218165         718.83427   614.388577    2.365169  98.332397   10.04588    12.553371 
+ std         2043.399776         952.077904  819.303284    5.941892  154.644457  154.538497  54.894941 
+ min         87.0                59.0        4.0           0.0       2.0         0.0         0.0       
+ 25%         683.0               315.0       187.0         0.0       20.0        0.0         3.0       
+ 50%         1166.0              467.0       410.0         1.0       48.0        1.0         5.0       
+ 75%         1923.0              733.0       759.0         2.0       125.0       2.0         10.0      
+ max         29742.0             15516.0     10573.0       110.0     2677.0      4922.0      1562.0    
+
+
+Facebook_Id - Unique: 1, Top: 7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b (1068)
+Top 5 values:
+7f5731ac8e6959576e781064b5fa76e059200cdfc3f4e0d7b68bc98792d2cf5b - 1068
+
+post_id - Unique: 1068, Top: 4c9945c25bc475b1a8b444f26d3d80b7198f31be876268e35c3cfbbc512c3b10 (1)
+Top 5 values:
+00136a8081d9e67c5fd1eb75c7b291fe635ed01139b3e0d1aa64e1a5e78f1e52 - 1
+0016f63a8b47997d3a983cfd71a523da13aba97541e063622b87edee6c6422e2 - 1
+00bcaf73ba99ecfd99fb1b7f622a4d1e746c6a01ac1a409487d5ab13744ddc2e - 1
+0158d64847e69d23f467bb94222955e544d1c342a94f6f1b51b9b99eede638a6 - 1
+01b0650a2bd710fda7ef6e1268bb9b6f6cd1445d331ddd35d209e94be4455469 - 1
+
+Page Category - Unique: 1, Top: PERSON (1068)
+Top 5 values:
+PERSON - 1068
+
+Page Admin Top Country - Unique: 1, Top: US (1068)
+Top 5 values:
+US - 1068
+
+Post Created - Unique: 1068, Top: 20240212 15:50:44 EST (1)
+Top 5 values:
+20230901 11:28:37 EDT - 1
+20230901 15:40:16 EDT - 1
+20230902 08:45:01 EDT - 1
+20230902 11:44:11 EDT - 1
+20230902 12:10:01 EDT - 1
+
+Post Created Date - Unique: 241, Top: 20230922 (36)
+Top 5 values:
+20230922 - 36
+20231028 - 23
+20240123 - 20
+20240209 - 16
+20240121 - 15
+
+Post Created Time - Unique: 1054, Top: 18:01:04 (2)
+Top 5 values:
+09:54:27 - 2
+10:41:45 - 2
+11:17:10 - 2
+12:47:41 - 2
+13:00:28 - 2
+
+Type - Unique: 6, Top: Photo (436)
+Top 5 values:
+Photo - 436
+Native Video - 345
+Status - 167
+Link - 115
+Video - 4
+
+Video Share Status - Unique: 2, Top: owned (344)
+Top 5 values:
+owned - 344
+share - 2
+
+Is Video Owner? - Unique: 2, Top: Yes (344)
+Top 5 values:
+Yes - 344
+No - 2
+
+Video Length - Unique: 127, Top: 00:00:30 (14)
+Top 5 values:
+00:00:30 - 14
+00:00:33 - 9
+00:00:37 - 8
+00:00:25 - 7
+00:00:35 - 6
+
+--- Group: Facebook_Id = ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes        Comments       Wow       Haha        Sad        Angry     
+ ---         ---                 ---          ---             ---       ---         ---        ---       
+ str         f64                 f64          f64             f64       f64         f64        f64       
+
+ count       867.0               867.0        867.0          867.0     867.0       867.0      867.0     
+ null_count  0.0                 0.0          0.0            0.0       0.0         0.0        0.0       
+ mean        4341.204152         2039.522491  899.071511     5.213379  185.143022  10.755479  31.678201 
+ std         8446.005746         3853.413733  1353.571449    6.464821  241.766283  33.396425  82.276131 
+ min         96.0                52.0         23.0           0.0       12.0        0.0        0.0       
+ 25%         1467.0              653.0        372.0          2.0       86.0        0.0        6.0       
+ 50%         2042.0              948.0        538.0          3.0       115.0       2.0        10.0      
+ 75%         3348.0              1604.0       809.0          6.0       165.0       6.0        20.0      
+ max         86924.0             38363.0      15213.0        56.0      2551.0      416.0      1113.0    
+
+
+Facebook_Id - Unique: 1, Top: ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25 (867)
+Top 5 values:
+ac24f31c4d4b3d5555065fa9558bdca4ab4b5e1379922875ae9e6e32f1d46d25 - 867
+
+post_id - Unique: 867, Top: 2bd03ffc9e19e9e5e0ed363d297d56be2a519f9bbc0ed30f873326790f396bab (1)
+Top 5 values:
+00b4e35aad5335c72c7f3aecdf4d1c40d246736e79742f86a36ca833a6ebd27a - 1
+00b56fb7aee02779063d3b624f1ca9e4314dadb903b45be5ae4af71b188c709f - 1
+00ce7472a717a7cd986bd7525d02ad98337fcef23226d3ad7c9d0271c6868004 - 1
+00d05ecb2b1e62f073771bf616cc3604dee7fd6ba14bad2d178c53a48565fa54 - 1
+0164e9be4622934046b61f44ba34be41c5758ce6cf074b364dbcb54cd482d9f1 - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (867)
+Top 5 values:
+POLITICIAN - 867
+
+Page Admin Top Country - Unique: 1, Top: US (867)
+Top 5 values:
+US - 867
+
+Post Created - Unique: 867, Top: 20240208 11:00:53 EST (1)
+Top 5 values:
+20230901 11:46:03 EDT - 1
+20230901 15:56:23 EDT - 1
+20230901 18:01:00 EDT - 1
+20230902 11:27:00 EDT - 1
+20230902 14:59:00 EDT - 1
+
+Post Created Date - Unique: 300, Top: 20240624 (14)
+Top 5 values:
+20240624 - 14
+20240723 - 11
+20240627 - 9
+20240717 - 9
+20240106 - 8
+
+Post Created Time - Unique: 792, Top: 10:15:02 (5)
+Top 5 values:
+10:15:02 - 5
+15:40:00 - 4
+20:04:00 - 4
+11:01:09 - 3
+15:30:02 - 3
+
+Type - Unique: 6, Top: Photo (401)
+Top 5 values:
+Photo - 401
+Native Video - 209
+Status - 167
+Live Video Scheduled - 32
+Live Video Complete - 30
+
+Video Share Status - Unique: 3, Top: owned (234)
+Top 5 values:
+owned - 234
+share - 3
+crosspost - 2
+
+Is Video Owner? - Unique: 2, Top: Yes (236)
+Top 5 values:
+Yes - 236
+No - 3
+
+Video Length - Unique: 106, Top: 00:00:30 (12)
+Top 5 values:
+00:00:30 - 12
+00:00:44 - 8
+00:00:09 - 7
+00:01:00 - 7
+00:00:24 - 6
+
+--- Group: Facebook_Id = fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d, Page Category = PERSON ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes       Comments      Wow       Haha      Sad       Angry    
+ ---         ---                 ---         ---            ---       ---       ---       ---      
+ str         f64                 f64         f64            f64       f64       f64       f64      
+
+ count       507.0               507.0       507.0         507.0     507.0     507.0     507.0    
+ null_count  0.0                 0.0         0.0           0.0       0.0       0.0       0.0      
+ mean        482.138067          196.832347  107.341223    2.34714   4.891519  4.887574  6.475345 
+ std         573.632483          225.907108  178.662654    7.850493  8.595779  22.49526  25.53036 
+ min         14.0                11.0        0.0           0.0       0.0       0.0       0.0      
+ 25%         167.0               77.0        19.0          0.0       1.0       0.0       0.0      
+ 50%         326.0               143.0       55.0          0.0       3.0       0.0       1.0      
+ 75%         597.0               241.0       129.0         1.0       5.0       1.0       2.0      
+ max         7741.0              3402.0      1950.0        82.0      77.0      369.0     434.0    
+
+
+Facebook_Id - Unique: 1, Top: fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d (507)
+Top 5 values:
+fdab9de35cdff952e4e0026ef74d9a06f5fdbde3076c201637d0a14f1988e77d - 507
+
+post_id - Unique: 507, Top: 682d7c58b573de2e774514955902915ddb8767ced54afc8d6b4109f4c86ca4db (1)
+Top 5 values:
+0046655769320fecab2e13f8929f3cfcfc740576a5cad8392d6d1d1edebbfe75 - 1
+0125cec38b31fc5497470daf4aad6794b11743b56de309f84717d194ae3938f2 - 1
+0128c78b0723c150c283c6ce04fa9e1d895f0e52a6918ae958f85b8eb650a3cb - 1
+014fc6767c97ffa8fbf51e731359f2002ade8c789f8fe3321e3a2eaba2bbac36 - 1
+018883778180a28c3bb0047a2fedaaea365ece2b48061b99072bf0a2f5ca8c63 - 1
+
+Page Category - Unique: 1, Top: PERSON (507)
+Top 5 values:
+PERSON - 507
+
+Page Admin Top Country - Unique: 1, Top: US (507)
+Top 5 values:
+US - 507
+
+Post Created - Unique: 507, Top: 20240203 16:27:37 EST (1)
+Top 5 values:
+20231021 17:34:20 EDT - 1
+20231109 11:25:39 EST - 1
+20231110 18:30:09 EST - 1
+20231111 19:44:02 EST - 1
+20231113 16:45:42 EST - 1
+
+Post Created Date - Unique: 197, Top: 20240220 (18)
+Top 5 values:
+20240220 - 18
+20240426 - 7
+20240525 - 7
+20240612 - 7
+20240321 - 6
+
+Post Created Time - Unique: 503, Top: 11:25:39 (2)
+Top 5 values:
+11:19:19 - 2
+11:25:39 - 2
+16:00:14 - 2
+17:08:22 - 2
+00:40:02 - 1
+
+Type - Unique: 7, Top: Photo (295)
+Top 5 values:
+Photo - 295
+Link - 75
+Native Video - 61
+Live Video Scheduled - 54
+Live Video Complete - 15
+
+Video Share Status - Unique: 3, Top: owned (67)
+Top 5 values:
+owned - 67
+share - 8
+crosspost - 1
+
+Is Video Owner? - Unique: 2, Top: Yes (71)
+Top 5 values:
+Yes - 71
+No - 5
+
+Video Length - Unique: 66, Top: 00:00:59 (5)
+Top 5 values:
+00:00:59 - 5
+00:00:08 - 2
+00:00:39 - 2
+00:00:45 - 2
+00:00:55 - 2
+
+--- Group: Facebook_Id = 459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190, Page Category = POLITICIAN ---
+ Numeric Summary:
+shape: (9, 10)
+
+ statistic   Total Interactions  Likes      Comments     Wow       Haha      Sad       Angry    
+ ---         ---                 ---        ---           ---       ---       ---       ---      
+ str         f64                 f64        f64           f64       f64       f64       f64      
+
+ count       22.0                22.0       22.0         22.0      22.0      22.0      22.0     
+ null_count  0.0                 0.0        0.0          0.0       0.0       0.0       0.0      
+ mean        88.318182           43.909091  24.636364    0.090909  4.545455  1.909091  0.5      
+ std         77.523199           23.182319  39.890977    0.294245  4.758224  7.150818  0.859125 
+ min         24.0                11.0       1.0          0.0       1.0       0.0       0.0      
+ 25%         58.0                34.0       7.0          0.0       2.0       0.0       0.0      
+ 50%         71.0                42.0       15.0         0.0       3.0       0.0       0.0      
+ 75%         97.0                53.0       28.0         0.0       5.0       0.0       1.0      
+ max         412.0               103.0      194.0        1.0       23.0      33.0      3.0      
+
+
+Facebook_Id - Unique: 1, Top: 459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190 (22)
+Top 5 values:
+459abece909c3b58ecbea0ad3bf398ae90216c170fff442979f2ac3f72f4c190 - 22
+
+post_id - Unique: 22, Top: 0fd1458b2e5236efeb32fa14c67175fef1a72bcd0958154f1f0895f4847b9c8c (1)
+Top 5 values:
+0fd1458b2e5236efeb32fa14c67175fef1a72bcd0958154f1f0895f4847b9c8c - 1
+15f640e502af782eaa8420a03a3a13f5a39be0c2f3d27b77e86f9cbdb448ffb5 - 1
+1b51196d49bbd4cc0674771a8c335c97256b8fb8471f4d208a496fdb4cd76b5a - 1
+38723ba8a020e46ad8b733acda1515d128fe44fa47ce03d7a9e3c149bafabe84 - 1
+44910138be674864c48c1842878bf9b93abd6163341dbee6e21980e3946be5ba - 1
+
+Page Category - Unique: 1, Top: POLITICIAN (22)
+Top 5 values:
+POLITICIAN - 22
+
+Page Admin Top Country - Unique: 1, Top: US (22)
+Top 5 values:
+US - 22
+
+Post Created - Unique: 22, Top: 20230921 16:03:59 EDT (1)
+Top 5 values:
+20230901 19:27:26 EDT - 1
+20230902 19:44:32 EDT - 1
+20230904 12:19:17 EDT - 1
+20230905 20:11:06 EDT - 1
+20230908 20:38:21 EDT - 1
+
+Post Created Date - Unique: 17, Top: 20230911 (3)
+Top 5 values:
+20230911 - 3
+20230910 - 2
+20230921 - 2
+20230924 - 2
+20230901 - 1
+
+Post Created Time - Unique: 22, Top: 19:27:26 (1)
+Top 5 values:
+07:00:21 - 1
+10:37:30 - 1
+11:52:49 - 1
+12:18:13 - 1
+12:19:17 - 1
+
+Type - Unique: 3, Top: Photo (18)
+Top 5 values:
+Photo - 18
+Link - 2
+Native Video - 2
+
+Video Share Status - Unique: 1, Top: owned (2)
+Top 5 values:
+owned - 2
+
+Is Video Owner? - Unique: 1, Top: Yes (2)
+Top 5 values:
+Yes - 2
+
+Video Length - Unique: 2, Top: 00:00:30 (1)
+Top 5 values:
+00:00:30 - 1
+00:01:19 - 1
+
+Total Execution Time: 1.51 seconds

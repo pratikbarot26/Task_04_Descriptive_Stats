@@ -1,0 +1,2260 @@
+
+--- Overall Summary ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount   viewCount      bookmarkCount 
+ ---         ---           ---          ---           ---          ---            ---           
+ str         f64           f64          f64           f64          f64            f64           
+
+ count       27304.0       27304.0      27304.0       27304.0      27304.0        27304.0       
+ null_count  0.0           0.0          0.0           0.0          0.0            0.0           
+ mean        1322.055193   1063.785013  6913.692829   128.081563   507084.731834  136.213522    
+ std         3405.00424    3174.981654  21590.307989  1131.533468  3.2122e6       712.580294    
+ min         0.0           0.0          0.0           0.0          5.0            0.0           
+ 25%         84.0          43.0         393.0         5.0          27853.0        4.0           
+ 50%         333.0         131.0        1406.0        17.0         70942.0        21.0          
+ 75%         1071.0        501.0        5010.0        69.0         303661.0       76.0          
+ max         144615.0      121270.0     915221.0      123320.0     3.33502775e8   42693.0       
+
+
+id - Unique: 27304, Top: eae7522a1b796f4376172a6bd3fcd075d7b1349e1610b37ee44907ce998839b5 (1)
+Top 5 values:
+eae7522a1b796f4376172a6bd3fcd075d7b1349e1610b37ee44907ce998839b5 - 1
+20292273226fd90076a3c1b6498c51749a44b980d67efe2d3903b55c1eb589a8 - 1
+4a466d09d80105ccd2ef99d10a73556b81aa4a3615bdfc8ccea8eb36c55fd06e - 1
+3b236ac88755302259b8bfd624031845133475b7b8765e5a5082f7b370ba8f84 - 1
+c2ac53dd0e77150ada6b265a065b187bf7ad072e5ee1107368a048c96ba6b9ad - 1
+
+url - Unique: 27304, Top: 84481bdd767dd3bb02f6329ff3885af62665b0d322a51d9338629affbeffdef7 (1)
+Top 5 values:
+84481bdd767dd3bb02f6329ff3885af62665b0d322a51d9338629affbeffdef7 - 1
+d0fadd6157acceeaf19a49d927301d6ba049a67eb514a5d9790e3c5aabed6af8 - 1
+34e5d21d88b47f1c8ef9fc4ca11ba8218daec1bd70844961a4df0dc288aceb27 - 1
+d94889cd74ade9d168009b01da7fb0856352114f675d541aa9362c4c4ccce765 - 1
+79f31a7ede6ab765b86710479f75d19d44229cc1b7d78f2c5f3685a495c9d5d0 - 1
+
+source - Unique: 14, Top: Twitter Web App (14930)
+Top 5 values:
+Twitter Web App - 14930
+Twitter for iPhone - 8494
+Sprout Social - 2933
+Twitter Media Studio - 499
+Twitter for iPad - 266
+
+createdAt - Unique: 27014, Top: 2023-10-06 04:55:21 (4)
+Top 5 values:
+2023-10-06 04:55:21 - 4
+2024-05-28 17:19:24 - 4
+2024-08-30 03:04:08 - 4
+2023-12-18 22:34:44 - 3
+2024-08-30 03:04:06 - 3
+
+lang - Unique: 12, Top: en (27281)
+Top 5 values:
+en - 27281
+fr - 6
+tl - 4
+da - 3
+es - 3
+
+quoteId - Unique: 3159, Top: 1.7659161677373445e+18 (5)
+Top 5 values:
+1.7659161677373445e+18 - 5
+1.711730672279122e+18 - 5
+1.7731398481085975e+18 - 4
+1.7148274152418675e+18 - 3
+1.823431602682168e+18 - 3
+
+inReplyToId - Unique: 3309, Top: 1.7444996006715807e+18 (6)
+Top 5 values:
+1.7444996006715807e+18 - 6
+1.789104982999876e+18 - 3
+1.7617956312223255e+18 - 3
+1.7289763100040315e+18 - 3
+1.753886482400445e+18 - 2
+
+month_year - Unique: 15, Top: 2024-10 (3586)
+Top 5 values:
+2024-10 - 3586
+2024-09 - 2856
+2024-08 - 2647
+2023-09 - 2336
+2023-11 - 2334
+
+illuminating_scored_message - Unique: 27136, Top: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd (21)
+Top 5 values:
+36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd - 21
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 - 18
+e85b31153cfcc753f8657eb033c8e8fb03f6da4c384da1d4e563eef696f6e7a0 - 10
+c3adbeed65888d91e375c51dc9cc936d137e35fc360ebed1763b5826903046f9 - 7
+de3c2805b2cea354c20c7fe117fc9c1885c9aea23ca9d1623d93d7c56df7a9bb - 4
+
+
+--- Group: source = Twitter for iPhone, lang = pt ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        522.0         606.0       2537.0     84.0        153972.0   90.0          
+ std         null          null        null       null        null       null          
+ min         522.0         606.0       2537.0     84.0        153972.0   90.0          
+ 25%         522.0         606.0       2537.0     84.0        153972.0   90.0          
+ 50%         522.0         606.0       2537.0     84.0        153972.0   90.0          
+ 75%         522.0         606.0       2537.0     84.0        153972.0   90.0          
+ max         522.0         606.0       2537.0     84.0        153972.0   90.0          
+
+
+id - Unique: 1, Top: 29c0989b225060e0e28854be554ff7848ebe0412b5f37866e99195e86e030cd5 (1)
+Top 5 values:
+29c0989b225060e0e28854be554ff7848ebe0412b5f37866e99195e86e030cd5 - 1
+
+url - Unique: 1, Top: 4c4b26669fa25a08a22bb8d2d8818b4b250a09fdb13b76ed97d992e0cf9ed8a1 (1)
+Top 5 values:
+4c4b26669fa25a08a22bb8d2d8818b4b250a09fdb13b76ed97d992e0cf9ed8a1 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2024-09-18 02:07:52 (1)
+Top 5 values:
+2024-09-18 02:07:52 - 1
+
+lang - Unique: 1, Top: pt (1)
+Top 5 values:
+pt - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-09 (1)
+Top 5 values:
+2024-09 - 1
+
+illuminating_scored_message - Unique: 1, Top: 44c649d6d7943ca60b0d6c4e6ad4c981b99646ce3f0457c9f1e7316753ed02d6 (1)
+Top 5 values:
+44c649d6d7943ca60b0d6c4e6ad4c981b99646ce3f0457c9f1e7316753ed02d6 - 1
+
+
+--- Group: source = Twitter Web App, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount  viewCount      bookmarkCount 
+ ---         ---           ---          ---           ---         ---            ---           
+ str         f64           f64          f64           f64         f64            f64           
+
+ count       14920.0       14920.0      14920.0       14920.0     14920.0        14920.0       
+ null_count  0.0           0.0          0.0           0.0         0.0            0.0           
+ mean        1316.789276   719.317627   6664.081233   120.075     474079.827346  154.319035    
+ std         3571.870333   2689.952978  22470.095887  1465.05583  3.9675e6       843.680549    
+ min         0.0           0.0          0.0           0.0         5.0            0.0           
+ 25%         188.0         60.0         694.0         7.0         34473.0        10.0          
+ 50%         418.0         133.0        1661.0        19.0        71647.0        28.0          
+ 75%         1021.0        363.0        4504.0        59.0        236412.0       86.0          
+ max         144615.0      121270.0     915221.0      123320.0    3.33502775e8   42693.0       
+
+
+id - Unique: 14920, Top: 273dbdbf920142e03c23a487415ddda692f089ff473830873b9ca240139967d8 (1)
+Top 5 values:
+273dbdbf920142e03c23a487415ddda692f089ff473830873b9ca240139967d8 - 1
+f52a1d2c29d2e25489c2345ff3425eca7dc00c172f1e3f2f06763d38b1faa5f8 - 1
+30c01ffd4f1ee96564a8c4af3fa1c8aab0bed8abd924c3134ce45374e8fdbe73 - 1
+59b7778999ebaf4501247395b4fa0998ba32550a67ec16d21b0b340731e330b7 - 1
+8e064d884b3713525a254abc53950910b4e4019e0df59cd90c2bd840be02e52d - 1
+
+url - Unique: 14920, Top: f6c619b4cc3825f99227cfd0e61fb5d1e7302bede7ad83927f53f472646bc71b (1)
+Top 5 values:
+f6c619b4cc3825f99227cfd0e61fb5d1e7302bede7ad83927f53f472646bc71b - 1
+52dcbd80d62e1d04e0beca71fdda6876c5da673f4757e044e23a6c0d614513fd - 1
+3481152458d80737062685a9c36e4e4be70600257d1d9d17f8eac0e77cf743ea - 1
+758dfa05be20b44924f96f09ff318d7c80e1e8291dba7566a76f7d1df238b74e - 1
+4b59ceeede519b5dbcd4f4ca6dba45824af3e44755deb1f1d0c73dfabc299df0 - 1
+
+source - Unique: 1, Top: Twitter Web App (14920)
+Top 5 values:
+Twitter Web App - 14920
+
+createdAt - Unique: 14711, Top: 2024-05-28 17:19:24 (4)
+Top 5 values:
+2024-05-28 17:19:24 - 4
+2023-10-06 04:55:21 - 4
+2024-08-30 03:04:08 - 4
+2024-02-16 15:31:30 - 3
+2023-12-05 12:14:58 - 3
+
+lang - Unique: 1, Top: en (14920)
+Top 5 values:
+en - 14920
+
+quoteId - Unique: 1345, Top: 1.7731398481085975e+18 (4)
+Top 5 values:
+1.7731398481085975e+18 - 4
+1.7659161677373445e+18 - 4
+1.847793585137361e+18 - 3
+1.8310108612485857e+18 - 3
+1.823431602682168e+18 - 3
+
+inReplyToId - Unique: 1465, Top: 1.7444996006715807e+18 (6)
+Top 5 values:
+1.7444996006715807e+18 - 6
+1.7617956312223255e+18 - 3
+1.7289763100040315e+18 - 3
+1.8092199695379625e+18 - 2
+1.7657847438056164e+18 - 2
+
+month_year - Unique: 15, Top: 2024-10 (2928)
+Top 5 values:
+2024-10 - 2928
+2024-09 - 2332
+2024-08 - 2003
+2023-09 - 897
+2024-06 - 800
+
+illuminating_scored_message - Unique: 14849, Top: 36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd (20)
+Top 5 values:
+36cb7d55fcf85362ca03f624c2f574f1f55f89db559b17da084df6e643afe5cd - 20
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 - 7
+c3adbeed65888d91e375c51dc9cc936d137e35fc360ebed1763b5826903046f9 - 6
+c8af3f35f81f100bc7b478c8aaa119173e5ccb94c1b542840a6b967a8f08d6b5 - 3
+371425c7624b8c082fb580cb568bda3a42b7d4284d75c929db70ab7f76f08dbf - 3
+
+
+--- Group: source = Twitter Web App, lang = fr ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount    quoteCount  viewCount     bookmarkCount 
+ ---         ---           ---         ---          ---         ---           ---           
+ str         f64           f64         f64          f64         f64           f64           
+
+ count       3.0           3.0         3.0          3.0         3.0           3.0           
+ null_count  0.0           0.0         0.0          0.0         0.0           0.0           
+ mean        520.666667    277.666667  1324.666667  46.333333   67097.333333  17.666667     
+ std         533.21134     359.953238  1212.284345  51.983972   67832.749291  11.930353     
+ min         109.0         42.0        368.0        6.0         17310.0       4.0           
+ 25%         330.0         99.0        918.0        28.0        39625.0       23.0          
+ 50%         330.0         99.0        918.0        28.0        39625.0       23.0          
+ 75%         1123.0        692.0       2688.0       105.0       144357.0      26.0          
+ max         1123.0        692.0       2688.0       105.0       144357.0      26.0          
+
+
+id - Unique: 3, Top: be5aabb51685cd3f045503ddd2b1c0ef2e8d086b7a9a434755d6b9d21cdfeb1d (1)
+Top 5 values:
+be5aabb51685cd3f045503ddd2b1c0ef2e8d086b7a9a434755d6b9d21cdfeb1d - 1
+899d993811ac2d517a2ed46ecf376172f93d22d435e0a084bf4389586fdfba20 - 1
+6035dc348f45f9b4ed1b0daba2255c60a370ec915a279e5df436b434194b29b0 - 1
+
+url - Unique: 3, Top: de86c78ad685d788af2f00b2ed56871722c2e2f7c7e5ed909e44ed53cd2a0099 (1)
+Top 5 values:
+de86c78ad685d788af2f00b2ed56871722c2e2f7c7e5ed909e44ed53cd2a0099 - 1
+b6b8dfb9952c472616e06f20deca0bf74a0b991f2dfb45ddad4e18ace611923f - 1
+efe011eff0056726b8b239922bf57ea9e861f73fd398742b3a7b15dcd135118e - 1
+
+source - Unique: 1, Top: Twitter Web App (3)
+Top 5 values:
+Twitter Web App - 3
+
+createdAt - Unique: 3, Top: 2024-06-22 19:06:46 (1)
+Top 5 values:
+2024-06-22 19:06:46 - 1
+2024-06-22 18:45:38 - 1
+2023-11-06 17:04:45 - 1
+
+lang - Unique: 1, Top: fr (3)
+Top 5 values:
+fr - 3
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-06 (2)
+Top 5 values:
+2024-06 - 2
+2023-11 - 1
+
+illuminating_scored_message - Unique: 3, Top: 66074f2bb89223a0f36ae7f4a93b6d667441acfa1c8fb59d373da0e965f488b6 (1)
+Top 5 values:
+66074f2bb89223a0f36ae7f4a93b6d667441acfa1c8fb59d373da0e965f488b6 - 1
+09f2b43f4402f36ff22c27bfdbfe59e45c586fd4c197d3de2a7441c438a65a07 - 1
+84d1ba08664bb7d0956c9ea51cd0bb4b1fc4acae094263a794bd5bd4342a04c0 - 1
+
+
+--- Group: source = Twitter Media Studio, lang = fr ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        41.0          7.0         123.0      9.0         15289.0    5.0           
+ std         null          null        null       null        null       null          
+ min         41.0          7.0         123.0      9.0         15289.0    5.0           
+ 25%         41.0          7.0         123.0      9.0         15289.0    5.0           
+ 50%         41.0          7.0         123.0      9.0         15289.0    5.0           
+ 75%         41.0          7.0         123.0      9.0         15289.0    5.0           
+ max         41.0          7.0         123.0      9.0         15289.0    5.0           
+
+
+id - Unique: 1, Top: a9aeb35099a50a167b4c2adc6d6a22ba4e12d8c516de2ba9a9cf3a4c45f6e956 (1)
+Top 5 values:
+a9aeb35099a50a167b4c2adc6d6a22ba4e12d8c516de2ba9a9cf3a4c45f6e956 - 1
+
+url - Unique: 1, Top: 7998b6f0826084aa5d3c04d3123a6e38fd9025a3c49f37e791b8cadeeb4a449c (1)
+Top 5 values:
+7998b6f0826084aa5d3c04d3123a6e38fd9025a3c49f37e791b8cadeeb4a449c - 1
+
+source - Unique: 1, Top: Twitter Media Studio (1)
+Top 5 values:
+Twitter Media Studio - 1
+
+createdAt - Unique: 1, Top: 2024-01-22 03:31:14 (1)
+Top 5 values:
+2024-01-22 03:31:14 - 1
+
+lang - Unique: 1, Top: fr (1)
+Top 5 values:
+fr - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-01 (1)
+Top 5 values:
+2024-01 - 1
+
+illuminating_scored_message - Unique: 1, Top: ba848169f6055c06426b1b4f659a525a3795c829aadc98ff59ba59615648d827 (1)
+Top 5 values:
+ba848169f6055c06426b1b4f659a525a3795c829aadc98ff59ba59615648d827 - 1
+
+
+--- Group: source = Twitter for Android, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount    bookmarkCount 
+ ---         ---           ---         ---        ---         ---          ---           
+ str         f64           f64         f64        f64         f64          f64           
+
+ count       5.0           5.0         5.0        5.0         5.0          5.0           
+ null_count  0.0           0.0         0.0        0.0         0.0          0.0           
+ mean        10.6          8.4         63.8       0.4         19899.4      1.0           
+ std         5.899152      6.107373    37.439284  0.547723    9744.059847  0.0           
+ min         6.0           4.0         33.0       0.0         13161.0      1.0           
+ 25%         6.0           4.0         34.0       0.0         13488.0      1.0           
+ 50%         7.0           5.0         45.0       0.0         14241.0      1.0           
+ 75%         16.0          11.0        92.0       1.0         22808.0      1.0           
+ max         18.0          18.0        115.0      1.0         35799.0      1.0           
+
+
+id - Unique: 5, Top: 2fcd7a560d863004d98e3431b51c2ac31554fcb7b00de16f48cab9aab61eed27 (1)
+Top 5 values:
+2fcd7a560d863004d98e3431b51c2ac31554fcb7b00de16f48cab9aab61eed27 - 1
+529315f32d4fd8f295659678b4ffd79ef552506be90a6d43a7b170bbec14e464 - 1
+3e0f2ad6730722b9f3880ead619a9aecc6ff3a15fa737ca8d2afa3f4d925e59a - 1
+2451883a465f0f53ce16b73162e3f691dd7d1ba33d1713ef8394e1e845c82545 - 1
+db62cda3dae85253c5b147a4707a3a77c01018046479d8829a68fef837101e91 - 1
+
+url - Unique: 5, Top: 3b380b232e96dab5fb69cb92f4335b99b548436a59d9f019a0427e9d65551331 (1)
+Top 5 values:
+3b380b232e96dab5fb69cb92f4335b99b548436a59d9f019a0427e9d65551331 - 1
+a5d2b71be34bd0e8a9df9b8cf12f9840362b9407653113b8dd8a65f099c54709 - 1
+978f1cc075cdc88c849cfea836285f98d23a6eabaa422f52f286d3d18c81ffc8 - 1
+248fe90f6f61edf65212bc6ec96f3712d59743a99d00fc2d0e470742cc0bc717 - 1
+bb2c6760a9b38a72da3fba002f7dd7426f82d0953266209b249273ed829ff2b6 - 1
+
+source - Unique: 1, Top: Twitter for Android (5)
+Top 5 values:
+Twitter for Android - 5
+
+createdAt - Unique: 5, Top: 2023-09-21 23:06:23 (1)
+Top 5 values:
+2023-09-21 23:06:23 - 1
+2023-09-08 12:58:17 - 1
+2023-09-23 16:02:32 - 1
+2023-09-16 23:53:59 - 1
+2023-09-21 19:51:45 - 1
+
+lang - Unique: 1, Top: en (5)
+Top 5 values:
+en - 5
+
+quoteId - Unique: 1, Top: 1.7049022661745093e+18 (1)
+Top 5 values:
+1.7049022661745093e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2023-09 (5)
+Top 5 values:
+2023-09 - 5
+
+illuminating_scored_message - Unique: 5, Top: 27bcf8160efd1c6c87ac78c0a50216d14dc22cad5383b57bf325ad09a41acfa2 (1)
+Top 5 values:
+27bcf8160efd1c6c87ac78c0a50216d14dc22cad5383b57bf325ad09a41acfa2 - 1
+b4676a565ff7b26e77a39ccab74d78699d0d60ee11ca09cfa1095f779fde0ce3 - 1
+fe36a0f2b05c9f55cc6c1646405b19dfa65cf068e6be8342ab280b07db01ff75 - 1
+4eb6eeeb0bd336489dd0339c01fe1f5481942891ebbcd656b340e2c3194cabb9 - 1
+c626c61ad5bc49bd407b29b9faee0767ebb340d67802d0012d3accd7d1901f90 - 1
+
+
+--- Group: source = Sprout Social, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount  viewCount    bookmarkCount 
+ ---         ---           ---          ---           ---         ---          ---           
+ str         f64           f64          f64           f64         f64          f64           
+
+ count       2933.0        2933.0       2933.0        2933.0      2933.0       2933.0        
+ null_count  0.0           0.0          0.0           0.0         0.0          0.0           
+ mean        3524.793386   5186.272076  18173.40641   426.120014  1.5011e6     230.796113    
+ std         4584.684286   5804.889264  28810.234274  855.023977  3.4330e6     581.845276    
+ min         13.0          12.0         60.0          0.0         2647.0       0.0           
+ 25%         719.0         1382.0       3708.0        75.0        286290.0     24.0          
+ 50%         2198.0        3361.0       9480.0        195.0       659392.0     74.0          
+ 75%         4671.0        6920.0       21318.0       454.0       1.467341e6   204.0         
+ max         80331.0       60598.0      423537.0      17200.0     7.6522204e7  13271.0       
+
+
+id - Unique: 2933, Top: 6920fd74826cfd38c3dfed1de5695fb3623d3fbc49baecbfd314100cab03598c (1)
+Top 5 values:
+6920fd74826cfd38c3dfed1de5695fb3623d3fbc49baecbfd314100cab03598c - 1
+e81e8bc32bbb6ddc920de2f95491b1f4fed563f0e943b474d3d694c3973b60b6 - 1
+c482e2398f49ad133c74791c1b1eca5e3562d14f2e7d9a5a4bea3a7e4381f91a - 1
+ee7d815958e8fa5c179404b59225bd92cfc397296f3210a4f868a44538b6a748 - 1
+6334d2962ec036ec9f70a4cdb8fee2c604c93bb807e888269ebdaa06e17b8f75 - 1
+
+url - Unique: 2933, Top: 9b690204fee4384815a7fba58384010e3faa9908615bcfdcaf3459bad851d83b (1)
+Top 5 values:
+9b690204fee4384815a7fba58384010e3faa9908615bcfdcaf3459bad851d83b - 1
+9870939b48a65b28c6cc216d83c76d4d8f5a2581d1f30937fcbca565c3e82a8c - 1
+5c8ae3f56cf87fe511ac5691112b18573d53860e546663a0d1d5392ebf333d42 - 1
+e066c9d0b21b498cab6964712761641e149dd1a0963594f228438f60acf6d216 - 1
+5e4fddd9a9ff0353be7f800d6bcbc6df09e5e1ce3d2a0766826d4266693e1873 - 1
+
+source - Unique: 1, Top: Sprout Social (2933)
+Top 5 values:
+Sprout Social - 2933
+
+createdAt - Unique: 2933, Top: 2023-09-22 22:21:00 (1)
+Top 5 values:
+2023-09-22 22:21:00 - 1
+2023-09-07 16:12:42 - 1
+2023-10-31 13:54:26 - 1
+2024-10-06 17:19:20 - 1
+2024-07-05 21:47:00 - 1
+
+lang - Unique: 1, Top: en (2933)
+Top 5 values:
+en - 2933
+
+quoteId - Unique: 29, Top: 1.8114767384442348e+18 (1)
+Top 5 values:
+1.8114767384442348e+18 - 1
+1.7495811905653967e+18 - 1
+1.739579349739721e+18 - 1
+1.7220554284340145e+18 - 1
+1.7401994943801185e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 15, Top: 2024-10 (316)
+Top 5 values:
+2024-10 - 316
+2024-01 - 313
+2024-02 - 308
+2023-09 - 269
+2024-03 - 220
+
+illuminating_scored_message - Unique: 2930, Top: cf14adc6100946c861e8480495e17c3b4c4d7cec48709709c323cd733bcf1a1b (2)
+Top 5 values:
+cf14adc6100946c861e8480495e17c3b4c4d7cec48709709c323cd733bcf1a1b - 2
+20c5d02c38b92565a4b4ad02b14fdd99f3c970f01401b0dc82facef06a72a449 - 2
+06122628efb1fb681067b24f67fdf1ea47c88726cd7bcba1b9b1d983fc2c24de - 2
+6929ffe1ba7485bb0712827337d83cb17552cd544cbc4ef33cb26e7b9644a285 - 1
+6f2ba8084748d0c6360f5bb03192533fc23f30675c01ee78f15cbd3a8033303f - 1
+
+
+--- Group: source = Later Media, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        93.0          18.0        280.0      10.0        12847.0    5.0           
+ std         null          null        null       null        null       null          
+ min         93.0          18.0        280.0      10.0        12847.0    5.0           
+ 25%         93.0          18.0        280.0      10.0        12847.0    5.0           
+ 50%         93.0          18.0        280.0      10.0        12847.0    5.0           
+ 75%         93.0          18.0        280.0      10.0        12847.0    5.0           
+ max         93.0          18.0        280.0      10.0        12847.0    5.0           
+
+
+id - Unique: 1, Top: 2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb (1)
+Top 5 values:
+2d9cfc7b380157ca2d41ac35c61fe9d530b4ea58662064c71726c2e733eefccb - 1
+
+url - Unique: 1, Top: 5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577 (1)
+Top 5 values:
+5fc4e0f1baa6eb4aaf3bc4b219055200c8a34d645c148b55b700d206d7c3d577 - 1
+
+source - Unique: 1, Top: Later Media (1)
+Top 5 values:
+Later Media - 1
+
+createdAt - Unique: 1, Top: 2024-02-01 11:10:49 (1)
+Top 5 values:
+2024-02-01 11:10:49 - 1
+
+lang - Unique: 1, Top: en (1)
+Top 5 values:
+en - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-02 (1)
+Top 5 values:
+2024-02 - 1
+
+illuminating_scored_message - Unique: 1, Top: 0aca51b1885c946a27ef08b05108fb1c76c83f18541cfbd20941061922eb3c9c (1)
+Top 5 values:
+0aca51b1885c946a27ef08b05108fb1c76c83f18541cfbd20941061922eb3c9c - 1
+
+
+--- Group: source = Twitter for iPhone, lang = pl ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        178.0         98.0        507.0      26.0        69531.0    19.0          
+ std         null          null        null       null        null       null          
+ min         178.0         98.0        507.0      26.0        69531.0    19.0          
+ 25%         178.0         98.0        507.0      26.0        69531.0    19.0          
+ 50%         178.0         98.0        507.0      26.0        69531.0    19.0          
+ 75%         178.0         98.0        507.0      26.0        69531.0    19.0          
+ max         178.0         98.0        507.0      26.0        69531.0    19.0          
+
+
+id - Unique: 1, Top: 2d40a0d0849000e3fa2b8604756eaaf9c82e0b750e66dfd65c55484a0f9f96c3 (1)
+Top 5 values:
+2d40a0d0849000e3fa2b8604756eaaf9c82e0b750e66dfd65c55484a0f9f96c3 - 1
+
+url - Unique: 1, Top: 00c710cc70266c0c1c531838194f9a038991e3b99cfeffb7d01fef60ddb2daf1 (1)
+Top 5 values:
+00c710cc70266c0c1c531838194f9a038991e3b99cfeffb7d01fef60ddb2daf1 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2023-10-05 19:58:24 (1)
+Top 5 values:
+2023-10-05 19:58:24 - 1
+
+lang - Unique: 1, Top: pl (1)
+Top 5 values:
+pl - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7099446835003558e+18 (1)
+Top 5 values:
+1.7099446835003558e+18 - 1
+
+month_year - Unique: 1, Top: 2023-10 (1)
+Top 5 values:
+2023-10 - 1
+
+illuminating_scored_message - Unique: 1, Top: b6f77ec881b57234e44a9393b0e411d9fd71be61c667898980a678cec2422e44 (1)
+Top 5 values:
+b6f77ec881b57234e44a9393b0e411d9fd71be61c667898980a678cec2422e44 - 1
+
+
+--- Group: source = Twitter Web App, lang = et ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        14.0          3.0         47.0       1.0         3355.0     0.0           
+ std         null          null        null       null        null       null          
+ min         14.0          3.0         47.0       1.0         3355.0     0.0           
+ 25%         14.0          3.0         47.0       1.0         3355.0     0.0           
+ 50%         14.0          3.0         47.0       1.0         3355.0     0.0           
+ 75%         14.0          3.0         47.0       1.0         3355.0     0.0           
+ max         14.0          3.0         47.0       1.0         3355.0     0.0           
+
+
+id - Unique: 1, Top: c280c5a50aa77937bc8599e0cd48d39b5ae2786da5b980c6679711b73fd1a259 (1)
+Top 5 values:
+c280c5a50aa77937bc8599e0cd48d39b5ae2786da5b980c6679711b73fd1a259 - 1
+
+url - Unique: 1, Top: e6f3196ac07a88d9bddf70b3323df5ce84b1896332ef45a737d632cc23d96acd (1)
+Top 5 values:
+e6f3196ac07a88d9bddf70b3323df5ce84b1896332ef45a737d632cc23d96acd - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2023-09-08 16:19:07 (1)
+Top 5 values:
+2023-09-08 16:19:07 - 1
+
+lang - Unique: 1, Top: et (1)
+Top 5 values:
+et - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7001819821377495e+18 (1)
+Top 5 values:
+1.7001819821377495e+18 - 1
+
+month_year - Unique: 1, Top: 2023-09 (1)
+Top 5 values:
+2023-09 - 1
+
+illuminating_scored_message - Unique: 1, Top: 66033f6f69446f8b327f3764b837ed57e572e537959719ad7088ce282d9c6ed3 (1)
+Top 5 values:
+66033f6f69446f8b327f3764b837ed57e572e537959719ad7088ce282d9c6ed3 - 1
+
+
+--- Group: source = Hootsuite Inc., lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount   quoteCount  viewCount     bookmarkCount 
+ ---         ---           ---         ---         ---         ---           ---           
+ str         f64           f64         f64         f64         f64           f64           
+
+ count       47.0          47.0        47.0        47.0        47.0          47.0          
+ null_count  0.0           0.0         0.0         0.0         0.0           0.0           
+ mean        129.978723    37.191489   380.829787  7.531915    29066.617021  8.446809      
+ std         137.673288    30.110404   404.715376  8.619621    13547.323401  10.576447     
+ min         47.0          8.0         120.0       0.0         13542.0       1.0           
+ 25%         63.0          19.0        175.0       2.0         19525.0       2.0           
+ 50%         86.0          28.0        241.0       5.0         24063.0       5.0           
+ 75%         148.0         45.0        444.0       10.0        34472.0       11.0          
+ max         780.0         168.0       2195.0      44.0        68518.0       56.0          
+
+
+id - Unique: 47, Top: 4aa2928514c46f8e651862d7b09aee68b41e2be2c281465537b3d9707d3b4995 (1)
+Top 5 values:
+4aa2928514c46f8e651862d7b09aee68b41e2be2c281465537b3d9707d3b4995 - 1
+106e7afffa7e0d688cbfee230c15beb9e8bbcec7d92d4bf31668bc1c0e55ba96 - 1
+e81f58a7a1a89e74c29b6062688921462d7864af3e5c87f4bab5fbd6e54bbc41 - 1
+1c08d2ef8f9d3728558bc12aae93287d771181442c8801b89c27aef73e6214c5 - 1
+0abf23b6071b786a87d82289e0225eae28c2bcc90beb4a74c338275e578a9650 - 1
+
+url - Unique: 47, Top: ffaee911af32626f5b74ffde46728181647f67dff3d9c6d2083e2f418f8edfed (1)
+Top 5 values:
+ffaee911af32626f5b74ffde46728181647f67dff3d9c6d2083e2f418f8edfed - 1
+87cf123e8c80e6ca26812e415cc890f1300d89154c660c2efea4c8b9cd69e71c - 1
+e36b770eda197e1ad6da1e9fb7510c0ea77e1acb8dcbf8d2ab64431b6b7a52cc - 1
+403607c3a52c4654ff901be7e82c166bf413116d5836957d72260dbd9990180c - 1
+3266075691ac1ba2ef9325358e495d81bb4d7d9a8ae538ea4e0b6cb3c0d7633b - 1
+
+source - Unique: 1, Top: Hootsuite Inc. (47)
+Top 5 values:
+Hootsuite Inc. - 47
+
+createdAt - Unique: 47, Top: 2024-07-25 18:49:36 (1)
+Top 5 values:
+2024-07-25 18:49:36 - 1
+2024-07-29 16:26:03 - 1
+2024-06-07 16:03:25 - 1
+2024-05-20 18:08:27 - 1
+2024-03-06 22:56:00 - 1
+
+lang - Unique: 1, Top: en (47)
+Top 5 values:
+en - 47
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 8, Top: 2024-03 (11)
+Top 5 values:
+2024-03 - 11
+2024-02 - 8
+2024-04 - 8
+2024-07 - 6
+2024-05 - 5
+
+illuminating_scored_message - Unique: 47, Top: 64faac265ac4f304303b28e5b474561bbe8190bf8b69019fdb40781297e093f6 (1)
+Top 5 values:
+64faac265ac4f304303b28e5b474561bbe8190bf8b69019fdb40781297e093f6 - 1
+77faa17334e7d6661d176c9313fb88761ae28dc9dcfa383b07e4113ea9600faa - 1
+eb816daa5f875532e2cb20c55e4d6eae6858eeed6879471a2ea2c26096d59674 - 1
+49cd49c20757209074300879b7ef2a0599d2e4e98841b901bd02a27fba12021f - 1
+98242593ddb1bcc4a6be9d993b6698f8ebc8053d51a04b4bade06ae7ec82fa49 - 1
+
+
+--- Group: source = Twitter for Advertisers, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount   quoteCount  viewCount     bookmarkCount 
+ ---         ---           ---         ---         ---         ---           ---           
+ str         f64           f64         f64         f64         f64           f64           
+
+ count       7.0           7.0         7.0         7.0         7.0           7.0           
+ null_count  0.0           0.0         0.0         0.0         0.0           0.0           
+ mean        97.0          138.714286  755.571429  11.428571   50335.0       3.285714      
+ std         96.472794     84.555138   820.346646  12.447987   52027.093234  3.728909      
+ min         14.0          31.0        97.0        0.0         11639.0       0.0           
+ 25%         51.0          111.0       412.0       7.0         16849.0       1.0           
+ 50%         59.0          143.0       579.0       8.0         21476.0       2.0           
+ 75%         153.0         210.0       889.0       21.0        83499.0       7.0           
+ max         289.0         271.0       2517.0      35.0        151709.0      10.0          
+
+
+id - Unique: 7, Top: 93c1fc2313914a29e9dda34aaa1ebcb4337cc3cccf3977a6e61c37b1af85df12 (1)
+Top 5 values:
+93c1fc2313914a29e9dda34aaa1ebcb4337cc3cccf3977a6e61c37b1af85df12 - 1
+0d54d922342c4dae92cc57c6fe9ce8743f777f24cd8564bc42517edf1555aaed - 1
+887084e542079a41a9f66a617168b467bfd258ca923eba96887306c9ab061bb0 - 1
+ae442b788eae27de872807298044a3482d9a5fcee99b118ab78584b79f60cb6f - 1
+3941319460eae35e92edbff7a6eb207b9ae0005b5636122ef61c037624d19cf2 - 1
+
+url - Unique: 7, Top: 0dd3691c87fa14734e12af668b9ef5213ebf2dac4ef6f4bb5a60d4c9cd8b93da (1)
+Top 5 values:
+0dd3691c87fa14734e12af668b9ef5213ebf2dac4ef6f4bb5a60d4c9cd8b93da - 1
+f3f3f3aab85c5358101fa52e1fda240b8226fa68526ca4fe97f15b525f320955 - 1
+70e960a26a490466d5c1dd8dbabf74f30704d3cf9b380d721fca88b9d65ed219 - 1
+984f05b27019dc82bd0199fd7471d1a8d87366d716caae862eabb051b85a2a0b - 1
+7fe0f1ea8085bc05cc769dfd0a4eced3f3aeac40c44e8accc5fc60deb76a554b - 1
+
+source - Unique: 1, Top: Twitter for Advertisers (7)
+Top 5 values:
+Twitter for Advertisers - 7
+
+createdAt - Unique: 7, Top: 2023-09-21 14:52:44 (1)
+Top 5 values:
+2023-09-21 14:52:44 - 1
+2023-10-27 02:09:20 - 1
+2023-09-13 01:13:16 - 1
+2023-11-07 18:57:12 - 1
+2023-10-17 15:39:12 - 1
+
+lang - Unique: 1, Top: en (7)
+Top 5 values:
+en - 7
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 3, Top: 2023-09 (3)
+Top 5 values:
+2023-09 - 3
+2023-10 - 3
+2023-11 - 1
+
+illuminating_scored_message - Unique: 7, Top: fcb6afa2654f114ac72bba3c7986c56fbc3108505403d31aa677ccf5b1d9f128 (1)
+Top 5 values:
+fcb6afa2654f114ac72bba3c7986c56fbc3108505403d31aa677ccf5b1d9f128 - 1
+cdfc673bdd0908328e08140c296a8f11be15cb7893f632da1d4f2c3c39bec2fd - 1
+b44cf9b6c50cc45d316b28efba5bab7507ad1e696a5de781c4063c11774968a4 - 1
+7d6a053a2f4ecedc0097d3d11df1aecbaadce5673e226e307fcc2e36cf2febf6 - 1
+eb64d27b0f7cb820d8f703b74b8c87aa37fd2c11c43556f00429f1f59fc29d0f - 1
+
+
+--- Group: source = Loomly, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount   quoteCount  viewCount     bookmarkCount 
+ ---         ---           ---         ---         ---         ---           ---           
+ str         f64           f64         f64         f64         f64           f64           
+
+ count       10.0          10.0        10.0        10.0        10.0          10.0          
+ null_count  0.0           0.0         0.0         0.0         0.0           0.0           
+ mean        25.4          23.1        160.3       1.4         17030.0       0.4           
+ std         72.0913       58.148182   404.633456  4.087923    26880.927406  0.516398      
+ min         0.0           0.0         0.0         0.0         154.0         0.0           
+ 25%         0.0           0.0         1.0         0.0         190.0         0.0           
+ 50%         0.0           5.0         12.0        0.0         12580.0       0.0           
+ 75%         6.0           11.0        112.0       0.0         17534.0       1.0           
+ max         230.0         188.0       1301.0      13.0        85529.0       1.0           
+
+
+id - Unique: 10, Top: 05090167acb182a0c2a999ea5daf6d3801785d418bb299acb4efb977c134d0dd (1)
+Top 5 values:
+05090167acb182a0c2a999ea5daf6d3801785d418bb299acb4efb977c134d0dd - 1
+5fb1769b92fe0a2a47fba670909af4749f5bfb1edbbe067b7293f64493786383 - 1
+fcc78e04b62606e658c998fdfca2ee143fd1ffebae40ed0c9e8aa548833e767a - 1
+185f7ab74d676a06b737effe397e06e9a34d44cdb3399d88c07d1f9f92fc7690 - 1
+4aa612de6b8ba6ad032adc7a5131490c297d07b3bd17bd9e161c287b148f5705 - 1
+
+url - Unique: 10, Top: 29c176dc7538f1045d51b64568e30e95a0e8cc29488c20d6c13de31e523e3d4e (1)
+Top 5 values:
+29c176dc7538f1045d51b64568e30e95a0e8cc29488c20d6c13de31e523e3d4e - 1
+5ef1e7325221e8af82ffd4d3522e2df996acd4038690a3f5fc9a664cae11561d - 1
+61081ef1a8844833b5d21d08e0dcedcc4b7ddde0bd70a820d8729ac49138c68f - 1
+807508cc5de1d22e5d784449365747d5c3ec3e3fd38cb028479c49a280258549 - 1
+b95bf3b61a784fe337839442a0b11afc28c015608a1ee2b43f03b8b9dba3a613 - 1
+
+source - Unique: 1, Top: Loomly (10)
+Top 5 values:
+Loomly - 10
+
+createdAt - Unique: 10, Top: 2024-01-09 04:46:55 (1)
+Top 5 values:
+2024-01-09 04:46:55 - 1
+2024-01-10 20:54:04 - 1
+2024-01-10 00:28:06 - 1
+2024-01-17 05:47:29 - 1
+2023-09-13 13:29:57 - 1
+
+lang - Unique: 1, Top: en (10)
+Top 5 values:
+en - 10
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-01 (8)
+Top 5 values:
+2024-01 - 8
+2023-09 - 2
+
+illuminating_scored_message - Unique: 10, Top: 8b220a0c3a2af41c8ef32af6872361db722023f5826ed3e5d9d8f66dff05fc83 (1)
+Top 5 values:
+8b220a0c3a2af41c8ef32af6872361db722023f5826ed3e5d9d8f66dff05fc83 - 1
+a8061772274c15e3e02ac84deb3d3484615a1b4c9a4b04fc8890abaaf1ffd40e - 1
+21c8661451627fd2f47abf9284d8a31decd794fe213b0722be397235e4f28db6 - 1
+6719ec4b174d6b2fa526d93f1b27023c7710491dfa122985f6e6d76892ca66ca - 1
+1bf5489168b7d42f20bf47772caa31390703ea80dea00d0963de14052d1f9acc - 1
+
+
+--- Group: source = TweetDeck Web App, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount     quoteCount  viewCount      bookmarkCount 
+ ---         ---           ---         ---           ---         ---            ---           
+ str         f64           f64         f64           f64         f64            f64           
+
+ count       7.0           7.0         7.0           7.0         7.0            7.0           
+ null_count  0.0           0.0         0.0           0.0         0.0            0.0           
+ mean        1911.142857   659.285714  10360.428571  155.571429  624732.428571  491.428571    
+ std         2627.973581   838.41432   10342.089825  147.918736  616922.33044   807.004101    
+ min         190.0         42.0        872.0         18.0        56799.0        21.0          
+ 25%         599.0         213.0       2796.0        39.0        134219.0       59.0          
+ 50%         675.0         301.0       12008.0       105.0       424611.0       77.0          
+ 75%         2417.0        760.0       12985.0       344.0       1.37998e6      908.0         
+ max         7599.0        2449.0      30348.0       353.0       1.487402e6     2177.0        
+
+
+id - Unique: 7, Top: c6cc135d3894f8c30cd3f4cf82a35d9c4127ecf34f966c81456d5339f7400d8f (1)
+Top 5 values:
+c6cc135d3894f8c30cd3f4cf82a35d9c4127ecf34f966c81456d5339f7400d8f - 1
+0d9af55cbb771cb29d17cf2e743233cea75deeae3c89d1473d5493056892e1f9 - 1
+d34681a16820f3a28111a3dcadf913b2f0d24884228fe5a0dac3cfd4ef2d0879 - 1
+6ec131dd742f83b3e318420c06e389e41e4e3c06442f6e98d6c5204bc406331b - 1
+f0785c434d7f63d7ff47a0f1d62fef1af6ecdc1eafacd69c905058554cacdf4f - 1
+
+url - Unique: 7, Top: e83dfd450a504d9f2c33e7f512f648bad16280f27a8761c9465aa460342000d4 (1)
+Top 5 values:
+e83dfd450a504d9f2c33e7f512f648bad16280f27a8761c9465aa460342000d4 - 1
+39ddfe01fa9ed54436b8541352b5375bdb40efcd13924470412d37e7ac3f9cc5 - 1
+cfe96e73d0235b9bffcb7cf3c53a06056b82d33d0f1e78c429f94164047ccda9 - 1
+173118fde6521b72eb49214387079d3c13207b7dad9ab8b88e2467822532a5c4 - 1
+45fe0e6afb45d53147ab06959bb8b002375b55aae8fb830d85b1b1e579a488db - 1
+
+source - Unique: 1, Top: TweetDeck Web App (7)
+Top 5 values:
+TweetDeck Web App - 7
+
+createdAt - Unique: 7, Top: 2023-12-06 18:17:00 (1)
+Top 5 values:
+2023-12-06 18:17:00 - 1
+2024-06-28 02:56:28 - 1
+2023-12-14 00:37:00 - 1
+2024-06-28 02:53:53 - 1
+2024-06-28 02:55:55 - 1
+
+lang - Unique: 1, Top: en (7)
+Top 5 values:
+en - 7
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 3, Top: 2024-06 (4)
+Top 5 values:
+2024-06 - 4
+2023-12 - 2
+2023-11 - 1
+
+illuminating_scored_message - Unique: 7, Top: fbc7eb6399d6c73f019f7fd7d58102bff1dd40dc415e137f0867b55cf9bfeacf (1)
+Top 5 values:
+fbc7eb6399d6c73f019f7fd7d58102bff1dd40dc415e137f0867b55cf9bfeacf - 1
+ed4d281afe6603872bf5f34ec6ae8e6f74ff64b15a5301f5b6b9949ea87dd740 - 1
+56391970a21989851a95f989d3cf3059ad049249deb69f459ce190a02355b7bb - 1
+72c87bc89aad0e53ade9da1e14172d28b77b1e5e9b1e08b1191e01d71dd6d9e6 - 1
+c7477b156492097c714bfea2e7c5c57b9608d885bb6da3bf71de83ec185b5689 - 1
+
+
+--- Group: source = Twitter for iPhone, lang = es ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount      bookmarkCount 
+ ---         ---           ---         ---        ---         ---            ---           
+ str         f64           f64         f64        f64         f64            f64           
+
+ count       2.0           2.0         2.0        2.0         2.0            2.0           
+ null_count  0.0           0.0         0.0        0.0         0.0            0.0           
+ mean        137.0         138.5       2792.0     12.5        364873.0       15.5          
+ std         142.83557     178.898016  3826.8619  14.849242   489626.191138  21.92031      
+ min         36.0          12.0        86.0       2.0         18655.0        0.0           
+ 25%         36.0          12.0        86.0       2.0         18655.0        0.0           
+ 50%         238.0         265.0       5498.0     23.0        711091.0       31.0          
+ 75%         238.0         265.0       5498.0     23.0        711091.0       31.0          
+ max         238.0         265.0       5498.0     23.0        711091.0       31.0          
+
+
+id - Unique: 2, Top: 2bd66e18f2a61329d617e8253c012b02f435f5443ecce80fdd475129958a2d75 (1)
+Top 5 values:
+2bd66e18f2a61329d617e8253c012b02f435f5443ecce80fdd475129958a2d75 - 1
+2f5e3336f6afd6a6036d44ef790764ec55324b59b6efb1a23b13e5559c34bb87 - 1
+
+url - Unique: 2, Top: 18a6bef501a50f476ed775eb6f50214c924ed044a5e14d6378c861ae822e6fa9 (1)
+Top 5 values:
+18a6bef501a50f476ed775eb6f50214c924ed044a5e14d6378c861ae822e6fa9 - 1
+bbb908ad925961c5058165c9459487a1d12fa6eb5c7dde7fa56489190a5affc4 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2024-04-11 09:35:40 (1)
+Top 5 values:
+2024-04-11 09:35:40 - 1
+2023-09-12 11:05:26 - 1
+
+lang - Unique: 1, Top: es (2)
+Top 5 values:
+es - 2
+
+quoteId - Unique: 1, Top: 1.701094459344073e+18 (1)
+Top 5 values:
+1.701094459344073e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 2, Top: 2023-09 (1)
+Top 5 values:
+2023-09 - 1
+2024-04 - 1
+
+illuminating_scored_message - Unique: 2, Top: 0772205a81ba3c4d413fd281d9594c0db75980242ae1c6f13825a14937d23141 (1)
+Top 5 values:
+0772205a81ba3c4d413fd281d9594c0db75980242ae1c6f13825a14937d23141 - 1
+750704955ff2020fbe587a20d12ba202ce40be71d036acb17c4e138b51906716 - 1
+
+
+--- Group: source = Twitter Web App, lang = tr ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        2303.0        387.0       14433.0    171.0       434191.0   364.0         
+ std         null          null        null       null        null       null          
+ min         2303.0        387.0       14433.0    171.0       434191.0   364.0         
+ 25%         2303.0        387.0       14433.0    171.0       434191.0   364.0         
+ 50%         2303.0        387.0       14433.0    171.0       434191.0   364.0         
+ 75%         2303.0        387.0       14433.0    171.0       434191.0   364.0         
+ max         2303.0        387.0       14433.0    171.0       434191.0   364.0         
+
+
+id - Unique: 1, Top: 4c73ce5b35fd2dc42affa36185483ca1889a0acf8ae34db58536869a26eeeae3 (1)
+Top 5 values:
+4c73ce5b35fd2dc42affa36185483ca1889a0acf8ae34db58536869a26eeeae3 - 1
+
+url - Unique: 1, Top: 0775d424310b72ba56f0239e1dbc1dbddb0492c5da249866b1cdcc786d15c680 (1)
+Top 5 values:
+0775d424310b72ba56f0239e1dbc1dbddb0492c5da249866b1cdcc786d15c680 - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-10-05 19:31:50 (1)
+Top 5 values:
+2024-10-05 19:31:50 - 1
+
+lang - Unique: 1, Top: tr (1)
+Top 5 values:
+tr - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-10 (1)
+Top 5 values:
+2024-10 - 1
+
+illuminating_scored_message - Unique: 1, Top: 78eb6bec5b02289b06dd791a07b4a4ff1acb78f7a82616f6e460fe0b7c93d844 (1)
+Top 5 values:
+78eb6bec5b02289b06dd791a07b4a4ff1acb78f7a82616f6e460fe0b7c93d844 - 1
+
+
+--- Group: source = Canva, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        69.0          324.0       490.0      40.0        41173.0    16.0          
+ std         null          null        null       null        null       null          
+ min         69.0          324.0       490.0      40.0        41173.0    16.0          
+ 25%         69.0          324.0       490.0      40.0        41173.0    16.0          
+ 50%         69.0          324.0       490.0      40.0        41173.0    16.0          
+ 75%         69.0          324.0       490.0      40.0        41173.0    16.0          
+ max         69.0          324.0       490.0      40.0        41173.0    16.0          
+
+
+id - Unique: 1, Top: 5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b (1)
+Top 5 values:
+5b11b20d90740faeeb08c8ad5724fa3ab78a4364d13016665b0c5a4581beec7b - 1
+
+url - Unique: 1, Top: 050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd (1)
+Top 5 values:
+050f152d7ab9e30519bc4f251b3930dd36850c414a403fd5c629a2c4564721bd - 1
+
+source - Unique: 1, Top: Canva (1)
+Top 5 values:
+Canva - 1
+
+createdAt - Unique: 1, Top: 2024-02-29 21:26:10 (1)
+Top 5 values:
+2024-02-29 21:26:10 - 1
+
+lang - Unique: 1, Top: en (1)
+Top 5 values:
+en - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-02 (1)
+Top 5 values:
+2024-02 - 1
+
+illuminating_scored_message - Unique: 1, Top: 89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59 (1)
+Top 5 values:
+89985621af1d7e22ee18b78836d7eaaf20fbcf7e01e8a9266c59f4893ef54e59 - 1
+
+
+--- Group: source = Twitter Web App, lang = ht ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        3387.0        1569.0      40516.0    138.0       1.60017e6  315.0         
+ std         null          null        null       null        null       null          
+ min         3387.0        1569.0      40516.0    138.0       1.60017e6  315.0         
+ 25%         3387.0        1569.0      40516.0    138.0       1.60017e6  315.0         
+ 50%         3387.0        1569.0      40516.0    138.0       1.60017e6  315.0         
+ 75%         3387.0        1569.0      40516.0    138.0       1.60017e6  315.0         
+ max         3387.0        1569.0      40516.0    138.0       1.60017e6  315.0         
+
+
+id - Unique: 1, Top: e33ea5ef0759c6ba9c39c3a3b3fcd9737dd040623ba34cb10a35990f52386619 (1)
+Top 5 values:
+e33ea5ef0759c6ba9c39c3a3b3fcd9737dd040623ba34cb10a35990f52386619 - 1
+
+url - Unique: 1, Top: 8e2d95cb8b8bdcc832be4cedd324e6e2dd2c5be944468f7dad7326d99aa1027f (1)
+Top 5 values:
+8e2d95cb8b8bdcc832be4cedd324e6e2dd2c5be944468f7dad7326d99aa1027f - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-08-21 16:11:28 (1)
+Top 5 values:
+2024-08-21 16:11:28 - 1
+
+lang - Unique: 1, Top: ht (1)
+Top 5 values:
+ht - 1
+
+quoteId - Unique: 1, Top: 1.825967232515548e+18 (1)
+Top 5 values:
+1.825967232515548e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-08 (1)
+Top 5 values:
+2024-08 - 1
+
+illuminating_scored_message - Unique: 1, Top: 90bffe1884b84d5e255f12ff0ecbd70f2edfc877b68d612dc6fb50638b3ac17c (1)
+Top 5 values:
+90bffe1884b84d5e255f12ff0ecbd70f2edfc877b68d612dc6fb50638b3ac17c - 1
+
+
+--- Group: source = Twitter Media Studio, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount  viewCount     bookmarkCount 
+ ---         ---           ---          ---           ---         ---           ---           
+ str         f64           f64          f64           f64         f64           f64           
+
+ count       498.0         498.0        498.0         498.0       498.0         498.0         
+ null_count  0.0           0.0          0.0           0.0         0.0           0.0           
+ mean        1589.315261   1164.614458  7412.502008   143.257028  473441.60241  243.216867    
+ std         3157.77549    2001.36455   13979.060266  515.798249  1.2451e6      1077.66528    
+ min         8.0           2.0          52.0          0.0         8313.0        0.0           
+ 25%         124.0         98.0         654.0         12.0        36029.0       10.0          
+ 50%         488.0         343.0        2458.0        38.0        184585.0      38.0          
+ 75%         1967.0        1576.0       8619.0        104.0       432311.0      116.0         
+ max         32636.0       18819.0      119065.0      6695.0      1.8876894e7   13269.0       
+
+
+id - Unique: 498, Top: 145e354680c768dc79f57452d75a1e8c02c6cffdfd5d00de7c69823fdd46a4a3 (1)
+Top 5 values:
+145e354680c768dc79f57452d75a1e8c02c6cffdfd5d00de7c69823fdd46a4a3 - 1
+1d78ebcef78af3a74357012ee5b30b584293b6cab4791f7637a8003468bf1b18 - 1
+9029d790af5bf268f2c48bdfd067b16f5dde27fcd045eea002041c5480b0288f - 1
+c1ad0ab998e69c8d3421d5963cca4a10d55c40fa0ebb23a8ec0ea3094f0be2e9 - 1
+5adf81edc4e05de3ec08be210fae0456ce3bcd38ffa99638fef982f82f612b0c - 1
+
+url - Unique: 498, Top: 27ca2e23c36a0788697697cbbbe3633d91baaed11fadaaf11fce01c13acb93ca (1)
+Top 5 values:
+27ca2e23c36a0788697697cbbbe3633d91baaed11fadaaf11fce01c13acb93ca - 1
+29d59d8a8ad3c13bd08898165b7723c760691a2194d50014f45fa96cf191d2ae - 1
+051f7fd027fb1acb8282c433a82bf7a5a0052b2897c25964daccc577320e6221 - 1
+7df0470cf8c5027549dc3e8d7aa92549538781aa1c9eaebdab624c29e684688e - 1
+eaf627d8e36f0c11334c0dc9bae1f49ec5025cf4f14fc7eecb301cd7be631538 - 1
+
+source - Unique: 1, Top: Twitter Media Studio (498)
+Top 5 values:
+Twitter Media Studio - 498
+
+createdAt - Unique: 497, Top: 2024-08-06 21:26:08 (2)
+Top 5 values:
+2024-08-06 21:26:08 - 2
+2024-07-30 23:20:23 - 1
+2024-10-29 22:02:02 - 1
+2023-12-28 14:12:36 - 1
+2024-04-16 18:25:47 - 1
+
+lang - Unique: 1, Top: en (498)
+Top 5 values:
+en - 498
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 15, Top: 2023-09 (66)
+Top 5 values:
+2023-09 - 66
+2024-08 - 63
+2024-10 - 58
+2024-09 - 42
+2024-07 - 40
+
+illuminating_scored_message - Unique: 498, Top: a5c5313faea137a8e3f5588034c9e9f77e9d4b155ce5c87c281c07bbef276d66 (1)
+Top 5 values:
+a5c5313faea137a8e3f5588034c9e9f77e9d4b155ce5c87c281c07bbef276d66 - 1
+24c3ff996f6e585b41c891f9a4e8759c16e998bb7268de031a30e20f56101fd1 - 1
+13eb9bba8353ab641f3f0efa39f3fe6d2e5abfb1b65cfdb8e7b5adaca255e866 - 1
+23cf2f1492af03452548f8876769d251a9141d5d405e03161a560fc66b6ae2e9 - 1
+69619b6c74c82bf5f70239942ed63065954a7a1fd4ff8375c64bdc2728eb1e02 - 1
+
+
+--- Group: source = Twitter Web App, lang = es ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        12.0          8.0         53.0       2.0         5966.0     1.0           
+ std         null          null        null       null        null       null          
+ min         12.0          8.0         53.0       2.0         5966.0     1.0           
+ 25%         12.0          8.0         53.0       2.0         5966.0     1.0           
+ 50%         12.0          8.0         53.0       2.0         5966.0     1.0           
+ 75%         12.0          8.0         53.0       2.0         5966.0     1.0           
+ max         12.0          8.0         53.0       2.0         5966.0     1.0           
+
+
+id - Unique: 1, Top: 865066d68ef03f2874220b320dee91a7fdeb0d4caba0b1191c9cb80ffabb1487 (1)
+Top 5 values:
+865066d68ef03f2874220b320dee91a7fdeb0d4caba0b1191c9cb80ffabb1487 - 1
+
+url - Unique: 1, Top: 5c6fcfc86be330603b45a9977bebbe785c744e9c190fb5dbab5430055ef9932b (1)
+Top 5 values:
+5c6fcfc86be330603b45a9977bebbe785c744e9c190fb5dbab5430055ef9932b - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-03-14 16:37:19 (1)
+Top 5 values:
+2024-03-14 16:37:19 - 1
+
+lang - Unique: 1, Top: es (1)
+Top 5 values:
+es - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-03 (1)
+Top 5 values:
+2024-03 - 1
+
+illuminating_scored_message - Unique: 1, Top: c6068cff48ce2b470c0e90a4b616e22e295d6227b923ab472a69df1e3b41150f (1)
+Top 5 values:
+c6068cff48ce2b470c0e90a4b616e22e295d6227b923ab472a69df1e3b41150f - 1
+
+
+--- Group: source = Twitter for iPhone, lang = nl ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        51.0          18.0        178.0      3.0         29081.0    5.0           
+ std         null          null        null       null        null       null          
+ min         51.0          18.0        178.0      3.0         29081.0    5.0           
+ 25%         51.0          18.0        178.0      3.0         29081.0    5.0           
+ 50%         51.0          18.0        178.0      3.0         29081.0    5.0           
+ 75%         51.0          18.0        178.0      3.0         29081.0    5.0           
+ max         51.0          18.0        178.0      3.0         29081.0    5.0           
+
+
+id - Unique: 1, Top: e7ee788966e913ff509598b949db724b71117c57e4cdde0f255deb40d05a33d9 (1)
+Top 5 values:
+e7ee788966e913ff509598b949db724b71117c57e4cdde0f255deb40d05a33d9 - 1
+
+url - Unique: 1, Top: 55eff6e632709b4987dc21b11193a80d31a6d32a943cb9b2aaf4359744a1018f (1)
+Top 5 values:
+55eff6e632709b4987dc21b11193a80d31a6d32a943cb9b2aaf4359744a1018f - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2024-02-20 05:13:53 (1)
+Top 5 values:
+2024-02-20 05:13:53 - 1
+
+lang - Unique: 1, Top: nl (1)
+Top 5 values:
+nl - 1
+
+quoteId - Unique: 1, Top: 1.7597725037638246e+18 (1)
+Top 5 values:
+1.7597725037638246e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-02 (1)
+Top 5 values:
+2024-02 - 1
+
+illuminating_scored_message - Unique: 1, Top: fbd65144a10318b22f4c3ba1d9fdee6201aba206ed03132e809d996a69ac598a (1)
+Top 5 values:
+fbd65144a10318b22f4c3ba1d9fdee6201aba206ed03132e809d996a69ac598a - 1
+
+
+--- Group: source = Twitter for iPad, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount   quoteCount  viewCount     bookmarkCount 
+ ---         ---           ---         ---         ---         ---           ---           
+ str         f64           f64         f64         f64         f64           f64           
+
+ count       266.0         266.0       266.0       266.0       266.0         266.0         
+ null_count  0.0           0.0         0.0         0.0         0.0           0.0           
+ mean        65.37594      21.300752   222.695489  8.255639    21353.526316  5.233083      
+ std         67.971037     33.990228   282.273989  14.113905   38020.971255  17.438577     
+ min         0.0           0.0         0.0         0.0         36.0          0.0           
+ 25%         13.0          3.0         40.0        1.0         8292.0        0.0           
+ 50%         60.0          13.0        193.0       5.0         15407.0       2.0           
+ 75%         93.0          26.0        286.0       10.0        22488.0       6.0           
+ max         723.0         352.0       3067.0      156.0       538373.0      268.0         
+
+
+id - Unique: 266, Top: 500bb3bc7f9bebc1d7b2352f6bc00907852945f2cee00152cd554ba669d2104a (1)
+Top 5 values:
+500bb3bc7f9bebc1d7b2352f6bc00907852945f2cee00152cd554ba669d2104a - 1
+e517f43afd317e89e4261e70c755af7318c4e00128a53d923da50898e3e53f85 - 1
+4d62abcbafc87fc1871ce4956ff42a3abaf28f1b242bb10a63f4d13d96705469 - 1
+98f8f07950415861f191fbddee927e50453d66672ac1584cc4ea89b612bdbf22 - 1
+a946d953cdbd9b7bf3a9e6946aaeb146b2365e632114731bd3da9e2adac1194e - 1
+
+url - Unique: 266, Top: 0eaf60ac1e2a7044deee8e2b3406b274dc5a274387eab814e7cea82ac14d782a (1)
+Top 5 values:
+0eaf60ac1e2a7044deee8e2b3406b274dc5a274387eab814e7cea82ac14d782a - 1
+2e975154b886bf4c6d1dc84446cc6d7f2218d85c6d082901d9484fe3f41f87d8 - 1
+c1aa21fb3909227cfacbfcc0751ac4b85caa88626cad86482e00a0ff15927fc8 - 1
+02f8defc2626055fc78415fb3aa2910d074aec13c9903508815caf54c218e7f7 - 1
+d261ffa8140553df9d7f5eddddc419312059945521cd4e17d5b64a9bb1259825 - 1
+
+source - Unique: 1, Top: Twitter for iPad (266)
+Top 5 values:
+Twitter for iPad - 266
+
+createdAt - Unique: 263, Top: 2023-12-13 23:15:44 (2)
+Top 5 values:
+2023-12-13 23:15:44 - 2
+2023-12-29 18:30:06 - 2
+2023-11-22 22:56:26 - 2
+2024-03-01 18:28:15 - 1
+2023-10-30 21:59:38 - 1
+
+lang - Unique: 1, Top: en (266)
+Top 5 values:
+en - 266
+
+quoteId - Unique: 11, Top: 1.7618457994478472e+18 (1)
+Top 5 values:
+1.7618457994478472e+18 - 1
+1.7592528177038298e+18 - 1
+1.755294694257415e+18 - 1
+1.7657451644405514e+18 - 1
+1.7654648647832497e+18 - 1
+
+inReplyToId - Unique: 65, Top: 1.7038710038252096e+18 (1)
+Top 5 values:
+1.7038710038252096e+18 - 1
+1.717277101965857e+18 - 1
+1.740044068996944e+18 - 1
+1.704249566822904e+18 - 1
+1.7151166961286472e+18 - 1
+
+month_year - Unique: 8, Top: 2024-01 (47)
+Top 5 values:
+2024-01 - 47
+2023-12 - 45
+2024-02 - 44
+2023-10 - 38
+2023-11 - 37
+
+illuminating_scored_message - Unique: 266, Top: f57efcd2fa4b11c54a159a4de3f402779cefb87344484f4534c133306dae59f2 (1)
+Top 5 values:
+f57efcd2fa4b11c54a159a4de3f402779cefb87344484f4534c133306dae59f2 - 1
+a2e1310f994946774898c8a6d447c01d2c03d29f4dd619e4fd4718662682c020 - 1
+567e6d7c4a5651eaeb66038be807ec9b5885d39686f42b63615b06b38ecb8377 - 1
+90217da08eab37deff2aabfe38c7a60e9edb8914b6f7998f71af3189a0581ba2 - 1
+23a8c80f918c56a1ab7647f38092f2d3f48200ab26c6f42c18c8cb3f713e18f1 - 1
+
+
+--- Group: source = Twitter for iPhone, lang = fr ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount    bookmarkCount 
+ ---         ---           ---         ---        ---         ---          ---           
+ str         f64           f64         f64        f64         f64          f64           
+
+ count       2.0           2.0         2.0        2.0         2.0          2.0           
+ null_count  0.0           0.0         0.0        0.0         0.0          0.0           
+ mean        70.5          19.5        261.5      2.5         17360.5      4.5           
+ std         45.961941     12.020815   89.802561  0.707107    9963.841654  6.363961      
+ min         38.0          11.0        198.0      2.0         10315.0      0.0           
+ 25%         38.0          11.0        198.0      2.0         10315.0      0.0           
+ 50%         103.0         28.0        325.0      3.0         24406.0      9.0           
+ 75%         103.0         28.0        325.0      3.0         24406.0      9.0           
+ max         103.0         28.0        325.0      3.0         24406.0      9.0           
+
+
+id - Unique: 2, Top: b2e7dd3c0267703c2cc0c4c59b3f7b7b087badaf025e884931e018fc6ee990b0 (1)
+Top 5 values:
+b2e7dd3c0267703c2cc0c4c59b3f7b7b087badaf025e884931e018fc6ee990b0 - 1
+5791fc38ea222ae71f7449a343490d6331cd9e202af1b71f7ee8748b2c3ba219 - 1
+
+url - Unique: 2, Top: 908e663b4b71227b7f59d35410d20de4736941d7f65d98140d61631ff57f60c6 (1)
+Top 5 values:
+908e663b4b71227b7f59d35410d20de4736941d7f65d98140d61631ff57f60c6 - 1
+b7ce5233e0afa4156911e168b94f68a22242aca53e6d52c4c08e1ab6b03d70f9 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2023-10-21 16:22:59 (1)
+Top 5 values:
+2023-10-21 16:22:59 - 1
+2024-07-05 16:47:07 - 1
+
+lang - Unique: 1, Top: fr (2)
+Top 5 values:
+fr - 2
+
+quoteId - Unique: 1, Top: 1.8084747523291305e+18 (1)
+Top 5 values:
+1.8084747523291305e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-07 (1)
+Top 5 values:
+2024-07 - 1
+2023-10 - 1
+
+illuminating_scored_message - Unique: 2, Top: 4681cb5c3ee85ef709822fcb7168be03836e84ec4ff83b9606d12ee45bd2a9ed (1)
+Top 5 values:
+4681cb5c3ee85ef709822fcb7168be03836e84ec4ff83b9606d12ee45bd2a9ed - 1
+a38707c907931246dfa92852d6e85f428cc9e48097c63a87568b90e23c21ca61 - 1
+
+
+--- Group: source = Twitter for iPhone, lang = tl ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount   quoteCount  viewCount    bookmarkCount 
+ ---         ---           ---         ---         ---         ---          ---           
+ str         f64           f64         f64         f64         f64          f64           
+
+ count       2.0           2.0         2.0         2.0         2.0          2.0           
+ null_count  0.0           0.0         0.0         0.0         0.0          0.0           
+ mean        380.0         43.0        1062.0      10.5        27939.5      21.5          
+ std         535.98694     56.568542   1460.88261  14.849242   31343.92229  30.405592     
+ min         1.0           3.0         29.0        0.0         5776.0       0.0           
+ 25%         1.0           3.0         29.0        0.0         5776.0       0.0           
+ 50%         759.0         83.0        2095.0      21.0        50103.0      43.0          
+ 75%         759.0         83.0        2095.0      21.0        50103.0      43.0          
+ max         759.0         83.0        2095.0      21.0        50103.0      43.0          
+
+
+id - Unique: 2, Top: d0f09c429acacc1b5e338f1ceca0f1721c0488ca6040ef624dc5496b2ba56046 (1)
+Top 5 values:
+d0f09c429acacc1b5e338f1ceca0f1721c0488ca6040ef624dc5496b2ba56046 - 1
+d6576fe3e96bc124486946e8121dde79b9519538af444cb7c65c12b09cdda84c - 1
+
+url - Unique: 2, Top: c0e9f2ff9a4e53dba0e7dd2c9e5a436fa60efe1f084bcc3cfa2b41d53444f08d (1)
+Top 5 values:
+c0e9f2ff9a4e53dba0e7dd2c9e5a436fa60efe1f084bcc3cfa2b41d53444f08d - 1
+c9e8036a65d5ced9f1096f4b89af9490f514dfc6320f238c75189680356c8e1c - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2023-09-21 21:38:14 (1)
+Top 5 values:
+2023-09-21 21:38:14 - 1
+2024-10-17 12:43:32 - 1
+
+lang - Unique: 1, Top: tl (2)
+Top 5 values:
+tl - 2
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7049270444279854e+18 (1)
+Top 5 values:
+1.7049270444279854e+18 - 1
+
+month_year - Unique: 2, Top: 2023-09 (1)
+Top 5 values:
+2023-09 - 1
+2024-10 - 1
+
+illuminating_scored_message - Unique: 2, Top: cdc0ed59f6f727728f0de6da92aad239045535543b3270ed45a8ce522c56dc4b (1)
+Top 5 values:
+cdc0ed59f6f727728f0de6da92aad239045535543b3270ed45a8ce522c56dc4b - 1
+cbdc0087374f92a2322bace41e9fb7d6f17aa87f504ff21b0f6cb7d93066136b - 1
+
+
+--- Group: source = Periscope, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount  viewCount      bookmarkCount 
+ ---         ---           ---          ---           ---         ---            ---           
+ str         f64           f64          f64           f64         f64            f64           
+
+ count       103.0         103.0        103.0         103.0       103.0          103.0         
+ null_count  0.0           0.0          0.0           0.0         0.0            0.0           
+ mean        596.728155    402.058252   2483.359223   78.514563   303090.436893  185.621359    
+ std         2949.736393   1525.123909  12738.926124  484.497938  1.4943e6       1434.399992   
+ min         23.0          3.0          96.0          0.0         9518.0         0.0           
+ 25%         58.0          76.0         311.0         8.0         33970.0        7.0           
+ 50%         214.0         153.0        823.0         15.0        81275.0        16.0          
+ 75%         345.0         283.0        1346.0        29.0        135550.0       32.0          
+ max         29648.0       14559.0      127603.0      4891.0      1.4689732e7    14567.0       
+
+
+id - Unique: 103, Top: 43011f576790fad452594c82f5e583473e7e32705936c8b5212bfd53bcb823da (1)
+Top 5 values:
+43011f576790fad452594c82f5e583473e7e32705936c8b5212bfd53bcb823da - 1
+a3e5e36d2497eb321e0bbb9c9eb5c13ec52d035f44f04824568601f679b7e207 - 1
+a7659998e55702b63e8da653f88cf98bb95eb3149509e82b837edfb6c6bef170 - 1
+976b6fd3c4c4312d59c9dec2cdf555f7032a25fb64fd8db65cc50e5173325840 - 1
+6ef495362431e6ab835f777f8ad73f0a6e01312a556bec0ef7f00863beeec0d6 - 1
+
+url - Unique: 103, Top: 077c58c09bcc11a3e6ca4beba4b487ae389288301a6b0a3ef54b8f9ea2a2acbb (1)
+Top 5 values:
+077c58c09bcc11a3e6ca4beba4b487ae389288301a6b0a3ef54b8f9ea2a2acbb - 1
+fab1740ed48de27aea472b19ec572783a0e788069f684cdd9a41f623a601d9de - 1
+222e2ce593365ff7aa3a21287cabb31a2a5ef8fa37de69c856969ba2135f011d - 1
+34e5c4e1d3ba26952f89194074f7c14975d1e147cb2194c8992b008aa007a573 - 1
+b858a7ee3b3afd3f19f1fd7bff3bec0575a82e1ea22291640e18fa0a283e7343 - 1
+
+source - Unique: 1, Top: Periscope (103)
+Top 5 values:
+Periscope - 103
+
+createdAt - Unique: 103, Top: 2024-01-08 15:52:38 (1)
+Top 5 values:
+2024-01-08 15:52:38 - 1
+2024-09-25 00:03:25 - 1
+2024-04-10 16:02:55 - 1
+2024-05-12 00:37:37 - 1
+2024-09-08 00:04:28 - 1
+
+lang - Unique: 1, Top: en (103)
+Top 5 values:
+en - 103
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 14, Top: 2023-12 (23)
+Top 5 values:
+2023-12 - 23
+2024-01 - 18
+2023-10 - 12
+2023-11 - 11
+2024-08 - 7
+
+illuminating_scored_message - Unique: 103, Top: 656996820172d049f0e5c1ddd97dd861f0f5ff82b835817de14bf508db2a74bb (1)
+Top 5 values:
+656996820172d049f0e5c1ddd97dd861f0f5ff82b835817de14bf508db2a74bb - 1
+f026c29312aabe2c7db45e4e8761cc415b466c2d54c2183264207e28a5f1ea2c - 1
+8d54f78ef720a8ceffdfb8a15f13229961edcb77b3800bd0735e63528149b544 - 1
+7ad110714a31bfed415ebe8814597585f6c3d579cd94e630e455b1668fe163c8 - 1
+e5e1bf7bf7caa2535eb08224e73884da1c83e777ff3bdfec767c9f7fc6fd0c26 - 1
+
+
+--- Group: source = Twitter Web App, lang = tl ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount  viewCount   bookmarkCount 
+ ---         ---           ---          ---           ---         ---         ---           
+ str         f64           f64          f64           f64         f64         f64           
+
+ count       2.0           2.0          2.0           2.0         2.0         2.0           
+ null_count  0.0           0.0          0.0           0.0         0.0         0.0           
+ mean        5218.0        1286.0       45670.5       142.5       858955.0    318.5         
+ std         7097.93787    1766.352739  63272.621887  198.697006  1.1428e6    434.87067     
+ min         199.0         37.0         930.0         2.0         50873.0     11.0          
+ 25%         199.0         37.0         930.0         2.0         50873.0     11.0          
+ 50%         10237.0       2535.0       90411.0       283.0       1.667037e6  626.0         
+ 75%         10237.0       2535.0       90411.0       283.0       1.667037e6  626.0         
+ max         10237.0       2535.0       90411.0       283.0       1.667037e6  626.0         
+
+
+id - Unique: 2, Top: 0d7084270948eef1309e4548476196da3d739b6f88f8f4d450266ff927c82500 (1)
+Top 5 values:
+0d7084270948eef1309e4548476196da3d739b6f88f8f4d450266ff927c82500 - 1
+45c125d3c00710eef2c8c5421c7624ff4f23eb13a603cadf5bca99bbff306af6 - 1
+
+url - Unique: 2, Top: 7f2c3f37f3fa7ff91b43ae01448d0e3a767125986bc3e080a7affd65f026dd97 (1)
+Top 5 values:
+7f2c3f37f3fa7ff91b43ae01448d0e3a767125986bc3e080a7affd65f026dd97 - 1
+ae7eaffa34d2b87dae27c476df8bdd9f603e2e37af901e6b3d9715ca8e967721 - 1
+
+source - Unique: 1, Top: Twitter Web App (2)
+Top 5 values:
+Twitter Web App - 2
+
+createdAt - Unique: 2, Top: 2024-09-15 18:16:18 (1)
+Top 5 values:
+2024-09-15 18:16:18 - 1
+2024-10-03 18:48:10 - 1
+
+lang - Unique: 1, Top: tl (2)
+Top 5 values:
+tl - 2
+
+quoteId - Unique: 1, Top: 1.8419102494369303e+18 (1)
+Top 5 values:
+1.8419102494369303e+18 - 1
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-10 (1)
+Top 5 values:
+2024-10 - 1
+2024-09 - 1
+
+illuminating_scored_message - Unique: 2, Top: 5014fa12d0961321d34c2b2ab1bcf7546ce21478c9da0a3f577f1d299fe4b8d3 (1)
+Top 5 values:
+5014fa12d0961321d34c2b2ab1bcf7546ce21478c9da0a3f577f1d299fe4b8d3 - 1
+aabbc0a817c0e1d0f85223f42795cc38e59db665d37e98c9ea38334297020800 - 1
+
+
+--- Group: source = Twitter for iPhone, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount   likeCount     quoteCount  viewCount      bookmarkCount 
+ ---         ---           ---          ---           ---         ---            ---           
+ str         f64           f64          f64           f64         f64            f64           
+
+ count       8482.0        8482.0       8482.0        8482.0      8482.0         8482.0        
+ null_count  0.0           0.0          0.0           0.0         0.0            0.0           
+ mean        613.22813     290.058595   3745.7971     43.817024   245837.426079  69.87444      
+ std         2157.374885   1036.654487  15967.564564  190.823497  955147.50349   403.235279    
+ min         0.0           0.0          0.0           0.0         9.0            0.0           
+ 25%         16.0          11.0         97.0          1.0         11728.0        1.0           
+ 50%         82.0          57.0         413.0         6.0         35644.0        5.0           
+ 75%         383.0         203.0        2031.0        26.0        141455.0       28.0          
+ max         67113.0       30215.0      588065.0      6552.0      3.1294362e7    22901.0       
+
+
+id - Unique: 8482, Top: e5c5e92ff93d1f3462a862b00b90982abe16085682b12ea3efe956fe071dab02 (1)
+Top 5 values:
+e5c5e92ff93d1f3462a862b00b90982abe16085682b12ea3efe956fe071dab02 - 1
+f62af5338a4dda40ac233cbadbbfc78bd144ee146ce88a6262abe4f6a013a87e - 1
+7150e292399b15eb1e4a06a04c7d6bafb2ee7b50b780aa9014d91b2ba32c0055 - 1
+e73b4379b7c7440b88ae7973b2067bd50853f822074b95ed064ea9a6db87789e - 1
+26da7e6b745c132fdb76efc85e9184d15fa4fd11efc7b161b3716d7f6074b6b7 - 1
+
+url - Unique: 8482, Top: da2bbf7be9ce020daf690b833387934da1ff8bf12f67c97b9b0e228e82b77645 (1)
+Top 5 values:
+da2bbf7be9ce020daf690b833387934da1ff8bf12f67c97b9b0e228e82b77645 - 1
+0ce262277489c422d6cdee82f07f03e5d61e638958254a9019b39fcf67de4d8b - 1
+23a7ad5cde2d971f2a5b08539d4d5fefe2110d0074b75134fee49f865f7fd6c4 - 1
+dd7e6c660cc08f9151843a9c13fbf393eaf3f6a500afa7275a78ef7f1506df75 - 1
+4148d26463d0818b801c0a12d0152cbdc60ceca08ecfb8f46809547dfd759077 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (8482)
+Top 5 values:
+Twitter for iPhone - 8482
+
+createdAt - Unique: 8419, Top: 2023-12-04 02:49:29 (3)
+Top 5 values:
+2023-12-04 02:49:29 - 3
+2024-02-10 23:49:40 - 3
+2023-11-26 13:03:19 - 3
+2023-09-25 15:22:49 - 3
+2023-12-04 12:12:48 - 3
+
+lang - Unique: 1, Top: en (8482)
+Top 5 values:
+en - 8482
+
+quoteId - Unique: 1812, Top: 1.711730672279122e+18 (4)
+Top 5 values:
+1.711730672279122e+18 - 4
+1.7148274152418675e+18 - 3
+1.7352284527672366e+18 - 3
+1.7449521376064474e+18 - 3
+1.7404564346331668e+18 - 2
+
+inReplyToId - Unique: 1780, Top: 1.789104982999876e+18 (3)
+Top 5 values:
+1.789104982999876e+18 - 3
+1.7740772858320282e+18 - 2
+1.7094760008142152e+18 - 2
+1.728234009728332e+18 - 2
+1.73721953501755e+18 - 2
+
+month_year - Unique: 15, Top: 2023-11 (1346)
+Top 5 values:
+2023-11 - 1346
+2023-10 - 1279
+2023-09 - 1053
+2023-12 - 871
+2024-01 - 772
+
+illuminating_scored_message - Unique: 8431, Top: 1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 (11)
+Top 5 values:
+1d2cc25fad0d66a295d4fafdd590d71d0e027a1d2a58cf5db0c58ba09b930e04 - 11
+e85b31153cfcc753f8657eb033c8e8fb03f6da4c384da1d4e563eef696f6e7a0 - 7
+ddfd87f0087bd4acd65151010df79daf45b06fdb3063409fb6f997acc6d7b36f - 4
+de3c2805b2cea354c20c7fe117fc9c1885c9aea23ca9d1623d93d7c56df7a9bb - 3
+02319668ea172ad89fec996e84a7d43d071bd028bc4015f5c6a9d0beb8befea1 - 3
+
+
+--- Group: source = Twitter for iPhone, lang = in ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        0.0           0.0         2.0        0.0         109.0      0.0           
+ std         null          null        null       null        null       null          
+ min         0.0           0.0         2.0        0.0         109.0      0.0           
+ 25%         0.0           0.0         2.0        0.0         109.0      0.0           
+ 50%         0.0           0.0         2.0        0.0         109.0      0.0           
+ 75%         0.0           0.0         2.0        0.0         109.0      0.0           
+ max         0.0           0.0         2.0        0.0         109.0      0.0           
+
+
+id - Unique: 1, Top: d1293b4530ecffc8bf7e43df92568c1af3dbe272ab257fbddea6b75075f1e14b (1)
+Top 5 values:
+d1293b4530ecffc8bf7e43df92568c1af3dbe272ab257fbddea6b75075f1e14b - 1
+
+url - Unique: 1, Top: 69bd900473e50a788ec03151963305ef07368f8f2474d8e41bcc51fe2c5b14af (1)
+Top 5 values:
+69bd900473e50a788ec03151963305ef07368f8f2474d8e41bcc51fe2c5b14af - 1
+
+source - Unique: 1, Top: Twitter for iPhone (1)
+Top 5 values:
+Twitter for iPhone - 1
+
+createdAt - Unique: 1, Top: 2023-11-19 02:16:46 (1)
+Top 5 values:
+2023-11-19 02:16:46 - 1
+
+lang - Unique: 1, Top: in (1)
+Top 5 values:
+in - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 1, Top: 1.7259993634055662e+18 (1)
+Top 5 values:
+1.7259993634055662e+18 - 1
+
+month_year - Unique: 1, Top: 2023-11 (1)
+Top 5 values:
+2023-11 - 1
+
+illuminating_scored_message - Unique: 1, Top: 3065cd0c9eb80ef67b3bcac5d295565a1d0fcb1b254d3969bf9dfa0bef64f3f2 (1)
+Top 5 values:
+3065cd0c9eb80ef67b3bcac5d295565a1d0fcb1b254d3969bf9dfa0bef64f3f2 - 1
+
+
+--- Group: source = Twitter Web App, lang = da ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        232.0         128.0       893.0      17.0        52350.0    16.0          
+ std         null          null        null       null        null       null          
+ min         232.0         128.0       893.0      17.0        52350.0    16.0          
+ 25%         232.0         128.0       893.0      17.0        52350.0    16.0          
+ 50%         232.0         128.0       893.0      17.0        52350.0    16.0          
+ 75%         232.0         128.0       893.0      17.0        52350.0    16.0          
+ max         232.0         128.0       893.0      17.0        52350.0    16.0          
+
+
+id - Unique: 1, Top: 0fe4a2080c489d44e90b00f17df878a45b378cca1b3b4e446099b4d464b3fd2c (1)
+Top 5 values:
+0fe4a2080c489d44e90b00f17df878a45b378cca1b3b4e446099b4d464b3fd2c - 1
+
+url - Unique: 1, Top: 804a92480d55f2f4f1cb9d93e5fcbdfe870f1bc86c96d7395644c10223bcd78d (1)
+Top 5 values:
+804a92480d55f2f4f1cb9d93e5fcbdfe870f1bc86c96d7395644c10223bcd78d - 1
+
+source - Unique: 1, Top: Twitter Web App (1)
+Top 5 values:
+Twitter Web App - 1
+
+createdAt - Unique: 1, Top: 2024-07-09 21:44:17 (1)
+Top 5 values:
+2024-07-09 21:44:17 - 1
+
+lang - Unique: 1, Top: da (1)
+Top 5 values:
+da - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-07 (1)
+Top 5 values:
+2024-07 - 1
+
+illuminating_scored_message - Unique: 1, Top: 9fa42cd13b525adc726a08cac048eaeb87f0c21ce89ad6babc456ef439a4c890 (1)
+Top 5 values:
+9fa42cd13b525adc726a08cac048eaeb87f0c21ce89ad6babc456ef439a4c890 - 1
+
+
+--- Group: source = Twitter for iPhone, lang = da ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount   quoteCount  viewCount    bookmarkCount 
+ ---         ---           ---         ---         ---         ---          ---           
+ str         f64           f64         f64         f64         f64          f64           
+
+ count       2.0           2.0         2.0         2.0         2.0          2.0           
+ null_count  0.0           0.0         0.0         0.0         0.0          0.0           
+ mean        150.5         46.0        449.0       4.0         24119.5      8.5           
+ std         28.991378     33.941125   185.261977  1.414214    3988.789353  6.363961      
+ min         130.0         22.0        318.0       3.0         21299.0      4.0           
+ 25%         130.0         22.0        318.0       3.0         21299.0      4.0           
+ 50%         171.0         70.0        580.0       5.0         26940.0      13.0          
+ 75%         171.0         70.0        580.0       5.0         26940.0      13.0          
+ max         171.0         70.0        580.0       5.0         26940.0      13.0          
+
+
+id - Unique: 2, Top: 7fe42f7cd644db949a7ef532980cb4f2f782adbbd1610e7e70ac7d4fef0d92a4 (1)
+Top 5 values:
+7fe42f7cd644db949a7ef532980cb4f2f782adbbd1610e7e70ac7d4fef0d92a4 - 1
+9c600419b5a2990878fdaa0bcf6f556268ab913559a136836d080373e7389b97 - 1
+
+url - Unique: 2, Top: d24b2c0c3b047bc5814aa718d04422e3e054d8f1d363e354fd2059d0cdb0a84c (1)
+Top 5 values:
+d24b2c0c3b047bc5814aa718d04422e3e054d8f1d363e354fd2059d0cdb0a84c - 1
+4f9bbabad31ec4cc66b845c766fac76436f3c92d98ed8b7bab47e12fac95b793 - 1
+
+source - Unique: 1, Top: Twitter for iPhone (2)
+Top 5 values:
+Twitter for iPhone - 2
+
+createdAt - Unique: 2, Top: 2024-07-11 00:51:23 (1)
+Top 5 values:
+2024-07-11 00:51:23 - 1
+2024-10-02 01:20:51 - 1
+
+lang - Unique: 1, Top: da (2)
+Top 5 values:
+da - 2
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 2, Top: 2024-10 (1)
+Top 5 values:
+2024-10 - 1
+2024-07 - 1
+
+illuminating_scored_message - Unique: 2, Top: 69b97b55b3bfe1969234301ae58af8d2c83170055536f85fb2d6d1c0a10b1ed1 (1)
+Top 5 values:
+69b97b55b3bfe1969234301ae58af8d2c83170055536f85fb2d6d1c0a10b1ed1 - 1
+35cd2949c68f27d68d3a0e8b9bfae83a5cd4cf879dbcfc9ffeca54afadca18f2 - 1
+
+
+--- Group: source = Twitter Web Client, lang = en ---
+ Numeric Summary:
+shape: (9, 7)
+
+ statistic   retweetCount  replyCount  likeCount  quoteCount  viewCount  bookmarkCount 
+ ---         ---           ---         ---        ---         ---        ---           
+ str         f64           f64         f64        f64         f64        f64           
+
+ count       1.0           1.0         1.0        1.0         1.0        1.0           
+ null_count  0.0           0.0         0.0        0.0         0.0        0.0           
+ mean        98.0          26.0        340.0      6.0         19547.0    6.0           
+ std         null          null        null       null        null       null          
+ min         98.0          26.0        340.0      6.0         19547.0    6.0           
+ 25%         98.0          26.0        340.0      6.0         19547.0    6.0           
+ 50%         98.0          26.0        340.0      6.0         19547.0    6.0           
+ 75%         98.0          26.0        340.0      6.0         19547.0    6.0           
+ max         98.0          26.0        340.0      6.0         19547.0    6.0           
+
+
+id - Unique: 1, Top: e7f7a30f08b7e1f4aae3d31e20543ad57584fe3034a117d42bbd3f578f7ec850 (1)
+Top 5 values:
+e7f7a30f08b7e1f4aae3d31e20543ad57584fe3034a117d42bbd3f578f7ec850 - 1
+
+url - Unique: 1, Top: cc3131317571ee071cc7e0354ca3524e083bd730d883f6d87a4667294eac510f (1)
+Top 5 values:
+cc3131317571ee071cc7e0354ca3524e083bd730d883f6d87a4667294eac510f - 1
+
+source - Unique: 1, Top: Twitter Web Client (1)
+Top 5 values:
+Twitter Web Client - 1
+
+createdAt - Unique: 1, Top: 2024-10-19 18:02:00 (1)
+Top 5 values:
+2024-10-19 18:02:00 - 1
+
+lang - Unique: 1, Top: en (1)
+Top 5 values:
+en - 1
+
+quoteId - Unique: 0, Top: shape: (0,)
+Series: 'quoteId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+inReplyToId - Unique: 0, Top: shape: (0,)
+Series: 'inReplyToId' [f64]
+[
+] (shape: (0,)
+Series: 'count' [u32]
+[
+])
+Top 5 values:
+
+month_year - Unique: 1, Top: 2024-10 (1)
+Top 5 values:
+2024-10 - 1
+
+illuminating_scored_message - Unique: 1, Top: d7f5a917232e8544e8a98c4a572af516fdbb3cd527dbcb8da7560759ae191029 (1)
+Top 5 values:
+d7f5a917232e8544e8a98c4a572af516fdbb3cd527dbcb8da7560759ae191029 - 1
+
+
+Total Execution Time: 0.60 seconds
