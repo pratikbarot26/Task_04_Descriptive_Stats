@@ -65,6 +65,7 @@ Install the required libraries using pip:
       
     (Plots are saved inside corresponding plots_* folders)
 
+#### Sample outputs and visualizations are stored in the outputs folders. The .txt outputs from fb_ads dataset are not included as they were huge in size.
 
 💡 Note: Datasets are required to be placed inside the Datasets/ folder locally. These are not committed to the repository for size and compliance reasons. Instructions for downloading datasets are included in the README.
 
