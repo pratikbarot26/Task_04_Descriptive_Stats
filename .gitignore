@@ -1,0 +1,25 @@
+# Ignore Datasets folder completely
+Datasets/
+Datasets/**
+
+# Ignore Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+.venv/
+env/
+.venv/**
+env/**
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore output files
+Outputs/
+
+
+# Ignore logs and temp files
+*.log
+*.tmp
